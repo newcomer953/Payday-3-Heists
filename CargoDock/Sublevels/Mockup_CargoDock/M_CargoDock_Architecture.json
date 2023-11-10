@@ -1,0 +1,2819 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "M_CargoDock_Architecture_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "M_CargoDock_Architecture_C'Default__M_CargoDock_Architecture_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.1"
+    }
+  },
+  {
+    "Type": "M_CargoDock_Architecture_C",
+    "Name": "Default__M_CargoDock_Architecture_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.M_CargoDock_Architecture_C'"
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "BlockingCollision",
+    "Outer": "BP_CoverPoint353",
+    "Class": "UScriptClass'BoxComponent'",
+    "Template": {
+      "ObjectName": "BoxComponent'Default__BP_CoverPoint_C:BlockingCollision'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Cover/BP_CoverPoint.2"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_CoverPoint_C'M_CargoDock_Architecture:PersistentLevel.BP_CoverPoint353'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.5"
+            },
+            "FunctionName": "BlockingActorEntered"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_CoverPoint_C'M_CargoDock_Architecture:PersistentLevel.BP_CoverPoint353'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.5"
+            },
+            "FunctionName": "BlockingActorLeft"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.BP_CoverPoint353.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.37"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "BlockingCollision",
+    "Outer": "BP_CoverPoint75",
+    "Class": "UScriptClass'BoxComponent'",
+    "Template": {
+      "ObjectName": "BoxComponent'Default__BP_CoverPoint_C:BlockingCollision'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Cover/BP_CoverPoint.2"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_CoverPoint_C'M_CargoDock_Architecture:PersistentLevel.BP_CoverPoint75'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.6"
+            },
+            "FunctionName": "BlockingActorEntered"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_CoverPoint_C'M_CargoDock_Architecture:PersistentLevel.BP_CoverPoint75'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.6"
+            },
+            "FunctionName": "BlockingActorLeft"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.BP_CoverPoint75.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.38"
+      }
+    }
+  },
+  {
+    "Type": "BP_Container_C",
+    "Name": "BP_Container8",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container.BP_Container_C'",
+    "Template": {
+      "ObjectName": "BP_Container_C'Default__BP_Container_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container.5"
+    },
+    "Properties": {
+      "sm_containerdoor_btm_left": null,
+      "sm_containerdoor_top_right": null,
+      "sm_containerdoor_top_left": null,
+      "sm_containerdoor_btm_right": null,
+      "sm_container_body": {
+        "ObjectName": "StaticMeshComponent'M_CargoDock_Architecture:PersistentLevel.BP_Container8.sm_container_body'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.51"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.BP_Container8.DefaultSceneRoot'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.36"
+      },
+      "ContainerColor": "Enum_ContainerColor::NewEnumerator4",
+      "Remove all doors": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.BP_Container8.DefaultSceneRoot'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.36"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.BP_Container8.DefaultSceneRoot'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.36"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'M_CargoDock_Architecture:PersistentLevel.BP_Container8.sm_container_body'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.51"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BP_CoverPoint_C",
+    "Name": "BP_CoverPoint353",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Gameplay/AI/Cover/BP_CoverPoint.BP_CoverPoint_C'",
+    "Template": {
+      "ObjectName": "BP_CoverPoint_C'Default__BP_CoverPoint_C'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Cover/BP_CoverPoint.1"
+    },
+    "Properties": {
+      "CoverSurface": null,
+      "Ground": null,
+      "Forward": null,
+      "BlockingCollision": {
+        "ObjectName": "BoxComponent'M_CargoDock_Architecture:PersistentLevel.BP_CoverPoint353.BlockingCollision'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.2"
+      },
+      "AIVisibilityPayload": {
+        "CrouchDistances": [
+          401,
+          406,
+          420,
+          73,
+          71,
+          70,
+          72,
+          76,
+          82,
+          92,
+          107,
+          128,
+          175,
+          244,
+          209,
+          221,
+          1419,
+          2398,
+          449,
+          432,
+          381,
+          388,
+          449,
+          931,
+          1243,
+          612,
+          610,
+          1086,
+          1094,
+          199,
+          196,
+          199,
+          208,
+          223,
+          246,
+          282,
+          328,
+          412,
+          605,
+          1254
+        ],
+        "StandDistances": [
+          1294,
+          1632,
+          1821,
+          3033,
+          2371,
+          1978,
+          2072,
+          1016,
+          793,
+          660,
+          581,
+          525,
+          493,
+          479,
+          473,
+          1720,
+          1498,
+          2397,
+          449,
+          432,
+          426,
+          432,
+          449,
+          924,
+          1164,
+          1086,
+          608,
+          1021,
+          1028,
+          1063,
+          217,
+          218,
+          227,
+          243,
+          269,
+          308,
+          372,
+          437,
+          644,
+          1311
+        ],
+        "UpAzymut15Distances": [
+          1338,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          684,
+          602,
+          543,
+          511,
+          496,
+          490,
+          65534,
+          65534,
+          65534,
+          463,
+          447,
+          441,
+          447,
+          463,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          1341,
+          224,
+          226,
+          235,
+          252,
+          278,
+          319,
+          385,
+          499,
+          734,
+          1276
+        ],
+        "UpAzymut30Distances": [
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          3612,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          472,
+          487,
+          487,
+          487,
+          487,
+          487,
+          472,
+          65534,
+          65534,
+          65534,
+          665,
+          695,
+          694,
+          250,
+          252,
+          262,
+          281,
+          310,
+          356,
+          429,
+          556,
+          689,
+          1410
+        ],
+        "UpAzymut45Distances": [
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          467,
+          491,
+          491,
+          491,
+          488,
+          484,
+          306,
+          308,
+          321,
+          344,
+          380,
+          436,
+          467,
+          594,
+          874,
+          1727
+        ],
+        "UpAzymut60Distances": [
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          647,
+          537,
+          468,
+          423,
+          382,
+          382,
+          382,
+          382,
+          382,
+          423,
+          468,
+          537,
+          647,
+          840,
+          1235,
+          65534
+        ],
+        "Center": {
+          "X": 5389,
+          "Y": 2451,
+          "Z": 16
+        }
+      },
+      "ValidShootingPoints": 69,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.BP_CoverPoint353.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.37"
+      },
+      "BlueprintCreatedComponents": [
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "BP_CoverPoint_C",
+    "Name": "BP_CoverPoint75",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Gameplay/AI/Cover/BP_CoverPoint.BP_CoverPoint_C'",
+    "Template": {
+      "ObjectName": "BP_CoverPoint_C'Default__BP_CoverPoint_C'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Cover/BP_CoverPoint.1"
+    },
+    "Properties": {
+      "CoverSurface": null,
+      "Ground": null,
+      "Forward": null,
+      "BlockingCollision": {
+        "ObjectName": "BoxComponent'M_CargoDock_Architecture:PersistentLevel.BP_CoverPoint75.BlockingCollision'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.3"
+      },
+      "AIVisibilityPayload": {
+        "CrouchDistances": [
+          367,
+          368,
+          387,
+          400,
+          448,
+          520,
+          568,
+          512,
+          484,
+          178,
+          173,
+          174,
+          180,
+          218,
+          216,
+          246,
+          1783,
+          2303,
+          581,
+          556,
+          822,
+          2199,
+          273,
+          217,
+          618,
+          613,
+          543,
+          530,
+          605,
+          625,
+          75,
+          77,
+          81,
+          87,
+          97,
+          112,
+          135,
+          176,
+          2271,
+          499
+        ],
+        "StandDistances": [
+          370,
+          372,
+          391,
+          422,
+          459,
+          529,
+          568,
+          516,
+          485,
+          172,
+          171,
+          175,
+          183,
+          220,
+          217,
+          251,
+          1783,
+          2303,
+          577,
+          558,
+          65534,
+          2760,
+          2555,
+          2730,
+          683,
+          611,
+          542,
+          529,
+          541,
+          1330,
+          1367,
+          2555,
+          1635,
+          1256,
+          1385,
+          1061,
+          1277,
+          2499,
+          414,
+          1376
+        ],
+        "UpAzymut15Distances": [
+          65534,
+          65534,
+          65534,
+          65534,
+          1744,
+          1449,
+          594,
+          537,
+          504,
+          178,
+          177,
+          181,
+          190,
+          228,
+          224,
+          256,
+          1832,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          4372,
+          895,
+          939,
+          992,
+          1979,
+          2568,
+          429,
+          65534
+        ],
+        "UpAzymut30Distances": [
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          1636,
+          1491,
+          1442,
+          3450,
+          3406,
+          2694,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          2140,
+          2210,
+          65534,
+          65534,
+          65534
+        ],
+        "UpAzymut45Distances": [
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534
+        ],
+        "UpAzymut60Distances": [
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534,
+          65534
+        ],
+        "Center": {
+          "X": 3804,
+          "Y": 3385,
+          "Z": 16
+        }
+      },
+      "ValidShootingPoints": 69,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.BP_CoverPoint75.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.38"
+      },
+      "BlueprintCreatedComponents": [
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "M_CargoDock_Architecture",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'M_CargoDock_Architecture:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.9"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "M_CargoDock_Architecture_C'M_CargoDock_Architecture:PersistentLevel.M_CargoDock_Architecture_C_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.8"
+      },
+      "LevelBuildDataId": "89358BF6-4C0B8B4C-1E3E61A7-E667DC18",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'M_CargoDock_Architecture:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.35"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'M_CargoDock_Architecture:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.35"
+      },
+      null,
+      {
+        "ObjectName": "SBZAgilityNavLink'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink206'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.19"
+      },
+      {
+        "ObjectName": "BP_CoverPoint_C'M_CargoDock_Architecture:PersistentLevel.BP_CoverPoint75'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.6"
+      },
+      {
+        "ObjectName": "SBZAgilityNavLink'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink638'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.20"
+      },
+      {
+        "ObjectName": "SBZAgilityNavLink'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink639'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.21"
+      },
+      {
+        "ObjectName": "BP_CoverPoint_C'M_CargoDock_Architecture:PersistentLevel.BP_CoverPoint353'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.5"
+      },
+      {
+        "ObjectName": "BP_Container_C'M_CargoDock_Architecture:PersistentLevel.BP_Container8'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.4"
+      },
+      null,
+      {
+        "ObjectName": "SBZAgilityNavLink'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1181'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.11"
+      },
+      {
+        "ObjectName": "SBZAgilityNavLink'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1182'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.12"
+      },
+      {
+        "ObjectName": "SBZAgilityNavLink'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1183'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.13"
+      },
+      {
+        "ObjectName": "SBZAgilityNavLink'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1184'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.14"
+      },
+      {
+        "ObjectName": "SBZAgilityNavLink'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1185'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.15"
+      },
+      {
+        "ObjectName": "SBZAgilityNavLink'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink784'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.22"
+      },
+      {
+        "ObjectName": "SBZAgilityNavLink'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1186'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.16"
+      },
+      {
+        "ObjectName": "SBZAgilityNavLink'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1187'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.17"
+      },
+      {
+        "ObjectName": "SBZAgilityNavLink'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1188'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.18"
+      },
+      {
+        "ObjectName": "M_CargoDock_Architecture_C'M_CargoDock_Architecture:PersistentLevel.M_CargoDock_Architecture_C_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.8"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'M_CargoDock_Architecture:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.9"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "M_CargoDock_Architecture_C'M_CargoDock_Architecture:PersistentLevel.M_CargoDock_Architecture_C_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.8"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "M_CargoDock_Architecture_C",
+    "Name": "M_CargoDock_Architecture_C_0",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.M_CargoDock_Architecture_C'",
+    "Template": {
+      "ObjectName": "M_CargoDock_Architecture_C'Default__M_CargoDock_Architecture_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.1"
+    },
+    "Properties": {
+      "Seed": 1237,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "10C81B80-4D699FFB-D4BBBD98-8DB27BF2",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZAgilityNavLink",
+    "Name": "SBZAgilityNavLink1181",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAgilityNavLink'",
+    "Properties": {
+      "NavLinkAgilityComponent": {
+        "ObjectName": "SBZNavLinkAgilityComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1181.SBZNavLinkAgilityComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.23"
+      },
+      "NavigationLink": {
+        "Left": {
+          "X": 60.000244,
+          "Y": -0.000881,
+          "Z": -50.0
+        },
+        "Right": {
+          "X": -119.99999,
+          "Y": -6.1E-05,
+          "Z": -830.0
+        },
+        "Direction": "ENavLinkDirection::LeftToRight",
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityRappel'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "NavLinkUserId": 3623,
+      "SpriteComponent": null,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1181.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.39"
+      }
+    }
+  },
+  {
+    "Type": "SBZAgilityNavLink",
+    "Name": "SBZAgilityNavLink1182",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAgilityNavLink'",
+    "Properties": {
+      "NavLinkAgilityComponent": {
+        "ObjectName": "SBZNavLinkAgilityComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1182.SBZNavLinkAgilityComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.24"
+      },
+      "NavigationLink": {
+        "Left": {
+          "X": 60.000244,
+          "Y": -0.000881,
+          "Z": -50.0
+        },
+        "Right": {
+          "X": -119.99999,
+          "Y": -6.1E-05,
+          "Z": -830.0
+        },
+        "Direction": "ENavLinkDirection::LeftToRight",
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityRappel'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "NavLinkUserId": 3626,
+      "SpriteComponent": null,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1182.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.40"
+      }
+    }
+  },
+  {
+    "Type": "SBZAgilityNavLink",
+    "Name": "SBZAgilityNavLink1183",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAgilityNavLink'",
+    "Properties": {
+      "NavLinkAgilityComponent": {
+        "ObjectName": "SBZNavLinkAgilityComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1183.SBZNavLinkAgilityComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.25"
+      },
+      "NavigationLink": {
+        "Left": {
+          "X": 60.000244,
+          "Y": -0.000881,
+          "Z": -50.0
+        },
+        "Right": {
+          "X": -119.99999,
+          "Y": -6.1E-05,
+          "Z": -830.0
+        },
+        "Direction": "ENavLinkDirection::LeftToRight",
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityRappel'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "NavLinkUserId": 3629,
+      "SpriteComponent": null,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1183.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.41"
+      }
+    }
+  },
+  {
+    "Type": "SBZAgilityNavLink",
+    "Name": "SBZAgilityNavLink1184",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAgilityNavLink'",
+    "Properties": {
+      "NavLinkAgilityComponent": {
+        "ObjectName": "SBZNavLinkAgilityComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1184.SBZNavLinkAgilityComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.26"
+      },
+      "NavigationLink": {
+        "Left": {
+          "X": 60.000244,
+          "Y": -0.000881,
+          "Z": -50.0
+        },
+        "Right": {
+          "X": -119.99999,
+          "Y": -6.1E-05,
+          "Z": -830.0
+        },
+        "Direction": "ENavLinkDirection::LeftToRight",
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityRappel'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "NavLinkUserId": 3632,
+      "SpriteComponent": null,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1184.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.42"
+      }
+    }
+  },
+  {
+    "Type": "SBZAgilityNavLink",
+    "Name": "SBZAgilityNavLink1185",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAgilityNavLink'",
+    "Properties": {
+      "NavLinkAgilityComponent": {
+        "ObjectName": "SBZNavLinkAgilityComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1185.SBZNavLinkAgilityComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.27"
+      },
+      "NavigationLink": {
+        "Left": {
+          "X": 60.000244,
+          "Y": -0.000881,
+          "Z": -50.0
+        },
+        "Right": {
+          "X": -119.99999,
+          "Y": -6.1E-05,
+          "Z": -830.0
+        },
+        "Direction": "ENavLinkDirection::LeftToRight",
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityRappel'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "NavLinkUserId": 3635,
+      "SpriteComponent": null,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1185.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.43"
+      }
+    }
+  },
+  {
+    "Type": "SBZAgilityNavLink",
+    "Name": "SBZAgilityNavLink1186",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAgilityNavLink'",
+    "Properties": {
+      "NavLinkAgilityComponent": {
+        "ObjectName": "SBZNavLinkAgilityComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1186.SBZNavLinkAgilityComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.28"
+      },
+      "NavigationLink": {
+        "Left": {
+          "X": 60.000244,
+          "Y": -0.000881,
+          "Z": -50.0
+        },
+        "Right": {
+          "X": -119.99999,
+          "Y": 0.000191,
+          "Z": -577.42816
+        },
+        "Direction": "ENavLinkDirection::LeftToRight",
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityJumpingDownHigh'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "NavLinkUserId": 3642,
+      "SpriteComponent": null,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1186.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.44"
+      }
+    }
+  },
+  {
+    "Type": "SBZAgilityNavLink",
+    "Name": "SBZAgilityNavLink1187",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAgilityNavLink'",
+    "Properties": {
+      "NavLinkAgilityComponent": {
+        "ObjectName": "SBZNavLinkAgilityComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1187.SBZNavLinkAgilityComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.29"
+      },
+      "NavigationLink": {
+        "Left": {
+          "X": 60.000244,
+          "Y": -0.000881,
+          "Z": -50.0
+        },
+        "Right": {
+          "X": -120.00001,
+          "Y": -5.3E-05,
+          "Z": -830.0
+        },
+        "Direction": "ENavLinkDirection::LeftToRight",
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityJumpingDownHigh'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "NavLinkUserId": 3643,
+      "SpriteComponent": null,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1187.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.45"
+      }
+    }
+  },
+  {
+    "Type": "SBZAgilityNavLink",
+    "Name": "SBZAgilityNavLink1188",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAgilityNavLink'",
+    "Properties": {
+      "NavLinkAgilityComponent": {
+        "ObjectName": "SBZNavLinkAgilityComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1188.SBZNavLinkAgilityComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.30"
+      },
+      "NavigationLink": {
+        "Left": {
+          "X": 60.000244,
+          "Y": -0.000881,
+          "Z": -50.0
+        },
+        "Right": {
+          "X": -120.00001,
+          "Y": -5.3E-05,
+          "Z": -830.0
+        },
+        "Direction": "ENavLinkDirection::LeftToRight",
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityJumpingDownHigh'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "NavLinkUserId": 6,
+      "SpriteComponent": null,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink1188.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.46"
+      }
+    }
+  },
+  {
+    "Type": "SBZAgilityNavLink",
+    "Name": "SBZAgilityNavLink206",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAgilityNavLink'",
+    "Properties": {
+      "NavLinkAgilityComponent": {
+        "ObjectName": "SBZNavLinkAgilityComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink206.SBZNavLinkAgilityComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.31"
+      },
+      "NavigationLink": {
+        "Left": {
+          "X": 60.000244,
+          "Y": -0.000881,
+          "Z": -50.0
+        },
+        "Right": {
+          "X": -120.00001,
+          "Y": -0.000198,
+          "Z": -300.0
+        },
+        "Direction": "ENavLinkDirection::LeftToRight",
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityJumpingDownLow'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "NavLinkUserId": 555,
+      "SpriteComponent": null,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink206.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.47"
+      }
+    }
+  },
+  {
+    "Type": "SBZAgilityNavLink",
+    "Name": "SBZAgilityNavLink638",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAgilityNavLink'",
+    "Properties": {
+      "NavLinkAgilityComponent": {
+        "ObjectName": "SBZNavLinkAgilityComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink638.SBZNavLinkAgilityComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.32"
+      },
+      "NavigationLink": {
+        "Left": {
+          "X": 120.0,
+          "Y": -0.000881,
+          "Z": -50.0
+        },
+        "Right": {
+          "X": -120.00001,
+          "Y": -0.000198,
+          "Z": -50.0
+        },
+        "Direction": "ENavLinkDirection::RightToLeft",
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityJumpingStraightSmall'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "NavLinkUserId": 2468,
+      "SpriteComponent": null,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink638.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.48"
+      }
+    }
+  },
+  {
+    "Type": "SBZAgilityNavLink",
+    "Name": "SBZAgilityNavLink639",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAgilityNavLink'",
+    "Properties": {
+      "NavLinkAgilityComponent": {
+        "ObjectName": "SBZNavLinkAgilityComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink639.SBZNavLinkAgilityComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.33"
+      },
+      "NavigationLink": {
+        "Left": {
+          "X": 120.0,
+          "Y": -0.000881,
+          "Z": -50.0
+        },
+        "Right": {
+          "X": -120.00001,
+          "Y": -0.000198,
+          "Z": -50.0
+        },
+        "Direction": "ENavLinkDirection::RightToLeft",
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityJumpingStraightSmall'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "NavLinkUserId": 2471,
+      "SpriteComponent": null,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink639.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.49"
+      }
+    }
+  },
+  {
+    "Type": "SBZAgilityNavLink",
+    "Name": "SBZAgilityNavLink784",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAgilityNavLink'",
+    "Properties": {
+      "NavLinkAgilityComponent": {
+        "ObjectName": "SBZNavLinkAgilityComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink784.SBZNavLinkAgilityComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.34"
+      },
+      "NavigationLink": {
+        "Left": {
+          "X": 60.000244,
+          "Y": -0.000881,
+          "Z": -50.0
+        },
+        "Right": {
+          "X": -119.99999,
+          "Y": 0.000191,
+          "Z": -577.42816
+        },
+        "Direction": "ENavLinkDirection::LeftToRight",
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityJumpingDownHigh'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "NavLinkUserId": 3638,
+      "SpriteComponent": null,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.SBZAgilityNavLink784.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.50"
+      }
+    }
+  },
+  {
+    "Type": "SBZNavLinkAgilityComponent",
+    "Name": "SBZNavLinkAgilityComponent",
+    "Outer": "SBZAgilityNavLink1181",
+    "Class": "UScriptClass'SBZNavLinkAgilityComponent'",
+    "Properties": {
+      "LeftTrajectory": {
+        "AgilityType": "ESBZAgilityType::Rappelling",
+        "Points": [
+          {
+            "Location": {
+              "X": 5127.9917,
+              "Y": 4422.0005,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000465,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 5127.9917,
+              "Y": 4365.9976,
+              "Z": 762.00006
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000465,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::BackEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 5127.9893,
+              "Y": 4242.0,
+              "Z": -0.00048828125
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000465,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "bValid": true,
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityRappel'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "RightTrajectory": {
+        "AgilityType": "ESBZAgilityType::Rappelling",
+        "Points": [
+          {
+            "Location": {
+              "X": 5127.9893,
+              "Y": 4242.0,
+              "Z": -0.00048828125
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 5127.9907,
+              "Y": 4361.999,
+              "Z": 48.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::Wall"
+          },
+          {
+            "Location": {
+              "X": 5127.9907,
+              "Y": 4365.9976,
+              "Z": 762.0004
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FrontEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 5127.9917,
+              "Y": 4422.0005,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "AreaClass": {
+          "ObjectName": "Class'NavArea_Default'",
+          "ObjectPath": "/Script/NavigationSystem"
+        }
+      },
+      "QueryParams": {
+        "ObjectName": "SBZAgilityQueryParams'DA_BaseCopAIAgilityData'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Abilities/DA_BaseCopAIAgilityData.0"
+      },
+      "LeftToRightType": "ESBZAgilityType::Rappelling",
+      "RightToLeftType": "ESBZAgilityType::Rappelling"
+    }
+  },
+  {
+    "Type": "SBZNavLinkAgilityComponent",
+    "Name": "SBZNavLinkAgilityComponent",
+    "Outer": "SBZAgilityNavLink1182",
+    "Class": "UScriptClass'SBZNavLinkAgilityComponent'",
+    "Properties": {
+      "LeftTrajectory": {
+        "AgilityType": "ESBZAgilityType::Rappelling",
+        "Points": [
+          {
+            "Location": {
+              "X": 4897.9917,
+              "Y": 4422.0005,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000465,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 4897.9917,
+              "Y": 4365.9966,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000465,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::BackEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 4897.9893,
+              "Y": 4241.9995,
+              "Z": -0.0007324219
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000465,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "bValid": true,
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityRappel'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "RightTrajectory": {
+        "AgilityType": "ESBZAgilityType::Rappelling",
+        "Points": [
+          {
+            "Location": {
+              "X": 4897.9893,
+              "Y": 4241.9995,
+              "Z": -0.0007324219
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 4897.9907,
+              "Y": 4361.999,
+              "Z": 47.999985
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::Wall"
+          },
+          {
+            "Location": {
+              "X": 4897.9907,
+              "Y": 4365.9966,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FrontEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 4897.9917,
+              "Y": 4422.0005,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "AreaClass": {
+          "ObjectName": "Class'NavArea_Default'",
+          "ObjectPath": "/Script/NavigationSystem"
+        }
+      },
+      "QueryParams": {
+        "ObjectName": "SBZAgilityQueryParams'DA_BaseCopAIAgilityData'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Abilities/DA_BaseCopAIAgilityData.0"
+      },
+      "LeftToRightType": "ESBZAgilityType::Rappelling",
+      "RightToLeftType": "ESBZAgilityType::Rappelling"
+    }
+  },
+  {
+    "Type": "SBZNavLinkAgilityComponent",
+    "Name": "SBZNavLinkAgilityComponent",
+    "Outer": "SBZAgilityNavLink1183",
+    "Class": "UScriptClass'SBZNavLinkAgilityComponent'",
+    "Properties": {
+      "LeftTrajectory": {
+        "AgilityType": "ESBZAgilityType::Rappelling",
+        "Points": [
+          {
+            "Location": {
+              "X": 4743.9917,
+              "Y": 4422.0005,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000465,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 4743.9917,
+              "Y": 4365.998,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000465,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::BackEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 4743.9893,
+              "Y": 4241.9995,
+              "Z": -0.0007324219
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000465,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "bValid": true,
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityRappel'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "RightTrajectory": {
+        "AgilityType": "ESBZAgilityType::Rappelling",
+        "Points": [
+          {
+            "Location": {
+              "X": 4743.9893,
+              "Y": 4241.9995,
+              "Z": -0.0007324219
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 4743.9907,
+              "Y": 4361.9985,
+              "Z": 48.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::Wall"
+          },
+          {
+            "Location": {
+              "X": 4743.9907,
+              "Y": 4365.9976,
+              "Z": 762.00006
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FrontEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 4743.9917,
+              "Y": 4422.0005,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "AreaClass": {
+          "ObjectName": "Class'NavArea_Default'",
+          "ObjectPath": "/Script/NavigationSystem"
+        }
+      },
+      "QueryParams": {
+        "ObjectName": "SBZAgilityQueryParams'DA_BaseCopAIAgilityData'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Abilities/DA_BaseCopAIAgilityData.0"
+      },
+      "LeftToRightType": "ESBZAgilityType::Rappelling",
+      "RightToLeftType": "ESBZAgilityType::Rappelling"
+    }
+  },
+  {
+    "Type": "SBZNavLinkAgilityComponent",
+    "Name": "SBZNavLinkAgilityComponent",
+    "Outer": "SBZAgilityNavLink1184",
+    "Class": "UScriptClass'SBZNavLinkAgilityComponent'",
+    "Properties": {
+      "LeftTrajectory": {
+        "AgilityType": "ESBZAgilityType::Rappelling",
+        "Points": [
+          {
+            "Location": {
+              "X": 4645.9917,
+              "Y": 4422.0005,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000465,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 4645.9917,
+              "Y": 4354.0005,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000465,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::BackEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 4645.9893,
+              "Y": 4241.9995,
+              "Z": -0.0007324219
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000465,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "bValid": true,
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityRappel'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "RightTrajectory": {
+        "AgilityType": "ESBZAgilityType::Rappelling",
+        "Points": [
+          {
+            "Location": {
+              "X": 4645.9893,
+              "Y": 4241.9995,
+              "Z": -0.0007324219
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 4645.9907,
+              "Y": 4361.966,
+              "Z": 48.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::Wall"
+          },
+          {
+            "Location": {
+              "X": 4645.9907,
+              "Y": 4353.604,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FrontEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 4645.9917,
+              "Y": 4422.0005,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "AreaClass": {
+          "ObjectName": "Class'NavArea_Default'",
+          "ObjectPath": "/Script/NavigationSystem"
+        }
+      },
+      "QueryParams": {
+        "ObjectName": "SBZAgilityQueryParams'DA_BaseCopAIAgilityData'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Abilities/DA_BaseCopAIAgilityData.0"
+      },
+      "LeftToRightType": "ESBZAgilityType::Rappelling",
+      "RightToLeftType": "ESBZAgilityType::Rappelling"
+    }
+  },
+  {
+    "Type": "SBZNavLinkAgilityComponent",
+    "Name": "SBZNavLinkAgilityComponent",
+    "Outer": "SBZAgilityNavLink1185",
+    "Class": "UScriptClass'SBZNavLinkAgilityComponent'",
+    "Properties": {
+      "LeftTrajectory": {
+        "AgilityType": "ESBZAgilityType::Rappelling",
+        "Points": [
+          {
+            "Location": {
+              "X": 4491.9917,
+              "Y": 4422.0005,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000465,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 4491.9917,
+              "Y": 4354.0005,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000465,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::BackEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 4491.9893,
+              "Y": 4241.9995,
+              "Z": -0.00048828125
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000465,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "bValid": true,
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityRappel'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "RightTrajectory": {
+        "AgilityType": "ESBZAgilityType::Rappelling",
+        "Points": [
+          {
+            "Location": {
+              "X": 4491.9893,
+              "Y": 4241.9995,
+              "Z": -0.00048828125
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 4491.9907,
+              "Y": 4361.9653,
+              "Z": 48.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::Wall"
+          },
+          {
+            "Location": {
+              "X": 4491.9907,
+              "Y": 4353.6045,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FrontEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 4491.9917,
+              "Y": 4422.0005,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999535,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "AreaClass": {
+          "ObjectName": "Class'NavArea_Default'",
+          "ObjectPath": "/Script/NavigationSystem"
+        }
+      },
+      "QueryParams": {
+        "ObjectName": "SBZAgilityQueryParams'DA_BaseCopAIAgilityData'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Abilities/DA_BaseCopAIAgilityData.0"
+      },
+      "LeftToRightType": "ESBZAgilityType::Rappelling",
+      "RightToLeftType": "ESBZAgilityType::Rappelling"
+    }
+  },
+  {
+    "Type": "SBZNavLinkAgilityComponent",
+    "Name": "SBZNavLinkAgilityComponent",
+    "Outer": "SBZAgilityNavLink1186",
+    "Class": "UScriptClass'SBZNavLinkAgilityComponent'",
+    "Properties": {
+      "LeftTrajectory": {
+        "AgilityType": "ESBZAgilityType::JumpingDown",
+        "Points": [
+          {
+            "Location": {
+              "X": 4377.991,
+              "Y": 5357.9956,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -0.0003108495,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 4433.313,
+              "Y": 5357.9956,
+              "Z": 762.00024
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -0.0003108495,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::BackEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 4557.991,
+              "Y": 5357.9946,
+              "Z": 250.00006
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -0.0003108495,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "bValid": true,
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityJumpingDownHigh'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "RightTrajectory": {
+        "AreaClass": {
+          "ObjectName": "Class'NavArea_Default'",
+          "ObjectPath": "/Script/NavigationSystem"
+        }
+      },
+      "QueryParams": {
+        "ObjectName": "SBZAgilityQueryParams'DA_BaseCopAIAgilityData'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Abilities/DA_BaseCopAIAgilityData.0"
+      },
+      "LeftToRightType": "ESBZAgilityType::JumpingDown"
+    }
+  },
+  {
+    "Type": "SBZNavLinkAgilityComponent",
+    "Name": "SBZNavLinkAgilityComponent",
+    "Outer": "SBZAgilityNavLink1187",
+    "Class": "UScriptClass'SBZNavLinkAgilityComponent'",
+    "Properties": {
+      "LeftTrajectory": {
+        "AgilityType": "ESBZAgilityType::JumpingDown",
+        "Points": [
+          {
+            "Location": {
+              "X": 8491.993,
+              "Y": 8953.993,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999374,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 8491.993,
+              "Y": 9032.003,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999374,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::BackEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 8491.996,
+              "Y": 9133.994,
+              "Z": 0.0007324219
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999374,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "bValid": true,
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityJumpingDownHigh'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "RightTrajectory": {
+        "AreaClass": {
+          "ObjectName": "Class'NavArea_Default'",
+          "ObjectPath": "/Script/NavigationSystem"
+        }
+      },
+      "QueryParams": {
+        "ObjectName": "SBZAgilityQueryParams'DA_BaseCopAIAgilityData'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Abilities/DA_BaseCopAIAgilityData.0"
+      },
+      "LeftToRightType": "ESBZAgilityType::JumpingDown"
+    }
+  },
+  {
+    "Type": "SBZNavLinkAgilityComponent",
+    "Name": "SBZNavLinkAgilityComponent",
+    "Outer": "SBZAgilityNavLink1188",
+    "Class": "UScriptClass'SBZNavLinkAgilityComponent'",
+    "Properties": {
+      "LeftTrajectory": {
+        "AgilityType": "ESBZAgilityType::JumpingDown",
+        "Points": [
+          {
+            "Location": {
+              "X": 8583.993,
+              "Y": 8953.993,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999374,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 8583.993,
+              "Y": 9032.003,
+              "Z": 762.00006
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999374,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::BackEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 8583.996,
+              "Y": 9133.994,
+              "Z": 0.0007324219
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.999374,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "bValid": true,
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityJumpingDownHigh'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "RightTrajectory": {
+        "AreaClass": {
+          "ObjectName": "Class'NavArea_Default'",
+          "ObjectPath": "/Script/NavigationSystem"
+        }
+      },
+      "QueryParams": {
+        "ObjectName": "SBZAgilityQueryParams'DA_BaseCopAIAgilityData'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Abilities/DA_BaseCopAIAgilityData.0"
+      },
+      "LeftToRightType": "ESBZAgilityType::JumpingDown"
+    }
+  },
+  {
+    "Type": "SBZNavLinkAgilityComponent",
+    "Name": "SBZNavLinkAgilityComponent",
+    "Outer": "SBZAgilityNavLink206",
+    "Class": "UScriptClass'SBZNavLinkAgilityComponent'",
+    "Properties": {
+      "LeftTrajectory": {
+        "AgilityType": "ESBZAgilityType::JumpingDown",
+        "Points": [
+          {
+            "Location": {
+              "X": 8314.77,
+              "Y": 7315.586,
+              "Z": 257.58405
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.00031,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 8315.384,
+              "Y": 7226.6694,
+              "Z": 264.0789
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.00031,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::BackEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 8315.991,
+              "Y": 7142.0,
+              "Z": 0.0008544922
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.00031,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "bValid": true,
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityJumpingDownLow'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "RightTrajectory": {
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityClimbOnTopHigh'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "QueryParams": {
+        "ObjectName": "SBZAgilityQueryParams'DA_BaseCopAIAgilityData'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Abilities/DA_BaseCopAIAgilityData.0"
+      },
+      "LeftToRightType": "ESBZAgilityType::JumpingDown"
+    }
+  },
+  {
+    "Type": "SBZNavLinkAgilityComponent",
+    "Name": "SBZNavLinkAgilityComponent",
+    "Outer": "SBZAgilityNavLink638",
+    "Class": "UScriptClass'SBZNavLinkAgilityComponent'",
+    "Properties": {
+      "LeftTrajectory": {
+        "AreaClass": {
+          "ObjectName": "Class'NavArea_Default'",
+          "ObjectPath": "/Script/NavigationSystem"
+        }
+      },
+      "RightTrajectory": {
+        "AgilityType": "ESBZAgilityType::JumpingStraight",
+        "Points": [
+          {
+            "Location": {
+              "X": 2989.9463,
+              "Y": 4585.994,
+              "Z": 144.83817
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.00023,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 2989.9453,
+              "Y": 4361.199,
+              "Z": 138.3014
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.00023,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "bValid": true,
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityJumpingStraightSmall'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "QueryParams": {
+        "ObjectName": "SBZAgilityQueryParams'DA_BaseCopAIAgilityData'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Abilities/DA_BaseCopAIAgilityData.0"
+      },
+      "RightToLeftType": "ESBZAgilityType::JumpingStraight"
+    }
+  },
+  {
+    "Type": "SBZNavLinkAgilityComponent",
+    "Name": "SBZNavLinkAgilityComponent",
+    "Outer": "SBZAgilityNavLink639",
+    "Class": "UScriptClass'SBZNavLinkAgilityComponent'",
+    "Properties": {
+      "LeftTrajectory": {
+        "AreaClass": {
+          "ObjectName": "Class'NavArea_Default'",
+          "ObjectPath": "/Script/NavigationSystem"
+        }
+      },
+      "RightTrajectory": {
+        "AgilityType": "ESBZAgilityType::JumpingStraight",
+        "Points": [
+          {
+            "Location": {
+              "X": 1209.9458,
+              "Y": 4585.9937,
+              "Z": 144.8373
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000206,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 1209.9453,
+              "Y": 4361.199,
+              "Z": 138.3014
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.000206,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "bValid": true,
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityJumpingStraightSmall'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "QueryParams": {
+        "ObjectName": "SBZAgilityQueryParams'DA_BaseCopAIAgilityData'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Abilities/DA_BaseCopAIAgilityData.0"
+      },
+      "RightToLeftType": "ESBZAgilityType::JumpingStraight"
+    }
+  },
+  {
+    "Type": "SBZNavLinkAgilityComponent",
+    "Name": "SBZNavLinkAgilityComponent",
+    "Outer": "SBZAgilityNavLink784",
+    "Class": "UScriptClass'SBZNavLinkAgilityComponent'",
+    "Properties": {
+      "LeftTrajectory": {
+        "AgilityType": "ESBZAgilityType::JumpingDown",
+        "Points": [
+          {
+            "Location": {
+              "X": 4609.99,
+              "Y": 4907.994,
+              "Z": 762.0001
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.99968,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 4609.99,
+              "Y": 4953.6094,
+              "Z": 762.00006
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.99968,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::BackEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 4609.991,
+              "Y": 5087.9946,
+              "Z": 250.00006
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.99968,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "bValid": true,
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityJumpingDownHigh'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "RightTrajectory": {
+        "AreaClass": {
+          "ObjectName": "Class'NavArea_Default'",
+          "ObjectPath": "/Script/NavigationSystem"
+        }
+      },
+      "QueryParams": {
+        "ObjectName": "SBZAgilityQueryParams'DA_BaseCopAIAgilityData'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Abilities/DA_BaseCopAIAgilityData.0"
+      },
+      "LeftToRightType": "ESBZAgilityType::JumpingDown"
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'M_CargoDock_Architecture:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.10"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BP_Container8",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'BP_Container_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container.6"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 7794.0,
+        "Y": -6678.0,
+        "Z": 128.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 25.499952
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "BP_CoverPoint353",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_CoverPoint_C:RootComponent'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Cover/BP_CoverPoint.4"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 5389.1777,
+        "Y": 2451.5615,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -315.0003,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "BP_CoverPoint75",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_CoverPoint_C:RootComponent'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Cover/BP_CoverPoint.4"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3804.0195,
+        "Y": 3385.9966,
+        "Z": 18.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -450.00024,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "SBZAgilityNavLink1181",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 5127.9907,
+        "Y": 4362.0005,
+        "Z": 830.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99985,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "SBZAgilityNavLink1182",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4897.9907,
+        "Y": 4362.0005,
+        "Z": 830.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99985,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "SBZAgilityNavLink1183",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4743.9907,
+        "Y": 4362.0005,
+        "Z": 830.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99985,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "SBZAgilityNavLink1184",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4645.9907,
+        "Y": 4362.0005,
+        "Z": 830.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99985,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "SBZAgilityNavLink1185",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4491.9907,
+        "Y": 4362.0005,
+        "Z": 830.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99985,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "SBZAgilityNavLink1186",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4437.991,
+        "Y": 5357.9946,
+        "Z": 830.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "SBZAgilityNavLink1187",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 8491.994,
+        "Y": 9013.993,
+        "Z": 830.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0005,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "SBZAgilityNavLink1188",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 8583.994,
+        "Y": 9013.993,
+        "Z": 830.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0005,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "SBZAgilityNavLink206",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 8315.991,
+        "Y": 7262.0,
+        "Z": 316.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.999985,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "SBZAgilityNavLink638",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 2989.9463,
+        "Y": 4465.994,
+        "Z": 204.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00005,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "SBZAgilityNavLink639",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 1209.9463,
+        "Y": 4465.994,
+        "Z": 204.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00005,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "SBZAgilityNavLink784",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4609.991,
+        "Y": 4967.9946,
+        "Z": 830.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99991,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "sm_container_body",
+    "Outer": "BP_Container8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Container_C:sm_container_body_GEN_VARIABLE'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container.14"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_WP_Ammo_9mm_Empty'",
+        "ObjectPath": "PAYDAY3/Content/Weapons/Ammo/9mm_fmj/SM_WP_Ammo_9mm_Empty.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_ShippingContainer_01_Green'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Construction/ShippingContainer_01/Component/MI_ShippingContainer_01_Green.0"
+        }
+      ],
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'M_CargoDock_Architecture:PersistentLevel.BP_Container8.DefaultSceneRoot'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.36"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "M_CargoDock_Architecture",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'M_CargoDock_Architecture:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Mockup_CargoDock/M_CargoDock_Architecture.7"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

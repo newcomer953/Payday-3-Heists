@@ -1,0 +1,2353 @@
+[
+  {
+    "Type": "LevelSequence",
+    "Name": "RoadRage_Shot1_02",
+    "Class": "UScriptClass'LevelSequence'",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'RoadRage_Shot1_02:MovieScene_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.1"
+      },
+      "BindingReferences": {
+        "BindingIdToReferences": [
+          {
+            "Key": "138E19B6-4A1D6FBA-B9B523BD-3D72079B",
+            "Value": {
+              "References": [
+                {
+                  "ExternalObjectPath": {
+                    "AssetPathName": "/Game/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.C_ArmoredTransport",
+                    "SubPathString": "PersistentLevel.Camera_RoadRage_Shot1_01"
+                  },
+                  "ObjectPath": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "F69413F9-496594C6-66987F84-DEC6E0E8",
+            "Value": {
+              "References": [
+                {
+                  "ExternalObjectPath": {
+                    "AssetPathName": "None",
+                    "SubPathString": ""
+                  },
+                  "ObjectPath": "CameraComponent"
+                }
+              ]
+            }
+          },
+          {
+            "Key": "C6853ABB-4BB51DF1-DF220E92-3598F7A2",
+            "Value": {
+              "References": [
+                {
+                  "ExternalObjectPath": {
+                    "AssetPathName": "/Game/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_VehiclePark_Prop.E_ArmoredTransport_Ext_VehiclePark_Prop",
+                    "SubPathString": "PersistentLevel.BP_StaticVehicle_MediumTruck2_2"
+                  },
+                  "ObjectPath": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'RoadRage_Shot1_02:CompiledData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.29"
+      },
+      "Signature": "24BC4D0B-4D16DBAA-19D46887-5C82EB2F"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "MovieScene_0",
+    "Outer": "RoadRage_Shot1_02",
+    "Class": "UScriptClass'MovieScene'",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "138E19B6-4A1D6FBA-B9B523BD-3D72079B",
+          "Name": "Camera_RoadRage_Shot1_01",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CineCameraActor'",
+            "ObjectPath": "/Script/CinematicCamera"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "F69413F9-496594C6-66987F84-DEC6E0E8",
+          "Name": "CameraComponent",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CineCameraComponent'",
+            "ObjectPath": "/Script/CinematicCamera"
+          },
+          "ParentGuid": "138E19B6-4A1D6FBA-B9B523BD-3D72079B"
+        },
+        {
+          "Tags": [],
+          "Guid": "C6853ABB-4BB51DF1-DF220E92-3598F7A2",
+          "Name": "BP_StaticVehicle_MediumTruck2",
+          "PossessedObjectClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_StaticVehicle_MediumTruck_C'",
+            "ObjectPath": "PAYDAY3/Content/Vehicle/Civilian/Truck/Veh_Med_Truck_01/BP_StaticVehicle_MediumTruck.0"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "138E19B6-4A1D6FBA-B9B523BD-3D72079B",
+          "BindingName": "Camera_RoadRage_Shot1_01",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene3DTransformTrack'RoadRage_Shot1_02:MovieScene_0.MovieScene3DTransformTrack_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.3"
+            },
+            {
+              "ObjectName": "MovieSceneActorReferenceTrack'RoadRage_Shot1_02:MovieScene_0.MovieSceneActorReferenceTrack_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.5"
+            },
+            {
+              "ObjectName": "MovieSceneVectorTrack'RoadRage_Shot1_02:MovieScene_0.MovieSceneVectorTrack_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.37"
+            },
+            {
+              "ObjectName": "MovieSceneCameraShakeTrack'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraShakeTrack_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.28"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "F69413F9-496594C6-66987F84-DEC6E0E8",
+          "BindingName": "CameraComponent",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.33"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_1'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.34"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_2'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.35"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "C6853ABB-4BB51DF1-DF220E92-3598F7A2",
+          "BindingName": "BP_StaticVehicle_MediumTruck2",
+          "Tracks": []
+        }
+      ],
+      "CameraCutTrack": {
+        "ObjectName": "MovieSceneCameraCutTrack'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraCutTrack_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.25"
+      },
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -137600
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60000
+            }
+          }
+        }
+      },
+      "TickResolution": {
+        "Numerator": 24000
+      },
+      "DisplayRate": {
+        "Numerator": 30
+      },
+      "Signature": "4EC19DE9-4FA9CE7A-A6023384-F66F8947"
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformSection",
+    "Name": "MovieScene3DTransformSection_0",
+    "Outer": "MovieScene3DTransformTrack_0",
+    "Class": "UScriptClass'MovieScene3DTransformSection'",
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 59200
+          }
+        ],
+        "Values": [
+          {
+            "Value": -1870.5165,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.00015493445,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": -1861.3444,
+            "Tangent": {
+              "ArriveTangent": 0.00015493445,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": -1870.5165,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 59200
+          }
+        ],
+        "Values": [
+          {
+            "Value": -702.67505,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": -702.67505,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": -702.67505,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 59200
+          }
+        ],
+        "Values": [
+          {
+            "Value": 351.91623,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.00011811694,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 358.90875,
+            "Tangent": {
+              "ArriveTangent": 0.00011811694,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 351.91623,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 59200
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 59200
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 59200
+          }
+        ],
+        "Values": [
+          {
+            "Value": 77.23036,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": -2.3579983E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 75.83443,
+            "Tangent": {
+              "ArriveTangent": -2.3579983E-05,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 77.23036,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 59200
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 59200
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 59200
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.6"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.7"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "AEE5908E-453B4AD6-AD7D81B5-22C58A0A"
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformTrack",
+    "Name": "MovieScene3DTransformTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieScene3DTransformTrack'",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieScene3DTransformSection'RoadRage_Shot1_02:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.2"
+        }
+      ],
+      "EvaluationFieldGuid": "DDC625FE-42BCE1A7-5787C0BC-F9556824",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene3DTransformSection'RoadRage_Shot1_02:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.2"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "DDC625FE-42BCE1A7-5787C0BC-F9556824"
+    }
+  },
+  {
+    "Type": "MovieSceneActorReferenceSection",
+    "Name": "MovieSceneActorReferenceSection_0",
+    "Outer": "MovieSceneActorReferenceTrack_0",
+    "Class": "UScriptClass'MovieSceneActorReferenceSection'",
+    "Properties": {
+      "ActorReferenceData": {
+        "DefaultValue": {
+          "Object": {
+            "Guid": "C6853ABB-4BB51DF1-DF220E92-3598F7A2",
+            "ResolveParentIndex": 0
+          }
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieSceneActorReferenceTrack_0.MovieSceneActorReferenceSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.8"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieSceneActorReferenceTrack_0.MovieSceneActorReferenceSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.9"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "630260BF-4FC1AF06-891E6DAC-6810D439"
+    }
+  },
+  {
+    "Type": "MovieSceneActorReferenceTrack",
+    "Name": "MovieSceneActorReferenceTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneActorReferenceTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ActorToTrack",
+        "PropertyPath": "LookatTrackingSettings.ActorToTrack"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneActorReferenceSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneActorReferenceTrack_0.MovieSceneActorReferenceSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.4"
+        }
+      ],
+      "EvaluationFieldGuid": "94A38E69-4E29E538-1BF45FA7-4AD37ECD",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneActorReferenceSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneActorReferenceTrack_0.MovieSceneActorReferenceSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.4"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "94A38E69-4E29E538-1BF45FA7-4AD37ECD"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene3DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene3DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneActorReferenceSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneActorReferenceSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneCameraCutSection_1",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneCameraCutSection_1",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneCameraShakeSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneCameraShakeSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneCameraShakeSection_1",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneCameraShakeSection_1",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneVectorSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneVectorSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneCameraCutSection",
+    "Name": "MovieSceneCameraCutSection_1",
+    "Outer": "MovieSceneCameraCutTrack_0",
+    "Class": "UScriptClass'MovieSceneCameraCutSection'",
+    "Properties": {
+      "CameraBindingID": {
+        "Guid": "138E19B6-4A1D6FBA-B9B523BD-3D72079B",
+        "ResolveParentIndex": 0
+      },
+      "InitialCameraCutTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.6240867,
+          "W": 0.78135514,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -1870.5165,
+          "Y": -702.67505,
+          "Z": 351.91623
+        }
+      },
+      "bHasInitialCameraCutTransform": true,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_1.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.10"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_1.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.11"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -136000
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60000
+            }
+          }
+        }
+      },
+      "BlendType": {
+        "bIsValid": true
+      },
+      "Signature": "D7FDA422-4D29F6BE-C0F3BCBF-219A2B02"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraCutTrack",
+    "Name": "MovieSceneCameraCutTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneCameraCutTrack'",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneCameraCutSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.24"
+        }
+      ],
+      "EvaluationFieldGuid": "6C400F74-483E391B-21289488-ED5F39A4",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneCameraCutSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_1'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.24"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -136000
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 60000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "6C400F74-483E391B-21289488-ED5F39A4"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraShakeSection",
+    "Name": "MovieSceneCameraShakeSection_0",
+    "Outer": "MovieSceneCameraShakeTrack_0",
+    "Class": "UScriptClass'MovieSceneCameraShakeSection'",
+    "Properties": {
+      "ShakeData": {
+        "ShakeClass": {
+          "ObjectName": "BlueprintGeneratedClass'TouchTheSky_WindShake_C'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/TouchTheSky_WindShake.0"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.12"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.13"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -136000
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 120000
+            }
+          }
+        }
+      },
+      "Signature": "85CC704A-4F940706-6CCF2C98-E278CD60"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraShakeSection",
+    "Name": "MovieSceneCameraShakeSection_1",
+    "Outer": "MovieSceneCameraShakeTrack_0",
+    "Class": "UScriptClass'MovieSceneCameraShakeSection'",
+    "Properties": {
+      "ShakeData": {
+        "ShakeClass": {
+          "ObjectName": "BlueprintGeneratedClass'C_GoldAndSharke_Shot3_01_Shake_C'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot3_01_Shake.0"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_1.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.14"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_1.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.15"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -136000
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 139200
+            }
+          }
+        }
+      },
+      "RowIndex": 1,
+      "OverlapPriority": 1,
+      "Signature": "680270BC-443971BF-15C923A9-BC04CB3F"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraShakeTrack",
+    "Name": "MovieSceneCameraShakeTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneCameraShakeTrack'",
+    "Properties": {
+      "CameraShakeSections": [
+        {
+          "ObjectName": "MovieSceneCameraShakeSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.26"
+        },
+        {
+          "ObjectName": "MovieSceneCameraShakeSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.27"
+        }
+      ],
+      "EvaluationFieldGuid": "0454C3B7-4A2EA144-0452FBAF-3B8FEC0A",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneCameraShakeSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.26"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -136000
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 120000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          },
+          {
+            "Section": {
+              "ObjectName": "MovieSceneCameraShakeSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_1'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.27"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -136000
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 139200
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "0454C3B7-4A2EA144-0452FBAF-3B8FEC0A"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "RoadRage_Shot1_02",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "138E19B6-4A1D6FBA-B9B523BD-3D72079B",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneActorReferenceTrack'RoadRage_Shot1_02:MovieScene_0.MovieSceneActorReferenceTrack_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.5"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneActorReferenceSectionTemplate",
+                  "Data": {
+                    "PropertyData": {
+                      "PropertyName": "ActorToTrack",
+                      "PropertyPath": "LookatTrackingSettings.ActorToTrack"
+                    },
+                    "ActorReferenceData": {
+                      "KeyTimes": [],
+                      "DefaultValue": {
+                        "Object": {
+                          "Guid": "C6853ABB-4BB51DF1-DF220E92-3598F7A2",
+                          "SequenceID": 0,
+                          "ResolveParentIndex": 0
+                        },
+                        "ComponentName": "None",
+                        "SocketName": "None"
+                      },
+                      "KeyValues": []
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneActorReferenceSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneActorReferenceTrack_0.MovieSceneActorReferenceSection_0'",
+                      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.4"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          },
+          {
+            "Key": {
+              "Value": 1
+            },
+            "Value": {
+              "ObjectBindingID": "138E19B6-4A1D6FBA-B9B523BD-3D72079B",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneCameraShakeTrack'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraShakeTrack_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.28"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneCameraShakeSectionTemplate",
+                  "Data": {
+                    "SourceData": {
+                      "ShakeClass": {
+                        "ObjectName": "BlueprintGeneratedClass'TouchTheSky_WindShake_C'",
+                        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/TouchTheSky_WindShake.0"
+                      },
+                      "PlayScale": 1.0,
+                      "PlaySpace": "ECameraShakePlaySpace::CameraLocal",
+                      "UserDefinedPlaySpace": {
+                        "Pitch": 0.0,
+                        "Yaw": 0.0,
+                        "Roll": 0.0
+                      }
+                    },
+                    "SectionStartTime": {
+                      "Value": -136000
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::RestoreState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneCameraShakeSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_0'",
+                      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.26"
+                    }
+                  }
+                },
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneCameraShakeSectionTemplate",
+                  "Data": {
+                    "SourceData": {
+                      "ShakeClass": {
+                        "ObjectName": "BlueprintGeneratedClass'C_GoldAndSharke_Shot3_01_Shake_C'",
+                        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot3_01_Shake.0"
+                      },
+                      "PlayScale": 1.0,
+                      "PlaySpace": "ECameraShakePlaySpace::CameraLocal",
+                      "UserDefinedPlaySpace": {
+                        "Pitch": 0.0,
+                        "Yaw": 0.0,
+                        "Roll": 0.0
+                      }
+                    },
+                    "SectionStartTime": {
+                      "Value": -136000
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::RestoreState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneCameraShakeSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_1'",
+                      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.27"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 1
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "94A38E69-4E29E538-1BF45FA7-4AD37ECD",
+              "Value": {
+                "Value": 0
+              }
+            },
+            {
+              "Key": "0454C3B7-4A2EA144-0452FBAF-3B8FEC0A",
+              "Value": {
+                "Value": 1
+              }
+            }
+          ]
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 1,
+                  "Size": 5,
+                  "Capacity": 5
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 4,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 5,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": 1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": -136000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 60000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneCameraCutSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_1'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.24"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene3DTransformSection'RoadRage_Shot1_02:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.2"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneVectorSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneVectorTrack_0.MovieSceneVectorSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.36"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.30"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.31"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 4
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.32"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 5
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "138E19B6-4A1D6FBA-B9B523BD-3D72079B"
+          },
+          {
+            "ObjectBindingID": "138E19B6-4A1D6FBA-B9B523BD-3D72079B"
+          },
+          {
+            "ObjectBindingID": "F69413F9-496594C6-66987F84-DEC6E0E8"
+          },
+          {
+            "ObjectBindingID": "F69413F9-496594C6-66987F84-DEC6E0E8"
+          },
+          {
+            "ObjectBindingID": "F69413F9-496594C6-66987F84-DEC6E0E8"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": -136000
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": -136000
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 120000
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 120000
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 139200
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 139200
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 3
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 1,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 2
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 1,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 2,
+                "TearDownIndex": 65533
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  },
+                  "SectionIndex": 1
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  },
+                  "SectionIndex": 1
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          }
+        ]
+      },
+      "CompiledSignature": "24BC4D0B-4D16DBAA-19D46887-5C82EB2F",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_0",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 72.9535,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.16"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.17"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "820B8BF8-4BC5C9F4-CA120E82-CF319F58"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_1",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 249.14052,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.18"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.19"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "D77147A5-4BD43DD3-496A1B98-5B96CACC"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_2",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 29.788044,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.20"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.21"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "7423E1FA-44786EF5-B14D07A1-34B58645"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "CurrentFocalLength",
+        "PropertyPath": "CurrentFocalLength",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.30"
+        }
+      ],
+      "EvaluationFieldGuid": "A7CBB14F-4C326B04-078847A9-280D6043",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.30"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "A7CBB14F-4C326B04-078847A9-280D6043"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ManualFocusDistance",
+        "PropertyPath": "FocusSettings.ManualFocusDistance"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.31"
+        }
+      ],
+      "EvaluationFieldGuid": "9098E3D8-40C85C04-EB070288-A3F45F79",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.31"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "9098E3D8-40C85C04-EB070288-A3F45F79"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_2",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "CurrentAperture",
+        "PropertyPath": "CurrentAperture",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.32"
+        }
+      ],
+      "EvaluationFieldGuid": "EB0019E8-420BA672-7B667EBE-B694C631",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.32"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "EB0019E8-420BA672-7B667EBE-B694C631"
+    }
+  },
+  {
+    "Type": "MovieSceneVectorSection",
+    "Name": "MovieSceneVectorSection_0",
+    "Outer": "MovieSceneVectorTrack_0",
+    "Class": "UScriptClass'MovieSceneVectorSection'",
+    "Properties": {
+      "Curves": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 59200
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Curves": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 59200
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.1754944E-38,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Curves": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 59200
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.1754944E-38,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "ChannelsUsed": 3,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieSceneVectorTrack_0.MovieSceneVectorSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.22"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'RoadRage_Shot1_02:MovieScene_0.MovieSceneVectorTrack_0.MovieSceneVectorSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.23"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "6AAF0FA2-49279CC3-CC1AAEB5-13605C02"
+    }
+  },
+  {
+    "Type": "MovieSceneVectorTrack",
+    "Name": "MovieSceneVectorTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneVectorTrack'",
+    "Properties": {
+      "NumChannelsUsed": 3,
+      "PropertyBinding": {
+        "PropertyName": "RelativeOffset",
+        "PropertyPath": "LookatTrackingSettings.RelativeOffset"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneVectorSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneVectorTrack_0.MovieSceneVectorSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.36"
+        }
+      ],
+      "EvaluationFieldGuid": "4D5BE1FD-48D58F06-A00E9CBC-957AE668",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneVectorSection'RoadRage_Shot1_02:MovieScene_0.MovieSceneVectorTrack_0.MovieSceneVectorSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.36"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "4D5BE1FD-48D58F06-A00E9CBC-957AE668"
+    }
+  }
+]

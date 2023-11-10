@@ -1,0 +1,1010 @@
+[
+  {
+    "Type": "Function",
+    "Name": "OnInteractedComplete__DelegateSignature",
+    "Outer": "BP_QRPhone_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_QRPhone",
+    "Outer": "BP_QRPhone_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_QRPhone_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature",
+    "Outer": "BP_QRPhone_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "BP_QRPhone_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZReplicatedBinaryStateActor:OnStateChanged'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Outer": "BP_QRPhone_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakColor_R",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakColor_G",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakColor_B",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakColor_A",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_Vector4",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector4'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetInteractive",
+    "Outer": "BP_QRPhone_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bEnabled",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_QRPhone_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_QRPhone_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.9"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_QRPhone_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.21"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_QRPhone_C:ExecuteUbergraph_BP_QRPhone'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZReplicatedBinaryStateActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_QRPhone_C:SetInteractive'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.5"
+      },
+      {
+        "ObjectName": "Function'BP_QRPhone_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.4"
+      },
+      {
+        "ObjectName": "Function'BP_QRPhone_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.3"
+      },
+      {
+        "ObjectName": "Function'BP_QRPhone_C:BndEvt__BP_QRPhone_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.2"
+      },
+      {
+        "ObjectName": "Function'BP_QRPhone_C:ExecuteUbergraph_BP_QRPhone'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.1"
+      },
+      {
+        "ObjectName": "Function'BP_QRPhone_C:OnInteractedComplete__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_GlowingRectangle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZOutline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZOutlineComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MobilePhone",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Scene",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZInteractable",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnInteractedComplete",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_QRPhone_C:OnInteractedComplete__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Glow Color",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Glow Intensity",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      }
+    ],
+    "FuncMap": {
+      "OnInteractedComplete__DelegateSignature": {
+        "ObjectName": "Function'BP_QRPhone_C:OnInteractedComplete__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.0"
+      },
+      "ExecuteUbergraph_BP_QRPhone": {
+        "ObjectName": "Function'BP_QRPhone_C:ExecuteUbergraph_BP_QRPhone'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.1"
+      },
+      "BndEvt__BP_QRPhone_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature": {
+        "ObjectName": "Function'BP_QRPhone_C:BndEvt__BP_QRPhone_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.2"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'BP_QRPhone_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.3"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_QRPhone_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.4"
+      },
+      "SetInteractive": {
+        "ObjectName": "Function'BP_QRPhone_C:SetInteractive'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_QRPhone_C'Default__BP_QRPhone_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.7"
+    }
+  },
+  {
+    "Type": "BP_QRPhone_C",
+    "Name": "Default__BP_QRPhone_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.BP_QRPhone_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Glow Color": {
+        "R": 1.0,
+        "G": 0.5,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFBC00"
+      },
+      "Glow Intensity": 10.0,
+      "RemoteRole": "ROLE_None"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Outer": "BP_QRPhone_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "InteractiveVolume",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Interaction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "SBZSpecialVehicle",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.90056795,
+        "Z": -3.0467992E-05
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 89.99996
+      },
+      "RelativeScale3D": {
+        "X": 0.1286396,
+        "Y": 0.23738924,
+        "Z": -0.030037284
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "BP_QRPhone_C",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "SBZInteractable",
+          "DelegatePropertyName": "OnServerCompleteInteraction",
+          "FunctionNameToBind": "BndEvt__BP_QRPhone_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractable_GEN_VARIABLE",
+    "Outer": "BP_QRPhone_C",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "bIsAllowedInCasing": true,
+      "bIsIllegal": false,
+      "SharedKeyItemTags": [
+        "Item.Key.QRCode"
+      ],
+      "Shapes": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'PrimitiveComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "Box"
+        }
+      ],
+      "Priority": 1,
+      "Duration": 5.0,
+      "Text": {
+        "TableId": "/Game/Localization/ST_Interaction.ST_Interaction",
+        "Key": "INT_SearchPhone"
+      },
+      "GameplayEffectsOnInteract": [
+        {
+          "GameplayEffectClass": null,
+          "Level": 1.0,
+          "StackCount": 1
+        }
+      ],
+      "OnStart3DAudioEvent": {
+        "ObjectName": "AkAudioEvent'PLR_INT_QR_Search'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/Player/Interactions/Misc/PLR_INT_QR_Search.1"
+      },
+      "OnFinish3DAudioEvent": {
+        "ObjectName": "AkAudioEvent'Player_Phone_KB_Click'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/Gear/Player_Phone/Player_Phone_KB_Click.1"
+      },
+      "OnCancel3DAudioEvent": {
+        "ObjectName": "AkAudioEvent'PLR_INT_QR_Search_STOP'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/Player/Interactions/Misc/PLR_INT_QR_Search_STOP.1"
+      },
+      "CompletedComment": {
+        "ObjectName": "SBZVoiceCommentDataAsset'DA_Voice_FindFirst'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Player/Comments/DA_Voice_FindFirst.0"
+      },
+      "AnimationName": "LeftHandPhone_DefaultInteraction_Montage"
+    }
+  },
+  {
+    "Type": "SBZOutlineComponent",
+    "Name": "SBZOutline_GEN_VARIABLE",
+    "Outer": "BP_QRPhone_C",
+    "Class": "UScriptClass'SBZOutlineComponent'",
+    "Properties": {
+      "DefaultAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_Interactable_7_5m'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_Interactable_7_5m.0"
+      },
+      "MeshSelectors": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "MobilePhone"
+        }
+      ],
+      "InteractableSelector": {
+        "ComponentName": "SBZInteractable"
+      },
+      "InteractableFocusAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_InteractableInFocus'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_InteractableInFocus.0"
+      },
+      "bAutoActivate": true
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_QRPhone_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene_GEN_VARIABLE",
+    "Outer": "BP_QRPhone_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_QRPhone_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.12"
+      },
+      "VariableGuid": "4319BB8E-49621A1D-29997CA7-D2363BBA",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZInteractableComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZInteractableComponent'BP_QRPhone_C:SBZInteractable_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.10"
+      },
+      "VariableGuid": "A1813199-4229E443-6618D599-BACF547F",
+      "InternalVariableName": "SBZInteractable"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_QRPhone_C:MobilePhone_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.22"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_QRPhone_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QRPhone_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.18"
+        }
+      ],
+      "VariableGuid": "B3A88BD9-418642B1-36733EAD-7A58D8D0",
+      "InternalVariableName": "MobilePhone"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_QRPhone_C:SM_GlowingRectangle_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.23"
+      },
+      "VariableGuid": "D2C0EF60-4164AB96-60FB2A95-5CD5490B",
+      "InternalVariableName": "SM_GlowingRectangle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_QRPhone_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.8"
+      },
+      "VariableGuid": "EEDCC3AD-4B857A29-62CA3983-A9FE0572",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_QRPhone_C:Scene_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.13"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_QRPhone_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.16"
+        }
+      ],
+      "VariableGuid": "32D27F77-4298E734-BA6169A4-BE05A631",
+      "InternalVariableName": "Scene"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZOutlineComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZOutlineComponent'BP_QRPhone_C:SBZOutline_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.11"
+      },
+      "VariableGuid": "7D674DE1-43DABEB3-478D5384-09BD78A4",
+      "InternalVariableName": "SBZOutline"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_QRPhone_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_QRPhone_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QRPhone_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QRPhone_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.20"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_QRPhone_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QRPhone_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QRPhone_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QRPhone_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QRPhone_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_QRPhone_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.18"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_QRPhone_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_QRPhone.14"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MobilePhone_GEN_VARIABLE",
+    "Outer": "BP_QRPhone_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MobilePhone_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/MobilePhone_01/MobilePhone_01.2"
+      },
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_MobilePhone_Display_Hackable'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/MobilePhone_01/Component/MI_MobilePhone_Display_Hackable.0"
+        }
+      ],
+      "LDMaxDrawDistance": 3500.0,
+      "CachedMaxDrawDistance": 3500.0,
+      "bGenerateOverlapEvents": true,
+      "bAllowCullDistanceVolume": false,
+      "CustomPrimitiveData": {
+        "Data": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          3000.0
+        ]
+      },
+      "BodyInstance": {
+        "bNotifyRigidBodyCollision": true,
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Throwable",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SBZProjectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Interaction",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": -90.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_GlowingRectangle_GEN_VARIABLE",
+    "Outer": "BP_QRPhone_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_GlowingRectangle'",
+        "ObjectPath": "PAYDAY3/Content/Lighting/Meshes/SM_GlowingRectangle.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_VertexGlow_02'",
+          "ObjectPath": "PAYDAY3/Content/MasterMaterial/Interactable/MI_VertexGlow_02.0"
+        }
+      ],
+      "LDMaxDrawDistance": 3500.0,
+      "CachedMaxDrawDistance": 3500.0,
+      "bAllowCullDistanceVolume": false,
+      "CustomPrimitiveData": {
+        "Data": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          3000.0
+        ]
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.8,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": -90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.0625,
+        "Y": 0.13505,
+        "Z": 1.0
+      }
+    }
+  }
+]

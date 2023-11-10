@@ -1,0 +1,1614 @@
+[
+  {
+    "Type": "LevelSequence",
+    "Name": "C_DirtyIce_Shot2_01",
+    "Class": "UScriptClass'LevelSequence'",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'C_DirtyIce_Shot2_01:MovieScene_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.1"
+      },
+      "BindingReferences": {
+        "BindingIdToReferences": [
+          {
+            "Key": "15CC80B2-4ABC45EE-1A47D096-293F50C6",
+            "Value": {
+              "References": [
+                {
+                  "ExternalObjectPath": {
+                    "AssetPathName": "/Game/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.C_JewelryStore_IntroOutro",
+                    "SubPathString": "PersistentLevel.C_Camera_Shot2_01"
+                  },
+                  "ObjectPath": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "897BE45D-4421A2D9-2E360EB5-6B4031F4",
+            "Value": {
+              "References": [
+                {
+                  "ExternalObjectPath": {
+                    "AssetPathName": "None",
+                    "SubPathString": ""
+                  },
+                  "ObjectPath": "CameraComponent"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'C_DirtyIce_Shot2_01:CompiledData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.18"
+      },
+      "Signature": "D06E976F-47FCECD1-74C387B8-80B89950"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "MovieScene_0",
+    "Outer": "C_DirtyIce_Shot2_01",
+    "Class": "UScriptClass'MovieScene'",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "15CC80B2-4ABC45EE-1A47D096-293F50C6",
+          "Name": "C_Camera_Shot2_01",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CineCameraActor'",
+            "ObjectPath": "/Script/CinematicCamera"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "897BE45D-4421A2D9-2E360EB5-6B4031F4",
+          "Name": "CameraComponent",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CineCameraComponent'",
+            "ObjectPath": "/Script/CinematicCamera"
+          },
+          "ParentGuid": "15CC80B2-4ABC45EE-1A47D096-293F50C6"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "15CC80B2-4ABC45EE-1A47D096-293F50C6",
+          "BindingName": "C_Camera_Shot2_01",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene3DTransformTrack'C_DirtyIce_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.3"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "897BE45D-4421A2D9-2E360EB5-6B4031F4",
+          "BindingName": "CameraComponent",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.23"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_1'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.24"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_2'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.25"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_3'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.26"
+            }
+          ]
+        }
+      ],
+      "CameraCutTrack": {
+        "ObjectName": "MovieSceneCameraCutTrack'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.17"
+      },
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -2400
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 189599
+            }
+          }
+        }
+      },
+      "TickResolution": {
+        "Numerator": 24000
+      },
+      "DisplayRate": {
+        "Numerator": 30
+      },
+      "Signature": "A879C85C-488C1C8B-B058CE84-DBE76C4B"
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformSection",
+    "Name": "MovieScene3DTransformSection_0",
+    "Outer": "MovieScene3DTransformTrack_0",
+    "Class": "UScriptClass'MovieScene3DTransformSection'",
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -2401
+          },
+          {
+            "Value": 188799
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1184.9178,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.000918166,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1360.4712,
+            "Tangent": {
+              "ArriveTangent": 0.000918166,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1184.9178,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -2401
+          },
+          {
+            "Value": 188799
+          }
+        ],
+        "Values": [
+          {
+            "Value": -1108.3624,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": -0.0009181475,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": -1283.9122,
+            "Tangent": {
+              "ArriveTangent": -0.0009181475,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": -1108.3624,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -2401
+          },
+          {
+            "Value": 188799
+          }
+        ],
+        "Values": [
+          {
+            "Value": 208.48524,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 208.48524,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 208.48524,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -2401
+          },
+          {
+            "Value": 188799
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -2401
+          },
+          {
+            "Value": 188799
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -2401
+          },
+          {
+            "Value": 188799
+          }
+        ],
+        "Values": [
+          {
+            "Value": -45.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": -45.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": -45.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -2401
+          },
+          {
+            "Value": 188799
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -2401
+          },
+          {
+            "Value": 188799
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -2401
+          },
+          {
+            "Value": 188799
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_DirtyIce_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.4"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_DirtyIce_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.5"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "EB14322D-40D95F4C-48689E87-9FFD7F2B"
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformTrack",
+    "Name": "MovieScene3DTransformTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieScene3DTransformTrack'",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieScene3DTransformSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.2"
+        }
+      ],
+      "EvaluationFieldGuid": "78748885-42E3DF7E-0B785899-2CED5221",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene3DTransformSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.2"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "78748885-42E3DF7E-0B785899-2CED5221"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene3DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene3DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneCameraCutSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneCameraCutSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneCameraCutSection",
+    "Name": "MovieSceneCameraCutSection_0",
+    "Outer": "MovieSceneCameraCutTrack_0",
+    "Class": "UScriptClass'MovieSceneCameraCutSection'",
+    "Properties": {
+      "CameraBindingID": {
+        "Guid": "15CC80B2-4ABC45EE-1A47D096-293F50C6",
+        "ResolveParentIndex": 0
+      },
+      "InitialCameraCutTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.38268343,
+          "W": 0.9238795,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.99999994
+        },
+        "Translation": {
+          "X": 1184.9178,
+          "Y": -1108.3624,
+          "Z": 208.48524
+        }
+      },
+      "bHasInitialCameraCutTransform": true,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.6"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.7"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -2401
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 189599
+            }
+          }
+        }
+      },
+      "BlendType": {
+        "bIsValid": true
+      },
+      "Signature": "E93A7274-4E572A46-7C93F5B6-BB864066"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraCutTrack",
+    "Name": "MovieSceneCameraCutTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneCameraCutTrack'",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneCameraCutSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.16"
+        }
+      ],
+      "EvaluationFieldGuid": "57877F95-4969CDE7-0D210AAF-29265B5C",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneCameraCutSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.16"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -2401
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 189599
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "57877F95-4969CDE7-0D210AAF-29265B5C"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "C_DirtyIce_Shot2_01",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 1,
+                  "Size": 6,
+                  "Capacity": 6
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 4,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 5,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 6,
+                  "MetaDataIndex": 0
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": 1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": -2401
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 189599
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneCameraCutSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.16"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene3DTransformSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.2"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.19"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.20"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.21"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 4
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.22"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 5
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.22"
+              },
+              "EntityID": 1
+            },
+            "SharedMetaDataIndex": 5
+          }
+        ],
+        "EntityMetaData": [
+          {
+            "OverrideBoundPropertyPath": "PostProcessSettings.bOverride_VignetteIntensity",
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "bEvaluateInSequencePreRoll": false,
+            "bEvaluateInSequencePostRoll": false
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "15CC80B2-4ABC45EE-1A47D096-293F50C6"
+          },
+          {
+            "ObjectBindingID": "897BE45D-4421A2D9-2E360EB5-6B4031F4"
+          },
+          {
+            "ObjectBindingID": "897BE45D-4421A2D9-2E360EB5-6B4031F4"
+          },
+          {
+            "ObjectBindingID": "897BE45D-4421A2D9-2E360EB5-6B4031F4"
+          },
+          {
+            "ObjectBindingID": "897BE45D-4421A2D9-2E360EB5-6B4031F4"
+          }
+        ]
+      },
+      "CompiledSignature": "D06E976F-47FCECD1-74C387B8-80B89950",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_0",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 98399
+          },
+          {
+            "Value": 98400
+          }
+        ],
+        "Values": [
+          {
+            "Value": 59.456066,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 59.456066,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 70.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.8"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.9"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "A0C66657-4B71A4AF-2D6FB6BA-99E948C6"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_1",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -2401
+          },
+          {
+            "Value": 98400
+          },
+          {
+            "Value": 188799
+          }
+        ],
+        "Values": [
+          {
+            "Value": 2703.0227,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 126.32563,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 12736453.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 414160.0,
+            "Tangent": {
+              "ArriveTangent": -136.31006,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 2703.0227,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.10"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.11"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "EEC9C2B5-4AB8104E-4CBE0395-4A0C7477"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_2",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -2401
+          },
+          {
+            "Value": 98400
+          },
+          {
+            "Value": 188799
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.2,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 3.769804E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 5.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 5.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 2.8,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.12"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.13"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "44F8DEA5-468898C8-DC3A208B-4075C336"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_3",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -2401
+          },
+          {
+            "Value": 188799
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.619048,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_3.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.14"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_3.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.15"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "AB664E1C-49EC4DDC-A2DEBFA3-530BBC05"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "CurrentFocalLength",
+        "PropertyPath": "CurrentFocalLength",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.19"
+        }
+      ],
+      "EvaluationFieldGuid": "5D040E21-4E6AFA53-A6B8218E-086E05BC",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.19"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "5D040E21-4E6AFA53-A6B8218E-086E05BC"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ManualFocusDistance",
+        "PropertyPath": "FocusSettings.ManualFocusDistance"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.20"
+        }
+      ],
+      "EvaluationFieldGuid": "BEDEFACF-443F00A8-1D0B9396-771EC6D8",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.20"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "BEDEFACF-443F00A8-1D0B9396-771EC6D8"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_2",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "CurrentAperture",
+        "PropertyPath": "CurrentAperture",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.21"
+        }
+      ],
+      "EvaluationFieldGuid": "16E0F2BA-485E587D-D23958A6-CE3379D5",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.21"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "16E0F2BA-485E587D-D23958A6-CE3379D5"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_3",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "VignetteIntensity",
+        "PropertyPath": "PostProcessSettings.VignetteIntensity"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.22"
+        }
+      ],
+      "EvaluationFieldGuid": "AC0AFF00-40E5DEBE-7971D0B6-5969B656",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'C_DirtyIce_Shot2_01:MovieScene_0.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.22"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "AC0AFF00-40E5DEBE-7971D0B6-5969B656"
+    }
+  }
+]

@@ -1,0 +1,868 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ReplicatedBinaryActor_WardrobeDoor",
+    "Outer": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotator_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 56,
+          "Struct": {
+            "ObjectName": "ScriptStruct'AkExternalSourceInfo'",
+            "ObjectPath": "/Script/AkAudio"
+          }
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "Temp_delegate_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "ConstParm",
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_PostEvent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactor_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bIsLocallyControlledInteractor_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetRelativeRotation_SweepHitResult",
+        "Flags": "RF_Public",
+        "ElementSize": 144,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetRelativeRotation_SweepHitResult_1",
+        "Flags": "RF_Public",
+        "ElementSize": 144,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_ReplicatedBinaryActor_WardrobeDoor_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_ReplicatedBinaryActorVent_SBZInteractable_K2Node_ComponentBoundEvent_2_SBZOnInteraction__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZReplicatedBinaryStateActor:OnStateChanged'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__UpdateFunc",
+    "Outer": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__FinishedFunc",
+    "Outer": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_ReplicatedBinaryActor_WardrobeDoor_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.8"
+        }
+      ],
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate'BP_ReplicatedBinaryActor_WardrobeDoor_C:Timeline_0_Template'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.21"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ReplicatedBinaryActor_WardrobeDoor_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.19"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_WardrobeDoor_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_WardrobeDoor'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZReplicatedBinaryStateActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_WardrobeDoor_C:Timeline_0__FinishedFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.5"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_WardrobeDoor_C:Timeline_0__UpdateFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.4"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_WardrobeDoor_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.3"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_WardrobeDoor_C:BndEvt__BP_ReplicatedBinaryActorVent_SBZInteractable_K2Node_ComponentBoundEvent_2_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.2"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_WardrobeDoor_C:BndEvt__BP_ReplicatedBinaryActor_WardrobeDoor_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.1"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_WardrobeDoor_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_WardrobeDoor'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZOutline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZOutlineComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZInteractable",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ParticleSystem",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ParticleSystemComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "WardrobeDoor",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_0_Z_4690248B4A426E4B5728D08A52A87D78",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_0__Direction_4690248B4A426E4B5728D08A52A87D78",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_ReplicatedBinaryActor_WardrobeDoor": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_WardrobeDoor_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_WardrobeDoor'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.0"
+      },
+      "BndEvt__BP_ReplicatedBinaryActor_WardrobeDoor_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_WardrobeDoor_C:BndEvt__BP_ReplicatedBinaryActor_WardrobeDoor_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.1"
+      },
+      "BndEvt__BP_ReplicatedBinaryActorVent_SBZInteractable_K2Node_ComponentBoundEvent_2_SBZOnInteraction__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_WardrobeDoor_C:BndEvt__BP_ReplicatedBinaryActorVent_SBZInteractable_K2Node_ComponentBoundEvent_2_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.2"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_WardrobeDoor_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.3"
+      },
+      "Timeline_0__UpdateFunc": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_WardrobeDoor_C:Timeline_0__UpdateFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.4"
+      },
+      "Timeline_0__FinishedFunc": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_WardrobeDoor_C:Timeline_0__FinishedFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ReplicatedBinaryActor_WardrobeDoor_C'Default__BP_ReplicatedBinaryActor_WardrobeDoor_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.7"
+    }
+  },
+  {
+    "Type": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Name": "Default__BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.BP_ReplicatedBinaryActor_WardrobeDoor_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bState": true
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "SBZInteractable",
+          "DelegatePropertyName": "OnAckCompleteInteraction",
+          "FunctionNameToBind": "BndEvt__BP_ReplicatedBinaryActor_WardrobeDoor_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "SBZInteractable",
+          "DelegatePropertyName": "OnServerCompleteInteraction",
+          "FunctionNameToBind": "BndEvt__BP_ReplicatedBinaryActorVent_SBZInteractable_K2Node_ComponentBoundEvent_2_SBZOnInteraction__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0_2",
+    "Outer": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "UScriptClass'CurveFloat'",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.36666226,
+            "Value": 1.276329,
+            "ArriveTangent": -1.8250121,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -1.8250479,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.95,
+            "Value": -86.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.2,
+            "Value": -83.0,
+            "ArriveTangent": 5.0121284,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 5.0121284,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.8528559,
+            "Value": -84.5,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.3,
+            "Value": -85.0,
+            "ArriveTangent": -8.387526,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -8.388228,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ParticleSystem_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'P_Obsolete'",
+        "ObjectPath": "PAYDAY3/Content/VFX/P_Obsolete.10"
+      },
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractable_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "bIsAllowedInCasing": true,
+      "Shapes": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'PrimitiveComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "WardrobeDoor"
+        }
+      ],
+      "Duration": 0.1,
+      "Text": {
+        "TableId": "/Game/Localization/ST_Interaction.ST_Interaction",
+        "Key": "INT_GEN_Open"
+      },
+      "bAutoActivate": true
+    }
+  },
+  {
+    "Type": "SBZOutlineComponent",
+    "Name": "SBZOutline_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "UScriptClass'SBZOutlineComponent'",
+    "Properties": {
+      "DefaultAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_Interactable_7_5m'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_Interactable_7_5m.0"
+      },
+      "MeshSelectors": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "WardrobeDoor"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ReplicatedBinaryActor_WardrobeDoor_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.13"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_WardrobeDoor_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.17"
+        }
+      ],
+      "VariableGuid": "FD85DE12-4504BBF8-A1AA98BA-70A64278",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZOutlineComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZOutlineComponent'BP_ReplicatedBinaryActor_WardrobeDoor_C:SBZOutline_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.12"
+      },
+      "VariableGuid": "EBC116BF-41EE8434-612181B5-943D5C46",
+      "InternalVariableName": "SBZOutline"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BP_ReplicatedBinaryActor_WardrobeDoor_C:ParticleSystem_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.10"
+      },
+      "VariableGuid": "BCAEB49C-48F72E71-B2D989AE-F05B12D5",
+      "InternalVariableName": "ParticleSystem"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ReplicatedBinaryActor_WardrobeDoor_C:WardrobeDoor_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.20"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_WardrobeDoor_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.16"
+        }
+      ],
+      "VariableGuid": "6EB5856F-4D0DFF5B-7AA1A29A-6B740750",
+      "InternalVariableName": "WardrobeDoor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZInteractableComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZInteractableComponent'BP_ReplicatedBinaryActor_WardrobeDoor_C:SBZInteractable_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.11"
+      },
+      "VariableGuid": "90496067-4171C77E-2D1573BD-C581C056",
+      "InternalVariableName": "SBZInteractable"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_WardrobeDoor_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_WardrobeDoor_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_WardrobeDoor_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.15"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_WardrobeDoor_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_WardrobeDoor_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_WardrobeDoor_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_WardrobeDoor_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_WardrobeDoor_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.15"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_WardrobeDoor_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.14"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "WardrobeDoor_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'WardrobeShelves_01_Door_B'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Furniture/WardrobeShelves_01/WardrobeShelves_01_Door_B.2"
+      },
+      "LightmapType": "ELightmapType::ForceVolumetric"
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_0_Template",
+    "Outer": "BP_ReplicatedBinaryActor_WardrobeDoor_C",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Properties": {
+      "TimelineLength": 2.3,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_ReplicatedBinaryActor_WardrobeDoor_C:CurveFloat_0_2'",
+            "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_WardrobeDoor.9"
+          },
+          "PropertyName": "Timeline_0_Z_4690248B4A426E4B5728D08A52A87D78",
+          "TrackName": "Z",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "4690248B-4A426E4B-5728D08A-52A87D78",
+      "VariableName": "Timeline_0",
+      "DirectionPropertyName": "Timeline_0__Direction_4690248B4A426E4B5728D08A52A87D78",
+      "UpdateFunctionName": "Timeline_0__UpdateFunc",
+      "FinishedFunctionName": "Timeline_0__FinishedFunc"
+    }
+  }
+]

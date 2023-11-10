@@ -1,0 +1,1946 @@
+[
+  {
+    "Type": "LevelSequence",
+    "Name": "C_NoRestForTheWicked_Shot2_03",
+    "Class": "UScriptClass'LevelSequence'",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'C_NoRestForTheWicked_Shot2_03:MovieScene_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.1"
+      },
+      "BindingReferences": {
+        "BindingIdToReferences": [
+          {
+            "Key": "3DE4DBD0-4045820E-295E9189-F3679F28",
+            "Value": {
+              "References": [
+                {
+                  "ExternalObjectPath": {
+                    "AssetPathName": "/Game/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.C_BranchBank_IntroOutroSequence",
+                    "SubPathString": "PersistentLevel.Camera_NoRest_Shot2_01"
+                  },
+                  "ObjectPath": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "087F74DE-4033D780-EEDFB894-B3D6843F",
+            "Value": {
+              "References": [
+                {
+                  "ExternalObjectPath": {
+                    "AssetPathName": "None",
+                    "SubPathString": ""
+                  },
+                  "ObjectPath": "CameraComponent"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'C_NoRestForTheWicked_Shot2_03:CompiledData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.26"
+      },
+      "Signature": "25965E12-40513199-8468EAB2-7C3F145D"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "MovieScene_0",
+    "Outer": "C_NoRestForTheWicked_Shot2_03",
+    "Class": "UScriptClass'MovieScene'",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "3DE4DBD0-4045820E-295E9189-F3679F28",
+          "Name": "Camera_NoRest_Shot2_01",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CineCameraActor'",
+            "ObjectPath": "/Script/CinematicCamera"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "087F74DE-4033D780-EEDFB894-B3D6843F",
+          "Name": "CameraComponent",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CineCameraComponent'",
+            "ObjectPath": "/Script/CinematicCamera"
+          },
+          "ParentGuid": "3DE4DBD0-4045820E-295E9189-F3679F28"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "3DE4DBD0-4045820E-295E9189-F3679F28",
+          "BindingName": "Camera_NoRest_Shot2_01",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene3DTransformTrack'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieScene3DTransformTrack_1'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.3"
+            },
+            {
+              "ObjectName": "MovieSceneCameraShakeTrack'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraShakeTrack_1'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.25"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "087F74DE-4033D780-EEDFB894-B3D6843F",
+          "BindingName": "CameraComponent",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_3'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.30"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_4'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.31"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_5'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.32"
+            }
+          ]
+        }
+      ],
+      "CameraCutTrack": {
+        "ObjectName": "MovieSceneCameraCutTrack'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraCutTrack_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.22"
+      },
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 30400
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 179200
+            }
+          }
+        }
+      },
+      "TickResolution": {
+        "Numerator": 24000
+      },
+      "DisplayRate": {
+        "Numerator": 30
+      },
+      "Signature": "C170B293-499E13FA-6D2BE8A4-5FBBC1A7"
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformSection",
+    "Name": "MovieScene3DTransformSection_0",
+    "Outer": "MovieScene3DTransformTrack_1",
+    "Class": "UScriptClass'MovieScene3DTransformSection'",
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 30400
+          },
+          {
+            "Value": 177600
+          }
+        ],
+        "Values": [
+          {
+            "Value": -1653.8564,
+            "Tangent": {
+              "ArriveTangent": -0.07508364,
+              "LeaveTangent": 1.38838395E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": -1651.8127,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 30400
+          },
+          {
+            "Value": 180000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 555.1334,
+            "Tangent": {
+              "ArriveTangent": 0.01810485,
+              "LeaveTangent": -1.8550036E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 552.35834,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 30400
+          },
+          {
+            "Value": 178400
+          }
+        ],
+        "Values": [
+          {
+            "Value": 128.16563,
+            "Tangent": {
+              "ArriveTangent": -0.0027441175,
+              "LeaveTangent": 0.0001668397,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 152.85791,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 30400
+          }
+        ],
+        "Values": [
+          {
+            "Value": -0.071266145,
+            "Tangent": {
+              "ArriveTangent": 9.928579E-09,
+              "LeaveTangent": 4.8448607E-07,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 30400
+          }
+        ],
+        "Values": [
+          {
+            "Value": 4.1383104,
+            "Tangent": {
+              "ArriveTangent": 1.5985115E-05,
+              "LeaveTangent": 1.9687445E-06,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 30400
+          }
+        ],
+        "Values": [
+          {
+            "Value": -75.494484,
+            "Tangent": {
+              "ArriveTangent": 0.00038873477,
+              "LeaveTangent": 1.5463287E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 30400
+          },
+          {
+            "Value": 178400
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 30400
+          },
+          {
+            "Value": 178400
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 30400
+          },
+          {
+            "Value": 178400
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.4"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.5"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "BF5DE374-4ACFE0EE-0752CBBC-D6A61500"
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformTrack",
+    "Name": "MovieScene3DTransformTrack_1",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieScene3DTransformTrack'",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieScene3DTransformSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.2"
+        }
+      ],
+      "EvaluationFieldGuid": "4A98A653-4C383D26-F03148BD-C7022A3A",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene3DTransformSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.2"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "4A98A653-4C383D26-F03148BD-C7022A3A"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene3DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene3DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneCameraCutSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneCameraCutSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneCameraCutSection_1",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneCameraCutSection_1",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneCameraShakeSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneCameraShakeSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneCameraShakeSection_1",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneCameraShakeSection_1",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneCameraCutSection",
+    "Name": "MovieSceneCameraCutSection_0",
+    "Outer": "MovieSceneCameraCutTrack_0",
+    "Class": "UScriptClass'MovieSceneCameraCutSection'",
+    "Properties": {
+      "CameraBindingID": {
+        "Guid": "E9C8F10E-44F9FD40-4EB4E7A4-7AC1BFF8",
+        "ResolveParentIndex": 0
+      },
+      "InitialCameraCutTransform": {
+        "Rotation": {
+          "X": -0.031853676,
+          "Y": -0.03185367,
+          "Z": -0.70638853,
+          "W": 0.70638937,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 1460.7639,
+          "Y": -33.611572,
+          "Z": 226.15683
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.6"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.7"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -16000
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 21600
+            }
+          }
+        }
+      },
+      "BlendType": {
+        "bIsValid": true
+      },
+      "Signature": "F65AD967-425579B4-5B0649BB-A2A90644"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraCutSection",
+    "Name": "MovieSceneCameraCutSection_1",
+    "Outer": "MovieSceneCameraCutTrack_0",
+    "Class": "UScriptClass'MovieSceneCameraCutSection'",
+    "Properties": {
+      "CameraBindingID": {
+        "Guid": "3DE4DBD0-4045820E-295E9189-F3679F28",
+        "ResolveParentIndex": 0
+      },
+      "InitialCameraCutTransform": {
+        "Rotation": {
+          "X": -0.021611731,
+          "Y": -0.02892995,
+          "Z": -0.61176217,
+          "W": 0.7902171,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": -1653.8564,
+          "Y": 555.1334,
+          "Z": 128.16563
+        }
+      },
+      "bHasInitialCameraCutTransform": true,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_1.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.8"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_1.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.9"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 21600
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 207200
+            }
+          }
+        }
+      },
+      "BlendType": {
+        "bIsValid": true
+      },
+      "Signature": "DDC5D4F0-465B8BCD-C1D51F86-F3F5BBA1"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraCutTrack",
+    "Name": "MovieSceneCameraCutTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneCameraCutTrack'",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneCameraCutSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.20"
+        },
+        {
+          "ObjectName": "MovieSceneCameraCutSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.21"
+        }
+      ],
+      "EvaluationFieldGuid": "FD204ACC-4B14E05B-48928F83-B903704D",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneCameraCutSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.20"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -16000
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 21600
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          },
+          {
+            "Section": {
+              "ObjectName": "MovieSceneCameraCutSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_1'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.21"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 21600
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 207200
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "FD204ACC-4B14E05B-48928F83-B903704D"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraShakeSection",
+    "Name": "MovieSceneCameraShakeSection_0",
+    "Outer": "MovieSceneCameraShakeTrack_1",
+    "Class": "UScriptClass'MovieSceneCameraShakeSection'",
+    "Properties": {
+      "ShakeData": {
+        "ShakeClass": {
+          "ObjectName": "BlueprintGeneratedClass'C_GoldAndSharke_Shot2_01_Shake2_C'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01_Shake2.0"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.10"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.11"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -16000
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 180000
+            }
+          }
+        }
+      },
+      "Signature": "FF068C50-42BB9372-7DD980A4-C19FB01E"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraShakeSection",
+    "Name": "MovieSceneCameraShakeSection_1",
+    "Outer": "MovieSceneCameraShakeTrack_1",
+    "Class": "UScriptClass'MovieSceneCameraShakeSection'",
+    "Properties": {
+      "ShakeData": {
+        "ShakeClass": {
+          "ObjectName": "BlueprintGeneratedClass'C_GoldAndSharke_Shot2_01_Shake_C'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01_Shake.0"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_1.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.12"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_1.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.13"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -12800
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 180000
+            }
+          }
+        }
+      },
+      "RowIndex": 1,
+      "OverlapPriority": 1,
+      "Signature": "00D087E6-40E73395-7A19FE9F-593F2BD7"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraShakeTrack",
+    "Name": "MovieSceneCameraShakeTrack_1",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneCameraShakeTrack'",
+    "Properties": {
+      "CameraShakeSections": [
+        {
+          "ObjectName": "MovieSceneCameraShakeSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.23"
+        },
+        {
+          "ObjectName": "MovieSceneCameraShakeSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.24"
+        }
+      ],
+      "EvaluationFieldGuid": "900997C1-4A1410C0-9170C78F-52CEC89B",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneCameraShakeSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.23"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -16000
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 180000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          },
+          {
+            "Section": {
+              "ObjectName": "MovieSceneCameraShakeSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_1'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.24"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -12800
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 180000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "900997C1-4A1410C0-9170C78F-52CEC89B"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "C_NoRestForTheWicked_Shot2_03",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "3DE4DBD0-4045820E-295E9189-F3679F28",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneCameraShakeTrack'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraShakeTrack_1'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.25"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneCameraShakeSectionTemplate",
+                  "Data": {
+                    "SourceData": {
+                      "ShakeClass": {
+                        "ObjectName": "BlueprintGeneratedClass'C_GoldAndSharke_Shot2_01_Shake2_C'",
+                        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01_Shake2.0"
+                      },
+                      "PlayScale": 1.0,
+                      "PlaySpace": "ECameraShakePlaySpace::CameraLocal",
+                      "UserDefinedPlaySpace": {
+                        "Pitch": 0.0,
+                        "Yaw": 0.0,
+                        "Roll": 0.0
+                      }
+                    },
+                    "SectionStartTime": {
+                      "Value": -16000
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::RestoreState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneCameraShakeSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_0'",
+                      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.23"
+                    }
+                  }
+                },
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneCameraShakeSectionTemplate",
+                  "Data": {
+                    "SourceData": {
+                      "ShakeClass": {
+                        "ObjectName": "BlueprintGeneratedClass'C_GoldAndSharke_Shot2_01_Shake_C'",
+                        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01_Shake.0"
+                      },
+                      "PlayScale": 1.0,
+                      "PlaySpace": "ECameraShakePlaySpace::CameraLocal",
+                      "UserDefinedPlaySpace": {
+                        "Pitch": 0.0,
+                        "Yaw": 0.0,
+                        "Roll": 0.0
+                      }
+                    },
+                    "SectionStartTime": {
+                      "Value": -12800
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::RestoreState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneCameraShakeSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_1'",
+                      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.24"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "900997C1-4A1410C0-9170C78F-52CEC89B",
+              "Value": {
+                "Value": 0
+              }
+            }
+          ]
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 1,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 2,
+                  "Size": 4,
+                  "Capacity": 4
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 4,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 5,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": 2
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": -16000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 21600
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 21600
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 207200
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneCameraCutSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.20"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneCameraCutSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_1'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.21"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene3DTransformSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieScene3DTransformTrack_1.MovieScene3DTransformSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.2"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.27"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_4.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.28"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_5.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.29"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 4
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "3DE4DBD0-4045820E-295E9189-F3679F28"
+          },
+          {
+            "ObjectBindingID": "087F74DE-4033D780-EEDFB894-B3D6843F"
+          },
+          {
+            "ObjectBindingID": "087F74DE-4033D780-EEDFB894-B3D6843F"
+          },
+          {
+            "ObjectBindingID": "087F74DE-4033D780-EEDFB894-B3D6843F"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": -16000
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": -16000
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": -12800
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": -12800
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 180000
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 180000
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 2
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 1,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 1
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          }
+        ]
+      },
+      "CompiledSignature": "25965E12-40513199-8468EAB2-7C3F145D",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_3",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -12000
+          },
+          {
+            "Value": 30400
+          }
+        ],
+        "Values": [
+          {
+            "Value": 65.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 9.977952E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 69.23065,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 69.23065,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_3.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.14"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_3.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.15"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "D19D6130-48334A04-2991378D-0144E130"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_4",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 100000.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_4.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.16"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_4.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.17"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "11FF83DC-48AF4C7E-358ECC9F-4BF1EE1B"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_5",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -12000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 2.8,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 7.853429E-06,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 2.8,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_5.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.18"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_5.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.19"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "F594B675-4037B23F-262E8BAD-BFEB82B8"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_3",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "CurrentFocalLength",
+        "PropertyPath": "CurrentFocalLength",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.27"
+        }
+      ],
+      "EvaluationFieldGuid": "2897DF9D-44351CD4-DFDCBFB7-40E7D714",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_3.MovieSceneFloatSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.27"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "2897DF9D-44351CD4-DFDCBFB7-40E7D714"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_4",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ManualFocusDistance",
+        "PropertyPath": "FocusSettings.ManualFocusDistance"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_4.MovieSceneFloatSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.28"
+        }
+      ],
+      "EvaluationFieldGuid": "5DA16E23-42EC089D-AE86BC9B-5347B056",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_4.MovieSceneFloatSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.28"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "5DA16E23-42EC089D-AE86BC9B-5347B056"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_5",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "CurrentAperture",
+        "PropertyPath": "CurrentAperture",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_5.MovieSceneFloatSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.29"
+        }
+      ],
+      "EvaluationFieldGuid": "14B149F7-4EC2CD3B-6F9CCAA5-A1CFBE3E",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'C_NoRestForTheWicked_Shot2_03:MovieScene_0.MovieSceneFloatTrack_5.MovieSceneFloatSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.29"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "14B149F7-4EC2CD3B-6F9CCAA5-A1CFBE3E"
+    }
+  }
+]

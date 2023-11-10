@@ -1,0 +1,579 @@
+[
+  {
+    "Type": "Function",
+    "Name": "WhiskeyBottlePoisoned__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryActorWhiskeyBottlePoison_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ReplicatedBinaryActorWhiskeyBottlePoison",
+    "Outer": "BP_ReplicatedBinaryActorWhiskeyBottlePoison_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "DisableInteraction",
+    "Outer": "BP_ReplicatedBinaryActorWhiskeyBottlePoison_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "RemoveWhiskeyBottle",
+    "Outer": "BP_ReplicatedBinaryActorWhiskeyBottlePoison_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_ReplicatedBinaryActorWhiskeyGlass_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryActorWhiskeyBottlePoison_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "BP_ReplicatedBinaryActorWhiskeyBottlePoison_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZReplicatedBinaryStateActor:OnStateChanged'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ReplicatedBinaryActorWhiskeyBottlePoison_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.8"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.16"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:ExecuteUbergraph_BP_ReplicatedBinaryActorWhiskeyBottlePoison'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZReplicatedBinaryStateActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.5"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:BndEvt__BP_ReplicatedBinaryActorWhiskeyGlass_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.4"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:RemoveWhiskeyBottle'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.3"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:DisableInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.2"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:ExecuteUbergraph_BP_ReplicatedBinaryActorWhiskeyBottlePoison'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.1"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:WhiskeyBottlePoisoned__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GlassBottle_01_G",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZInteractable",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZOutline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZOutlineComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "WhiskeyBottlePoisoned",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:WhiskeyBottlePoisoned__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.0"
+        }
+      }
+    ],
+    "FuncMap": {
+      "WhiskeyBottlePoisoned__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:WhiskeyBottlePoisoned__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.0"
+      },
+      "ExecuteUbergraph_BP_ReplicatedBinaryActorWhiskeyBottlePoison": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:ExecuteUbergraph_BP_ReplicatedBinaryActorWhiskeyBottlePoison'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.1"
+      },
+      "DisableInteraction": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:DisableInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.2"
+      },
+      "RemoveWhiskeyBottle": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:RemoveWhiskeyBottle'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.3"
+      },
+      "BndEvt__BP_ReplicatedBinaryActorWhiskeyGlass_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:BndEvt__BP_ReplicatedBinaryActorWhiskeyGlass_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.4"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ReplicatedBinaryActorWhiskeyBottlePoison_C'Default__BP_ReplicatedBinaryActorWhiskeyBottlePoison_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.7"
+    }
+  },
+  {
+    "Type": "BP_ReplicatedBinaryActorWhiskeyBottlePoison_C",
+    "Name": "Default__BP_ReplicatedBinaryActorWhiskeyBottlePoison_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.BP_ReplicatedBinaryActorWhiskeyBottlePoison_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bState": true
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "BP_ReplicatedBinaryActorWhiskeyBottlePoison_C",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "SBZInteractable",
+          "DelegatePropertyName": "OnServerCompleteInteraction",
+          "FunctionNameToBind": "BndEvt__BP_ReplicatedBinaryActorWhiskeyGlass_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractable_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActorWhiskeyBottlePoison_C",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "GameplayInteractionQuery": {
+        "ObjectName": "SBZGameplayAbilityQuery'DA_Poison'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/MissionItem/DA_Poison.0"
+      },
+      "bIsAllowedInCasing": true,
+      "Shapes": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'PrimitiveComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "GlassBottle_01_G"
+        }
+      ],
+      "Duration": 5.0,
+      "Text": {
+        "TableId": "/Game/Localization/ST_Interaction.ST_Interaction",
+        "Key": "INT_PoisonVerb"
+      },
+      "GameplayEffectsOnInteract": [
+        {
+          "GameplayEffectClass": {
+            "ObjectName": "BlueprintGeneratedClass'GE_PenthouseBottle_C'",
+            "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/GE_PenthouseBottle.0"
+          },
+          "Level": 1.0,
+          "StackCount": 1
+        }
+      ],
+      "OnStart2DAudioEvent": {
+        "ObjectName": "AkAudioEvent'NPC_Bottle_Medicine_Pour'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/NPC_Civ/Anims/Bottles/NPC_Bottle_Medicine_Pour.1"
+      },
+      "OnFinish2DAudioEvent": {
+        "ObjectName": "AkAudioEvent'NPC_Bottle_Medicine_Pour_End'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/NPC_Civ/Anims/Bottles/NPC_Bottle_Medicine_Pour_End.1"
+      },
+      "OnCancel2DAudioEvent": {
+        "ObjectName": "AkAudioEvent'NPC_Bottle_Medicine_Pour_STOP'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/NPC_Civ/Anims/Bottles/NPC_Bottle_Medicine_Pour_STOP.1"
+      }
+    }
+  },
+  {
+    "Type": "SBZOutlineComponent",
+    "Name": "SBZOutline_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActorWhiskeyBottlePoison_C",
+    "Class": "UScriptClass'SBZOutlineComponent'",
+    "Properties": {
+      "DefaultAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_Interactable_5m'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_Interactable_5m.0"
+      },
+      "MeshSelectors": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "GlassBottle_01_G"
+        }
+      ],
+      "InteractableSelector": {
+        "ComponentName": "SBZInteractable"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActorWhiskeyBottlePoison_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.11"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.13"
+        }
+      ],
+      "VariableGuid": "FD85DE12-4504BBF8-A1AA98BA-70A64278",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:GlassBottle_01_G_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.17"
+      },
+      "VariableGuid": "9B51EC4D-4A74D029-6AC19290-B6FDAEED",
+      "InternalVariableName": "GlassBottle_01_G"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZOutlineComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZOutlineComponent'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:SBZOutline_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.10"
+      },
+      "VariableGuid": "93434DD0-4BEA4F7A-8F3B93A8-8B47E2CC",
+      "InternalVariableName": "SBZOutline"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZInteractableComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZInteractableComponent'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:SBZInteractable_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.9"
+      },
+      "VariableGuid": "72D88484-42869307-966BFA8B-32B6DF55",
+      "InternalVariableName": "SBZInteractable"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_ReplicatedBinaryActorWhiskeyBottlePoison_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.15"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.13"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ReplicatedBinaryActorWhiskeyBottlePoison_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryActorWhiskeyBottlePoison.12"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "GlassBottle_01_G_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActorWhiskeyBottlePoison_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'GlassBottle_01_G'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/GlassBottle_01/GlassBottle_01_G.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_GlassBottle_03'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/GlassBottle_01/Component/MI_GlassBottle_03.0"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_PenthousePoison_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayEffect'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_PenthousePoison_C'Default__GE_PenthousePoison_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/GE_PenthousePoison.1"
+    }
+  },
+  {
+    "Type": "GE_PenthousePoison_C",
+    "Name": "Default__GE_PenthousePoison_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Penthouse/GE_PenthousePoison.GE_PenthousePoison_C'",
+    "Properties": {
+      "DurationPolicy": "EGameplayEffectDurationType::Infinite",
+      "InheritableOwnedTagsContainer": {
+        "CombinedTags": [
+          "Item.Poison"
+        ],
+        "Added": [
+          "Item.Poison"
+        ]
+      }
+    }
+  }
+]

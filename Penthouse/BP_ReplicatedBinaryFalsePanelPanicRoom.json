@@ -1,0 +1,722 @@
+[
+  {
+    "Type": "Function",
+    "Name": "WhiskeyBottlePoisoned__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryFalsePanelPanicRoom_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ReplicatedBinaryFalsePanelPanicRoom",
+    "Outer": "BP_ReplicatedBinaryFalsePanelPanicRoom_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 56,
+          "Struct": {
+            "ObjectName": "ScriptStruct'AkExternalSourceInfo'",
+            "ObjectPath": "/Script/AkAudio"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "Temp_delegate_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "ConstParm",
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_PostEvent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetRelativeLocation_SweepHitResult",
+        "Flags": "RF_Public",
+        "ElementSize": 144,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetRelativeLocation_SweepHitResult_1",
+        "Flags": "RF_Public",
+        "ElementSize": 144,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetRelativeLocation_SweepHitResult_2",
+        "Flags": "RF_Public",
+        "ElementSize": 144,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "BP_ReplicatedBinaryFalsePanelPanicRoom_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZReplicatedBinaryStateActor:OnStateChanged'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__UpdateFunc",
+    "Outer": "BP_ReplicatedBinaryFalsePanelPanicRoom_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__FinishedFunc",
+    "Outer": "BP_ReplicatedBinaryFalsePanelPanicRoom_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ReplicatedBinaryFalsePanelPanicRoom_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate'BP_ReplicatedBinaryFalsePanelPanicRoom_C:Timeline_0_Template'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.17"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ReplicatedBinaryFalsePanelPanicRoom_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.15"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_ReplicatedBinaryFalsePanelPanicRoom_C:ExecuteUbergraph_BP_ReplicatedBinaryFalsePanelPanicRoom'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZReplicatedBinaryStateActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryFalsePanelPanicRoom_C:Timeline_0__FinishedFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.4"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryFalsePanelPanicRoom_C:Timeline_0__UpdateFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.3"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryFalsePanelPanicRoom_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.2"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryFalsePanelPanicRoom_C:ExecuteUbergraph_BP_ReplicatedBinaryFalsePanelPanicRoom'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.1"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryFalsePanelPanicRoom_C:WhiskeyBottlePoisoned__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PH_Office_HiddenDoor_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZInteractable",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZOutline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZOutlineComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Timeline_0_NewTrack_0_09DE8F3946E6CB4168860E903ED0B6C4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_0__Direction_09DE8F3946E6CB4168860E903ED0B6C4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "WhiskeyBottlePoisoned",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_ReplicatedBinaryFalsePanelPanicRoom_C:WhiskeyBottlePoisoned__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.0"
+        }
+      }
+    ],
+    "FuncMap": {
+      "WhiskeyBottlePoisoned__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryFalsePanelPanicRoom_C:WhiskeyBottlePoisoned__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.0"
+      },
+      "ExecuteUbergraph_BP_ReplicatedBinaryFalsePanelPanicRoom": {
+        "ObjectName": "Function'BP_ReplicatedBinaryFalsePanelPanicRoom_C:ExecuteUbergraph_BP_ReplicatedBinaryFalsePanelPanicRoom'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.1"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'BP_ReplicatedBinaryFalsePanelPanicRoom_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.2"
+      },
+      "Timeline_0__UpdateFunc": {
+        "ObjectName": "Function'BP_ReplicatedBinaryFalsePanelPanicRoom_C:Timeline_0__UpdateFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.3"
+      },
+      "Timeline_0__FinishedFunc": {
+        "ObjectName": "Function'BP_ReplicatedBinaryFalsePanelPanicRoom_C:Timeline_0__FinishedFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ReplicatedBinaryFalsePanelPanicRoom_C'Default__BP_ReplicatedBinaryFalsePanelPanicRoom_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.6"
+    }
+  },
+  {
+    "Type": "BP_ReplicatedBinaryFalsePanelPanicRoom_C",
+    "Name": "Default__BP_ReplicatedBinaryFalsePanelPanicRoom_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.BP_ReplicatedBinaryFalsePanelPanicRoom_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Timeline_0_NewTrack_0_09DE8F3946E6CB4168860E903ED0B6C4": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "bState": true
+    }
+  },
+  {
+    "Type": "CurveVector",
+    "Name": "CurveVector_0",
+    "Outer": "BP_ReplicatedBinaryFalsePanelPanicRoom_C",
+    "Class": "UScriptClass'CurveVector'",
+    "FloatCurves": [
+      {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": -39.4456,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -39.4456,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.2713387,
+            "Value": 17.224533,
+            "ArriveTangent": 25.703138,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 25.703709,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.0,
+            "Value": 246.60345,
+            "ArriveTangent": 75.54596,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 75.54718,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 5.0,
+            "Value": 288.0,
+            "ArriveTangent": 27.35156,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 27.35065,
+            "LeaveTangentWeight": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant"
+      },
+      {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": -0.2825699,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant"
+      },
+      null
+    ]
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractable_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryFalsePanelPanicRoom_C",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "GameplayInteractionQuery": {
+        "ObjectName": "SBZGameplayAbilityQuery'DA_Poison'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/MissionItem/DA_Poison.0"
+      },
+      "bIsAllowedInCasing": true,
+      "Shapes": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'PrimitiveComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "GlassBottle_01_G"
+        }
+      ],
+      "Duration": 5.0,
+      "Text": {
+        "TableId": "/Game/Localization/ST_Interaction.ST_Interaction",
+        "Key": "INT_GEN_Move_Panel"
+      },
+      "GameplayEffectsOnInteract": [
+        {
+          "GameplayEffectClass": {
+            "ObjectName": "BlueprintGeneratedClass'GE_PenthouseBottle_C'",
+            "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/GE_PenthouseBottle.0"
+          },
+          "Level": 1.0,
+          "StackCount": 1
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SBZOutlineComponent",
+    "Name": "SBZOutline_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryFalsePanelPanicRoom_C",
+    "Class": "UScriptClass'SBZOutlineComponent'",
+    "Properties": {
+      "DefaultAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_Interactable_5m'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_Interactable_5m.0"
+      },
+      "MeshSelectors": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "GlassBottle_01_G"
+        }
+      ],
+      "InteractableSelector": {
+        "ComponentName": "SBZInteractable"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryFalsePanelPanicRoom_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ReplicatedBinaryFalsePanelPanicRoom_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.10"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryFalsePanelPanicRoom_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.12"
+        }
+      ],
+      "VariableGuid": "FD85DE12-4504BBF8-A1AA98BA-70A64278",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ReplicatedBinaryFalsePanelPanicRoom_C:PH_Office_HiddenDoor_01_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.16"
+      },
+      "VariableGuid": "9B51EC4D-4A74D029-6AC19290-B6FDAEED",
+      "InternalVariableName": "PH_Office_HiddenDoor_01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZOutlineComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZOutlineComponent'BP_ReplicatedBinaryFalsePanelPanicRoom_C:SBZOutline_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.9"
+      },
+      "VariableGuid": "93434DD0-4BEA4F7A-8F3B93A8-8B47E2CC",
+      "InternalVariableName": "SBZOutline"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZInteractableComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZInteractableComponent'BP_ReplicatedBinaryFalsePanelPanicRoom_C:SBZInteractable_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.8"
+      },
+      "VariableGuid": "72D88484-42869307-966BFA8B-32B6DF55",
+      "InternalVariableName": "SBZInteractable"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_ReplicatedBinaryFalsePanelPanicRoom_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryFalsePanelPanicRoom_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryFalsePanelPanicRoom_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryFalsePanelPanicRoom_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.14"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryFalsePanelPanicRoom_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryFalsePanelPanicRoom_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryFalsePanelPanicRoom_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryFalsePanelPanicRoom_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.12"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ReplicatedBinaryFalsePanelPanicRoom_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.11"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "PH_Office_HiddenDoor_01_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryFalsePanelPanicRoom_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'PH_Office_HiddenDoor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Architecture/Interior/Office/PH_Office_HiddenDoor_01.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "LightmapType": "ELightmapType::ForceSurface",
+      "CastShadow": false,
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Interaction",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -2.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_0_Template",
+    "Outer": "BP_ReplicatedBinaryFalsePanelPanicRoom_C",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Properties": {
+      "VectorTracks": [
+        {
+          "CurveVector": {
+            "ObjectName": "CurveVector'BP_ReplicatedBinaryFalsePanelPanicRoom_C:CurveVector_0'",
+            "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_ReplicatedBinaryFalsePanelPanicRoom.7"
+          },
+          "PropertyName": "Timeline_0_NewTrack_0_09DE8F3946E6CB4168860E903ED0B6C4",
+          "TrackName": "NewTrack_0",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "09DE8F39-46E6CB41-68860E90-3ED0B6C4",
+      "VariableName": "Timeline_0",
+      "DirectionPropertyName": "Timeline_0__Direction_09DE8F3946E6CB4168860E903ED0B6C4",
+      "UpdateFunctionName": "Timeline_0__UpdateFunc",
+      "FinishedFunctionName": "Timeline_0__FinishedFunc"
+    }
+  }
+]

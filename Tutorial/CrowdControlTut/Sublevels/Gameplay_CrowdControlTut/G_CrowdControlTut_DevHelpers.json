@@ -1,0 +1,361 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "G_CrowdControlTut_DevHelpers_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "G_CrowdControlTut_DevHelpers_C'Default__G_CrowdControlTut_DevHelpers_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.1"
+    }
+  },
+  {
+    "Type": "G_CrowdControlTut_DevHelpers_C",
+    "Name": "Default__G_CrowdControlTut_DevHelpers_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.G_CrowdControlTut_DevHelpers_C'"
+  },
+  {
+    "Type": "G_CrowdControlTut_DevHelpers_C",
+    "Name": "G_CrowdControlTut_DevHelpers_C_0",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.G_CrowdControlTut_DevHelpers_C'",
+    "Template": {
+      "ObjectName": "G_CrowdControlTut_DevHelpers_C'Default__G_CrowdControlTut_DevHelpers_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.1"
+    },
+    "Properties": {
+      "Seed": 7944,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "G_CrowdControlTut_DevHelpers",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'G_CrowdControlTut_DevHelpers:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.4"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "G_CrowdControlTut_DevHelpers_C'G_CrowdControlTut_DevHelpers:PersistentLevel.G_CrowdControlTut_DevHelpers_C_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.2"
+      },
+      "LevelBuildDataId": "46786122-45D0F4D0-DEC6CD8B-889796C8",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'G_CrowdControlTut_DevHelpers:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.6"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'G_CrowdControlTut_DevHelpers:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.6"
+      },
+      null,
+      {
+        "ObjectName": "TextRenderActor'G_CrowdControlTut_DevHelpers:PersistentLevel.TextRenderActor7_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.8"
+      },
+      {
+        "ObjectName": "TextRenderActor'G_CrowdControlTut_DevHelpers:PersistentLevel.TextRenderActor_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.9"
+      },
+      {
+        "ObjectName": "TextRenderActor'G_CrowdControlTut_DevHelpers:PersistentLevel.TextRenderActor2_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.7"
+      },
+      {
+        "ObjectName": "G_CrowdControlTut_DevHelpers_C'G_CrowdControlTut_DevHelpers:PersistentLevel.G_CrowdControlTut_DevHelpers_C_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.2"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'G_CrowdControlTut_DevHelpers:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.4"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "G_CrowdControlTut_DevHelpers_C'G_CrowdControlTut_DevHelpers:PersistentLevel.G_CrowdControlTut_DevHelpers_C_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.2"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "E102476E-49C3043F-2CA49AB5-91230156",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'G_CrowdControlTut_DevHelpers:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.5"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "TextRenderActor",
+    "Name": "TextRenderActor2_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'TextRenderActor'",
+    "Properties": {
+      "TextRender": {
+        "ObjectName": "TextRenderComponent'G_CrowdControlTut_DevHelpers:PersistentLevel.TextRenderActor2_2.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.10"
+      },
+      "RootComponent": {
+        "ObjectName": "TextRenderComponent'G_CrowdControlTut_DevHelpers:PersistentLevel.TextRenderActor2_2.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.10"
+      }
+    }
+  },
+  {
+    "Type": "TextRenderActor",
+    "Name": "TextRenderActor7_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'TextRenderActor'",
+    "Properties": {
+      "TextRender": {
+        "ObjectName": "TextRenderComponent'G_CrowdControlTut_DevHelpers:PersistentLevel.TextRenderActor7_3.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.11"
+      },
+      "RootComponent": {
+        "ObjectName": "TextRenderComponent'G_CrowdControlTut_DevHelpers:PersistentLevel.TextRenderActor7_3.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.11"
+      }
+    }
+  },
+  {
+    "Type": "TextRenderActor",
+    "Name": "TextRenderActor_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'TextRenderActor'",
+    "Properties": {
+      "TextRender": {
+        "ObjectName": "TextRenderComponent'G_CrowdControlTut_DevHelpers:PersistentLevel.TextRenderActor_2.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.12"
+      },
+      "RootComponent": {
+        "ObjectName": "TextRenderComponent'G_CrowdControlTut_DevHelpers:PersistentLevel.TextRenderActor_2.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.12"
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "NewTextRenderComponent",
+    "Outer": "TextRenderActor2_2",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "89400FA446439119768EF695CF3ADD16",
+        "SourceString": "despawn area\r\n(not visible to player)",
+        "LocalizedString": "despawn area\r\n(not visible to player)"
+      },
+      "RelativeLocation": {
+        "X": 4144.0,
+        "Y": 656.0,
+        "Z": 192.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00009,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 2.0,
+        "Z": 2.0
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "NewTextRenderComponent",
+    "Outer": "TextRenderActor7_3",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "772C1F284DD7006DFBC71D9FEA39A682",
+        "SourceString": "Non playable room\r\n(but feel free to use it for something)",
+        "LocalizedString": "Non playable room\r\n(but feel free to use it for something)"
+      },
+      "VerticalAlignment": "EVRTA_TextCenter",
+      "RelativeLocation": {
+        "X": 3210.9268,
+        "Y": -218.92679,
+        "Z": 296.00018
+      },
+      "RelativeRotation": {
+        "Pitch": -0.00010347366,
+        "Yaw": 719.9999,
+        "Roll": 1080.0
+      },
+      "RelativeScale3D": {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "NewTextRenderComponent",
+    "Outer": "TextRenderActor_2",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "B81C4D4940825BA3EC66FDA9C79AD12D",
+        "SourceString": "Panic button\r\nNice if slightly highlited",
+        "LocalizedString": "Panic button\r\nNice if slightly highlited"
+      },
+      "RelativeLocation": {
+        "X": 4868.0,
+        "Y": 182.00014,
+        "Z": 48.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 360.00024,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.5,
+        "Z": 0.5
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "G_CrowdControlTut_DevHelpers",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'G_CrowdControlTut_DevHelpers:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Gameplay_CrowdControlTut/G_CrowdControlTut_DevHelpers.3"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

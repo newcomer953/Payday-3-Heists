@@ -1,0 +1,156 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "E_NightClub_Int_Main_F0_StaffArea_Decal_01",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'E_NightClub_Int_Main_F0_StaffArea_Decal_01:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Environment_NightClub/E_NightClub_Int_Main_F0_StaffArea_Decal_01.1"
+      },
+      "LevelBuildDataId": "2A34E230-45F09130-F06752BB-A8D9A75B",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'E_NightClub_Int_Main_F0_StaffArea_Decal_01:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Environment_NightClub/E_NightClub_Int_Main_F0_StaffArea_Decal_01.3"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'E_NightClub_Int_Main_F0_StaffArea_Decal_01:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Environment_NightClub/E_NightClub_Int_Main_F0_StaffArea_Decal_01.3"
+      },
+      null
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'E_NightClub_Int_Main_F0_StaffArea_Decal_01:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Environment_NightClub/E_NightClub_Int_Main_F0_StaffArea_Decal_01.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "99BA725B-4D5A7FB1-711195BB-CF3806B2",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'E_NightClub_Int_Main_F0_StaffArea_Decal_01:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Environment_NightClub/E_NightClub_Int_Main_F0_StaffArea_Decal_01.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "E_NightClub_Int_Main_F0_StaffArea_Decal_01",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'E_NightClub_Int_Main_F0_StaffArea_Decal_01:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Environment_NightClub/E_NightClub_Int_Main_F0_StaffArea_Decal_01.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

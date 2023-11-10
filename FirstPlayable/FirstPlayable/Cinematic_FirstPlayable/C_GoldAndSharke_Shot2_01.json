@@ -1,0 +1,2076 @@
+[
+  {
+    "Type": "LevelSequence",
+    "Name": "C_GoldAndSharke_Shot2_01",
+    "Class": "UScriptClass'LevelSequence'",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'C_GoldAndSharke_Shot2_01:MovieScene_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.1"
+      },
+      "BindingReferences": {
+        "BindingIdToReferences": [
+          {
+            "Key": "99A4EC7F-45C7E737-C1739D98-2E5F2080",
+            "Value": {
+              "References": [
+                {
+                  "ExternalObjectPath": {
+                    "AssetPathName": "/Game/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.G_FirstPlayable_IntroOutroSequence",
+                    "SubPathString": "PersistentLevel.Camera_Shot2_01_6"
+                  },
+                  "ObjectPath": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "CB1CCABA-41E23C93-82089FB5-42B660C9",
+            "Value": {
+              "References": [
+                {
+                  "ExternalObjectPath": {
+                    "AssetPathName": "None",
+                    "SubPathString": ""
+                  },
+                  "ObjectPath": "CameraComponent"
+                }
+              ]
+            }
+          },
+          {
+            "Key": "67DCBBA8-4F6CB33B-23A36586-2787EF5F",
+            "Value": {
+              "References": [
+                {
+                  "ExternalObjectPath": {
+                    "AssetPathName": "/Game/Prototype/Maps/FirstPlayable/FirstPlayable/Gameplay_FirstPlayable/G_FirstPlayable_Scripting.G_FirstPlayable_Scripting",
+                    "SubPathString": "PersistentLevel.BP_int_door_01_LobbyGate_RFID"
+                  },
+                  "ObjectPath": ""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'C_GoldAndSharke_Shot2_01:CompiledData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.27"
+      },
+      "Signature": "E69C64CA-4697EB53-2F6AFFAA-C09C083C"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "MovieScene_0",
+    "Outer": "C_GoldAndSharke_Shot2_01",
+    "Class": "UScriptClass'MovieScene'",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "99A4EC7F-45C7E737-C1739D98-2E5F2080",
+          "Name": "Camera_Shot2_01",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CineCameraActor'",
+            "ObjectPath": "/Script/CinematicCamera"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "CB1CCABA-41E23C93-82089FB5-42B660C9",
+          "Name": "CameraComponent",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CineCameraComponent'",
+            "ObjectPath": "/Script/CinematicCamera"
+          },
+          "ParentGuid": "99A4EC7F-45C7E737-C1739D98-2E5F2080"
+        },
+        {
+          "Tags": [],
+          "Guid": "67DCBBA8-4F6CB33B-23A36586-2787EF5F",
+          "Name": "BP_int_door_01_LobbyGate_RFID",
+          "PossessedObjectClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_int_door_01_LobbyGate_C'",
+            "ObjectPath": "PAYDAY3/Content/Gameplay/Props/BP_int_door_01_LobbyGate.4"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "99A4EC7F-45C7E737-C1739D98-2E5F2080",
+          "BindingName": "Camera_Shot2_01",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene3DTransformTrack'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_4'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.3"
+            },
+            {
+              "ObjectName": "MovieSceneActorReferenceTrack'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneActorReferenceTrack_1'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.5"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "CB1CCABA-41E23C93-82089FB5-42B660C9",
+          "BindingName": "CameraComponent",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_12'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.31"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_13'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.32"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_14'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.33"
+            },
+            {
+              "ObjectName": "MovieSceneCameraShakeTrack'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.26"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "67DCBBA8-4F6CB33B-23A36586-2787EF5F",
+          "BindingName": "BP_int_door_01_LobbyGate_RFID",
+          "Tracks": []
+        }
+      ],
+      "CameraCutTrack": {
+        "ObjectName": "MovieSceneCameraCutTrack'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.23"
+      },
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 156800
+            }
+          }
+        }
+      },
+      "TickResolution": {
+        "Numerator": 24000
+      },
+      "DisplayRate": {
+        "Numerator": 30
+      },
+      "Signature": "FC03284F-4B20B051-288FDFBF-D51C949F"
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformSection",
+    "Name": "MovieScene3DTransformSection_0",
+    "Outer": "MovieScene3DTransformTrack_4",
+    "Class": "UScriptClass'MovieScene3DTransformSection'",
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 156800
+          }
+        ],
+        "Values": [
+          {
+            "Value": 2043.0078,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0004394718,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 2111.917,
+            "Tangent": {
+              "ArriveTangent": 0.0004394718,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 2043.0078,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 156800
+          }
+        ],
+        "Values": [
+          {
+            "Value": -47.638817,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": -47.638817,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": -47.638817,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 156800
+          }
+        ],
+        "Values": [
+          {
+            "Value": 203.51643,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 203.51643,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 203.51643,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 156800
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 156800
+          }
+        ],
+        "Values": [
+          {
+            "Value": 5.1505837,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 1.3524476E-06,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 5.3626475,
+            "Tangent": {
+              "ArriveTangent": 1.3524476E-06,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 5.1505837,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 156800
+          }
+        ],
+        "Values": [
+          {
+            "Value": -0.011941226,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": -3.153584E-09,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": -0.012435708,
+            "Tangent": {
+              "ArriveTangent": -3.153584E-09,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": -0.011941226,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 156800
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 156800
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 156800
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_4.MovieScene3DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.6"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_4.MovieScene3DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.7"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "8C73F04C-41DBA729-3BF32398-7E762099"
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformTrack",
+    "Name": "MovieScene3DTransformTrack_4",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieScene3DTransformTrack'",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieScene3DTransformSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_4.MovieScene3DTransformSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.2"
+        }
+      ],
+      "EvaluationFieldGuid": "23BB03ED-41E6ECE2-8C43DE88-4560E80D",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene3DTransformSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_4.MovieScene3DTransformSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.2"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "23BB03ED-41E6ECE2-8C43DE88-4560E80D"
+    }
+  },
+  {
+    "Type": "MovieSceneActorReferenceSection",
+    "Name": "MovieSceneActorReferenceSection_0",
+    "Outer": "MovieSceneActorReferenceTrack_1",
+    "Class": "UScriptClass'MovieSceneActorReferenceSection'",
+    "Properties": {
+      "ActorReferenceData": {
+        "DefaultValue": {
+          "Object": {
+            "Guid": "67DCBBA8-4F6CB33B-23A36586-2787EF5F",
+            "ResolveParentIndex": 0
+          }
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneActorReferenceTrack_1.MovieSceneActorReferenceSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.8"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneActorReferenceTrack_1.MovieSceneActorReferenceSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.9"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "C34F3B7B-4E2215DC-4978CC97-1AFFD69C"
+    }
+  },
+  {
+    "Type": "MovieSceneActorReferenceTrack",
+    "Name": "MovieSceneActorReferenceTrack_1",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneActorReferenceTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ActorToTrack",
+        "PropertyPath": "LookatTrackingSettings.ActorToTrack"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneActorReferenceSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneActorReferenceTrack_1.MovieSceneActorReferenceSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.4"
+        }
+      ],
+      "EvaluationFieldGuid": "BC36668D-46168C4D-344676B3-18E2A706",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneActorReferenceSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneActorReferenceTrack_1.MovieSceneActorReferenceSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.4"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "BC36668D-46168C4D-344676B3-18E2A706"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene3DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene3DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneActorReferenceSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneActorReferenceSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneCameraCutSection_3",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneCameraCutSection_3",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneCameraShakeSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneCameraShakeSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneCameraShakeSection_1",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneCameraShakeSection_1",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneCameraCutSection",
+    "Name": "MovieSceneCameraCutSection_3",
+    "Outer": "MovieSceneCameraCutTrack_0",
+    "Class": "UScriptClass'MovieSceneCameraCutSection'",
+    "Properties": {
+      "CameraBindingID": {
+        "Guid": "99A4EC7F-45C7E737-C1739D98-2E5F2080",
+        "ResolveParentIndex": 0
+      },
+      "InitialCameraCutTransform": {
+        "Rotation": {
+          "X": -4.6822424E-06,
+          "Y": -0.04493219,
+          "Z": -0.000104101615,
+          "W": 0.99899006,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 2043.0078,
+          "Y": -47.638817,
+          "Z": 203.51643
+        }
+      },
+      "bHasInitialCameraCutTransform": true,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_3.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.10"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_3.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.11"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 156800
+            }
+          }
+        }
+      },
+      "BlendType": {
+        "bIsValid": true
+      },
+      "Signature": "18D61683-41EF5EF3-DBCDEEAE-5D792896"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraCutTrack",
+    "Name": "MovieSceneCameraCutTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneCameraCutTrack'",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneCameraCutSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.22"
+        }
+      ],
+      "EvaluationFieldGuid": "04573FCC-4E5649EE-D93173B4-1BBAD912",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneCameraCutSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_3'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.22"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 156800
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "04573FCC-4E5649EE-D93173B4-1BBAD912"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraShakeSection",
+    "Name": "MovieSceneCameraShakeSection_0",
+    "Outer": "MovieSceneCameraShakeTrack_0",
+    "Class": "UScriptClass'MovieSceneCameraShakeSection'",
+    "Properties": {
+      "ShakeData": {
+        "ShakeClass": {
+          "ObjectName": "BlueprintGeneratedClass'C_GoldAndSharke_Shot2_01_Shake_C'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01_Shake.0"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.12"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.13"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 156800
+            }
+          }
+        }
+      },
+      "Signature": "03EB25F9-4EB3DE38-86F74A96-DEE53E8D"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraShakeSection",
+    "Name": "MovieSceneCameraShakeSection_1",
+    "Outer": "MovieSceneCameraShakeTrack_0",
+    "Class": "UScriptClass'MovieSceneCameraShakeSection'",
+    "Properties": {
+      "ShakeData": {
+        "ShakeClass": {
+          "ObjectName": "BlueprintGeneratedClass'C_GoldAndSharke_Shot2_01_Shake2_C'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01_Shake2.0"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_1.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.14"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_1.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.15"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 156800
+            }
+          }
+        }
+      },
+      "RowIndex": 1,
+      "OverlapPriority": 1,
+      "Signature": "97E90C07-411644A7-96BF86AC-39EF0256"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraShakeTrack",
+    "Name": "MovieSceneCameraShakeTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneCameraShakeTrack'",
+    "Properties": {
+      "CameraShakeSections": [
+        {
+          "ObjectName": "MovieSceneCameraShakeSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.24"
+        },
+        {
+          "ObjectName": "MovieSceneCameraShakeSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.25"
+        }
+      ],
+      "EvaluationFieldGuid": "7FA6D0E5-4C4E20F7-511503A1-53F001F9",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneCameraShakeSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.24"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 156800
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          },
+          {
+            "Section": {
+              "ObjectName": "MovieSceneCameraShakeSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_1'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.25"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 156800
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "7FA6D0E5-4C4E20F7-511503A1-53F001F9"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "C_GoldAndSharke_Shot2_01",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "99A4EC7F-45C7E737-C1739D98-2E5F2080",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneActorReferenceTrack'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneActorReferenceTrack_1'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.5"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneActorReferenceSectionTemplate",
+                  "Data": {
+                    "PropertyData": {
+                      "PropertyName": "ActorToTrack",
+                      "PropertyPath": "LookatTrackingSettings.ActorToTrack"
+                    },
+                    "ActorReferenceData": {
+                      "KeyTimes": [],
+                      "DefaultValue": {
+                        "Object": {
+                          "Guid": "67DCBBA8-4F6CB33B-23A36586-2787EF5F",
+                          "SequenceID": 0,
+                          "ResolveParentIndex": 0
+                        },
+                        "ComponentName": "None",
+                        "SocketName": "None"
+                      },
+                      "KeyValues": []
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneActorReferenceSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneActorReferenceTrack_1.MovieSceneActorReferenceSection_0'",
+                      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.4"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          },
+          {
+            "Key": {
+              "Value": 1
+            },
+            "Value": {
+              "ObjectBindingID": "CB1CCABA-41E23C93-82089FB5-42B660C9",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneCameraShakeTrack'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.26"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneCameraShakeSectionTemplate",
+                  "Data": {
+                    "SourceData": {
+                      "ShakeClass": {
+                        "ObjectName": "BlueprintGeneratedClass'C_GoldAndSharke_Shot2_01_Shake_C'",
+                        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01_Shake.0"
+                      },
+                      "PlayScale": 1.0,
+                      "PlaySpace": "ECameraShakePlaySpace::CameraLocal",
+                      "UserDefinedPlaySpace": {
+                        "Pitch": 0.0,
+                        "Yaw": 0.0,
+                        "Roll": 0.0
+                      }
+                    },
+                    "SectionStartTime": {
+                      "Value": 0
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::RestoreState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneCameraShakeSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_0'",
+                      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.24"
+                    }
+                  }
+                },
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneCameraShakeSectionTemplate",
+                  "Data": {
+                    "SourceData": {
+                      "ShakeClass": {
+                        "ObjectName": "BlueprintGeneratedClass'C_GoldAndSharke_Shot2_01_Shake2_C'",
+                        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01_Shake2.0"
+                      },
+                      "PlayScale": 1.0,
+                      "PlaySpace": "ECameraShakePlaySpace::CameraLocal",
+                      "UserDefinedPlaySpace": {
+                        "Pitch": 0.0,
+                        "Yaw": 0.0,
+                        "Roll": 0.0
+                      }
+                    },
+                    "SectionStartTime": {
+                      "Value": 0
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::RestoreState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneCameraShakeSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_0.MovieSceneCameraShakeSection_1'",
+                      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.25"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 1
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "BC36668D-46168C4D-344676B3-18E2A706",
+              "Value": {
+                "Value": 0
+              }
+            },
+            {
+              "Key": "7FA6D0E5-4C4E20F7-511503A1-53F001F9",
+              "Value": {
+                "Value": 1
+              }
+            }
+          ]
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 1,
+                  "Size": 4,
+                  "Capacity": 4
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 4,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": 1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 156800
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneCameraCutSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_3'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.22"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene3DTransformSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_4.MovieScene3DTransformSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.2"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_12.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.28"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_13.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.29"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_14.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.30"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 4
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "99A4EC7F-45C7E737-C1739D98-2E5F2080"
+          },
+          {
+            "ObjectBindingID": "CB1CCABA-41E23C93-82089FB5-42B660C9"
+          },
+          {
+            "ObjectBindingID": "CB1CCABA-41E23C93-82089FB5-42B660C9"
+          },
+          {
+            "ObjectBindingID": "CB1CCABA-41E23C93-82089FB5-42B660C9"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 156800
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 156800
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 3
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              },
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 1,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 2,
+                "TearDownIndex": 65533
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  },
+                  "SectionIndex": 1
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          }
+        ]
+      },
+      "CompiledSignature": "E69C64CA-4697EB53-2F6AFFAA-C09C083C",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_12",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 156800
+          }
+        ],
+        "Values": [
+          {
+            "Value": 49.581097,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 3.294244E-05,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 54.74647,
+            "Tangent": {
+              "ArriveTangent": 3.294244E-05,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 0,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 54.74647,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_12.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.16"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_12.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.17"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "6CB6DC9A-4BAF5E39-ABAADB9D-D7A4B7CA"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_13",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 1832.8763,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_13.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.18"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_13.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.19"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "C0FC99BB-4D0D96E5-E02D9495-F96FE216"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_14",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 1.3,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_14.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.20"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_14.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.21"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "4846C895-4555B4E5-5DA8DC96-43092F4E"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_12",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "CurrentFocalLength",
+        "PropertyPath": "CurrentFocalLength",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_12.MovieSceneFloatSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.28"
+        }
+      ],
+      "EvaluationFieldGuid": "268683A2-4C44AA66-124C6787-6409B288",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_12.MovieSceneFloatSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.28"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "268683A2-4C44AA66-124C6787-6409B288"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_13",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ManualFocusDistance",
+        "PropertyPath": "FocusSettings.ManualFocusDistance"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_13.MovieSceneFloatSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.29"
+        }
+      ],
+      "EvaluationFieldGuid": "0C878C11-4E387CC3-279F449C-69AFC9BA",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_13.MovieSceneFloatSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.29"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "0C878C11-4E387CC3-279F449C-69AFC9BA"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_14",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "CurrentAperture",
+        "PropertyPath": "CurrentAperture",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_14.MovieSceneFloatSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.30"
+        }
+      ],
+      "EvaluationFieldGuid": "DA96B958-48710A09-604651BE-C684F93C",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'C_GoldAndSharke_Shot2_01:MovieScene_0.MovieSceneFloatTrack_14.MovieSceneFloatSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.30"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "DA96B958-48710A09-604651BE-C684F93C"
+    }
+  }
+]

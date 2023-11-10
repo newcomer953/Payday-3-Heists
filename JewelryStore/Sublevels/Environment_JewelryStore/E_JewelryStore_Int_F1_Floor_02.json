@@ -1,0 +1,257 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "E_JewelryStore_Int_F1_Floor_02",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'E_JewelryStore_Int_F1_Floor_02:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Environment_JewelryStore/E_JewelryStore_Int_F1_Floor_02.1"
+      },
+      "StreamingTextureGuids": [
+        "3031BF6E-42913238-6BC66786-400A9507",
+        "A8CDDF19-4DC6DA30-ADEFDAB2-BF0EBE5E",
+        "D98D36A6-4BC45FE4-C42EE3AB-9702304C",
+        "3A92DE77-465C29AD-EC64FFB3-06D6420B",
+        "41C38A9D-4985E303-5E96E9B1-1D1F25B2",
+        "FC1B45E7-4A172973-F6EE04BE-66C1EFD1",
+        "82CCC60A-4EB08DEB-0C352DA2-AB3BFF4D"
+      ],
+      "LevelBuildDataId": "99F35E0C-41D7537F-64869D88-2DC14052",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'E_JewelryStore_Int_F1_Floor_02:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Environment_JewelryStore/E_JewelryStore_Int_F1_Floor_02.3"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'E_JewelryStore_Int_F1_Floor_02:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Environment_JewelryStore/E_JewelryStore_Int_F1_Floor_02.3"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'E_JewelryStore_Int_F1_Floor_02:PersistentLevel.JS_OfficeManager_Floor_01_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Environment_JewelryStore/E_JewelryStore_Int_F1_Floor_02.4"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'E_JewelryStore_Int_F1_Floor_02:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Environment_JewelryStore/E_JewelryStore_Int_F1_Floor_02.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "A7337526-406DF2D3-CF0A0881-96A22ECA",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'E_JewelryStore_Int_F1_Floor_02:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Environment_JewelryStore/E_JewelryStore_Int_F1_Floor_02.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "JS_OfficeManager_Floor_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_JewelryStore_Int_F1_Floor_02:PersistentLevel.JS_OfficeManager_Floor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Environment_JewelryStore/E_JewelryStore_Int_F1_Floor_02.5"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_JewelryStore_Int_F1_Floor_02:PersistentLevel.JS_OfficeManager_Floor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Environment_JewelryStore/E_JewelryStore_Int_F1_Floor_02.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "JS_OfficeManager_Floor_01_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'JS_OfficeManager_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/JewelryStore/Architecture/Interior/Office_Manager/Merged/JS_OfficeManager_Floor_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 256,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 3556704256,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 509.19604
+        },
+        {
+          "PackedRelativeBox": 3556704256,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 127.29901
+        },
+        {
+          "PackedRelativeBox": 3556704256,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 509.19604
+        },
+        {
+          "PackedRelativeBox": 3556704256,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 509.19604
+        },
+        {
+          "PackedRelativeBox": 3556704256,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 509.19604
+        },
+        {
+          "PackedRelativeBox": 3556704256,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 509.19604
+        },
+        {
+          "PackedRelativeBox": 3556704256,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 127.29901
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_FabricCarpet_02_Black'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Fabric/FabricCarpet_02/MI_TIL_FabricCarpet_02_Black.0"
+        }
+      ],
+      "VisibilityId": 3076,
+      "RelativeLocation": {
+        "X": 3632.0,
+        "Y": -2024.0,
+        "Z": 32.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C74536014275C48A5C95F4A8AA2F42EB",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 285
+        }
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "E_JewelryStore_Int_F1_Floor_02",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'E_JewelryStore_Int_F1_Floor_02:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Environment_JewelryStore/E_JewelryStore_Int_F1_Floor_02.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

@@ -1,0 +1,5506 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "E_ArtGallery_Ext_Street_Floor_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "E_ArtGallery_Ext_Street_Floor_C'Default__E_ArtGallery_Ext_Street_Floor_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.1"
+    }
+  },
+  {
+    "Type": "E_ArtGallery_Ext_Street_Floor_C",
+    "Name": "Default__E_ArtGallery_Ext_Street_Floor_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.E_ArtGallery_Ext_Street_Floor_C'"
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -99.99963,
+                "Y": 19.281248,
+                "Z": -99.9375
+              },
+              {
+                "X": -99.99963,
+                "Y": 19.281254,
+                "Z": 100.0
+              },
+              {
+                "X": -99.99962,
+                "Y": -14.696589,
+                "Z": 100.0
+              },
+              {
+                "X": -99.99962,
+                "Y": -14.696588,
+                "Z": -100.0
+              },
+              {
+                "X": 96.25391,
+                "Y": 19.287779,
+                "Z": -99.9375
+              },
+              {
+                "X": 96.25391,
+                "Y": 19.287779,
+                "Z": 100.0
+              },
+              {
+                "X": 96.25783,
+                "Y": -14.696589,
+                "Z": -99.9375
+              },
+              {
+                "X": 96.25783,
+                "Y": -14.696588,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -99.99963,
+                "Y": -14.696589,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 96.25783,
+                "Y": 19.287779,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "14E813A04A0621E534ED42A4CAFCB552",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x203D6"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -99.99963,
+                "Y": 19.281248,
+                "Z": -99.9375
+              },
+              {
+                "X": -99.99963,
+                "Y": 19.281254,
+                "Z": 100.0
+              },
+              {
+                "X": -99.99962,
+                "Y": -14.696589,
+                "Z": 100.0
+              },
+              {
+                "X": -99.99962,
+                "Y": -14.696588,
+                "Z": -100.0
+              },
+              {
+                "X": 96.25391,
+                "Y": 19.287779,
+                "Z": -99.9375
+              },
+              {
+                "X": 96.25391,
+                "Y": 19.287779,
+                "Z": 100.0
+              },
+              {
+                "X": 96.25783,
+                "Y": -14.696589,
+                "Z": -99.9375
+              },
+              {
+                "X": 96.25783,
+                "Y": -14.696588,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -99.99963,
+                "Y": -14.696589,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 96.25783,
+                "Y": 19.287779,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "5E28AF3A4DE168B429817CA677AFF14F",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x209F4"
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "NavModifierVolume_Allowed7",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'E_ArtGallery_Ext_Street_Floor:PersistentLevel.NavModifierVolume_Allowed7.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.17"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'E_ArtGallery_Ext_Street_Floor:PersistentLevel.NavModifierVolume_Allowed7.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.2"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": -7598.8687,
+        "Y": -11469.017,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -450.00012,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.7364998,
+        "Y": 67.58741,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "NavModifierVolume_Allowed8",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'E_ArtGallery_Ext_Street_Floor:PersistentLevel.NavModifierVolume_Allowed8.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.18"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'E_ArtGallery_Ext_Street_Floor:PersistentLevel.NavModifierVolume_Allowed8.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.3"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": -7598.874,
+        "Y": -12877.017,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -450.00012,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.7365,
+        "Y": 63.900463,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "E_ArtGallery_Ext_Street_Floor_C",
+    "Name": "E_ArtGallery_Ext_Street_Floor_C_0",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.E_ArtGallery_Ext_Street_Floor_C'",
+    "Template": {
+      "ObjectName": "E_ArtGallery_Ext_Street_Floor_C'Default__E_ArtGallery_Ext_Street_Floor_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.1"
+    },
+    "Properties": {
+      "Seed": 11530,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_0",
+    "Outer": "InstancedFoliageActor_3",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": -0.15588045,
+          "Y": 0.03961563,
+          "Z": 1.035372
+        },
+        "BoxExtent": {
+          "X": 5.8810797,
+          "Y": 3.640232,
+          "Z": 2.5371895
+        },
+        "SphereRadius": 7.1341567
+      },
+      "InstancingRandomSeed": 6383,
+      "InstanceStartCullDistance": 1000,
+      "InstanceEndCullDistance": 2000,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Debris_01_Rock_a'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/Debris_01/Debris_01_Rock_a.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 4,
+      "CachedMaxDrawDistance": 3000.0,
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.InstancedFoliageActor_3.RootComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.23"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_1",
+    "Outer": "InstancedFoliageActor_3",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": 0.055274963,
+          "Y": 0.29890537,
+          "Z": 1.4094803
+        },
+        "BoxExtent": {
+          "X": 8.493062,
+          "Y": 4.7883883,
+          "Z": 3.4594505
+        },
+        "SphereRadius": 9.509981
+      },
+      "InstancingRandomSeed": 3341,
+      "InstanceStartCullDistance": 1000,
+      "InstanceEndCullDistance": 2000,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Debris_01_Rock_b'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/Debris_01/Debris_01_Rock_b.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 4,
+      "CachedMaxDrawDistance": 3000.0,
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.InstancedFoliageActor_3.RootComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.23"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_2",
+    "Outer": "InstancedFoliageActor_3",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": -0.32249498,
+          "Y": -0.07675552,
+          "Z": 0.5295805
+        },
+        "BoxExtent": {
+          "X": 6.5534754,
+          "Y": 4.5034065,
+          "Z": 2.4650817
+        },
+        "SphereRadius": 6.972911
+      },
+      "InstancingRandomSeed": 24793,
+      "InstanceStartCullDistance": 1000,
+      "InstanceEndCullDistance": 2000,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Debris_01_Rock_d'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/Debris_01/Debris_01_Rock_d.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 4,
+      "CachedMaxDrawDistance": 3000.0,
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.InstancedFoliageActor_3.RootComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.23"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_3",
+    "Outer": "InstancedFoliageActor_3",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": -0.008296251,
+          "Y": -0.09838009,
+          "Z": -0.046208262
+        },
+        "BoxExtent": {
+          "X": 1.1339712,
+          "Y": 3.7690783,
+          "Z": 1.0100619
+        },
+        "SphereRadius": 3.8549829
+      },
+      "InstancingRandomSeed": 25474,
+      "InstanceStartCullDistance": 1000,
+      "InstanceEndCullDistance": 2000,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Debris_01_Stick_b'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/Debris_01/Debris_01_Stick_b.2"
+      },
+      "OverriddenLightMapRes": 4,
+      "CachedMaxDrawDistance": 3000.0,
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.InstancedFoliageActor_3.RootComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.23"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_4",
+    "Outer": "InstancedFoliageActor_3",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": -2.1457672E-06,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "BoxExtent": {
+          "X": 3.7071285,
+          "Y": 6.7795677,
+          "Z": 1.0659739
+        },
+        "SphereRadius": 7.597731
+      },
+      "InstancingRandomSeed": 26891,
+      "InstanceStartCullDistance": 1000,
+      "InstanceEndCullDistance": 2000,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Debris_01_Stick_c'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/Debris_01/Debris_01_Stick_c.2"
+      },
+      "OverriddenLightMapRes": 4,
+      "CachedMaxDrawDistance": 3000.0,
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.InstancedFoliageActor_3.RootComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.23"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_5",
+    "Outer": "InstancedFoliageActor_3",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": -2.1457672E-06,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "BoxExtent": {
+          "X": 1.5495014,
+          "Y": 8.928105,
+          "Z": 0.6458979
+        },
+        "SphereRadius": 9.015883
+      },
+      "InstancingRandomSeed": 23916,
+      "InstanceStartCullDistance": 1000,
+      "InstanceEndCullDistance": 2000,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Debris_01_Stick_d'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/Debris_01/Debris_01_Stick_d.2"
+      },
+      "OverriddenLightMapRes": 4,
+      "CachedMaxDrawDistance": 3000.0,
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.InstancedFoliageActor_3.RootComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.23"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_6",
+    "Outer": "InstancedFoliageActor_3",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": -0.1332283,
+          "Y": -0.23989868,
+          "Z": 1.8933446
+        },
+        "BoxExtent": {
+          "X": 7.937769,
+          "Y": 6.469391,
+          "Z": 3.838074
+        },
+        "SphereRadius": 9.059768
+      },
+      "InstancingRandomSeed": 10622,
+      "InstanceStartCullDistance": 1000,
+      "InstanceEndCullDistance": 2000,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Debris_01_Rock_c'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/Debris_01/Debris_01_Rock_c.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 4,
+      "CachedMaxDrawDistance": 3000.0,
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.InstancedFoliageActor_3.RootComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.23"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "InstancedFoliageActor",
+    "Name": "InstancedFoliageActor_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'InstancedFoliageActor'",
+    "Properties": {
+      "RootComponent": {
+        "ObjectName": "SceneComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.InstancedFoliageActor_3.RootComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.23"
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "E_ArtGallery_Ext_Street_Floor",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.16"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "E_ArtGallery_Ext_Street_Floor_C'E_ArtGallery_Ext_Street_Floor:PersistentLevel.E_ArtGallery_Ext_Street_Floor_C_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.6"
+      },
+      "StreamingTextureGuids": [
+        "23764E40-42F7B60B-43B15286-1E5E8D11",
+        "62D3EA59-46F83A99-760C6081-CCFB9C62",
+        "714EB271-432ED046-A0C5B88D-5C9E0C8D",
+        "5386E93C-4B41203A-EE28E7BC-17DADBE6",
+        "FA26092F-4D7AABF9-EE86009F-E540CFE3",
+        "DE1BBA64-473DFDDC-F6A34B8C-6567FE4A",
+        "D7B67F1D-4561B663-AD0DC196-BA380FAC",
+        "E9572FBC-44F6F3E0-179F0CB2-A6CBAD63",
+        "9811A922-47549EF9-DD3F8D9E-5E81E350",
+        "6274BF35-47856C36-74BE28A3-4291A6F5",
+        "B0FBB102-4B294DC0-4A8FD78A-26EB404B",
+        "F950EE28-424207E8-AD31619A-8CF1EE21",
+        "4D1FCAA3-4B6ABAC2-8EEDDBB4-7BE19CE4",
+        "71815D0C-425286DC-2A85B7BC-3DC3E38F",
+        "DBD6BCD1-4ED76425-7AC7A48B-E2C3175C",
+        "99281810-48E6BF7F-82AC3192-B08648B1",
+        "C7E46ECD-41169CD5-184613B0-68DA98BE",
+        "371AF14E-4D5FE783-19A8588A-2095CECD",
+        "BEFA8943-4C9BD79A-C449058E-75AD8C28",
+        "43DD0722-4E09A85A-8953EE90-0927808C",
+        "30C8635F-41F90D00-C036CD82-D74BA820",
+        "2F470A82-49304E19-D0FC6A94-729AE520",
+        "B55739D3-4BB9FA23-3764CB9C-C23EBB9E",
+        "FF4BE6D2-4A9D6ACE-515AD8B4-0FC85A1E",
+        "3D255EC0-4B0884AF-17CEDCA5-15011BB9",
+        "C7F18856-4D4B00E5-64EBDA90-84AD291F",
+        "47A8204B-4F0A87EA-BB73FE9F-C517CFFB",
+        "E4C9F392-44BD83F1-23506BBE-FBB8F0CE",
+        "85D4C395-4386313A-55936B9A-B15AF426",
+        "8839128D-492194E4-B8EDA489-F703B774",
+        "89C70581-48F82B3A-576520BB-0BBB025C",
+        "C876E175-434FB381-0B358A9F-ACB95AD1",
+        "18869D43-453DD09A-8CDDE197-57439910",
+        "8472605A-406EF786-67B2E3A6-1B81C9BF",
+        "33F44C5A-4970ED84-6799E4AA-E5ECF84C",
+        "C404BA61-4C976052-1621D097-FCF15834",
+        "3EABE08E-4CE4D098-F991C2BE-0714F0C2",
+        "FA77746C-46BD16D5-D636429D-27B9E278",
+        "7BADD2C1-4AA5C2ED-3DAFE59C-35E17C0D",
+        "E4108CA8-4EE84D6C-308A5A9F-22F39079",
+        "5BEC36B6-48E9B346-6D96E687-B6375703",
+        "AA2EA885-457C03CA-F526CF97-71E57460",
+        "31D41FF6-4D53DB37-5C42A685-552FE9ED",
+        "FC294C3A-4D69FD4C-C9F30588-01940368",
+        "CEB265E7-4143C703-EF222AA2-DFA50C1A",
+        "17CDEE6C-4249C3A6-A75C86BF-9A7562DC"
+      ],
+      "LevelBuildDataId": "4594878F-44C79CB1-6C3409BA-C601BFE6",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.22"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.22"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.39"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_42'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.35"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_44'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.36"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_46'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.37"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_48'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.38"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_52'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.40"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_54'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.41"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_34'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.32"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_57'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.42"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_36'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.33"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_37'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.34"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_23'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.30"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_67'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.44"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_73'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.46"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_16'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.26"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_20'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.29"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_78'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.47"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_30'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.31"
+      },
+      {
+        "ObjectName": "NavModifierVolume'E_ArtGallery_Ext_Street_Floor:PersistentLevel.NavModifierVolume_Allowed7'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.20"
+      },
+      {
+        "ObjectName": "NavModifierVolume'E_ArtGallery_Ext_Street_Floor:PersistentLevel.NavModifierVolume_Allowed8'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.21"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_Hydrant_patch_14'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.49"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_Hydrant_patch_17'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.50"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_Hydrant_patch_20'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.51"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_Asphalt_patch_01_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.48"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_71'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.45"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_17'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.27"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_18'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.28"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_6'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.43"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.53"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.54"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_6'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.55"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_7'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.56"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.57"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_10'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.52"
+      },
+      {
+        "ObjectName": "InstancedFoliageActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.InstancedFoliageActor_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.14"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_02_Merged_105'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_03_Merged_90'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.25"
+      },
+      {
+        "ObjectName": "E_ArtGallery_Ext_Street_Floor_C'E_ArtGallery_Ext_Street_Floor:PersistentLevel.E_ArtGallery_Ext_Street_Floor_C_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.6"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.16"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "E_ArtGallery_Ext_Street_Floor_C'E_ArtGallery_Ext_Street_Floor:PersistentLevel.E_ArtGallery_Ext_Street_Floor_C_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.6"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "6803AFAE-48AAC447-5E93E28B-CE7E7366",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "NavModifierVolume_Allowed7",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": -1.870903,
+        "Y": 2.29105,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 98.12873,
+        "Y": 16.996727,
+        "Z": 100.0
+      },
+      "SphereRadius": 141.13162
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": -4.4887432E-07,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.99999994
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -99.99962,
+        "Y": -14.705677,
+        "Z": -100.0
+      },
+      {
+        "X": -99.99962,
+        "Y": -14.705677,
+        "Z": 100.0
+      },
+      {
+        "X": -99.99963,
+        "Y": 19.287779,
+        "Z": 100.0
+      },
+      {
+        "X": -99.99963,
+        "Y": 19.287779,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 96.25781,
+        "Y": 19.287779,
+        "Z": 100.0
+      },
+      {
+        "X": 96.25781,
+        "Y": 19.287779,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 96.25783,
+        "Y": -14.705677,
+        "Z": 100.0
+      },
+      {
+        "X": 96.25783,
+        "Y": -14.705677,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": -4.4887432E-07,
+            "Z": 0.0
+          },
+          "W": 99.999626,
+          "X": -1.0,
+          "Y": -4.4887432E-07,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 19.287779,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 4.4887432E-07,
+            "Z": 0.0
+          },
+          "W": 96.25782,
+          "X": 1.0,
+          "Y": 4.4887432E-07,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 14.705677,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.99999994
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.99999994
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": -4.4887432E-07,
+            "Z": 0.0
+          },
+          "W": 99.999626,
+          "X": -1.0,
+          "Y": -4.4887432E-07,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 19.287779,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 8,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 4.4887432E-07,
+            "Z": 0.0
+          },
+          "W": 96.25782,
+          "X": 1.0,
+          "Y": 4.4887432E-07,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 11,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 14.705677,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 12,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.99999994
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 13,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.99999994
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "61649D85-412E5F97-CD978A87-6E344685",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "NavModifierVolume_Allowed8",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": -1.870903,
+        "Y": 2.29105,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 98.12873,
+        "Y": 16.996727,
+        "Z": 100.0
+      },
+      "SphereRadius": 141.13162
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": -4.4887432E-07,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.99999994
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -99.99962,
+        "Y": -14.705677,
+        "Z": -100.0
+      },
+      {
+        "X": -99.99962,
+        "Y": -14.705677,
+        "Z": 100.0
+      },
+      {
+        "X": -99.99963,
+        "Y": 19.287779,
+        "Z": 100.0
+      },
+      {
+        "X": -99.99963,
+        "Y": 19.287779,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 96.25781,
+        "Y": 19.287779,
+        "Z": 100.0
+      },
+      {
+        "X": 96.25781,
+        "Y": 19.287779,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 96.25783,
+        "Y": -14.705677,
+        "Z": 100.0
+      },
+      {
+        "X": 96.25783,
+        "Y": -14.705677,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": -4.4887432E-07,
+            "Z": 0.0
+          },
+          "W": 99.999626,
+          "X": -1.0,
+          "Y": -4.4887432E-07,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 19.287779,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 4.4887432E-07,
+            "Z": 0.0
+          },
+          "W": 96.25782,
+          "X": 1.0,
+          "Y": 4.4887432E-07,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 14.705677,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.99999994
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.99999994
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": -4.4887432E-07,
+            "Z": 0.0
+          },
+          "W": 99.999626,
+          "X": -1.0,
+          "Y": -4.4887432E-07,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 19.287779,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 8,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 4.4887432E-07,
+            "Z": 0.0
+          },
+          "W": 96.25782,
+          "X": 1.0,
+          "Y": 4.4887432E-07,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 11,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 14.705677,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 12,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.99999994
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 13,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.99999994
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "78ED01F2-4C907A86-DF03F396-09BD7849",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "NavModifierVolume",
+    "Name": "NavModifierVolume_Allowed7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NavModifierVolume'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'SBZNavArea_AllowedArea'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'E_ArtGallery_Ext_Street_Floor:PersistentLevel.NavModifierVolume_Allowed7.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.17"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.NavModifierVolume_Allowed7.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.4"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.NavModifierVolume_Allowed7.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.4"
+      }
+    }
+  },
+  {
+    "Type": "NavModifierVolume",
+    "Name": "NavModifierVolume_Allowed8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NavModifierVolume'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'SBZNavArea_AllowedArea'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'E_ArtGallery_Ext_Street_Floor:PersistentLevel.NavModifierVolume_Allowed8.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.18"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.NavModifierVolume_Allowed8.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.5"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.NavModifierVolume_Allowed8.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.5"
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.19"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent0",
+    "Outer": "InstancedFoliageActor_3",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_02_Merged_105",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_02_Merged_105.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.58"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_02_Merged_105.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.58"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_03_Merged_90",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_03_Merged_90.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.59"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_03_Merged_90.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.59"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_16",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_16.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.60"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_16.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.60"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_17.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.61"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_17.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.61"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_18.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.62"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_18.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.62"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_20.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.63"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_20.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.63"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_23",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_23.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.64"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_23.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.64"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_30",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_30.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.65"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_30.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.65"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_34",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_34.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.66"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_34.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.66"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_36",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_36.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.67"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_36.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.67"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_37",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_37.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.68"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_37.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.68"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_42",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_42.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.69"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_42.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.69"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_44",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_44.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.70"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_44.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.70"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_46",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_46.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.71"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_46.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.71"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_48",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_48.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.72"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_48.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.72"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.73"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.73"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_52",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_52.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.74"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_52.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.74"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_54",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_54.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.75"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_54.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.75"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_57",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_57.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.76"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_57.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.76"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_6.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.77"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_6.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.77"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_67",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_67.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.78"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_67.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.78"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_71",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_71.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.79"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_71.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.79"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_73",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_73.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.80"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_73.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.80"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_78",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_78.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.81"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_78.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.81"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_Asphalt_patch_01_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_Asphalt_patch_01_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.82"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_Asphalt_patch_01_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.82"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_Hydrant_patch_14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_Hydrant_patch_14.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.83"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_Hydrant_patch_14.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.83"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_Hydrant_patch_17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_Hydrant_patch_17.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.84"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_Hydrant_patch_17.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.84"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Street_Hydrant_patch_20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_Hydrant_patch_20.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.85"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.SM_Street_Hydrant_patch_20.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.85"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Street_TilesPiece_10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_10.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.86"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_10.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.86"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Street_TilesPiece_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.87"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.87"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Street_TilesPiece_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.88"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.88"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Street_TilesPiece_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_6.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.89"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_6.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.89"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Street_TilesPiece_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_7.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.90"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_7.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.90"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Street_TilesPiece_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_9.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.91"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Street_Floor:PersistentLevel.Street_TilesPiece_9.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.91"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_02_Merged_105",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Street_02_Merged'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Merged/SM_Street_02_Merged.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 54507.34
+        },
+        {
+          "PackedRelativeBox": 1054803232,
+          "TextureLevelIndex": 33,
+          "TexelFactor": 282.20734
+        },
+        {
+          "PackedRelativeBox": 1054803232,
+          "TextureLevelIndex": 32,
+          "TexelFactor": 282.20734
+        },
+        {
+          "PackedRelativeBox": 4276027648,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 274.05185
+        },
+        {
+          "PackedRelativeBox": 4276027680,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 1096.2074
+        },
+        {
+          "PackedRelativeBox": 4276027680,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1096.2074
+        },
+        {
+          "PackedRelativeBox": 4276027680,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1096.2074
+        },
+        {
+          "PackedRelativeBox": 4276027680,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 274.05185
+        },
+        {
+          "PackedRelativeBox": 4267663648,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 1024.0985
+        },
+        {
+          "PackedRelativeBox": 4267663648,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 1024.0985
+        },
+        {
+          "PackedRelativeBox": 4267663648,
+          "TextureLevelIndex": 16,
+          "TexelFactor": 1024.0985
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2060.4617
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 54507.34
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 54507.34
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 515.1154
+        }
+      ],
+      "VisibilityId": 4035,
+      "RelativeLocation": {
+        "X": -2444.0,
+        "Y": 5968.0,
+        "Z": 16.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "92E49C664809DE63682E65BDF0C4123F"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_03_Merged_90",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Street_03_Merged'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Merged/SM_Street_03_Merged.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4026487808,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 330182.84
+        },
+        {
+          "PackedRelativeBox": 3957315712,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 19525.094
+        },
+        {
+          "PackedRelativeBox": 2146849801,
+          "TextureLevelIndex": 33,
+          "TexelFactor": 381.7248
+        },
+        {
+          "PackedRelativeBox": 4025942088,
+          "TextureLevelIndex": 44,
+          "TexelFactor": 100.77854
+        },
+        {
+          "PackedRelativeBox": 3957315718,
+          "TextureLevelIndex": 31,
+          "TexelFactor": 512.4556
+        },
+        {
+          "PackedRelativeBox": 4025942088,
+          "TextureLevelIndex": 45,
+          "TexelFactor": 100.77854
+        },
+        {
+          "PackedRelativeBox": 3957315712,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 19525.094
+        },
+        {
+          "PackedRelativeBox": 4026487808,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2076.6418
+        },
+        {
+          "PackedRelativeBox": 4026487808,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 519.16046
+        },
+        {
+          "PackedRelativeBox": 3956924512,
+          "TextureLevelIndex": 35,
+          "TexelFactor": 128.03836
+        },
+        {
+          "PackedRelativeBox": 3891680265,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 273.93027
+        },
+        {
+          "PackedRelativeBox": 3623244817,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1095.7211
+        },
+        {
+          "PackedRelativeBox": 4294547494,
+          "TextureLevelIndex": 36,
+          "TexelFactor": 164.32155
+        },
+        {
+          "PackedRelativeBox": 3891680265,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 273.93027
+        },
+        {
+          "PackedRelativeBox": 3891426314,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 1024.3958
+        },
+        {
+          "PackedRelativeBox": 3891426314,
+          "TextureLevelIndex": 16,
+          "TexelFactor": 1024.3958
+        },
+        {
+          "PackedRelativeBox": 3956924512,
+          "TextureLevelIndex": 34,
+          "TexelFactor": 128.03836
+        },
+        {
+          "PackedRelativeBox": 3623244817,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 1095.7211
+        },
+        {
+          "PackedRelativeBox": 3957316390,
+          "TextureLevelIndex": 38,
+          "TexelFactor": 508.0758
+        },
+        {
+          "PackedRelativeBox": 3957316390,
+          "TextureLevelIndex": 39,
+          "TexelFactor": 281.39685
+        },
+        {
+          "PackedRelativeBox": 3957315718,
+          "TextureLevelIndex": 40,
+          "TexelFactor": 512.4556
+        },
+        {
+          "PackedRelativeBox": 2146849801,
+          "TextureLevelIndex": 32,
+          "TexelFactor": 381.7248
+        },
+        {
+          "PackedRelativeBox": 3957316390,
+          "TextureLevelIndex": 41,
+          "TexelFactor": 508.0758
+        },
+        {
+          "PackedRelativeBox": 4026487808,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 330182.84
+        },
+        {
+          "PackedRelativeBox": 3891426314,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 1024.3958
+        },
+        {
+          "PackedRelativeBox": 3623244817,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1095.7211
+        },
+        {
+          "PackedRelativeBox": 2146849801,
+          "TextureLevelIndex": 17,
+          "TexelFactor": 1037.1337
+        },
+        {
+          "PackedRelativeBox": 2146849801,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1037.1337
+        },
+        {
+          "PackedRelativeBox": 4026487808,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 330182.84
+        },
+        {
+          "PackedRelativeBox": 2146849801,
+          "TextureLevelIndex": 15,
+          "TexelFactor": 1037.1337
+        },
+        {
+          "PackedRelativeBox": 4294547494,
+          "TextureLevelIndex": 37,
+          "TexelFactor": 164.32155
+        }
+      ],
+      "VisibilityId": 4036,
+      "RelativeLocation": {
+        "X": -1002.119,
+        "Y": -304.00806,
+        "Z": 16.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "ABF86CB74C3F4D46018EC49C1173D4D0"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_16",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Street_03'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Street_03.2"
+      },
+      "bOverrideLightMapRes": true,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 1138950144,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1042.0923
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 273.87183
+        },
+        {
+          "PackedRelativeBox": 4294326273,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 1024.2189
+        },
+        {
+          "PackedRelativeBox": 4294326273,
+          "TextureLevelIndex": 16,
+          "TexelFactor": 1024.2189
+        },
+        {
+          "PackedRelativeBox": 4294326273,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 1024.2189
+        },
+        {
+          "PackedRelativeBox": 3892248597,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 1095.4873
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 273.87183
+        },
+        {
+          "PackedRelativeBox": 3892248597,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1095.4873
+        },
+        {
+          "PackedRelativeBox": 1138950144,
+          "TextureLevelIndex": 15,
+          "TexelFactor": 1042.0923
+        },
+        {
+          "PackedRelativeBox": 3892248597,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1095.4873
+        },
+        {
+          "PackedRelativeBox": 1138950144,
+          "TextureLevelIndex": 17,
+          "TexelFactor": 1042.0923
+        }
+      ],
+      "VisibilityId": 4017,
+      "RelativeLocation": {
+        "X": -2443.998,
+        "Y": -2608.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -270.00027,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "547120A14E212DCA466954A3E637D499",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 60
+        }
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_17",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Street_T_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Street_T_02.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4227792912,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1029.8301
+        },
+        {
+          "PackedRelativeBox": 4294247456,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 174.16
+        },
+        {
+          "PackedRelativeBox": 4294247456,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 174.16
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 273.74887
+        },
+        {
+          "PackedRelativeBox": 4227793920,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 1094.9955
+        },
+        {
+          "PackedRelativeBox": 4227793920,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1094.9955
+        },
+        {
+          "PackedRelativeBox": 4227793920,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1094.9955
+        },
+        {
+          "PackedRelativeBox": 4227807236,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 1022.3677
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 273.74887
+        },
+        {
+          "PackedRelativeBox": 4227807236,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 1022.3677
+        },
+        {
+          "PackedRelativeBox": 4227072032,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 1025.2339
+        },
+        {
+          "PackedRelativeBox": 4227072032,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 1025.2339
+        },
+        {
+          "PackedRelativeBox": 4227072032,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 256.30847
+        },
+        {
+          "PackedRelativeBox": 4227072032,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 1025.2339
+        },
+        {
+          "PackedRelativeBox": 4227072032,
+          "TextureLevelIndex": 14,
+          "TexelFactor": 512.61694
+        },
+        {
+          "PackedRelativeBox": 4227792912,
+          "TextureLevelIndex": 15,
+          "TexelFactor": 1029.8301
+        },
+        {
+          "PackedRelativeBox": 4227807236,
+          "TextureLevelIndex": 16,
+          "TexelFactor": 1022.3677
+        },
+        {
+          "PackedRelativeBox": 4227792912,
+          "TextureLevelIndex": 17,
+          "TexelFactor": 1029.8301
+        }
+      ],
+      "VisibilityId": 4026,
+      "RelativeLocation": {
+        "X": -14732.0,
+        "Y": 6096.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99999,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": -1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3B6678924C67FF6B6C96AC805EC3968B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Street_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Street_02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 55236.03
+        },
+        {
+          "PackedRelativeBox": 1073086473,
+          "TextureLevelIndex": 33,
+          "TexelFactor": 281.99835
+        },
+        {
+          "PackedRelativeBox": 1073086473,
+          "TextureLevelIndex": 32,
+          "TexelFactor": 281.99835
+        },
+        {
+          "PackedRelativeBox": 4294311945,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 274.05533
+        },
+        {
+          "PackedRelativeBox": 4294270989,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 1024.0969
+        },
+        {
+          "PackedRelativeBox": 4294270989,
+          "TextureLevelIndex": 16,
+          "TexelFactor": 1024.0969
+        },
+        {
+          "PackedRelativeBox": 4294270989,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 1024.0969
+        },
+        {
+          "PackedRelativeBox": 4293787657,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 1096.2213
+        },
+        {
+          "PackedRelativeBox": 4294311945,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 274.05533
+        },
+        {
+          "PackedRelativeBox": 4293787657,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1096.2213
+        },
+        {
+          "PackedRelativeBox": 1811283987,
+          "TextureLevelIndex": 15,
+          "TexelFactor": 1026.9799
+        },
+        {
+          "PackedRelativeBox": 4293787657,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1096.2213
+        },
+        {
+          "PackedRelativeBox": 1811283987,
+          "TextureLevelIndex": 17,
+          "TexelFactor": 1026.9799
+        },
+        {
+          "PackedRelativeBox": 1811283987,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1026.9799
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2060.5247
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 55236.03
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 55236.03
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 515.13116
+        }
+      ],
+      "VisibilityId": 4027,
+      "RelativeLocation": {
+        "X": -14732.0,
+        "Y": 10188.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00004,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "50780FF242851A3BD9D8CAA65EB89E00"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Street_T_02_Sidewalk_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Street_T_02_Sidewalk_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 256,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294915077,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 36772.492
+        },
+        {
+          "PackedRelativeBox": 4294915077,
+          "TextureLevelIndex": 31,
+          "TexelFactor": 3222.679
+        },
+        {
+          "PackedRelativeBox": 1073153024,
+          "TextureLevelIndex": 32,
+          "TexelFactor": 330.88214
+        },
+        {
+          "PackedRelativeBox": 1073153024,
+          "TextureLevelIndex": 33,
+          "TexelFactor": 330.88214
+        },
+        {
+          "PackedRelativeBox": 4294915077,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 36772.492
+        },
+        {
+          "PackedRelativeBox": 3205054598,
+          "TextureLevelIndex": 27,
+          "TexelFactor": 4229.5527
+        },
+        {
+          "PackedRelativeBox": 4258903285,
+          "TextureLevelIndex": 34,
+          "TexelFactor": 256.12628
+        },
+        {
+          "PackedRelativeBox": 4258903285,
+          "TextureLevelIndex": 35,
+          "TexelFactor": 256.12628
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 157854.19
+        },
+        {
+          "PackedRelativeBox": 4246305909,
+          "TextureLevelIndex": 36,
+          "TexelFactor": 202.76436
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2076.7812
+        },
+        {
+          "PackedRelativeBox": 4246305909,
+          "TextureLevelIndex": 37,
+          "TexelFactor": 202.76436
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 529.5071
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 157854.19
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 157854.19
+        },
+        {
+          "PackedRelativeBox": 4294915077,
+          "TextureLevelIndex": 38,
+          "TexelFactor": 394.80188
+        },
+        {
+          "PackedRelativeBox": 4294915077,
+          "TextureLevelIndex": 39,
+          "TexelFactor": 3222.679
+        },
+        {
+          "PackedRelativeBox": 3205054598,
+          "TextureLevelIndex": 28,
+          "TexelFactor": 4229.5527
+        },
+        {
+          "PackedRelativeBox": 4294915077,
+          "TextureLevelIndex": 40,
+          "TexelFactor": 3222.679
+        },
+        {
+          "PackedRelativeBox": 4294915077,
+          "TextureLevelIndex": 41,
+          "TexelFactor": 394.80188
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "VisibilityId": 4018,
+      "RelativeLocation": {
+        "X": -2444.0,
+        "Y": 6096.0005,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -270.00027,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C29F5DD346639AD9F0B1C1B724E7010C",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 2250
+        }
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_23",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Sidewalk_512x512_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Sidewalk_512x512_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2048.25
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 512.0625
+        }
+      ],
+      "VisibilityId": 4014,
+      "RelativeLocation": {
+        "X": -2444.0,
+        "Y": 976.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "630B22AE4FBCC51219C8F197524FD90B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_30",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Street_03_Sidewalk_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Street_03_Sidewalk_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 34337.484
+        },
+        {
+          "PackedRelativeBox": 1005977609,
+          "TextureLevelIndex": 33,
+          "TexelFactor": 369.94254
+        },
+        {
+          "PackedRelativeBox": 1005977609,
+          "TextureLevelIndex": 32,
+          "TexelFactor": 369.94254
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2061.2512
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 34337.484
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 34337.484
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 515.3128
+        }
+      ],
+      "VisibilityId": 4020,
+      "RelativeLocation": {
+        "X": -2443.998,
+        "Y": -2608.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -270.00027,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "87B96FFF40A293670FB31585B1EB1111"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_34",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Sidewalk_512x512_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Sidewalk_512x512_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2048.25
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 512.0625
+        }
+      ],
+      "VisibilityId": 4010,
+      "RelativeLocation": {
+        "X": -2828.0,
+        "Y": 5456.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00011,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B07BC57D451C0FAF39911A87E67F6673"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_36",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Sidewalk_512x512_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Sidewalk_512x512_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2048.25
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 512.0625
+        }
+      ],
+      "VisibilityId": 4012,
+      "RelativeLocation": {
+        "X": -2828.0,
+        "Y": 5968.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00011,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "38A35D7143087AE07939ADBDD682579C"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_37",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Sidewalk_512x512_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Sidewalk_512x512_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2048.25
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 512.0625
+        }
+      ],
+      "VisibilityId": 4013,
+      "RelativeLocation": {
+        "X": -3852.0,
+        "Y": 5968.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00011,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2AFA19AB4E470A7E37B724841315D004"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_42",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Sidewalk_512x512_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Sidewalk_512x512_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2048.25
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 512.0625
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Street_01_Sidewalk_Dark_02'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Component/MI_Street_01_Sidewalk_Dark_02.0"
+        }
+      ],
+      "VisibilityId": 4004,
+      "RelativeLocation": {
+        "X": -2444.0,
+        "Y": 1488.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "FA651FFC4283E47790177AA07C7819E2"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_44",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Sidewalk_512x512_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Sidewalk_512x512_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2048.25
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 512.0625
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Street_01_Sidewalk_Dark_02'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Component/MI_Street_01_Sidewalk_Dark_02.0"
+        }
+      ],
+      "VisibilityId": 4005,
+      "RelativeLocation": {
+        "X": -2956.0,
+        "Y": 1488.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3DD33043443C4DFC2E0E669D6A2E3CC8"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_46",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Sidewalk_512x512_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Sidewalk_512x512_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2048.25
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 512.0625
+        }
+      ],
+      "VisibilityId": 4006,
+      "RelativeLocation": {
+        "X": -2956.0,
+        "Y": 976.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "54ACF2EB4FEFF712B249658A6D737252"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_48",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Sidewalk_512x512_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Sidewalk_512x512_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2048.25
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 512.0625
+        }
+      ],
+      "VisibilityId": 4007,
+      "RelativeLocation": {
+        "X": -2956.0,
+        "Y": 2000.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E15E8D2043C456F7B5EEC0A35A38B00E"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Street_T_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Street_T_02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 256,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4226809856,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1029.8301
+        },
+        {
+          "PackedRelativeBox": 4294902825,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 174.16
+        },
+        {
+          "PackedRelativeBox": 4294902825,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 174.16
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 273.74887
+        },
+        {
+          "PackedRelativeBox": 4227793920,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 1094.9955
+        },
+        {
+          "PackedRelativeBox": 4227793920,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1094.9955
+        },
+        {
+          "PackedRelativeBox": 4227793920,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1094.9955
+        },
+        {
+          "PackedRelativeBox": 4227479552,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 1022.3677
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 273.74887
+        },
+        {
+          "PackedRelativeBox": 4227479552,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 1022.3677
+        },
+        {
+          "PackedRelativeBox": 4227792938,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 1025.2339
+        },
+        {
+          "PackedRelativeBox": 4227792938,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 1025.2339
+        },
+        {
+          "PackedRelativeBox": 4227792938,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 256.30847
+        },
+        {
+          "PackedRelativeBox": 4227792938,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 1025.2339
+        },
+        {
+          "PackedRelativeBox": 4227792938,
+          "TextureLevelIndex": 14,
+          "TexelFactor": 512.61694
+        },
+        {
+          "PackedRelativeBox": 4226809856,
+          "TextureLevelIndex": 15,
+          "TexelFactor": 1029.8301
+        },
+        {
+          "PackedRelativeBox": 4227479552,
+          "TextureLevelIndex": 16,
+          "TexelFactor": 1022.3677
+        },
+        {
+          "PackedRelativeBox": 4226809856,
+          "TextureLevelIndex": 17,
+          "TexelFactor": 1029.8301
+        }
+      ],
+      "VisibilityId": 4003,
+      "RelativeLocation": {
+        "X": -2444.0,
+        "Y": 6096.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -270.00027,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "80018518453682502C884985305ACDDC",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 754
+        }
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_52",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Sidewalk_512x512_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Sidewalk_512x512_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2048.25
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 512.0625
+        }
+      ],
+      "VisibilityId": 4008,
+      "RelativeLocation": {
+        "X": -3340.0,
+        "Y": 5968.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00011,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "18B22B2649CAA1D06E751B8483530A17"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_54",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Sidewalk_512x512_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Sidewalk_512x512_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2048.25
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 512.0625
+        }
+      ],
+      "VisibilityId": 4009,
+      "RelativeLocation": {
+        "X": -3340.0,
+        "Y": 5456.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00011,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F290526F43D1D9CB11FFD09F834C32B6"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_57",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Sidewalk_512x512_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Sidewalk_512x512_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2048.25
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 512.0625
+        }
+      ],
+      "VisibilityId": 4011,
+      "RelativeLocation": {
+        "X": -3852.0,
+        "Y": 5456.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00011,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "15D26F1444C89089ECB3DCA3FE930A36"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Street_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Street_02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 55236.03
+        },
+        {
+          "PackedRelativeBox": 1073086473,
+          "TextureLevelIndex": 33,
+          "TexelFactor": 281.99835
+        },
+        {
+          "PackedRelativeBox": 1073086473,
+          "TextureLevelIndex": 32,
+          "TexelFactor": 281.99835
+        },
+        {
+          "PackedRelativeBox": 4294311945,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 274.05533
+        },
+        {
+          "PackedRelativeBox": 4294270989,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 1024.0969
+        },
+        {
+          "PackedRelativeBox": 4294270989,
+          "TextureLevelIndex": 16,
+          "TexelFactor": 1024.0969
+        },
+        {
+          "PackedRelativeBox": 4294270989,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 1024.0969
+        },
+        {
+          "PackedRelativeBox": 4293787657,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 1096.2213
+        },
+        {
+          "PackedRelativeBox": 4294311945,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 274.05533
+        },
+        {
+          "PackedRelativeBox": 4293787657,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1096.2213
+        },
+        {
+          "PackedRelativeBox": 1811283987,
+          "TextureLevelIndex": 15,
+          "TexelFactor": 1026.9799
+        },
+        {
+          "PackedRelativeBox": 4293787657,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1096.2213
+        },
+        {
+          "PackedRelativeBox": 1811283987,
+          "TextureLevelIndex": 17,
+          "TexelFactor": 1026.9799
+        },
+        {
+          "PackedRelativeBox": 1811283987,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1026.9799
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2060.5247
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 55236.03
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 55236.03
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 515.13116
+        }
+      ],
+      "VisibilityId": 4028,
+      "RelativeLocation": {
+        "X": -14732.0,
+        "Y": 6096.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00004,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E18CB0BF43C8811EEF670B8C42B6F1D9"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_67",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Sidewalk_512x512_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Sidewalk_512x512_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2048.25
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 524288.0
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 512.0625
+        }
+      ],
+      "VisibilityId": 4015,
+      "RelativeLocation": {
+        "X": -2444.0,
+        "Y": 2000.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.0002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D9C1DDAA445814C75A41199A05235E91"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_71",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Street_T_02_Sidewalk_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Street_T_02_Sidewalk_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294587392,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 36772.492
+        },
+        {
+          "PackedRelativeBox": 4294587392,
+          "TextureLevelIndex": 31,
+          "TexelFactor": 3222.679
+        },
+        {
+          "PackedRelativeBox": 1073677320,
+          "TextureLevelIndex": 32,
+          "TexelFactor": 330.88214
+        },
+        {
+          "PackedRelativeBox": 1073677320,
+          "TextureLevelIndex": 33,
+          "TexelFactor": 330.88214
+        },
+        {
+          "PackedRelativeBox": 4294587392,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 36772.492
+        },
+        {
+          "PackedRelativeBox": 3204006038,
+          "TextureLevelIndex": 27,
+          "TexelFactor": 4229.5527
+        },
+        {
+          "PackedRelativeBox": 4257854694,
+          "TextureLevelIndex": 34,
+          "TexelFactor": 256.12628
+        },
+        {
+          "PackedRelativeBox": 4257854694,
+          "TextureLevelIndex": 35,
+          "TexelFactor": 256.12628
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 157854.19
+        },
+        {
+          "PackedRelativeBox": 4245257286,
+          "TextureLevelIndex": 36,
+          "TexelFactor": 202.76436
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2076.7812
+        },
+        {
+          "PackedRelativeBox": 4245257286,
+          "TextureLevelIndex": 37,
+          "TexelFactor": 202.76436
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 529.5071
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 157854.19
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 157854.19
+        },
+        {
+          "PackedRelativeBox": 4294587392,
+          "TextureLevelIndex": 38,
+          "TexelFactor": 394.80188
+        },
+        {
+          "PackedRelativeBox": 4294587392,
+          "TextureLevelIndex": 39,
+          "TexelFactor": 3222.679
+        },
+        {
+          "PackedRelativeBox": 3204006038,
+          "TextureLevelIndex": 28,
+          "TexelFactor": 4229.5527
+        },
+        {
+          "PackedRelativeBox": 4294587392,
+          "TextureLevelIndex": 40,
+          "TexelFactor": 3222.679
+        },
+        {
+          "PackedRelativeBox": 4294587392,
+          "TextureLevelIndex": 41,
+          "TexelFactor": 394.80188
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "VisibilityId": 4025,
+      "RelativeLocation": {
+        "X": -14732.0,
+        "Y": 6096.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00021,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": -1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "939DF45F4A605CD312D052A24C7F5BED"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_73",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Street_T_intersection_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Street_T_intersection_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 256,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4288610378,
+          "TextureLevelIndex": 23,
+          "TexelFactor": 1008.874
+        },
+        {
+          "PackedRelativeBox": 4288610378,
+          "TextureLevelIndex": 24,
+          "TexelFactor": 330.29074
+        },
+        {
+          "PackedRelativeBox": 4284416138,
+          "TextureLevelIndex": 25,
+          "TexelFactor": 990.8722
+        },
+        {
+          "PackedRelativeBox": 4284416138,
+          "TextureLevelIndex": 26,
+          "TexelFactor": 990.8722
+        },
+        {
+          "PackedRelativeBox": 4293591040,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 273.81042
+        },
+        {
+          "PackedRelativeBox": 4293277696,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 1024.8015
+        },
+        {
+          "PackedRelativeBox": 4293277696,
+          "TextureLevelIndex": 16,
+          "TexelFactor": 1024.8015
+        },
+        {
+          "PackedRelativeBox": 4293277696,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 1024.8015
+        },
+        {
+          "PackedRelativeBox": 4293394437,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 1095.2417
+        },
+        {
+          "PackedRelativeBox": 4293591040,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 273.81042
+        },
+        {
+          "PackedRelativeBox": 4293394437,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1095.2417
+        },
+        {
+          "PackedRelativeBox": 4289331657,
+          "TextureLevelIndex": 27,
+          "TexelFactor": 3672.5938
+        },
+        {
+          "PackedRelativeBox": 4289331657,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 29380.75
+        },
+        {
+          "PackedRelativeBox": 4289331657,
+          "TextureLevelIndex": 28,
+          "TexelFactor": 3672.5938
+        },
+        {
+          "PackedRelativeBox": 4289331657,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 29380.75
+        },
+        {
+          "PackedRelativeBox": 4293591040,
+          "TextureLevelIndex": 15,
+          "TexelFactor": 1026.8396
+        },
+        {
+          "PackedRelativeBox": 4293394437,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1095.2417
+        },
+        {
+          "PackedRelativeBox": 4293591040,
+          "TextureLevelIndex": 17,
+          "TexelFactor": 1026.8396
+        },
+        {
+          "PackedRelativeBox": 4293591040,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1026.8396
+        },
+        {
+          "PackedRelativeBox": 4288610378,
+          "TextureLevelIndex": 29,
+          "TexelFactor": 330.29074
+        },
+        {
+          "PackedRelativeBox": 4288610378,
+          "TextureLevelIndex": 30,
+          "TexelFactor": 1008.874
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BLD_TIL_AsphaltDamaged_WetMud_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Asphalt/AsphaltDamaged_01/MI_BLD_TIL_AsphaltDamaged_WetMud_01.0"
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BLD_TIL_AsphaltDamaged_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Asphalt/AsphaltDamaged_01/MI_BLD_TIL_AsphaltDamaged_01.0"
+        }
+      ],
+      "LDMaxDrawDistance": 10000.0,
+      "CachedMaxDrawDistance": 10000.0,
+      "bAllowCullDistanceVolume": false,
+      "VisibilityId": 4016,
+      "RelativeLocation": {
+        "X": -2444.0,
+        "Y": -304.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -270.00027,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "9BDE4880413032FB096EE8A8B81E72D8",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 658
+        }
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_78",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Street_T_intersection_01_Sidewalk_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Street_T_intersection_01_Sidewalk_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 3422486528,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 343382.22
+        },
+        {
+          "PackedRelativeBox": 872349764,
+          "TextureLevelIndex": 33,
+          "TexelFactor": 384.52213
+        },
+        {
+          "PackedRelativeBox": 3421669539,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 292.81223
+        },
+        {
+          "PackedRelativeBox": 3422486528,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 529.2924
+        },
+        {
+          "PackedRelativeBox": 3422486528,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2096.96
+        },
+        {
+          "PackedRelativeBox": 3422486528,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 343382.22
+        },
+        {
+          "PackedRelativeBox": 4266548555,
+          "TextureLevelIndex": 42,
+          "TexelFactor": 510.68927
+        },
+        {
+          "PackedRelativeBox": 872349764,
+          "TextureLevelIndex": 32,
+          "TexelFactor": 384.52213
+        },
+        {
+          "PackedRelativeBox": 3421669547,
+          "TextureLevelIndex": 38,
+          "TexelFactor": 255.90492
+        },
+        {
+          "PackedRelativeBox": 3421669547,
+          "TextureLevelIndex": 39,
+          "TexelFactor": 263.2809
+        },
+        {
+          "PackedRelativeBox": 3421669547,
+          "TextureLevelIndex": 31,
+          "TexelFactor": 263.2809
+        },
+        {
+          "PackedRelativeBox": 3421669539,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 292.81223
+        },
+        {
+          "PackedRelativeBox": 3421669547,
+          "TextureLevelIndex": 41,
+          "TexelFactor": 255.90492
+        },
+        {
+          "PackedRelativeBox": 3421669547,
+          "TextureLevelIndex": 40,
+          "TexelFactor": 263.2809
+        },
+        {
+          "PackedRelativeBox": 4266548555,
+          "TextureLevelIndex": 43,
+          "TexelFactor": 510.68927
+        },
+        {
+          "PackedRelativeBox": 3422486528,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 343382.22
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "LDMaxDrawDistance": 10000.0,
+      "CachedMaxDrawDistance": 10000.0,
+      "bAllowCullDistanceVolume": false,
+      "VisibilityId": 4019,
+      "RelativeLocation": {
+        "X": -2444.0,
+        "Y": -304.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -360.0004,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "AA0F4494464BFE7750D158AD37992D62",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 1378
+        }
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_Asphalt_patch_01_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Street_Asphalt_patch_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Street_Asphalt_patch_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 35,
+          "TexelFactor": 256.05325
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 163.53337
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 163.53337
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 34,
+          "TexelFactor": 256.05325
+        }
+      ],
+      "VisibilityId": 4024,
+      "RelativeLocation": {
+        "X": -472.0,
+        "Y": 7888.0,
+        "Z": 16.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3ACD062D4D347F38E56E88A965928628"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_Hydrant_patch_14",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Street_Hydrant_patch_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Street_Hydrant_patch_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294965248,
+          "TextureLevelIndex": 35,
+          "TexelFactor": 256.31546
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 163.53717
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 163.53717
+        },
+        {
+          "PackedRelativeBox": 4294965248,
+          "TextureLevelIndex": 34,
+          "TexelFactor": 256.31546
+        }
+      ],
+      "VisibilityId": 4021,
+      "RelativeLocation": {
+        "X": 651.29065,
+        "Y": -984.0774,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -22.5,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E6D1B542409FD4870CBCE5BA3359D608"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_Hydrant_patch_17",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Street_Hydrant_patch_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Street_Hydrant_patch_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294899713,
+          "TextureLevelIndex": 35,
+          "TexelFactor": 256.31546
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 163.53717
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 163.53717
+        },
+        {
+          "PackedRelativeBox": 4294899713,
+          "TextureLevelIndex": 34,
+          "TexelFactor": 256.31546
+        }
+      ],
+      "VisibilityId": 4022,
+      "RelativeLocation": {
+        "X": -912.00037,
+        "Y": 2512.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00012,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4E4439E747E8D0DEEE5963AAC07F7582"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Street_Hydrant_patch_20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Street_Hydrant_patch_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/SM_Street_Hydrant_patch_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292868128,
+          "TextureLevelIndex": 35,
+          "TexelFactor": 256.31546
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 163.53717
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 163.53717
+        },
+        {
+          "PackedRelativeBox": 4292868128,
+          "TextureLevelIndex": 34,
+          "TexelFactor": 256.31546
+        }
+      ],
+      "VisibilityId": 4023,
+      "RelativeLocation": {
+        "X": -2888.0,
+        "Y": 6488.0,
+        "Z": 16.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C3CC99B34CC4A2D98845B9B78CC3B685"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Street_TilesPiece_10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Street_TilesPiece_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Street_TilesPiece_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2080.879
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 520.2197
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Street_01_Sidewalk_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Component/MI_Street_01_Sidewalk_01.0"
+        }
+      ],
+      "VisibilityId": 4034,
+      "RelativeLocation": {
+        "X": -2372.0,
+        "Y": 2129.0,
+        "Z": 14.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 8.7E-05,
+        "Roll": 1E-06
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.2
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "5893E7504DB8CBBDF5137EB547DC2893"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Street_TilesPiece_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Street_TilesPiece_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Street_TilesPiece_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2080.879
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 520.2197
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Street_01_Sidewalk_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Component/MI_Street_01_Sidewalk_01.0"
+        }
+      ],
+      "VisibilityId": 4029,
+      "RelativeLocation": {
+        "X": -723.81586,
+        "Y": 337.70078,
+        "Z": 13.01993
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "728DCD8D4C15BE0B05230188C63FF740"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Street_TilesPiece_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Street_TilesPiece_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Street_TilesPiece_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2080.879
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 520.2197
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Street_01_Sidewalk_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Component/MI_Street_01_Sidewalk_01.0"
+        }
+      ],
+      "VisibilityId": 4030,
+      "RelativeLocation": {
+        "X": -851.81586,
+        "Y": 592.7008,
+        "Z": 13.01993
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.2
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3991B6624F42B6EF2CE7BBAD07F19198"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Street_TilesPiece_6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Street_TilesPiece_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Street_TilesPiece_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2080.879
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 520.2197
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Street_01_Sidewalk_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Component/MI_Street_01_Sidewalk_01.0"
+        }
+      ],
+      "VisibilityId": 4031,
+      "RelativeLocation": {
+        "X": -2371.0,
+        "Y": 335.0,
+        "Z": 14.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.2
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1C04DAA244CF5B5FB0DEF28BF5EF9D44"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Street_TilesPiece_7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Street_TilesPiece_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Street_TilesPiece_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2080.879
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 520.2197
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Street_01_Sidewalk_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Component/MI_Street_01_Sidewalk_01.0"
+        }
+      ],
+      "VisibilityId": 4032,
+      "RelativeLocation": {
+        "X": -2115.963,
+        "Y": 1617.0,
+        "Z": 14.000688
+      },
+      "RelativeRotation": {
+        "Pitch": 0.9949604,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3B569B9A4E7E7F8710E2AABC66EEB8E8"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Street_TilesPiece_9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Street_TilesPiece_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Street_TilesPiece_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 2080.879
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 259481.16
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 520.2197
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Street_01_Sidewalk_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Street/Component/MI_Street_01_Sidewalk_01.0"
+        }
+      ],
+      "VisibilityId": 4033,
+      "RelativeLocation": {
+        "X": -2116.0,
+        "Y": 2000.0,
+        "Z": 14.0
+      },
+      "RelativeRotation": {
+        "Pitch": -0.69505525,
+        "Yaw": -179.99994,
+        "Roll": 2.3853802E-06
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.2
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F23EC13C4FCF0CDD2BDF48BBA3F48DF4"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "E_ArtGallery_Ext_Street_Floor",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'E_ArtGallery_Ext_Street_Floor:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Street_Floor.15"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

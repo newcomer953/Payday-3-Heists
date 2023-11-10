@@ -1,0 +1,802 @@
+[
+  {
+    "Type": "Function",
+    "Name": "OnSabotagedStateChanged__DelegateSignature",
+    "Outer": "BP_StaticInteraction_SprinklerSystem_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bSabotaged",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_StaticInteraction_SprinklerSystem",
+    "Outer": "BP_StaticInteraction_SprinklerSystem_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'SBZSabotagePointDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_bSabotaged",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZSabotagePoint'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_InteractableComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "ConstParm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bInNewState",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZSabotagePoint'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_SetEnabled_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_AddLocalMarker_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_StaticInteraction_SprinklerSystem_Interactable_K2Node_ComponentBoundEvent_1_SBZOnInteractableStateChangedDelegate__DelegateSignature",
+    "Outer": "BP_StaticInteraction_SprinklerSystem_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InteractableComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bInNewState",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_StaticInteraction_SprinklerSystem_Interactable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature",
+    "Outer": "BP_StaticInteraction_SprinklerSystem_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSabotaged",
+    "Outer": "BP_StaticInteraction_SprinklerSystem_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bSabotaged",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintAuthorityOnly | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "BP_StaticInteraction_SprinklerSystem_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Outer": "BP_StaticInteraction_SprinklerSystem_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_StaticInteraction_SprinklerSystem_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_StaticInteraction_SprinklerSystem_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.9"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_StaticInteraction_SprinklerSystem_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.17"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_StaticInteraction_SprinklerSystem_C:ExecuteUbergraph_BP_StaticInteraction_SprinklerSystem'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZStaticInteractionActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_StaticInteraction_SprinklerSystem_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.6"
+      },
+      {
+        "ObjectName": "Function'BP_StaticInteraction_SprinklerSystem_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.5"
+      },
+      {
+        "ObjectName": "Function'BP_StaticInteraction_SprinklerSystem_C:OnSabotaged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.4"
+      },
+      {
+        "ObjectName": "Function'BP_StaticInteraction_SprinklerSystem_C:BndEvt__BP_StaticInteraction_SprinklerSystem_Interactable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.3"
+      },
+      {
+        "ObjectName": "Function'BP_StaticInteraction_SprinklerSystem_C:BndEvt__BP_StaticInteraction_SprinklerSystem_Interactable_K2Node_ComponentBoundEvent_1_SBZOnInteractableStateChangedDelegate__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.2"
+      },
+      {
+        "ObjectName": "Function'BP_StaticInteraction_SprinklerSystem_C:ExecuteUbergraph_BP_StaticInteraction_SprinklerSystem'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.1"
+      },
+      {
+        "ObjectName": "Function'BP_StaticInteraction_SprinklerSystem_C:OnSabotagedStateChanged__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZOutline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZOutlineComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "SabotagePoint",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "SabotagePoint",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'SBZSabotagePoint'",
+            "ObjectPath": "/Script/Starbreeze"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "MarkerID",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnSabotagedStateChanged",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_StaticInteraction_SprinklerSystem_C:OnSabotagedStateChanged__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.0"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "ThermiteState",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Enum": {
+          "ObjectName": "Enum'ESBZThermiteBurnState'",
+          "ObjectPath": "/Script/Starbreeze"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FuncMap": {
+      "OnSabotagedStateChanged__DelegateSignature": {
+        "ObjectName": "Function'BP_StaticInteraction_SprinklerSystem_C:OnSabotagedStateChanged__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.0"
+      },
+      "ExecuteUbergraph_BP_StaticInteraction_SprinklerSystem": {
+        "ObjectName": "Function'BP_StaticInteraction_SprinklerSystem_C:ExecuteUbergraph_BP_StaticInteraction_SprinklerSystem'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.1"
+      },
+      "BndEvt__BP_StaticInteraction_SprinklerSystem_Interactable_K2Node_ComponentBoundEvent_1_SBZOnInteractableStateChangedDelegate__DelegateSignature": {
+        "ObjectName": "Function'BP_StaticInteraction_SprinklerSystem_C:BndEvt__BP_StaticInteraction_SprinklerSystem_Interactable_K2Node_ComponentBoundEvent_1_SBZOnInteractableStateChangedDelegate__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.2"
+      },
+      "BndEvt__BP_StaticInteraction_SprinklerSystem_Interactable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature": {
+        "ObjectName": "Function'BP_StaticInteraction_SprinklerSystem_C:BndEvt__BP_StaticInteraction_SprinklerSystem_Interactable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.3"
+      },
+      "OnSabotaged": {
+        "ObjectName": "Function'BP_StaticInteraction_SprinklerSystem_C:OnSabotaged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.4"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_StaticInteraction_SprinklerSystem_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.5"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_StaticInteraction_SprinklerSystem_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.6"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_StaticInteraction_SprinklerSystem_C'Default__BP_StaticInteraction_SprinklerSystem_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.8"
+    }
+  },
+  {
+    "Type": "BP_StaticInteraction_SprinklerSystem_C",
+    "Name": "Default__BP_StaticInteraction_SprinklerSystem_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.BP_StaticInteraction_SprinklerSystem_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "MarkerID": -1,
+      "Interactable": {
+        "ObjectName": "SBZInteractableComponent'Default__BP_StaticInteraction_SprinklerSystem_C:Interaction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.10"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_StaticInteraction_SprinklerSystem_C:RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.13"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "BP_StaticInteraction_SprinklerSystem_C",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "Interactable",
+          "DelegatePropertyName": "OnInteractionEnabledStateChange",
+          "FunctionNameToBind": "BndEvt__BP_StaticInteraction_SprinklerSystem_Interactable_K2Node_ComponentBoundEvent_1_SBZOnInteractableStateChangedDelegate__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Interactable",
+          "DelegatePropertyName": "OnServerCompleteInteraction",
+          "FunctionNameToBind": "BndEvt__BP_StaticInteraction_SprinklerSystem_Interactable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "Interaction",
+    "Outer": "Default__BP_StaticInteraction_SprinklerSystem_C",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "OnAckCompleteInteraction": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_StaticInteraction_SprinklerSystem_C'Default__BP_StaticInteraction_SprinklerSystem_C'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.8"
+            },
+            "FunctionName": "HandleAckComplete"
+          }
+        ]
+      },
+      "OnServerCompleteInteraction": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_StaticInteraction_SprinklerSystem_C'Default__BP_StaticInteraction_SprinklerSystem_C'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.8"
+            },
+            "FunctionName": "HandleServerComplete"
+          }
+        ]
+      },
+      "bInteractionEnabled": false,
+      "Shapes": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'PrimitiveComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "StaticMesh"
+        }
+      ],
+      "Text": {
+        "TableId": "/Game/Localization/ST_Interaction.ST_Interaction",
+        "Key": "INT_TurnOffSprinklers"
+      },
+      "OnFinish3DAudioEvent": {
+        "ObjectName": "AkAudioEvent'PLR_Interact_FireAlarm_Switch'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/Player/Interactions/Misc/PLR_Interact_FireAlarm_Switch.1"
+      }
+    }
+  },
+  {
+    "Type": "SBZOutlineComponent",
+    "Name": "SBZOutline_GEN_VARIABLE",
+    "Outer": "BP_StaticInteraction_SprinklerSystem_C",
+    "Class": "UScriptClass'SBZOutlineComponent'",
+    "Properties": {
+      "DefaultAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_Interactable_7_5m'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_Interactable_7_5m.0"
+      },
+      "MeshSelectors": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "StaticMesh"
+        }
+      ],
+      "InteractableSelector": {
+        "ComponentName": "Interaction"
+      },
+      "InteractableFocusAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_InteractableInFocus'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_InteractableInFocus.0"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_StaticInteraction_SprinklerSystem_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "Default__BP_StaticInteraction_SprinklerSystem_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_StaticInteraction_SprinklerSystem_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.12"
+      },
+      "VariableGuid": "899F34EC-40A08D62-3E56AC89-41AED97D",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_StaticInteraction_SprinklerSystem_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.18"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "EC71C0CA-49C3FC4C-C7D678AC-2720E46C",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZOutlineComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZOutlineComponent'BP_StaticInteraction_SprinklerSystem_C:SBZOutline_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.11"
+      },
+      "VariableGuid": "D86214F2-434548F8-8C79FDA5-A03DB3E7",
+      "InternalVariableName": "SBZOutline"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_StaticInteraction_SprinklerSystem_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_StaticInteraction_SprinklerSystem_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_StaticInteraction_SprinklerSystem_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.16"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_StaticInteraction_SprinklerSystem_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_StaticInteraction_SprinklerSystem_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.16"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_StaticInteraction_SprinklerSystem_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_StaticInteraction_SprinklerSystem.14"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "BP_StaticInteraction_SprinklerSystem_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SprinklerControls_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/SprinklerControls_01/SprinklerControls_01.2"
+      },
+      "OverrideMaterials": [
+        null
+      ]
+    }
+  }
+]

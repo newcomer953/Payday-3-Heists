@@ -1,0 +1,4436 @@
+[
+  {
+    "Type": "DecalActor",
+    "Name": "MI_MD_DEC_Wet_Floor_02_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'E_Penthouse_L01_Floor_01:PersistentLevel.MI_MD_DEC_Wet_Floor_02_8.NewDecalComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.3"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'E_Penthouse_L01_Floor_01:PersistentLevel.MI_MD_DEC_Wet_Floor_02_8.NewDecalComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.3"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "MI_MD_DEC_Wet_Floor_26",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'E_Penthouse_L01_Floor_01:PersistentLevel.MI_MD_DEC_Wet_Floor_26.NewDecalComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.4"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'E_Penthouse_L01_Floor_01:PersistentLevel.MI_MD_DEC_Wet_Floor_26.NewDecalComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.4"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "MI_MD_DEC_Wet_Floor_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'E_Penthouse_L01_Floor_01:PersistentLevel.MI_MD_DEC_Wet_Floor_3.NewDecalComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.5"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'E_Penthouse_L01_Floor_01:PersistentLevel.MI_MD_DEC_Wet_Floor_3.NewDecalComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.5"
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "MI_MD_DEC_Wet_Floor_02_8",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_MD_DEC_Wet_Floor_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Decal/DD_Int_WetFloor_01/Component/MI_MD_DEC_Wet_Floor_02.0"
+      },
+      "RelativeLocation": {
+        "X": 5616.0,
+        "Y": 1034.0,
+        "Z": 4095.0
+      },
+      "RelativeScale3D": {
+        "X": 0.013059879,
+        "Y": 0.92767197,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "MI_MD_DEC_Wet_Floor_26",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_MD_DEC_Wet_Floor_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Decal/DD_Int_WetFloor_01/Component/MI_MD_DEC_Wet_Floor_02.0"
+      },
+      "RelativeLocation": {
+        "X": 5100.0,
+        "Y": -522.0,
+        "Z": 4288.0
+      },
+      "RelativeScale3D": {
+        "X": 0.0070426688,
+        "Y": 0.8816083,
+        "Z": 0.6975483
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "MI_MD_DEC_Wet_Floor_3",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_MD_DEC_Wet_Floor_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Decal/DD_Int_WetFloor_01/Component/MI_MD_DEC_Wet_Floor_02.0"
+      },
+      "RelativeLocation": {
+        "X": 5033.0,
+        "Y": 1034.0,
+        "Z": 4095.0
+      },
+      "RelativeScale3D": {
+        "X": 0.01306,
+        "Y": 0.927672,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "E_Penthouse_L01_Floor_01",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'E_Penthouse_L01_Floor_01:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.7"
+      },
+      "StreamingTextureGuids": [
+        "860C9DED-4714727F-B94CB0B7-937A19D2",
+        "5C3505C6-42E50345-C1BDBAB6-3DE2F6E8",
+        "1CF8C982-43933333-CC7A00A2-7E0CA147",
+        "7767C1A0-4E66E92E-5024E087-8546FC4E",
+        "80A4B727-48BAC947-A951CDBC-7805CCA4",
+        "CC74606C-4A66A7FE-B7F0828E-F40DA937",
+        "C754834B-44386A9C-241BA6B4-80C92BD5",
+        "8C16AA1E-423C8987-8708A1B5-97D367F5",
+        "D75B69AF-47BD77EF-2548C59F-66780874",
+        "8D5B7504-4A37B042-5B232B95-D1584893",
+        "FC1B45E7-4A172973-F6EE04BE-66C1EFD1",
+        "E2752607-4818926E-1842408A-C0F57BB1",
+        "7F55167E-46EB3E1E-2ADC418D-34B8CC8B",
+        "F4ED9632-4F2EDF12-43C14C83-FA95220F",
+        "D20612F8-4688C8B4-81AF458A-E755D9B4",
+        "63CCA5A6-4BCB9FD2-0A361984-B7D144D5",
+        "F5A4C9FD-4904F968-EE6D75BE-652C1E96",
+        "050E1D25-4C03B702-E2F04AB1-DFFBB04A",
+        "AAB05814-4D17A5F4-D22C18A6-2A00067E",
+        "CE8011A3-43698298-09DEE68C-68A325E6",
+        "66E0FFDF-46595AE1-D23F9083-B03494BB",
+        "F03D2095-40EF8E4B-5CA807BB-30063AB5",
+        "8468AD9C-437EEA53-C542998C-7E284683",
+        "30EF8ADC-4421B545-6330CD8E-2D56EC52",
+        "B4D86FA5-457C0995-2FA236B3-8C108908",
+        "9076FE0A-43006D29-6B7BF89F-5D988EDB",
+        "79FC82F5-4F3C3BFA-8DB266A7-E4C663DF",
+        "9C419E35-42F986CB-A4B58EAE-E6E0DE81",
+        "F6EB21AB-4EB0A269-A753319F-54CA0F96",
+        "595BCA75-470F88C3-93B4AE96-02CAEFCB",
+        "69E9FF3A-41F3879A-A23103B8-371A0DA9",
+        "9E614A7A-41728777-D61806B1-C81CAC01",
+        "58964164-417983F8-142FECB2-F8D778B9",
+        "91B6310C-4EBC427B-0F9515AB-25F37356"
+      ],
+      "LevelBuildDataId": "01D96DC9-4AF68EA3-813DF6B0-C5045A97",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'E_Penthouse_L01_Floor_01_BuiltData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'E_Penthouse_L01_Floor_01:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.21"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'E_Penthouse_L01_Floor_01:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.21"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_01_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.23"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.27"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.28"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.29"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.30"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_6'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_7'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.32"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_8'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.33"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.34"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_10'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_11'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.25"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_12'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.26"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01_5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.43"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.44"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.46"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.54"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_29'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.45"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_31'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.47"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_34'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.49"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_35'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.50"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_36'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.51"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_33'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.48"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_37'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.52"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_39'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.53"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_110'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.39"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_32_CornerI_35'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.35"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_32_CornerI_36'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.36"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Base_01_352_128_Front_6'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.22"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_357'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.40"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_360'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.41"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_256_128_Front_12'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.37"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_256_128_Front_14'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.38"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_420'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.42"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_01_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.55"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_02_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.56"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Entrance_01_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.57"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_Stairwell_Floor_01_Penthouse_Stairwell_Floor_9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.58"
+      },
+      {
+        "ObjectName": "DecalActor'E_Penthouse_L01_Floor_01:PersistentLevel.MI_MD_DEC_Wet_Floor_02_8'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.0"
+      },
+      {
+        "ObjectName": "DecalActor'E_Penthouse_L01_Floor_01:PersistentLevel.MI_MD_DEC_Wet_Floor_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.2"
+      },
+      {
+        "ObjectName": "DecalActor'E_Penthouse_L01_Floor_01:PersistentLevel.MI_MD_DEC_Wet_Floor_26'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.1"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'E_Penthouse_L01_Floor_01:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.7"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "F7E07C6E-42BE98E5-3E2AAEAC-508CFED1",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZPersistentWorldDamageZoneComponent",
+    "Name": "SBZPersistentWorldDamageZone",
+    "Outer": "Penthouse_L1_Corridor_01_2",
+    "Class": "UScriptClass'SBZPersistentWorldDamageZoneComponent'",
+    "Properties": {
+      "InfluencedMeshes": [
+        {
+          "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.E_Penthouse_L01_Floor_01",
+          "SubPathString": "PersistentLevel.Penthouse_L1_Corridor_01_2.StaticMeshComponent0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.92"
+      },
+      "RelativeLocation": {
+        "X": 2426.0,
+        "Y": 1078.0,
+        "Z": 4094.0
+      },
+      "RelativeScale3D": {
+        "X": 400.0,
+        "Y": 400.0,
+        "Z": 10.0
+      },
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZPersistentWorldDamageZoneComponent",
+    "Name": "SBZPersistentWorldDamageZone1",
+    "Outer": "Penthouse_L1_Corridor_01_2",
+    "Class": "UScriptClass'SBZPersistentWorldDamageZoneComponent'",
+    "Properties": {
+      "InfluencedMeshes": [
+        {
+          "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.E_Penthouse_L01_Floor_01",
+          "SubPathString": "PersistentLevel.Penthouse_L1_Corridor_01_2.StaticMeshComponent0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.92"
+      },
+      "RelativeLocation": {
+        "X": 1472.0,
+        "Y": 1212.0,
+        "Z": 4094.0
+      },
+      "RelativeScale3D": {
+        "X": 400.0,
+        "Y": 400.0,
+        "Z": 10.0
+      },
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZPersistentWorldDamageZoneComponent",
+    "Name": "SBZPersistentWorldDamageZone2",
+    "Outer": "Penthouse_L1_Corridor_01_2",
+    "Class": "UScriptClass'SBZPersistentWorldDamageZoneComponent'",
+    "Properties": {
+      "InfluencedMeshes": [
+        {
+          "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.E_Penthouse_L01_Floor_01",
+          "SubPathString": "PersistentLevel.Penthouse_L1_Corridor_01_2.StaticMeshComponent0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.92"
+      },
+      "RelativeLocation": {
+        "X": 1534.0,
+        "Y": 1940.0,
+        "Z": 4094.0
+      },
+      "RelativeScale3D": {
+        "X": 400.0,
+        "Y": 400.0,
+        "Z": 10.0
+      },
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZPersistentWorldDamageZoneComponent",
+    "Name": "SBZPersistentWorldDamageZone3",
+    "Outer": "Penthouse_L1_Corridor_01_2",
+    "Class": "UScriptClass'SBZPersistentWorldDamageZoneComponent'",
+    "Properties": {
+      "InfluencedMeshes": [
+        {
+          "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.E_Penthouse_L01_Floor_01",
+          "SubPathString": "PersistentLevel.Penthouse_L1_Corridor_01_2.StaticMeshComponent0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.92"
+      },
+      "RelativeLocation": {
+        "X": 1712.0,
+        "Y": -116.0,
+        "Z": 4094.0
+      },
+      "RelativeScale3D": {
+        "X": 400.0,
+        "Y": 400.0,
+        "Z": 10.0
+      },
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZPersistentWorldDamageZoneComponent",
+    "Name": "SBZPersistentWorldDamageZone4",
+    "Outer": "Penthouse_L1_Corridor_01_2",
+    "Class": "UScriptClass'SBZPersistentWorldDamageZoneComponent'",
+    "Properties": {
+      "InfluencedMeshes": [
+        {
+          "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.E_Penthouse_L01_Floor_01",
+          "SubPathString": "PersistentLevel.Penthouse_L1_Corridor_01_2.StaticMeshComponent0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.92"
+      },
+      "RelativeLocation": {
+        "X": 1790.0,
+        "Y": -884.0,
+        "Z": 4094.0
+      },
+      "RelativeScale3D": {
+        "X": 400.0,
+        "Y": 400.0,
+        "Z": 10.0
+      },
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZPersistentWorldDamageZoneComponent",
+    "Name": "SBZPersistentWorldDamageZone5",
+    "Outer": "Penthouse_L1_Corridor_01_2",
+    "Class": "UScriptClass'SBZPersistentWorldDamageZoneComponent'",
+    "Properties": {
+      "InfluencedMeshes": [
+        {
+          "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.E_Penthouse_L01_Floor_01",
+          "SubPathString": "PersistentLevel.Penthouse_L1_Corridor_01_2.StaticMeshComponent0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.92"
+      },
+      "RelativeLocation": {
+        "X": 2352.0,
+        "Y": -406.0,
+        "Z": 4094.0
+      },
+      "RelativeScale3D": {
+        "X": 400.0,
+        "Y": 400.0,
+        "Z": 10.0
+      },
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZPersistentWorldDamageZoneComponent",
+    "Name": "SBZPersistentWorldDamageZone",
+    "Outer": "Penthouse_L1_Corridor_02_2",
+    "Class": "UScriptClass'SBZPersistentWorldDamageZoneComponent'",
+    "Properties": {
+      "InfluencedMeshes": [
+        {
+          "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.E_Penthouse_L01_Floor_01",
+          "SubPathString": "PersistentLevel.Penthouse_L1_Corridor_02_2.StaticMeshComponent0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_02_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.93"
+      },
+      "RelativeLocation": {
+        "X": 2950.0,
+        "Y": 934.0,
+        "Z": 4100.0
+      },
+      "RelativeScale3D": {
+        "X": 400.0,
+        "Y": 400.0,
+        "Z": 10.0
+      },
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZPersistentWorldDamageZoneComponent",
+    "Name": "SBZPersistentWorldDamageZone1",
+    "Outer": "Penthouse_L1_Corridor_02_2",
+    "Class": "UScriptClass'SBZPersistentWorldDamageZoneComponent'",
+    "Properties": {
+      "InfluencedMeshes": [
+        {
+          "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.E_Penthouse_L01_Floor_01",
+          "SubPathString": "PersistentLevel.Penthouse_L1_Corridor_02_2.StaticMeshComponent0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_02_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.93"
+      },
+      "RelativeLocation": {
+        "X": 4096.0,
+        "Y": 1024.0,
+        "Z": 4100.0
+      },
+      "RelativeScale3D": {
+        "X": 400.0,
+        "Y": 400.0,
+        "Z": 10.0
+      },
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZPersistentWorldDamageZoneComponent",
+    "Name": "SBZPersistentWorldDamageZone2",
+    "Outer": "Penthouse_L1_Corridor_02_2",
+    "Class": "UScriptClass'SBZPersistentWorldDamageZoneComponent'",
+    "Properties": {
+      "InfluencedMeshes": [
+        {
+          "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.E_Penthouse_L01_Floor_01",
+          "SubPathString": "PersistentLevel.Penthouse_L1_Corridor_02_2.StaticMeshComponent0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_02_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.93"
+      },
+      "RelativeLocation": {
+        "X": 3582.0,
+        "Y": 1606.0,
+        "Z": 4100.0
+      },
+      "RelativeScale3D": {
+        "X": 400.0,
+        "Y": 400.0,
+        "Z": 10.0
+      },
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZPersistentWorldDamageZoneComponent",
+    "Name": "SBZPersistentWorldDamageZone3",
+    "Outer": "Penthouse_L1_Corridor_02_2",
+    "Class": "UScriptClass'SBZPersistentWorldDamageZoneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_02_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.93"
+      },
+      "RelativeLocation": {
+        "X": 2852.0,
+        "Y": 1946.0,
+        "Z": 4100.0
+      },
+      "RelativeScale3D": {
+        "X": 400.0,
+        "Y": 400.0,
+        "Z": 10.0
+      },
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZPersistentWorldDamageZoneComponent",
+    "Name": "SBZPersistentWorldDamageZone4",
+    "Outer": "Penthouse_L1_Corridor_02_2",
+    "Class": "UScriptClass'SBZPersistentWorldDamageZoneComponent'",
+    "Properties": {
+      "InfluencedMeshes": [
+        {
+          "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.E_Penthouse_L01_Floor_01",
+          "SubPathString": "PersistentLevel.Penthouse_L1_Corridor_02_2.StaticMeshComponent0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_02_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.93"
+      },
+      "RelativeLocation": {
+        "X": 3710.0,
+        "Y": -16.0,
+        "Z": 4100.0
+      },
+      "RelativeScale3D": {
+        "X": 400.0,
+        "Y": 400.0,
+        "Z": 10.0
+      },
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZPersistentWorldDamageZoneComponent",
+    "Name": "SBZPersistentWorldDamageZone5",
+    "Outer": "Penthouse_L1_Corridor_02_2",
+    "Class": "UScriptClass'SBZPersistentWorldDamageZoneComponent'",
+    "Properties": {
+      "InfluencedMeshes": [
+        {
+          "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.E_Penthouse_L01_Floor_01",
+          "SubPathString": "PersistentLevel.Penthouse_L1_Corridor_02_2.StaticMeshComponent0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_02_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.93"
+      },
+      "RelativeLocation": {
+        "X": 2828.0,
+        "Y": -368.0,
+        "Z": 4100.0
+      },
+      "RelativeScale3D": {
+        "X": 400.0,
+        "Y": 400.0,
+        "Z": 10.0
+      },
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'E_Penthouse_L01_Floor_01:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.8"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Base_01_352_128_Front_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Base_01_352_128_Front_6.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.59"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Base_01_352_128_Front_6.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.59"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.60"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.60"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_10.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.61"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_10.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.61"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_11.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.62"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_11.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.62"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_12.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.63"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_12.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.63"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.64"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.64"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.65"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.65"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.66"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.66"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.67"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.67"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_6.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.68"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_6.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.68"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_7.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.69"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_7.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.69"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_8.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.70"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_8.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.70"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_9.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.71"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_9.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.71"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_A_128_32_CornerI_35",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_32_CornerI_35.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.72"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_32_CornerI_35.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.72"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_A_128_32_CornerI_36",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_32_CornerI_36.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.73"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_128_32_CornerI_36.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.73"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_A_256_128_Front_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_256_128_Front_12.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.74"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_256_128_Front_12.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.74"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_A_256_128_Front_14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_256_128_Front_14.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.75"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_A_256_128_Front_14.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.75"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_110",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_110.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.76"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_110.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.76"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_357",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_357.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.77"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_357.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.77"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_360",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_360.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.78"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_360.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.78"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_420",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_420.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.79"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_420.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.79"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01_5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.80"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01_5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.80"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.81"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.81"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_29",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_29.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.82"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_29.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.82"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.83"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.83"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_31",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_31.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.84"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_31.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.84"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_33",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_33.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.85"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_33.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.85"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_34",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_34.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.86"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_34.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.86"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_35",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_35.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.87"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_35.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.87"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_36",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_36.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.88"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_36.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.88"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_37",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_37.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.89"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_37.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.89"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_39",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_39.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.90"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_39.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.90"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.91"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.91"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Penthouse_L1_Corridor_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.92"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.92"
+      },
+      "InstanceComponents": [
+        {
+          "ObjectName": "SBZPersistentWorldDamageZoneComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_01_2.SBZPersistentWorldDamageZone'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.9"
+        },
+        {
+          "ObjectName": "SBZPersistentWorldDamageZoneComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_01_2.SBZPersistentWorldDamageZone1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.10"
+        },
+        {
+          "ObjectName": "SBZPersistentWorldDamageZoneComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_01_2.SBZPersistentWorldDamageZone2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.11"
+        },
+        {
+          "ObjectName": "SBZPersistentWorldDamageZoneComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_01_2.SBZPersistentWorldDamageZone3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.12"
+        },
+        {
+          "ObjectName": "SBZPersistentWorldDamageZoneComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_01_2.SBZPersistentWorldDamageZone4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.13"
+        },
+        {
+          "ObjectName": "SBZPersistentWorldDamageZoneComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_01_2.SBZPersistentWorldDamageZone5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.14"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Penthouse_L1_Corridor_02_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_02_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.93"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_02_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.93"
+      },
+      "InstanceComponents": [
+        {
+          "ObjectName": "SBZPersistentWorldDamageZoneComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_02_2.SBZPersistentWorldDamageZone'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.15"
+        },
+        {
+          "ObjectName": "SBZPersistentWorldDamageZoneComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_02_2.SBZPersistentWorldDamageZone1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.16"
+        },
+        {
+          "ObjectName": "SBZPersistentWorldDamageZoneComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_02_2.SBZPersistentWorldDamageZone2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.17"
+        },
+        {
+          "ObjectName": "SBZPersistentWorldDamageZoneComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_02_2.SBZPersistentWorldDamageZone3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.18"
+        },
+        {
+          "ObjectName": "SBZPersistentWorldDamageZoneComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_02_2.SBZPersistentWorldDamageZone4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.19"
+        },
+        {
+          "ObjectName": "SBZPersistentWorldDamageZoneComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Corridor_02_2.SBZPersistentWorldDamageZone5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.20"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Penthouse_L1_Entrance_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Entrance_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.94"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_L1_Entrance_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.94"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Penthouse_Stairwell_Floor_01_Penthouse_Stairwell_Floor_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_Stairwell_Floor_01_Penthouse_Stairwell_Floor_9.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.95"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_Penthouse_L01_Floor_01:PersistentLevel.Penthouse_Stairwell_Floor_01_Penthouse_Stairwell_Floor_9.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.95"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Base_01_352_128_Front_6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Base_01_352_128_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Base_01/Int_SHE_Penthouse_01_Base_01_352_128_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4278124960,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 577.43207
+        },
+        {
+          "PackedRelativeBox": 37683200,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 209.91127
+        },
+        {
+          "PackedRelativeBox": 37683200,
+          "TextureLevelIndex": 14,
+          "TexelFactor": 209.91127
+        },
+        {
+          "PackedRelativeBox": 4294901856,
+          "TextureLevelIndex": 15,
+          "TexelFactor": 254.63403
+        },
+        {
+          "PackedRelativeBox": 4294901856,
+          "TextureLevelIndex": 16,
+          "TexelFactor": 615.66547
+        },
+        {
+          "PackedRelativeBox": 4294901856,
+          "TextureLevelIndex": 17,
+          "TexelFactor": 254.63403
+        },
+        {
+          "PackedRelativeBox": 4294901856,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 615.66547
+        },
+        {
+          "PackedRelativeBox": 4278124960,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 577.43207
+        },
+        {
+          "PackedRelativeBox": 4278124960,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 144.35802
+        },
+        {
+          "PackedRelativeBox": 4278124960,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 144.35802
+        }
+      ],
+      "VisibilityId": 1943,
+      "RelativeLocation": {
+        "X": 2624.0,
+        "Y": 1508.0,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.0001,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3C4CF27C449A244EA0FD9BBB0BA2E70D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_01_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2147447808,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1024.5724
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 216.46053
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 54.11513
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 216.46053
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 54.11513
+        },
+        {
+          "PackedRelativeBox": 2147447808,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1024.5724
+        },
+        {
+          "PackedRelativeBox": 2147447808,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1024.5724
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Penthouse_Tri_Metal_Painted_DarkGrey_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Materials/MI_Penthouse_Tri_Metal_Painted_DarkGrey_01.0"
+        }
+      ],
+      "VisibilityId": 1916,
+      "RelativeLocation": {
+        "X": 3370.0,
+        "Y": 1144.0,
+        "Z": 4096.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 2.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "008DDC13453066130A9389AF947E7922"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2122281984,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 2122281984,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 2122281984,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1023.3598
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Penthouse_Tri_Metal_Painted_DarkGrey_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Materials/MI_Penthouse_Tri_Metal_Painted_DarkGrey_01.0"
+        }
+      ],
+      "VisibilityId": 1925,
+      "RelativeLocation": {
+        "X": 3626.0,
+        "Y": 888.0,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99994,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 2.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B9B1EB7F4DCA5BD5846D8C9FBA7C8BFF"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_11",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2146661376,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 2146661376,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 2146661376,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1023.3598
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Penthouse_Tri_Metal_Painted_DarkGrey_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Materials/MI_Penthouse_Tri_Metal_Painted_DarkGrey_01.0"
+        }
+      ],
+      "VisibilityId": 1926,
+      "RelativeLocation": {
+        "X": 3498.0,
+        "Y": 887.99963,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -270.00003,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 2.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "8B2700D14DD0A5266A7370B4BBA7759A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2146661376,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 2146661376,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 2146661376,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1023.3598
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Penthouse_Tri_Metal_Painted_DarkGrey_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Materials/MI_Penthouse_Tri_Metal_Painted_DarkGrey_01.0"
+        }
+      ],
+      "VisibilityId": 1927,
+      "RelativeLocation": {
+        "X": 3498.0,
+        "Y": 1016.0,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -270.00003,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 2.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "520419F443B00C2C32CD818F12DB62B3"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2147448224,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 2147448224,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 2147448224,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1023.3598
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Penthouse_Tri_Metal_Painted_DarkGrey_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Materials/MI_Penthouse_Tri_Metal_Painted_DarkGrey_01.0"
+        }
+      ],
+      "VisibilityId": 1917,
+      "RelativeLocation": {
+        "X": 3498.0,
+        "Y": 1144.0,
+        "Z": 4096.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 2.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F5A1CF41494EF6547BB505863CE6A056"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2147447808,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1024.5724
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 216.46053
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 54.11513
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 216.46053
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 54.11513
+        },
+        {
+          "PackedRelativeBox": 2147447808,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1024.5724
+        },
+        {
+          "PackedRelativeBox": 2147447808,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1024.5724
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Penthouse_Tri_Metal_Painted_DarkGrey_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Materials/MI_Penthouse_Tri_Metal_Painted_DarkGrey_01.0"
+        }
+      ],
+      "VisibilityId": 1918,
+      "RelativeLocation": {
+        "X": 3754.0,
+        "Y": 1272.0,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99999,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 2.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F266FBA9412BA2904A44A9A01663FDF8"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2147448224,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 2147448224,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 2147448224,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1023.3598
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Penthouse_Tri_Metal_Painted_DarkGrey_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Materials/MI_Penthouse_Tri_Metal_Painted_DarkGrey_01.0"
+        }
+      ],
+      "VisibilityId": 1919,
+      "RelativeLocation": {
+        "X": 3626.0,
+        "Y": 1144.0,
+        "Z": 4096.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 2.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "ADE4797D45289853305BA2B8AC059D8A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2147447821,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 2147447821,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 2147447821,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1023.3598
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Penthouse_Tri_Metal_Painted_DarkGrey_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Materials/MI_Penthouse_Tri_Metal_Painted_DarkGrey_01.0"
+        }
+      ],
+      "VisibilityId": 1920,
+      "RelativeLocation": {
+        "X": 3754.0,
+        "Y": 1144.0001,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99997,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 2.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "10AD3E2A4AF8F640AF6DBBA395A92087"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2147447808,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1024.5724
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 216.46053
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 54.11513
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 216.46053
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 54.11513
+        },
+        {
+          "PackedRelativeBox": 2147447808,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1024.5724
+        },
+        {
+          "PackedRelativeBox": 2147447808,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1024.5724
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Penthouse_Tri_Metal_Painted_DarkGrey_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Materials/MI_Penthouse_Tri_Metal_Painted_DarkGrey_01.0"
+        }
+      ],
+      "VisibilityId": 1921,
+      "RelativeLocation": {
+        "X": 3882.0,
+        "Y": 887.9999,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99994,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 2.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D9D06025409BB5A57A5F7682E422171B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2147447821,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 2147447821,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 2147447821,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1023.3598
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Penthouse_Tri_Metal_Painted_DarkGrey_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Materials/MI_Penthouse_Tri_Metal_Painted_DarkGrey_01.0"
+        }
+      ],
+      "VisibilityId": 1922,
+      "RelativeLocation": {
+        "X": 3754.0,
+        "Y": 1016.0,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99997,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 2.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "8C453EDA431DABAF82C978A2035F494B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2120184832,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 2120184832,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 2120184832,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1023.3598
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Penthouse_Tri_Metal_Painted_DarkGrey_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Materials/MI_Penthouse_Tri_Metal_Painted_DarkGrey_01.0"
+        }
+      ],
+      "VisibilityId": 1923,
+      "RelativeLocation": {
+        "X": 3754.0,
+        "Y": 888.00006,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99994,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 2.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "5B416A724B55B704E25CF8B0D79424D5"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_A_128_128_CornerO_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2147447808,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1024.5724
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 216.46053
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 54.11513
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 216.46053
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 54.11513
+        },
+        {
+          "PackedRelativeBox": 2147447808,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1024.5724
+        },
+        {
+          "PackedRelativeBox": 2147447808,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1024.5724
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Penthouse_Tri_Metal_Painted_DarkGrey_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Materials/MI_Penthouse_Tri_Metal_Painted_DarkGrey_01.0"
+        }
+      ],
+      "VisibilityId": 1924,
+      "RelativeLocation": {
+        "X": 3497.9998,
+        "Y": 759.99994,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -270.00015,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 2.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "AD7051684D810EFC2FB2A88C4E3FB2D6"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_A_128_32_CornerI_35",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_A_128_32_CornerI_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_A_128_32_CornerI_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2147447874,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1025.5554
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 112.32077
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 112.32077
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 112.32077
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 28.080193
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 28.080193
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 112.32077
+        },
+        {
+          "PackedRelativeBox": 2147447874,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1025.5554
+        },
+        {
+          "PackedRelativeBox": 2147447874,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1025.5554
+        }
+      ],
+      "VisibilityId": 1941,
+      "RelativeLocation": {
+        "X": 3495.9998,
+        "Y": 2048.0,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00005,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F51D8D7344010E4496DBDAABD226AA22"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_A_128_32_CornerI_36",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_A_256_32_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_A_256_32_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2141156416,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1026.9219
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 244.9559
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 244.9559
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 244.9559
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 61.238976
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 61.238976
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 244.9559
+        },
+        {
+          "PackedRelativeBox": 2141156416,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1026.9219
+        },
+        {
+          "PackedRelativeBox": 2141156416,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1026.9219
+        }
+      ],
+      "VisibilityId": 1942,
+      "RelativeLocation": {
+        "X": 3463.9998,
+        "Y": 2080.0,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.00006,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7B9867DE418168ED056B06901D7CF522"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_A_256_128_Front_12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_A_256_128_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_A_256_128_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2080339360,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1021.8783
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 248.90048
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 248.90048
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 248.90048
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 62.22512
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 62.22512
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 248.90048
+        },
+        {
+          "PackedRelativeBox": 2080339360,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1021.8783
+        },
+        {
+          "PackedRelativeBox": 2080339360,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1021.8783
+        }
+      ],
+      "VisibilityId": 1946,
+      "RelativeLocation": {
+        "X": 3919.0,
+        "Y": 1591.0,
+        "Z": 4096.0
+      },
+      "RelativeScale3D": {
+        "X": 0.84375,
+        "Y": 0.84375,
+        "Z": 0.84375
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2526BCBF46C05C711F9F17BD233D0C98"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_A_256_128_Front_14",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_A_128_128_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 2080339360,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 62.230072
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 248.92029
+        },
+        {
+          "PackedRelativeBox": 2080339360,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1023.3598
+        },
+        {
+          "PackedRelativeBox": 2080339360,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1023.3598
+        }
+      ],
+      "VisibilityId": 1947,
+      "RelativeLocation": {
+        "X": 4135.0,
+        "Y": 1591.0,
+        "Z": 4096.0
+      },
+      "RelativeScale3D": {
+        "X": 0.84375,
+        "Y": 0.84375,
+        "Z": 0.84375
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "71A78349467B52FED7FCBFA88AA3E528"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_110",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 2049.5012
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 2049.5012
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_MarbleBlack_02_TopProject_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Marble/MarbleBlack_02/MI_TIL_MarbleBlack_02_TopProject_01.0"
+        }
+      ],
+      "VisibilityId": 1940,
+      "RelativeLocation": {
+        "X": 2196.002,
+        "Y": 1496.0049,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -270.00018,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.125,
+        "Y": 1.75,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "0DB4DEA145AEC5E29457B8B1B152EC50"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_357",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 8,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 1024.7506
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 1024.7506
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_GenericTintable_01_Brass_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Generic/GenericTintable_01/MI_TIL_GenericTintable_01_Brass_01.0"
+        }
+      ],
+      "VisibilityId": 1944,
+      "RelativeLocation": {
+        "X": 2129.347,
+        "Y": 1402.2141,
+        "Z": 4096.1
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -360.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.00624,
+        "Y": 0.18344079,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3B52F7F64EE673DDF7547E9FED78EB13"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_360",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 1024.7506
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1024.7506
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 256.18765
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 256.18765
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_GraniteTintable_02_Dark'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Granite/GraniteTintable_02/MI_TIL_GraniteTintable_02_Dark.0"
+        }
+      ],
+      "VisibilityId": 1945,
+      "RelativeLocation": {
+        "X": 1781.6263,
+        "Y": 1493.9944,
+        "Z": 4096.1
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -360.00034,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.5327358,
+        "Y": 0.05359821,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "99D9AF4348D20B256729ADBA26855CE5"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_420",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/Floor_01/Int_SHE_Penthouse_01_Floor_01_B_256_256_Front_02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1024.7506
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1024.7506
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1024.7506
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_Gravel_09'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Gravel/Gravel_09/MI_TIL_Gravel_09.0"
+        }
+      ],
+      "VisibilityId": 1948,
+      "RelativeLocation": {
+        "X": 3754.0007,
+        "Y": 887.99976,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -270.00018,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "DEB782F1485972515ADE57810A5FFDA6"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/TrimFloor_02/Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 75.74052
+        },
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 75.74052
+        }
+      ],
+      "VisibilityId": 1928,
+      "RelativeLocation": {
+        "X": 2584.0,
+        "Y": -178.0,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00008,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.25,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "98C2828845EB17CF3057F3B4C7870883"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/TrimFloor_02/Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 75.74052
+        },
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 75.74052
+        }
+      ],
+      "VisibilityId": 1929,
+      "RelativeLocation": {
+        "X": 2584.0,
+        "Y": -434.0,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00008,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.25,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "01375D4E4C2A51AF870B939352B96B91"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_29",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/TrimFloor_02/Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4273946976,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4273946976,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4273946976,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 75.74052
+        },
+        {
+          "PackedRelativeBox": 4273946976,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 75.74052
+        }
+      ],
+      "VisibilityId": 1932,
+      "RelativeLocation": {
+        "X": 3839.4695,
+        "Y": 1549.9414,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.00017,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 0.25,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3BDA6E004D7F6C8F84088B92A5E2805F"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/TrimFloor_02/Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4271849824,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4271849824,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4271849824,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 75.74052
+        },
+        {
+          "PackedRelativeBox": 4271849824,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 75.74052
+        }
+      ],
+      "VisibilityId": 1930,
+      "RelativeLocation": {
+        "X": 2955.9998,
+        "Y": -87.000244,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.0001,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6875,
+        "Y": 0.25,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3B39490F46C4DBA7237237842213A6F9"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_31",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/TrimFloor_02/Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4273946944,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4273946944,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4273946944,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 75.74052
+        },
+        {
+          "PackedRelativeBox": 4273946944,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 75.74052
+        }
+      ],
+      "VisibilityId": 1933,
+      "RelativeLocation": {
+        "X": 2944.475,
+        "Y": 1548.3854,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.00017,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.25,
+        "Y": 0.25,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "0EA3C231405E792247D542AD7015110E"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_33",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/TrimFloor_02/Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4271849824,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4271849824,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4271849824,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 75.74052
+        },
+        {
+          "PackedRelativeBox": 4271849824,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 75.74052
+        }
+      ],
+      "VisibilityId": 1937,
+      "RelativeLocation": {
+        "X": 3835.4727,
+        "Y": 511.0,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.00017,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.25,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B5683C804465216797BE289926862B38"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_34",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/TrimFloor_02/Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 75.74052
+        },
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 75.74052
+        }
+      ],
+      "VisibilityId": 1934,
+      "RelativeLocation": {
+        "X": 2584.1626,
+        "Y": 779.96533,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.00024,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0625,
+        "Y": 0.25,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "6C099D3C47FDDA7FFFA490B03C3937D4"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_35",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/TrimFloor_02/Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 75.74052
+        },
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 75.74052
+        }
+      ],
+      "VisibilityId": 1935,
+      "RelativeLocation": {
+        "X": 2584.1626,
+        "Y": 507.96826,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.00024,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.25,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "0940BBEC42FD96689AFDB1972A218CBD"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_36",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/TrimFloor_02/Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294197259,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294197259,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294197259,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 75.74052
+        },
+        {
+          "PackedRelativeBox": 4294197259,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 75.74052
+        }
+      ],
+      "VisibilityId": 1936,
+      "RelativeLocation": {
+        "X": 2584.1628,
+        "Y": 251.96828,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.00024,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.3125,
+        "Y": 0.25,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "973EE3164A9D1B4312979E9DED99AFF8"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_37",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_TrimFloor_02_2_128_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/TrimFloor_02/Int_SHE_Penthouse_01_TrimFloor_02_2_128_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4271849824,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 302.99188
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 302.99188
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 143.95906
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 143.95906
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 302.99188
+        },
+        {
+          "PackedRelativeBox": 4271849824,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 302.99188
+        },
+        {
+          "PackedRelativeBox": 4271849824,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 75.74797
+        },
+        {
+          "PackedRelativeBox": 4271849824,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 75.74797
+        }
+      ],
+      "VisibilityId": 1938,
+      "RelativeLocation": {
+        "X": 3579.4727,
+        "Y": 511.00037,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.00017,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.96875,
+        "Y": 0.25,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E6A1F4094693905230D15DB8CDBD3F03"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_39",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/TrimFloor_02/Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 75.74052
+        },
+        {
+          "PackedRelativeBox": 4294197258,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 75.74052
+        }
+      ],
+      "VisibilityId": 1939,
+      "RelativeLocation": {
+        "X": 2584.1587,
+        "Y": 1276.9683,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.00024,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.25,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3C0F0A234574268B027CD0A9943E84D2"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/Penthouse_01/TrimFloor_02/Int_SHE_Penthouse_01_TrimFloor_02_2_256_Front_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4271849824,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 144.08426
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4271849824,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 302.96207
+        },
+        {
+          "PackedRelativeBox": 4271849824,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 75.74052
+        },
+        {
+          "PackedRelativeBox": 4271849824,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 75.74052
+        }
+      ],
+      "VisibilityId": 1931,
+      "RelativeLocation": {
+        "X": 2780.0,
+        "Y": -87.00003,
+        "Z": 4096.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.0001,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6875,
+        "Y": 0.25,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1D97AAC24F3C95E740B771940050C503"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Penthouse_L1_Corridor_01_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Penthouse_L1_Corridor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Architecture/Interior/L2/Floor/Penthouse_L1_Corridor_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "bUseDefaultCollision": false,
+      "OverriddenLightMapRes": 1024,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 790373446,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 128.01001
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 1024.206
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 256.0515
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 23,
+          "TexelFactor": 1024.206
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 209.80957
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 256.0515
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 209.80957
+        },
+        {
+          "PackedRelativeBox": 201261056,
+          "TextureLevelIndex": 24,
+          "TexelFactor": 1023.8556
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 209.80957
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 209.80957
+        },
+        {
+          "PackedRelativeBox": 201261056,
+          "TextureLevelIndex": 25,
+          "TexelFactor": 1023.8556
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 26,
+          "TexelFactor": 69.93652
+        },
+        {
+          "PackedRelativeBox": 790373446,
+          "TextureLevelIndex": 27,
+          "TexelFactor": 128.01001
+        }
+      ],
+      "LightmassSettings": {
+        "bUseTwoSidedLighting": true
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TRA_ConcreteEdge_01_White1'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Architecture/Interior/L2/Floor/MI_TRA_ConcreteEdge_01_White1.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_MarbleTintable_03_Green_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Marble/MarbleTintable_03/MI_TIL_MarbleTintable_03_Green_01.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_MarbleTintable_05_MidHigh'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Marble/MarbleTintable_05/MI_TIL_MarbleTintable_05_MidHigh.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TRI_Industrial_01_Gold_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Trimsheet/Industrial_01/MI_TRI_Industrial_01_Gold_01.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_MarbleTintable_03_Green_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Marble/MarbleTintable_03/MI_TIL_MarbleTintable_03_Green_01.0"
+        }
+      ],
+      "bCastShadowAsTwoSided": true,
+      "CustomPrimitiveData": {
+        "Data": [
+          3.68777E-39,
+          2426.0,
+          1078.0,
+          4094.0,
+          3.3961771E+38,
+          3.68777E-39,
+          1472.0,
+          1212.0,
+          4094.0,
+          3.3961771E+38,
+          3.68777E-39,
+          1534.0,
+          1940.0,
+          4094.0,
+          3.3961771E+38,
+          3.68777E-39,
+          1712.0,
+          -116.0,
+          4094.0,
+          3.3961771E+38,
+          3.68777E-39,
+          1790.0,
+          -884.0,
+          4094.0,
+          3.3961771E+38,
+          3.68777E-39,
+          2352.0,
+          -406.0,
+          4094.0,
+          3.3961771E+38,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "VisibilityId": 1951,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "EB645C4B4E239C68C75832A23DA8A1CE",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 888
+        }
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Penthouse_L1_Corridor_02_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Penthouse_L1_Corridor_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Architecture/Interior/L2/Floor/Penthouse_L1_Corridor_02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "bUseDefaultCollision": false,
+      "OverriddenLightMapRes": 1024,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901984,
+          "TextureLevelIndex": 28,
+          "TexelFactor": 1025.163
+        },
+        {
+          "PackedRelativeBox": 34996224,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 186.82123
+        },
+        {
+          "PackedRelativeBox": 34996224,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 186.82123
+        },
+        {
+          "PackedRelativeBox": 34996224,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 186.82123
+        },
+        {
+          "PackedRelativeBox": 37158912,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 256.2154
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 1025.163
+        },
+        {
+          "PackedRelativeBox": 34996224,
+          "TextureLevelIndex": 25,
+          "TexelFactor": 1024.5778
+        },
+        {
+          "PackedRelativeBox": 34996224,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 186.82123
+        },
+        {
+          "PackedRelativeBox": 37158912,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 1024.8616
+        },
+        {
+          "PackedRelativeBox": 37158912,
+          "TextureLevelIndex": 23,
+          "TexelFactor": 1024.8616
+        },
+        {
+          "PackedRelativeBox": 4294901984,
+          "TextureLevelIndex": 29,
+          "TexelFactor": 1025.163
+        },
+        {
+          "PackedRelativeBox": 4294901984,
+          "TextureLevelIndex": 30,
+          "TexelFactor": 1025.163
+        },
+        {
+          "PackedRelativeBox": 34996224,
+          "TextureLevelIndex": 24,
+          "TexelFactor": 1024.5778
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_MarbleTintable_03_Slabs_01_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Marble/MarbleTintable_03/MI_TIL_MarbleTintable_03_Slabs_01_01.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_MarbleTintable_03_Green_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Marble/MarbleTintable_03/MI_TIL_MarbleTintable_03_Green_01.0"
+        },
+        null,
+        null
+      ],
+      "CustomPrimitiveData": {
+        "Data": [
+          3.68777E-39,
+          2950.0,
+          934.0,
+          4100.0,
+          3.3961771E+38,
+          3.68777E-39,
+          4096.0,
+          1024.0,
+          4100.0,
+          3.3961771E+38,
+          3.68777E-39,
+          3582.0,
+          1606.0,
+          4100.0,
+          3.3961771E+38,
+          3.68777E-39,
+          3710.0,
+          -16.0,
+          4100.0,
+          3.3961771E+38,
+          3.68777E-39,
+          2828.0,
+          -368.0,
+          4100.0,
+          3.3961771E+38,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "VisibilityId": 1952,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C305C8A44B544413F52FB6BECDD02786",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 151
+        }
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Penthouse_L1_Entrance_01_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Penthouse_L1_Entrance_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Architecture/Interior/L2/Floor/Penthouse_L1_Entrance_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 512,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 3743406304,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 130.246
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 355.33258
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 25,
+          "TexelFactor": 1058.7247
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 264.68118
+        },
+        {
+          "PackedRelativeBox": 3743406080,
+          "TextureLevelIndex": 31,
+          "TexelFactor": 479.4635
+        },
+        {
+          "PackedRelativeBox": 3745503395,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 447.9579
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 447.9579
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 264.68118
+        },
+        {
+          "PackedRelativeBox": 3745503264,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 193.01208
+        },
+        {
+          "PackedRelativeBox": 2680133664,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 1013.7477
+        },
+        {
+          "PackedRelativeBox": 2680133664,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1013.7477
+        },
+        {
+          "PackedRelativeBox": 2680133664,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1013.7477
+        },
+        {
+          "PackedRelativeBox": 3745503395,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 447.9579
+        },
+        {
+          "PackedRelativeBox": 3892286464,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 355.33258
+        },
+        {
+          "PackedRelativeBox": 3745503395,
+          "TextureLevelIndex": 32,
+          "TexelFactor": 447.9579
+        },
+        {
+          "PackedRelativeBox": 3745503264,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 193.01208
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 24,
+          "TexelFactor": 1058.7247
+        },
+        {
+          "PackedRelativeBox": 3892286464,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 355.33258
+        },
+        {
+          "PackedRelativeBox": 3743406080,
+          "TextureLevelIndex": 33,
+          "TexelFactor": 479.4635
+        },
+        {
+          "PackedRelativeBox": 3745503264,
+          "TextureLevelIndex": 26,
+          "TexelFactor": 64.337364
+        },
+        {
+          "PackedRelativeBox": 3743406304,
+          "TextureLevelIndex": 27,
+          "TexelFactor": 130.246
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TRA_ConcreteEdge_01_White1'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Architecture/Interior/L2/Floor/MI_TRA_ConcreteEdge_01_White1.0"
+        },
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Penthouse_Tri_Marble_Green_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Materials/MI_Penthouse_Tri_Marble_Green_01.0"
+        },
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TRI_Panel_01_MarbleWhite_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Materials/MI_TRI_Panel_01_MarbleWhite_01.0"
+        },
+        null
+      ],
+      "VisibilityId": 1953
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C02BE57346853FDE06867F8902B93333",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 4085
+        }
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Penthouse_Stairwell_Floor_01_Penthouse_Stairwell_Floor_9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Penthouse_Stairwell_Floor_01_Penthouse_Stairwell_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Architecture/Interior/L1/Floor/Penthouse_Stairwell_Floor_01_Penthouse_Stairwell_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292804640,
+          "TextureLevelIndex": 24,
+          "TexelFactor": 949.40454
+        },
+        {
+          "PackedRelativeBox": 4292804640,
+          "TextureLevelIndex": 25,
+          "TexelFactor": 949.40454
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 281.30054
+        },
+        {
+          "PackedRelativeBox": 4292804640,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 242.99637
+        },
+        {
+          "PackedRelativeBox": 3665758464,
+          "TextureLevelIndex": 14,
+          "TexelFactor": 83.110504
+        },
+        {
+          "PackedRelativeBox": 4292806688,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 242.99637
+        },
+        {
+          "PackedRelativeBox": 4292804640,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 242.99637
+        },
+        {
+          "PackedRelativeBox": 4292806688,
+          "TextureLevelIndex": 26,
+          "TexelFactor": 80.99879
+        },
+        {
+          "PackedRelativeBox": 4292806688,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 242.99637
+        },
+        {
+          "PackedRelativeBox": 4294914048,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 1125.2021
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 281.30054
+        },
+        {
+          "PackedRelativeBox": 4294914048,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 1125.2021
+        },
+        {
+          "PackedRelativeBox": 3665758464,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 83.110504
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_GraniteTintable_02_DarkHigh'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Granite/GraniteTintable_02/MI_TIL_GraniteTintable_02_DarkHigh.0"
+        },
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_MarbleTintable_05_Dark'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Marble/MarbleTintable_05/MI_TIL_MarbleTintable_05_Dark.0"
+        }
+      ],
+      "VisibilityId": 1954
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "FDBFFCEB4041C764D866BCA2CD3530D2",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 12271
+        }
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "E_Penthouse_L01_Floor_01",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'E_Penthouse_L01_Floor_01:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Floor_01.6"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

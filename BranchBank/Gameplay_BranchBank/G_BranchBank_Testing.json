@@ -1,0 +1,217 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "G_BranchBank_Testing_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "G_BranchBank_Testing_C'Default__G_BranchBank_Testing_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Gameplay_BranchBank/G_BranchBank_Testing.1"
+    }
+  },
+  {
+    "Type": "G_BranchBank_Testing_C",
+    "Name": "Default__G_BranchBank_Testing_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/BranchBank/Gameplay_BranchBank/G_BranchBank_Testing.G_BranchBank_Testing_C'"
+  },
+  {
+    "Type": "G_BranchBank_Testing_C",
+    "Name": "Sublevel_Stealth_Prototype_Testing_C_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/BranchBank/Gameplay_BranchBank/G_BranchBank_Testing.G_BranchBank_Testing_C'",
+    "Template": {
+      "ObjectName": "G_BranchBank_Testing_C'Default__G_BranchBank_Testing_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Gameplay_BranchBank/G_BranchBank_Testing.1"
+    },
+    "Properties": {
+      "Seed": 3437,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "G_BranchBank_Testing",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'G_BranchBank_Testing:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Gameplay_BranchBank/G_BranchBank_Testing.4"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "G_BranchBank_Testing_C'G_BranchBank_Testing:PersistentLevel.Sublevel_Stealth_Prototype_Testing_C_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Gameplay_BranchBank/G_BranchBank_Testing.2"
+      },
+      "LevelBuildDataId": "54B48CEC-4F9CE692-9441C69C-919CDF6B",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'G_BranchBank_Testing_BuiltData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Gameplay_BranchBank/G_BranchBank_Testing_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'G_BranchBank_Testing:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Gameplay_BranchBank/G_BranchBank_Testing.6"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'G_BranchBank_Testing:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Gameplay_BranchBank/G_BranchBank_Testing.6"
+      },
+      null,
+      {
+        "ObjectName": "G_BranchBank_Testing_C'G_BranchBank_Testing:PersistentLevel.Sublevel_Stealth_Prototype_Testing_C_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Gameplay_BranchBank/G_BranchBank_Testing.2"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'G_BranchBank_Testing:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Gameplay_BranchBank/G_BranchBank_Testing.4"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "G_BranchBank_Testing_C'G_BranchBank_Testing:PersistentLevel.Sublevel_Stealth_Prototype_Testing_C_2'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Gameplay_BranchBank/G_BranchBank_Testing.2"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "DFF58C7F-41EEA9A0-A24D1E9B-9C00ADB1",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'G_BranchBank_Testing:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Gameplay_BranchBank/G_BranchBank_Testing.5"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "G_BranchBank_Testing",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'G_BranchBank_Testing:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Gameplay_BranchBank/G_BranchBank_Testing.3"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

@@ -1,0 +1,1369 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_C_Penthouse",
+    "Outer": "C_Penthouse_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMovieSceneSequencePlayerEvent__DelegateSignature'",
+          "ObjectPath": "/Script/MovieScene"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSequencePlayer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelSequencePlayer'",
+          "ObjectPath": "/Script/LevelSequence"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnIntroFinished",
+    "Outer": "C_Penthouse_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "IntroSequenceStarted",
+    "Outer": "C_Penthouse_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZLevelScriptActor:IntroSequenceStarted'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "C_Penthouse_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_Penthouse_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'C_Penthouse_C:ExecuteUbergraph_C_Penthouse'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'C_Penthouse_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.3"
+      },
+      {
+        "ObjectName": "Function'C_Penthouse_C:IntroSequenceStarted'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.2"
+      },
+      {
+        "ObjectName": "Function'C_Penthouse_C:OnIntroFinished'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.1"
+      },
+      {
+        "ObjectName": "Function'C_Penthouse_C:ExecuteUbergraph_C_Penthouse'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "C_TouchTheSky_Master_02_2_ExecuteUbergraph_C_Penthouse_RefProperty",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelSequenceActor'",
+          "ObjectPath": "/Script/LevelSequence"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_C_Penthouse": {
+        "ObjectName": "Function'C_Penthouse_C:ExecuteUbergraph_C_Penthouse'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.0"
+      },
+      "OnIntroFinished": {
+        "ObjectName": "Function'C_Penthouse_C:OnIntroFinished'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.1"
+      },
+      "IntroSequenceStarted": {
+        "ObjectName": "Function'C_Penthouse_C:IntroSequenceStarted'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.2"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'C_Penthouse_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_Penthouse_C'Default__C_Penthouse_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.5"
+    }
+  },
+  {
+    "Type": "C_Penthouse_C",
+    "Name": "Default__C_Penthouse_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.C_Penthouse_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "C_TouchTheSky_Master_02_2_ExecuteUbergraph_C_Penthouse_RefProperty": {
+        "ObjectName": "LevelSequenceActor'C_Penthouse:PersistentLevel.C_TouchTheSky_Master_02_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.21"
+      }
+    }
+  },
+  {
+    "Type": "C_Penthouse_C",
+    "Name": "C_Penthouse_C_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.C_Penthouse_C'",
+    "Template": {
+      "ObjectName": "C_Penthouse_C'Default__C_Penthouse_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.5"
+    },
+    "Properties": {
+      "Seed": 11517,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CameraRig_Rail",
+    "Name": "Rail_Shot2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraRig_Rail'",
+    "Properties": {
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Rail_Shot2.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.42"
+      },
+      "RailSplineComponent": {
+        "ObjectName": "SplineComponent'C_Penthouse:PersistentLevel.Rail_Shot2.RailSplineComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.46"
+      },
+      "RailCameraMount": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Rail_Shot2.RailCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.41"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Rail_Shot2.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.42"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_Shot1_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Gameplay_Penthouse/G_Penthouse_Scripting.G_Penthouse_Scripting",
+          "SubPathString": "PersistentLevel.BP_Int_DoubleDoor_Wood_01_2"
+        },
+        "RelativeOffset": {
+          "X": 0.0,
+          "Y": -94.38331,
+          "Z": 149.91132
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_Penthouse:PersistentLevel.Camera_Shot1_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.12"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Camera_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.37"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Camera_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.37"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_Shot2_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Environment_Penthouse/E_Penthouse_L01_Props_01.E_Penthouse_L01_Props_01",
+          "SubPathString": "PersistentLevel.CenterPiece_Base_4"
+        },
+        "RelativeOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 403.94308
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_Penthouse:PersistentLevel.Camera_Shot2_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.13"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Camera_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.38"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Camera_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.38"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_Shot2_02",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_Penthouse:PersistentLevel.Camera_Shot2_02.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.14"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Camera_Shot2_02.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.39"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Camera_Shot2_02.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.39"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_Shot3_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_Penthouse:PersistentLevel.Camera_Shot3_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.15"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Camera_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.40"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Camera_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.40"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_Shot1_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 500.0
+      },
+      "CurrentFocusDistance": 1451.3804,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "PostProcessSettings": {
+        "bOverride_VignetteIntensity": true,
+        "VignetteIntensity": 0.7
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Camera_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.37"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_Shot2_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 500.0
+      },
+      "CurrentFocusDistance": 1619.3771,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "PostProcessSettings": {
+        "bOverride_VignetteIntensity": true,
+        "VignetteIntensity": 0.5
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Camera_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.38"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_Shot2_02",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 500.0
+      },
+      "FocusSettings": {
+        "ManualFocusDistance": 3042.8772
+      },
+      "CurrentFocalLength": 34.0,
+      "CurrentAperture": 1.891368,
+      "CurrentFocusDistance": 3042.8772,
+      "FieldOfView": 86.52859,
+      "AspectRatio": 2.3703704,
+      "PostProcessSettings": {
+        "bOverride_BloomMethod": true,
+        "bOverride_BloomIntensity": true,
+        "bOverride_BloomThreshold": true,
+        "bOverride_AutoExposureMethod": true,
+        "bOverride_AutoExposureBias": true,
+        "bOverride_VignetteIntensity": true,
+        "BloomIntensity": 7.390476,
+        "BloomThreshold": -0.457143,
+        "AutoExposureBias": 0.471429,
+        "VignetteIntensity": 0.804761
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Camera_Shot2_02.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.39"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_Shot3_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 500.0
+      },
+      "CurrentFocalLength": 39.072166,
+      "CurrentFocusDistance": 100000.0,
+      "FieldOfView": 78.63476,
+      "AspectRatio": 2.3703704,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Camera_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.40"
+      },
+      "RelativeRotation": {
+        "Pitch": 3.0243628,
+        "Yaw": 4.8168502E-05,
+        "Roll": 7.806914E-06
+      }
+    }
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_TouchTheSky_Master_02_2",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "TouchTheSky_Shot1_01_4",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "TouchTheSky_Shot3_01_8",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "TouchTheSky_Shot3_03",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "C_Penthouse",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'C_Penthouse:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.29"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "C_Penthouse_C'C_Penthouse:PersistentLevel.C_Penthouse_C_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.6"
+      },
+      "LevelBuildDataId": "AD04288A-4E2441B1-CD7A2BA2-6D518EAD",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'C_Penthouse_BuiltData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'C_Penthouse:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.35"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'C_Penthouse:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.35"
+      },
+      null,
+      {
+        "ObjectName": "CineCameraActor'C_Penthouse:PersistentLevel.Camera_Shot1_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.8"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_Penthouse:PersistentLevel.Camera_Shot3_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.11"
+      },
+      {
+        "ObjectName": "CameraRig_Rail'C_Penthouse:PersistentLevel.Rail_Shot2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.7"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_Penthouse:PersistentLevel.Camera_Shot2_02'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.10"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_Penthouse:PersistentLevel.TouchTheSky_Shot1_01_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.22"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_Penthouse:PersistentLevel.TouchTheSky_Shot3_01_8'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.23"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_Penthouse:PersistentLevel.C_TouchTheSky_Master_02_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.21"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_Penthouse:PersistentLevel.TouchTheSky_Shot3_03'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.24"
+      },
+      {
+        "ObjectName": "C_Penthouse_C'C_Penthouse:PersistentLevel.C_Penthouse_C_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.6"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_Penthouse:PersistentLevel.Camera_Shot2_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.9"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'C_Penthouse:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.29"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "C_Penthouse_C'C_Penthouse:PersistentLevel.C_Penthouse_C_2'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.6"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_TouchTheSky_Master_02_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_TouchTheSky_Master_02.C_TouchTheSky_Master_02",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_Penthouse:PersistentLevel.C_TouchTheSky_Master_02_2.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.25"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_Penthouse:PersistentLevel.C_TouchTheSky_Master_02_2.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.30"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_Penthouse:PersistentLevel.C_TouchTheSky_Master_02_2.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.16"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.C_TouchTheSky_Master_02_2.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.36"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "TouchTheSky_Shot1_01_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/TouchTheSky_Shot1_01.TouchTheSky_Shot1_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_Penthouse:PersistentLevel.TouchTheSky_Shot1_01_4.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.26"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_Penthouse:PersistentLevel.TouchTheSky_Shot1_01_4.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.31"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_Penthouse:PersistentLevel.TouchTheSky_Shot1_01_4.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.17"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.TouchTheSky_Shot1_01_4.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.43"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "TouchTheSky_Shot3_01_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/TouchTheSky_Shot3_01.TouchTheSky_Shot3_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_Penthouse:PersistentLevel.TouchTheSky_Shot3_01_8.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.27"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_Penthouse:PersistentLevel.TouchTheSky_Shot3_01_8.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.32"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_Penthouse:PersistentLevel.TouchTheSky_Shot3_01_8.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.18"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.TouchTheSky_Shot3_01_8.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.44"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "TouchTheSky_Shot3_03",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/TouchTheSky_Shot3_03.TouchTheSky_Shot3_03",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_Penthouse:PersistentLevel.TouchTheSky_Shot3_03.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.28"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_Penthouse:PersistentLevel.TouchTheSky_Shot3_03.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.33"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_Penthouse:PersistentLevel.TouchTheSky_Shot3_03.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.19"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.TouchTheSky_Shot3_03.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.45"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_TouchTheSky_Master_02_2",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "TouchTheSky_Shot1_01_4",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "TouchTheSky_Shot3_01_8",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "TouchTheSky_Shot3_03",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "34A20F46-4329DAE7-0C1CA4BB-9B8ADEE5",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_TouchTheSky_Master_02_2",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "TouchTheSky_Shot1_01_4",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "TouchTheSky_Shot3_01_8",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "TouchTheSky_Shot3_03",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "GlobalMaterialParameters": {
+        "WindDirection": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "WindSpeed": 0.01,
+        "EnemyBacklightInfluence": {
+          "R": 0.05,
+          "G": 5.0,
+          "B": 0.2,
+          "A": 0.5,
+          "Hex": "7F3FFF7C"
+        },
+        "EnemyBacklightFade": {
+          "R": 3000.0,
+          "G": 1500.0,
+          "B": 40.0,
+          "A": 30.0,
+          "Hex": "FFFFFFFF"
+        },
+        "EnemyBacklightRangeFuzz": {
+          "R": 0.2,
+          "G": 0.5,
+          "B": 0.1,
+          "A": 0.5,
+          "Hex": "7F7CBC59"
+        }
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'C_Penthouse:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.34"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_TouchTheSky_Master_02_2",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_Shot1_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeRotation": {
+        "Pitch": 43.4247,
+        "Yaw": 13.229291,
+        "Roll": 5.8777306E-07
+      },
+      "ComponentVelocity": {
+        "X": -353912.53,
+        "Y": -64609.125,
+        "Z": -263142.5
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_Shot2_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Rail_Shot2.RailCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.41"
+      },
+      "RelativeRotation": {
+        "Pitch": 24.867863,
+        "Yaw": -143.42659,
+        "Roll": 9.410255E-07
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_Shot2_02",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 623.92236,
+        "Y": 2500.0178,
+        "Z": 4605.9233
+      },
+      "RelativeRotation": {
+        "Pitch": -8.257168,
+        "Yaw": -101.1483,
+        "Roll": 8.626768E-07
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_Shot3_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "ComponentVelocity": {
+        "X": -71347.88,
+        "Y": -3525.698,
+        "Z": -116763.97
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RailCameraMount",
+    "Outer": "Rail_Shot2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SplineComponent'C_Penthouse:PersistentLevel.Rail_Shot2.RailSplineComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.46"
+      },
+      "RelativeLocation": {
+        "X": -12.813476,
+        "Y": -1.262207,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent",
+    "Outer": "Rail_Shot2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4029.641,
+        "Y": 469.81436,
+        "Z": 4170.2114
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "TouchTheSky_Shot1_01_4",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "TouchTheSky_Shot3_01_8",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "TouchTheSky_Shot3_03",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "RailSplineComponent",
+    "Outer": "Rail_Shot2",
+    "Class": "UScriptClass'SplineComponent'",
+    "Properties": {
+      "SplineCurves": {
+        "Position": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": -12.813472,
+                "Y": -1.2621784,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 244.30952,
+                "Y": 24.052124,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 244.30952,
+                "Y": 24.052124,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveUser"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 244.07246,
+                "Y": -26.367554,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 239.03717,
+                "Y": -93.53293,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 239.03717,
+                "Y": -93.53293,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 465.26086,
+                "Y": -188.32803,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 210.89294,
+                "Y": -195.44904,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 210.89294,
+                "Y": -195.44904,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveUser"
+            }
+          ]
+        },
+        "Rotation": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.10269156,
+                "W": 0.9947101,
+                "IsNormalized": true,
+                "Size": 0.99999684,
+                "SizeSquared": 0.9999937
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.1536976,
+                "W": 0.98811466,
+                "IsNormalized": true,
+                "Size": 0.9999967,
+                "SizeSquared": 0.9999935
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.1536976,
+                "W": 0.98811466,
+                "IsNormalized": true,
+                "Size": 0.9999967,
+                "SizeSquared": 0.9999935
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.06749787,
+                "W": 0.49542308,
+                "IsNormalized": false,
+                "Size": 0.49999997,
+                "SizeSquared": 0.24999999
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.06749787,
+                "W": 0.49542308,
+                "IsNormalized": false,
+                "Size": 0.49999997,
+                "SizeSquared": 0.24999999
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.36505333,
+                "W": 0.9309768,
+                "IsNormalized": true,
+                "Size": 0.9999909,
+                "SizeSquared": 0.99998176
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.5316382,
+                "W": 0.8469608,
+                "IsNormalized": true,
+                "Size": 0.9999909,
+                "SizeSquared": 0.99998176
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.5316382,
+                "W": 0.8469608,
+                "IsNormalized": true,
+                "Size": 0.9999909,
+                "SizeSquared": 0.99998176
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "Scale": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "ReparamTable": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": 0.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 24.918962,
+              "OutVal": 0.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 50.464993,
+              "OutVal": 0.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 76.47494,
+              "OutVal": 0.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 102.79488,
+              "OutVal": 0.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 129.28227,
+              "OutVal": 0.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 155.80844,
+              "OutVal": 0.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 182.26181,
+              "OutVal": 0.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 208.55188,
+              "OutVal": 0.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 234.61398,
+              "OutVal": 0.90000004,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 260.4149,
+              "OutVal": 1.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 286.24432,
+              "OutVal": 1.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 312.46112,
+              "OutVal": 1.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 339.12628,
+              "OutVal": 1.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 366.25745,
+              "OutVal": 1.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 393.83685,
+              "OutVal": 1.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 421.81833,
+              "OutVal": 1.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 450.1337,
+              "OutVal": 1.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 478.6982,
+              "OutVal": 1.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 507.41522,
+              "OutVal": 1.9000001,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 536.18054,
+              "OutVal": 2.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            }
+          ]
+        }
+      },
+      "bSplineHasBeenEdited": true,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_Penthouse:PersistentLevel.Rail_Shot2.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.42"
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "C_Penthouse",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'C_Penthouse:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/C_Penthouse.20"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

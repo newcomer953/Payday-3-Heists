@@ -1,0 +1,1440 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Container_Objective",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetComponentRotation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetComponentRotation_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Roll",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Pitch",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Yaw",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Roll_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Pitch_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Yaw_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotator_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotator_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetWorldRotation_SweepHitResult",
+        "Flags": "RF_Public",
+        "ElementSize": 144,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetWorldRotation_SweepHitResult_1",
+        "Flags": "RF_Public",
+        "ElementSize": 144,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetAsLootContainer",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set Doors Open",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetIsTraversable",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Container_Objective_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Container_Objective_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.23"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Container_Objective_C:ExecuteUbergraph_BP_Container_Objective'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Container_Objective_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.4"
+      },
+      {
+        "ObjectName": "Function'BP_Container_Objective_C:SetIsTraversable'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.3"
+      },
+      {
+        "ObjectName": "Function'BP_Container_Objective_C:Set Doors Open'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.2"
+      },
+      {
+        "ObjectName": "Function'BP_Container_Objective_C:SetAsLootContainer'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.1"
+      },
+      {
+        "ObjectName": "Function'BP_Container_Objective_C:ExecuteUbergraph_BP_Container_Objective'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MeshDecal_ContainerFloor_0__3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FX_CoolerContainer_Inside",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MeshDecal_ContainerFloor_0_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Decal",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'DecalComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MeshDecal_ContainerWall_0_3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MeshDecal_ContainerWall_02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MeshDecal_ContainerWall_0_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MeshDecal_ContainerWall_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "sm_containerdoor_left",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "sm_containerdoor_right",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh_BackBlocker",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "sm_container_body",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Traversable(open)",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "ContainerColor",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Enum": {
+          "ObjectName": "UserDefinedEnum'Enum_ContainerColor'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/Enum_ContainerColor.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsLootContainer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Area 1 Rotation Speed",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Area 2 Rotation Speed",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Area 3 Rotation Speed",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Area 4 Rotation Speed",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Area 5 Rotation Speed",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Area 6 Rotation Speed",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Vibration Speed",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Vibration Strenght",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Container_Objective": {
+        "ObjectName": "Function'BP_Container_Objective_C:ExecuteUbergraph_BP_Container_Objective'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.0"
+      },
+      "SetAsLootContainer": {
+        "ObjectName": "Function'BP_Container_Objective_C:SetAsLootContainer'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.1"
+      },
+      "Set Doors Open": {
+        "ObjectName": "Function'BP_Container_Objective_C:Set Doors Open'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.2"
+      },
+      "SetIsTraversable": {
+        "ObjectName": "Function'BP_Container_Objective_C:SetIsTraversable'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.3"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_Container_Objective_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Container_Objective_C'Default__BP_Container_Objective_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.6"
+    }
+  },
+  {
+    "Type": "BP_Container_Objective_C",
+    "Name": "Default__BP_Container_Objective_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.BP_Container_Objective_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Area 1 Rotation Speed": 0.8,
+      "Area 3 Rotation Speed": 1.0,
+      "Vibration Speed": 7.0,
+      "Vibration Strenght": 0.1
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal_GEN_VARIABLE",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "Material'M_Decal_Condensation'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/CoolerContainer/Comp/M_Decal_Condensation.0"
+      },
+      "RelativeLocation": {
+        "X": -0.00040352537,
+        "Y": 0.00029479203,
+        "Z": 241.71199
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -3.0845404E-05,
+        "Roll": -2.9802322E-07
+      },
+      "RelativeScale3D": {
+        "X": 0.023082953,
+        "Y": 1.120032,
+        "Z": 0.44988728
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "FX_CoolerContainer_Inside_GEN_VARIABLE",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_CoolerContainer_Inside'",
+        "ObjectPath": "PAYDAY3/Content/FX/Props/FX_CoolerContainer_Inside.12"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "ParticleAmount",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.ParticleAmount",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "ParticleColor",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.ParticleColor",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SizeMult",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SizeMult",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SpawnRadius",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SpawnRadius",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.ParticleAmount",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.ParticleColor",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.SizeMult",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 24,
+            "Name": "User.SpawnRadius",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          30,
+          0,
+          0,
+          0,
+          229,
+          151,
+          103,
+          63,
+          177,
+          186,
+          116,
+          63,
+          0,
+          0,
+          128,
+          63,
+          153,
+          152,
+          24,
+          62,
+          154,
+          153,
+          89,
+          63,
+          0,
+          0,
+          47,
+          67,
+          0,
+          0,
+          122,
+          67,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -105.69223,
+        "Z": 27.75662
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Container_Objective_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.9"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.15"
+        }
+      ],
+      "VariableGuid": "E7E95727-4D690BA4-FE669C98-317C23BF",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Container_Objective_C:sm_containerdoor_left_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.31"
+      },
+      "VariableGuid": "15951C22-4ECAED6E-AE117B95-9DD2802F",
+      "InternalVariableName": "sm_containerdoor_left"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'DecalComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "DecalComponent'BP_Container_Objective_C:Decal_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.7"
+      },
+      "VariableGuid": "BE456A75-462586E0-9D21C0AA-F4F90E8B",
+      "InternalVariableName": "Decal"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Container_Objective_C:MeshDecal_ContainerFloor_0_2_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.24"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.14"
+        }
+      ],
+      "VariableGuid": "FE5FC739-41F010DB-487492B4-CA927C84",
+      "InternalVariableName": "MeshDecal_ContainerFloor_0_2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Container_Objective_C:MeshDecal_ContainerFloor_0__3_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.25"
+      },
+      "VariableGuid": "24BFEEB8-4377B9B3-6A1A8FAC-F4A8D964",
+      "InternalVariableName": "MeshDecal_ContainerFloor_0__3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BP_Container_Objective_C:FX_CoolerContainer_Inside_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.8"
+      },
+      "VariableGuid": "46243257-4B3D344E-D718B3A7-ED468EB6",
+      "InternalVariableName": "FX_CoolerContainer_Inside"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Container_Objective_C:sm_container_body_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.30"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.11"
+        }
+      ],
+      "VariableGuid": "3F701263-4FBC5C85-74205D92-C5D03C29",
+      "InternalVariableName": "sm_container_body"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Container_Objective_C:sm_containerdoor_right_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.32"
+      },
+      "VariableGuid": "B522F37B-43EF879F-F6D7AA90-4181A4A2",
+      "InternalVariableName": "sm_containerdoor_right"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Container_Objective_C:MeshDecal_ContainerWall_01_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.26"
+      },
+      "VariableGuid": "CFAC9AFD-46F16DCD-50E993B0-4BBECD31",
+      "InternalVariableName": "MeshDecal_ContainerWall_01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Container_Objective_C:MeshDecal_ContainerWall_0_2_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.28"
+      },
+      "VariableGuid": "79E0B371-4FE5FDBC-6B113CBF-E3AEF7A8",
+      "InternalVariableName": "MeshDecal_ContainerWall_0_2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Container_Objective_C:StaticMesh_BackBlocker_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.33"
+      },
+      "VariableGuid": "F2033EAD-45431FF1-6EAC1F8E-95680A64",
+      "InternalVariableName": "StaticMesh_BackBlocker"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Container_Objective_C:MeshDecal_ContainerWall_02_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.27"
+      },
+      "VariableGuid": "61B120CA-40F5DF42-DF911783-ECE01A56",
+      "InternalVariableName": "MeshDecal_ContainerWall_02"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Container_Objective_C:MeshDecal_ContainerWall_0_3_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.29"
+      },
+      "VariableGuid": "8719F1ED-47CF3180-7C35BBB8-D36D24A1",
+      "InternalVariableName": "MeshDecal_ContainerWall_0_3"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.10"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.14"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Container_Objective_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_Container_Objective.10"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MeshDecal_ContainerFloor_0_2_GEN_VARIABLE",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MeshDecal_ContainerFloor_01'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/CoolerContainer/MeshDecal_ContainerFloor_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CoolerContainer_Frost_Ground'",
+          "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/CoolerContainer/Comp/MI_CoolerContainer_Frost_Ground.0"
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll"
+      },
+      "RelativeLocation": {
+        "X": 0.0009347652,
+        "Y": -162.09306,
+        "Z": 2.3977127
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.00028896332,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MeshDecal_ContainerFloor_0__3_GEN_VARIABLE",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MeshDecal_ContainerFloor_01'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/CoolerContainer/MeshDecal_ContainerFloor_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CoolerContainer_Frost_Ground'",
+          "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/CoolerContainer/Comp/MI_CoolerContainer_Frost_Ground.0"
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll"
+      },
+      "RelativeLocation": {
+        "X": 0.00028172263,
+        "Y": 240.17563,
+        "Z": 0.00025177002
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MeshDecal_ContainerWall_01_GEN_VARIABLE",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MeshDecal_ContainerWall_01'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/CoolerContainer/MeshDecal_ContainerWall_01.2"
+      },
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MeshDecal_ContainerWall_02_GEN_VARIABLE",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MeshDecal_ContainerWall_02'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/CoolerContainer/MeshDecal_ContainerWall_02.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_LiquidNitrogen'",
+          "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Liquid/Comp/M_LiquidNitrogen.0"
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MeshDecal_ContainerWall_0_2_GEN_VARIABLE",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MeshDecal_ContainerWall_01'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/CoolerContainer/MeshDecal_ContainerWall_01.2"
+      },
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.00058,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MeshDecal_ContainerWall_0_3_GEN_VARIABLE",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MeshDecal_ContainerWall_02'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/CoolerContainer/MeshDecal_ContainerWall_02.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_LiquidNitrogen'",
+          "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Liquid/Comp/M_LiquidNitrogen.0"
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll"
+      },
+      "RelativeLocation": {
+        "X": 0.6980438,
+        "Y": 9.1552734E-05,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.00044,
+        "Roll": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "sm_container_body_GEN_VARIABLE",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ShippingContainer_01_Cooled_Short_Shell_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/ShippingContainer_01/ShippingContainer_01_Cooled_Short_Shell_01.2"
+      },
+      "LightmassSettings": {
+        "bUseTwoSidedLighting": true
+      },
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "LightmapType": "ELightmapType::ForceSurface",
+      "bCastShadowAsTwoSided": true,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "sm_containerdoor_left_GEN_VARIABLE",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ShippingContainer_01_Cooled_Door_Left_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/ShippingContainer_01/ShippingContainer_01_Cooled_Door_Left_01.2"
+      },
+      "LightmapType": "ELightmapType::ForceSurface",
+      "RelativeLocation": {
+        "X": 126.000565,
+        "Y": -298.0,
+        "Z": 24.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.00037,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "sm_containerdoor_right_GEN_VARIABLE",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ShippingContainer_01_Cooled_Door_Right_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/ShippingContainer_01/ShippingContainer_01_Cooled_Door_Right_01.2"
+      },
+      "LightmapType": "ELightmapType::ForceSurface",
+      "RelativeLocation": {
+        "X": -125.999435,
+        "Y": -297.9987,
+        "Z": 24.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.00032,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_BackBlocker_GEN_VARIABLE",
+    "Outer": "BP_Container_Objective_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ShippingContainer_01_Refrigerator_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/ShippingContainer_01/ShippingContainer_01_Refrigerator_01.2"
+      },
+      "LightmapType": "ELightmapType::ForceSurface",
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 300.0,
+        "Z": 0.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  }
+]

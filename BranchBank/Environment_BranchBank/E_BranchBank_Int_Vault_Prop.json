@@ -1,0 +1,624 @@
+[
+  {
+    "Type": "HierarchicalInstancedStaticMeshComponent",
+    "Name": "HierarchicalInstancedStaticMesh",
+    "Outer": "HSMI_Table_01_3",
+    "Class": "UScriptClass'HierarchicalInstancedStaticMeshComponent'",
+    "Properties": {
+      "SortedInstances": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "NumBuiltInstances": 4,
+      "BuiltInstanceBounds": {
+        "Min": {
+          "X": -64.000015,
+          "Y": -44.444443,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 324.44458,
+          "Y": 368.0001,
+          "Z": 79.99997
+        },
+        "IsValid": 1
+      },
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 39.999985
+        },
+        "BoxExtent": {
+          "X": 64.000015,
+          "Y": 44.444443,
+          "Z": 39.99999
+        },
+        "SphereRadius": 87.586
+      },
+      "InstanceCountToRender": 4,
+      "InstancingRandomSeed": 2265,
+      "InstanceStartCullDistance": 1500,
+      "InstanceEndCullDistance": 1500,
+      "InstanceReorderTable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Table_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Furniture/Table_01/Table_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 175.74045
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 175.74045
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "VisibilityId": 4184,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll"
+      },
+      "RelativeLocation": {
+        "X": 984.0,
+        "Y": -2568.0,
+        "Z": 48.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A6C78F9244201F4E3A7DA1A1C2C1C6EC"
+      },
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ],
+    "PerInstanceSMData": [
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 0.99830717,
+            "IsNormalized": true,
+            "Size": 0.99830717,
+            "SizeSquared": 0.9966172
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      },
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 0.99830717,
+            "IsNormalized": true,
+            "Size": 0.99830717,
+            "SizeSquared": 0.9966172
+          },
+          "Translation": {
+            "X": 132.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      },
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.70591044,
+            "W": 0.705909,
+            "IsNormalized": true,
+            "Size": 0.9983071,
+            "SizeSquared": 0.9966171
+          },
+          "Translation": {
+            "X": 280.0,
+            "Y": 172.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 0.9999999,
+            "Y": 0.9999999,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      },
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.70591044,
+            "W": 0.705909,
+            "IsNormalized": true,
+            "Size": 0.9983071,
+            "SizeSquared": 0.9966171
+          },
+          "Translation": {
+            "X": 280.0,
+            "Y": 304.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 0.9999999,
+            "Y": 0.9999999,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      }
+    ]
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "E_BranchBank_Int_Vault_Prop",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'E_BranchBank_Int_Vault_Prop:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.2"
+      },
+      "StreamingTextureGuids": [
+        "96A070CF-441A681B-47300A80-D9465592",
+        "BCEBA8FC-439F33E5-EDF4B08F-B2C86FED",
+        "C818871C-4FED1334-D8D14596-43AD9034",
+        "0921822E-48A8D823-59F236B2-7D10779C",
+        "A9FD6F53-45698EA5-FB3904B1-F2B99380",
+        "481202F1-4A348F9F-19C65A8A-0E52D2FF",
+        "60A7F8BB-48F8FB6C-4E1247A1-39F68D13",
+        "6DB87118-4188BEBD-73A815A0-ED72E19F"
+      ],
+      "LevelBuildDataId": "2B8BBD7B-4242C201-25DFADA9-7D3447B3",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'E_BranchBank_Int_Vault_Prop_BuiltData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'E_BranchBank_Int_Vault_Prop:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.5"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'E_BranchBank_Int_Vault_Prop:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.5"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'E_BranchBank_Int_Vault_Prop:PersistentLevel.TrollyCart_01_23'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_BranchBank_Int_Vault_Prop:PersistentLevel.DepositBoxBranchBank_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.6"
+      },
+      {
+        "ObjectName": "PrefabHSMIActor'E_BranchBank_Int_Vault_Prop:PersistentLevel.HSMI_Table_01_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.4"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_BranchBank_Int_Vault_Prop:PersistentLevel.SM_HSMI_StepStool_01_3_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.7"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_BranchBank_Int_Vault_Prop:PersistentLevel.SM_HSMI_StepStool_01_3_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.8"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'E_BranchBank_Int_Vault_Prop:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.2"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "EE952CBD-40571422-518D3DA6-D6B421FD",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PrefabHSMIActor",
+    "Name": "HSMI_Table_01_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PrefabHSMIActor'",
+    "Properties": {
+      "HierarchicalInstancedStaticMesh": {
+        "ObjectName": "HierarchicalInstancedStaticMeshComponent'E_BranchBank_Int_Vault_Prop:PersistentLevel.HSMI_Table_01_3.HierarchicalInstancedStaticMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.0"
+      },
+      "RootComponent": {
+        "ObjectName": "HierarchicalInstancedStaticMeshComponent'E_BranchBank_Int_Vault_Prop:PersistentLevel.HSMI_Table_01_3.HierarchicalInstancedStaticMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.0"
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'E_BranchBank_Int_Vault_Prop:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.3"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "DepositBoxBranchBank_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Vault_Prop:PersistentLevel.DepositBoxBranchBank_01.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.10"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Vault_Prop:PersistentLevel.DepositBoxBranchBank_01.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.10"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_HSMI_StepStool_01_3_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Vault_Prop:PersistentLevel.SM_HSMI_StepStool_01_3_0.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.11"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Vault_Prop:PersistentLevel.SM_HSMI_StepStool_01_3_0.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.11"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_HSMI_StepStool_01_3_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Vault_Prop:PersistentLevel.SM_HSMI_StepStool_01_3_1.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.12"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Vault_Prop:PersistentLevel.SM_HSMI_StepStool_01_3_1.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.12"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "TrollyCart_01_23",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Vault_Prop:PersistentLevel.TrollyCart_01_23.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.13"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Vault_Prop:PersistentLevel.TrollyCart_01_23.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.13"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "DepositBoxBranchBank_01",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'DepositBoxBranchBank_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/DepositBox_01/DepositBoxBranchBank_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 211.22168
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 211.22168
+        }
+      ],
+      "VisibilityId": 4183,
+      "RelativeLocation": {
+        "X": 968.2691,
+        "Y": -1752.0621,
+        "Z": 27.85411
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.00014,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "8975CE664673772E0D111491D5E51E4D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_HSMI_StepStool_01_3_0",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'StepStool_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/StepStool_01/StepStool_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 4,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 111.56722
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 111.56722
+        }
+      ],
+      "LDMaxDrawDistance": 1500.0,
+      "CachedMaxDrawDistance": 1500.0,
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "VisibilityId": 4185,
+      "RelativeLocation": {
+        "X": 760.0,
+        "Y": -2576.0,
+        "Z": 40.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 5.0000634,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_HSMI_StepStool_01_3_1",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'StepStool_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/StepStool_01/StepStool_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 4,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 111.56722
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 111.56722
+        }
+      ],
+      "LDMaxDrawDistance": 1500.0,
+      "CachedMaxDrawDistance": 1500.0,
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "VisibilityId": 4186,
+      "RelativeLocation": {
+        "X": 368.9143,
+        "Y": -2446.9448,
+        "Z": 40.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -86.85724,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.99999994,
+        "Y": 0.99999994,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "TrollyCart_01_23",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TrollyCart_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/TrollyCart_01/TrollyCart_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 121.35476
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 121.35476
+        }
+      ],
+      "LDMaxDrawDistance": 1500.0,
+      "CachedMaxDrawDistance": 1500.0,
+      "bUseAsOccluder": false,
+      "VisibilityId": 4182,
+      "RelativeLocation": {
+        "X": 872.0,
+        "Y": -2568.0,
+        "Z": 48.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00012,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C75C5C414847F77DA9752C964F0F6C6B"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "E_BranchBank_Int_Vault_Prop",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'E_BranchBank_Int_Vault_Prop:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Vault_Prop.1"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

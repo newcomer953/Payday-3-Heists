@@ -1,0 +1,1644 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_C_NightClub_IntroOutro",
+    "Outer": "C_NightClub_IntroOutro_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMovieSceneSequencePlayerEvent__DelegateSignature'",
+          "ObjectPath": "/Script/MovieScene"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSequencePlayer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelSequencePlayer'",
+          "ObjectPath": "/Script/LevelSequence"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnIntroFinished",
+    "Outer": "C_NightClub_IntroOutro_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "IntroSequenceStarted",
+    "Outer": "C_NightClub_IntroOutro_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZLevelScriptActor:IntroSequenceStarted'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "C_NightClub_IntroOutro_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_NightClub_IntroOutro_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'C_NightClub_IntroOutro_C:ExecuteUbergraph_C_NightClub_IntroOutro'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'C_NightClub_IntroOutro_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.3"
+      },
+      {
+        "ObjectName": "Function'C_NightClub_IntroOutro_C:IntroSequenceStarted'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.2"
+      },
+      {
+        "ObjectName": "Function'C_NightClub_IntroOutro_C:OnIntroFinished'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.1"
+      },
+      {
+        "ObjectName": "Function'C_NightClub_IntroOutro_C:ExecuteUbergraph_C_NightClub_IntroOutro'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "C_RockTheCradel_Master_01Master_4_ExecuteUbergraph_C_NightClub_IntroOutro_RefProperty",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelSequenceActor'",
+          "ObjectPath": "/Script/LevelSequence"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_C_NightClub_IntroOutro": {
+        "ObjectName": "Function'C_NightClub_IntroOutro_C:ExecuteUbergraph_C_NightClub_IntroOutro'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.0"
+      },
+      "OnIntroFinished": {
+        "ObjectName": "Function'C_NightClub_IntroOutro_C:OnIntroFinished'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.1"
+      },
+      "IntroSequenceStarted": {
+        "ObjectName": "Function'C_NightClub_IntroOutro_C:IntroSequenceStarted'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.2"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'C_NightClub_IntroOutro_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_NightClub_IntroOutro_C'Default__C_NightClub_IntroOutro_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.5"
+    }
+  },
+  {
+    "Type": "C_NightClub_IntroOutro_C",
+    "Name": "Default__C_NightClub_IntroOutro_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.C_NightClub_IntroOutro_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "C_RockTheCradel_Master_01Master_4_ExecuteUbergraph_C_NightClub_IntroOutro_RefProperty": {
+        "ObjectName": "LevelSequenceActor'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Master_01Master_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.25"
+      }
+    }
+  },
+  {
+    "Type": "C_NightClub_IntroOutro_C",
+    "Name": "C_NightClub_IntroOutro_C_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.C_NightClub_IntroOutro_C'",
+    "Template": {
+      "ObjectName": "C_NightClub_IntroOutro_C'Default__C_NightClub_IntroOutro_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.5"
+    },
+    "Properties": {
+      "Seed": 30469,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CameraRig_Crane",
+    "Name": "CameraRig_Crane_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraRig_Crane'",
+    "Properties": {
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_01.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.50"
+      },
+      "CraneYawControl": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_01.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.49"
+      },
+      "CranePitchControl": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_01.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.48"
+      },
+      "CraneCameraMount": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_01.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.47"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_01.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.50"
+      }
+    }
+  },
+  {
+    "Type": "CameraRig_Crane",
+    "Name": "CameraRig_Crane_02",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraRig_Crane'",
+    "Properties": {
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_02.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.54"
+      },
+      "CraneYawControl": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_02.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.53"
+      },
+      "CranePitchControl": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_02.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.52"
+      },
+      "CraneCameraMount": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_02.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.51"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_02.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.54"
+      }
+    }
+  },
+  {
+    "Type": "CameraRig_Rail",
+    "Name": "Shot1_01_Rail",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraRig_Rail'",
+    "Properties": {
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.Shot1_01_Rail.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.58"
+      },
+      "RailSplineComponent": {
+        "ObjectName": "SplineComponent'C_NightClub_IntroOutro:PersistentLevel.Shot1_01_Rail.RailSplineComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.59"
+      },
+      "RailCameraMount": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.Shot1_01_Rail.RailCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.57"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.Shot1_01_Rail.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.58"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_Shot1_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/NightClub/Sublevels/Environment_NightClub/E_NightClub_Ext_Arch.E_NightClub_Ext_Arch",
+          "SubPathString": "PersistentLevel.BP_LGT_NC_Ext_Sign_01_2"
+        },
+        "RelativeOffset": {
+          "X": 160.63136,
+          "Y": -125.693924,
+          "Z": -3.490645
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_NightClub_IntroOutro:PersistentLevel.Camera_Shot1_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.15"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.Camera_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.44"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.Camera_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.44"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_Shot2_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_NightClub_IntroOutro:PersistentLevel.Camera_Shot2_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.16"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.Camera_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.45"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.Camera_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.45"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_Shot3_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/NightClub/Sublevels/Lighting_NightClub/L_NightClub_Lighting.L_NightClub_Lighting",
+          "SubPathString": "PersistentLevel.BP_LGT_NeonSign_12"
+        },
+        "RelativeOffset": {
+          "X": -576.47046,
+          "Y": 4.727281,
+          "Z": -12.859146
+        },
+        "bAllowRoll": true
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_NightClub_IntroOutro:PersistentLevel.Camera_Shot3_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.17"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.Camera_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.46"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.Camera_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.46"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "LS_Cinematic_Camera_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "RelativeOffset": {
+          "X": 8034.205,
+          "Y": -4000.0,
+          "Z": 250.0
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_NightClub_IntroOutro:PersistentLevel.LS_Cinematic_Camera_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.18"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.LS_Cinematic_Camera_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.55"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.LS_Cinematic_Camera_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.55"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "LS_Cinematic_Camera_02",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "RelativeOffset": {
+          "X": 0.0,
+          "Y": -4155.192,
+          "Z": 0.0
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_NightClub_IntroOutro:PersistentLevel.LS_Cinematic_Camera_02.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.19"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.LS_Cinematic_Camera_02.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.56"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.LS_Cinematic_Camera_02.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.56"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_Shot1_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 30.0
+      },
+      "CurrentFocusDistance": 100000.0,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "PostProcessSettings": {
+        "bOverride_BloomMethod": true,
+        "bOverride_BloomIntensity": true,
+        "bOverride_BloomThreshold": true,
+        "bOverride_LensFlareIntensity": true,
+        "bOverride_LensFlareTint": true,
+        "bOverride_LensFlareBokehSize": true,
+        "bOverride_VignetteIntensity": true,
+        "bOverride_GrainIntensity": true,
+        "bOverride_GrainJitter": true,
+        "FilmSlope": 0.990476,
+        "FilmToe": 0.330952,
+        "FilmShoulder": 0.028571,
+        "FilmBlackClip": 0.409524,
+        "FilmWhiteClip": 0.0,
+        "BloomIntensity": 6.780952,
+        "BloomThreshold": -0.314286,
+        "CameraISO": 140.84706,
+        "LensFlareIntensity": 13.038095,
+        "LensFlareBokehSize": 21.285715,
+        "VignetteIntensity": 0.0,
+        "GrainJitter": 0.1,
+        "GrainIntensity": 0.02
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.Camera_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.44"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_Shot2_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 30.0
+      },
+      "CurrentFocusDistance": 100000.0,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.Camera_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.45"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_Shot3_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 30.0
+      },
+      "CurrentFocusDistance": 100000.0,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.Camera_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.46"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "LS_Cinematic_Camera_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 24.0,
+        "SensorHeight": 13.5
+      },
+      "LensSettings": {
+        "MinFocalLength": 12.0,
+        "MaxFocalLength": 12.0,
+        "MinFStop": 2.8
+      },
+      "FocusSettings": {
+        "FocusMethod": "ECameraFocusMethod::Disable"
+      },
+      "CurrentFocalLength": 12.0,
+      "CurrentFocusDistance": 100000.0,
+      "AspectRatio": 1.7777778,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.LS_Cinematic_Camera_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.55"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "LS_Cinematic_Camera_02",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 24.0,
+        "SensorHeight": 13.5
+      },
+      "LensSettings": {
+        "MinFocalLength": 12.0,
+        "MaxFocalLength": 12.0,
+        "MinFStop": 2.8
+      },
+      "FocusSettings": {
+        "FocusMethod": "ECameraFocusMethod::Disable"
+      },
+      "CurrentFocalLength": 12.0,
+      "CurrentFocusDistance": 100000.0,
+      "AspectRatio": 1.7777778,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.LS_Cinematic_Camera_02.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.56"
+      }
+    }
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_RockTheCradel_Master_01Master_4",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_RockTheCradel_Shot1_01_6",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_RockTheCradel_Shot2_01_8",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_RockTheCradel_Shot3_01_4",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "C_NightClub_IntroOutro",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'C_NightClub_IntroOutro:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.33"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "C_NightClub_IntroOutro_C'C_NightClub_IntroOutro:PersistentLevel.C_NightClub_IntroOutro_C_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.6"
+      },
+      "LevelBuildDataId": "4A0CE483-4B791A87-C17A08B7-3B0F94D0",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'C_NightClub_IntroOutro:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.39"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'C_NightClub_IntroOutro:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.39"
+      },
+      null,
+      {
+        "ObjectName": "CameraRig_Crane'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.7"
+      },
+      {
+        "ObjectName": "CameraRig_Crane'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_02'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.8"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_NightClub_IntroOutro:PersistentLevel.Camera_Shot2_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.11"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_NightClub_IntroOutro:PersistentLevel.Camera_Shot3_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.12"
+      },
+      {
+        "ObjectName": "CameraRig_Rail'C_NightClub_IntroOutro:PersistentLevel.Shot1_01_Rail'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.9"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Shot3_01_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.28"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Shot1_01_6'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.26"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Shot2_01_8'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.27"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Master_01Master_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.25"
+      },
+      {
+        "ObjectName": "C_NightClub_IntroOutro_C'C_NightClub_IntroOutro:PersistentLevel.C_NightClub_IntroOutro_C_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.6"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_NightClub_IntroOutro:PersistentLevel.LS_Cinematic_Camera_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.13"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_NightClub_IntroOutro:PersistentLevel.LS_Cinematic_Camera_02'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.14"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_NightClub_IntroOutro:PersistentLevel.Camera_Shot1_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.10"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'C_NightClub_IntroOutro:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.33"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "C_NightClub_IntroOutro_C'C_NightClub_IntroOutro:PersistentLevel.C_NightClub_IntroOutro_C_2'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.6"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_RockTheCradel_Master_01Master_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Master_01.C_RockTheCradel_Master_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Master_01Master_4.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.29"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Master_01Master_4.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.34"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Master_01Master_4.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.20"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Master_01Master_4.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.40"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_RockTheCradel_Shot1_01_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot1_01.C_RockTheCradel_Shot1_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Shot1_01_6.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.30"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Shot1_01_6.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.35"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Shot1_01_6.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.21"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Shot1_01_6.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.41"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_RockTheCradel_Shot2_01_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.C_RockTheCradel_Shot2_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Shot2_01_8.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.31"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Shot2_01_8.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.36"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Shot2_01_8.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.22"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Shot2_01_8.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.42"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_RockTheCradel_Shot3_01_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot3_01.C_RockTheCradel_Shot3_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Shot3_01_4.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.32"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Shot3_01_4.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.37"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Shot3_01_4.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.23"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.C_RockTheCradel_Shot3_01_4.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.43"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_RockTheCradel_Master_01Master_4",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_RockTheCradel_Shot1_01_6",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_RockTheCradel_Shot2_01_8",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_RockTheCradel_Shot3_01_4",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "043049E9-4ECEE37A-D080B3B0-55405EC8",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_RockTheCradel_Master_01Master_4",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_RockTheCradel_Shot1_01_6",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_RockTheCradel_Shot2_01_8",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_RockTheCradel_Shot3_01_4",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "GlobalMaterialParameters": {
+        "WindDirection": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "WindSpeed": 0.01,
+        "EnemyBacklightInfluence": {
+          "R": 0.05,
+          "G": 5.0,
+          "B": 0.2,
+          "A": 0.5,
+          "Hex": "7F3FFF7C"
+        },
+        "EnemyBacklightFade": {
+          "R": 3000.0,
+          "G": 1500.0,
+          "B": 40.0,
+          "A": 30.0,
+          "Hex": "FFFFFFFF"
+        },
+        "EnemyBacklightRangeFuzz": {
+          "R": 0.2,
+          "G": 0.5,
+          "B": 0.1,
+          "A": 0.5,
+          "Hex": "7F7CBC59"
+        }
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'C_NightClub_IntroOutro:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.38"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_RockTheCradel_Master_01Master_4",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_RockTheCradel_Shot1_01_6",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_RockTheCradel_Shot2_01_8",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_RockTheCradel_Shot3_01_4",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_Shot1_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.Shot1_01_Rail.RailCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.57"
+      },
+      "RelativeRotation": {
+        "Pitch": -4.9550695,
+        "Yaw": -81.89443,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_Shot2_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "ComponentVelocity": {
+        "X": -35690.77,
+        "Y": 58407.89,
+        "Z": 597.8341
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_Shot3_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeRotation": {
+        "Pitch": -1.277819,
+        "Yaw": 179.53017,
+        "Roll": -5.2957137E-08
+      },
+      "ComponentVelocity": {
+        "X": -31510.299,
+        "Y": 77969.73,
+        "Z": -2392.7288
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneCameraMount",
+    "Outer": "CameraRig_Crane_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_01.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.48"
+      },
+      "RelativeLocation": {
+        "X": 500.0,
+        "Y": 0.0010681152,
+        "Z": -14.94812
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CranePitchControl",
+    "Outer": "CameraRig_Crane_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_01.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.49"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneYawControl",
+    "Outer": "CameraRig_Crane_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_01.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.50"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent",
+    "Outer": "CameraRig_Crane_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 225.19937,
+        "Y": 1227.472,
+        "Z": 1362.6536
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.00024,
+        "Roll": 0.0
+      },
+      "ComponentVelocity": {
+        "X": -49032.19,
+        "Y": 163016.19,
+        "Z": 55379.367
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneCameraMount",
+    "Outer": "CameraRig_Crane_02",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_02.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.52"
+      },
+      "RelativeLocation": {
+        "X": 499.99988,
+        "Y": 0.006556986,
+        "Z": -14.939087
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 1.3660379E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CranePitchControl",
+    "Outer": "CameraRig_Crane_02",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_02.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.53"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneYawControl",
+    "Outer": "CameraRig_Crane_02",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_02.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.54"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent",
+    "Outer": "CameraRig_Crane_02",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4616.4463,
+        "Y": -468.38214,
+        "Z": 54.679565
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.00002,
+        "Roll": 0.0
+      },
+      "ComponentVelocity": {
+        "X": 83312.87,
+        "Y": 142014.3,
+        "Z": -17220.758
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "LS_Cinematic_Camera_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_01.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.47"
+      },
+      "RelativeRotation": {
+        "Pitch": -7.2895803,
+        "Yaw": 58.809544,
+        "Roll": 2.1518261E-07
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "LS_Cinematic_Camera_02",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.CameraRig_Crane_02.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.51"
+      },
+      "RelativeRotation": {
+        "Pitch": -1.1376636,
+        "Yaw": 41.848537,
+        "Roll": 2.6685685E-08
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RailCameraMount",
+    "Outer": "Shot1_01_Rail",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SplineComponent'C_NightClub_IntroOutro:PersistentLevel.Shot1_01_Rail.RailSplineComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.59"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent",
+    "Outer": "Shot1_01_Rail",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 1526.0667,
+        "Y": 1036.2637,
+        "Z": 151.95277
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -57.708454,
+        "Roll": 0.0
+      },
+      "ComponentVelocity": {
+        "X": -283.46164,
+        "Y": -179.15521,
+        "Z": 1771.592
+      }
+    }
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "RailSplineComponent",
+    "Outer": "Shot1_01_Rail",
+    "Class": "UScriptClass'SplineComponent'",
+    "Properties": {
+      "SplineCurves": {
+        "Position": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 100.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 100.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 100.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 433.5212,
+                "Y": -0.0011444092,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 433.5212,
+                "Y": -0.0011444092,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 867.0424,
+                "Y": -0.0022888184,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 767.0424,
+                "Y": -0.0022888184,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 767.0424,
+                "Y": -0.0022888184,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "Rotation": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "Scale": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "ReparamTable": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": 0.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 6.9983087,
+              "OutVal": 0.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 9.327321,
+              "OutVal": 0.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 9.715683,
+              "OutVal": 0.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 10.836619,
+              "OutVal": 0.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 11.556006,
+              "OutVal": 0.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 15.407442,
+              "OutVal": 0.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 25.311323,
+              "OutVal": 0.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 40.370724,
+              "OutVal": 0.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 62.984787,
+              "OutVal": 0.90000004,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 100.30997,
+              "OutVal": 1.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 149.999,
+              "OutVal": 1.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 211.02774,
+              "OutVal": 1.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 281.39508,
+              "OutVal": 1.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 359.09985,
+              "OutVal": 1.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 442.14102,
+              "OutVal": 1.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 528.51733,
+              "OutVal": 1.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 616.2278,
+              "OutVal": 1.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 703.2711,
+              "OutVal": 1.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 787.6465,
+              "OutVal": 1.9000001,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 867.3523,
+              "OutVal": 2.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            }
+          ]
+        }
+      },
+      "bSplineHasBeenEdited": true,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_NightClub_IntroOutro:PersistentLevel.Shot1_01_Rail.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.58"
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "C_NightClub_IntroOutro",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'C_NightClub_IntroOutro:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.24"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

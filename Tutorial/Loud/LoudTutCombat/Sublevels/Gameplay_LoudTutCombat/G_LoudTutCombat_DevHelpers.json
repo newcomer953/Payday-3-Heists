@@ -1,0 +1,178 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "G_LoudTutCombat_DevHelpers",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'G_LoudTutCombat_DevHelpers:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_DevHelpers.1"
+      },
+      "LevelBuildDataId": "46786122-45D0F4D0-DEC6CD8B-889796C8",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'G_LoudTutCombat_DevHelpers:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_DevHelpers.3"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'G_LoudTutCombat_DevHelpers:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_DevHelpers.3"
+      },
+      null
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'G_LoudTutCombat_DevHelpers:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_DevHelpers.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "85850732-40213CCB-7981978B-258D2EBF",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "GlobalMaterialParameters": {
+        "WindDirection": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "WindSpeed": 0.01,
+        "EnemyBacklightInfluence": {
+          "R": 0.05,
+          "G": 5.0,
+          "B": 0.2,
+          "A": 0.5,
+          "Hex": "7F3FFF7C"
+        },
+        "EnemyBacklightFade": {
+          "R": 3000.0,
+          "G": 1500.0,
+          "B": 40.0,
+          "A": 30.0,
+          "Hex": "FFFFFFFF"
+        }
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'G_LoudTutCombat_DevHelpers:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_DevHelpers.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "G_LoudTutCombat_DevHelpers",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'G_LoudTutCombat_DevHelpers:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_DevHelpers.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

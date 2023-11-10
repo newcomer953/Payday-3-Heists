@@ -1,0 +1,1850 @@
+[
+  {
+    "Type": "LevelSequence",
+    "Name": "C_RockTheCradel_Shot2_01",
+    "Class": "UScriptClass'LevelSequence'",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'C_RockTheCradel_Shot2_01:MovieScene_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.1"
+      },
+      "BindingReferences": {
+        "BindingIdToReferences": [
+          {
+            "Key": "D8D82298-49C4BC45-16C8DF8F-B4F86DCD",
+            "Value": {
+              "References": [
+                {
+                  "ExternalObjectPath": {
+                    "AssetPathName": "/Game/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_NightClub_IntroOutro.C_NightClub_IntroOutro",
+                    "SubPathString": "PersistentLevel.Camera_Shot2_01"
+                  },
+                  "ObjectPath": ""
+                }
+              ]
+            }
+          },
+          {
+            "Key": "A5A96AE1-43795ECF-92308BAB-6D2A7CC4",
+            "Value": {
+              "References": [
+                {
+                  "ExternalObjectPath": {
+                    "AssetPathName": "None",
+                    "SubPathString": ""
+                  },
+                  "ObjectPath": "CameraComponent"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'C_RockTheCradel_Shot2_01:CompiledData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.23"
+      },
+      "Signature": "62A6BB26-492B9EB9-8A993396-2EA925CA"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "MovieScene_0",
+    "Outer": "C_RockTheCradel_Shot2_01",
+    "Class": "UScriptClass'MovieScene'",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "D8D82298-49C4BC45-16C8DF8F-B4F86DCD",
+          "Name": "Camera_Shot2_01",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CineCameraActor'",
+            "ObjectPath": "/Script/CinematicCamera"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "A5A96AE1-43795ECF-92308BAB-6D2A7CC4",
+          "Name": "CameraComponent",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CineCameraComponent'",
+            "ObjectPath": "/Script/CinematicCamera"
+          },
+          "ParentGuid": "D8D82298-49C4BC45-16C8DF8F-B4F86DCD"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "D8D82298-49C4BC45-16C8DF8F-B4F86DCD",
+          "BindingName": "Camera_Shot2_01",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene3DTransformTrack'C_RockTheCradel_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.3"
+            },
+            {
+              "ObjectName": "MovieSceneCameraShakeTrack'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_1'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.22"
+            }
+          ]
+        },
+        {
+          "ObjectGuid": "A5A96AE1-43795ECF-92308BAB-6D2A7CC4",
+          "BindingName": "CameraComponent",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.27"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_1'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.28"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_2'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.29"
+            }
+          ]
+        }
+      ],
+      "CameraCutTrack": {
+        "ObjectName": "MovieSceneCameraCutTrack'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.19"
+      },
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 2400
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 194400
+            }
+          }
+        }
+      },
+      "TickResolution": {
+        "Numerator": 24000
+      },
+      "DisplayRate": {
+        "Numerator": 30
+      },
+      "Signature": "FCFA85A8-4D708EFB-E90DDE86-2FA0A492"
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformSection",
+    "Name": "MovieScene3DTransformSection_0",
+    "Outer": "MovieScene3DTransformTrack_0",
+    "Class": "UScriptClass'MovieScene3DTransformSection'",
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 2400
+          }
+        ],
+        "Values": [
+          {
+            "Value": 2688.9817,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1922.4042,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 2400
+          }
+        ],
+        "Values": [
+          {
+            "Value": -4400.5146,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1131.4209,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 2400
+          }
+        ],
+        "Values": [
+          {
+            "Value": -45.041477,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 650.8843,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 2400
+          },
+          {
+            "Value": 194400
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 3.820544E-05,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 3.53243E-05,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 2400
+          },
+          {
+            "Value": 194400
+          }
+        ],
+        "Values": [
+          {
+            "Value": 15.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 16.875374,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": -11.799811,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 2400
+          },
+          {
+            "Value": 194400
+          }
+        ],
+        "Values": [
+          {
+            "Value": -90.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": -89.99961,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 195.79944,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 2400
+          },
+          {
+            "Value": 194400
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 2400
+          },
+          {
+            "Value": 194400
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 2400
+          },
+          {
+            "Value": 194400
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 1.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_RockTheCradel_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.4"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_RockTheCradel_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.5"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "368A423D-428A0F55-F9857E87-5F2FEC93"
+    }
+  },
+  {
+    "Type": "MovieScene3DTransformTrack",
+    "Name": "MovieScene3DTransformTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieScene3DTransformTrack'",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieScene3DTransformSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.2"
+        }
+      ],
+      "EvaluationFieldGuid": "E35831FC-42E8F9AB-4C658681-0EC285AA",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene3DTransformSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.2"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "E35831FC-42E8F9AB-4C658681-0EC285AA"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene3DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene3DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneCameraCutSection_1",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneCameraCutSection_1",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneCameraShakeSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneCameraShakeSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneCameraShakeSection_1",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneCameraShakeSection_1",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'"
+  },
+  {
+    "Type": "MovieSceneCameraCutSection",
+    "Name": "MovieSceneCameraCutSection_1",
+    "Outer": "MovieSceneCameraCutTrack_0",
+    "Class": "UScriptClass'MovieSceneCameraCutSection'",
+    "Properties": {
+      "CameraBindingID": {
+        "Guid": "D8D82298-49C4BC45-16C8DF8F-B4F86DCD",
+        "ResolveParentIndex": 0
+      },
+      "InitialCameraCutTransform": {
+        "Rotation": {
+          "X": -0.09229596,
+          "Y": -0.09229595,
+          "Z": -0.7010574,
+          "W": 0.7010573,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.9999999
+        },
+        "Translation": {
+          "X": 2688.9817,
+          "Y": -4400.5146,
+          "Z": -45.041477
+        }
+      },
+      "bHasInitialCameraCutTransform": true,
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_1.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.6"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_1.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.7"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -18400
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 212800
+            }
+          }
+        }
+      },
+      "BlendType": {
+        "bIsValid": true
+      },
+      "Signature": "D5BA00AE-47BA796A-6DECB78F-BC0341FC"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraCutTrack",
+    "Name": "MovieSceneCameraCutTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneCameraCutTrack'",
+    "Properties": {
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneCameraCutSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.18"
+        }
+      ],
+      "EvaluationFieldGuid": "305DE890-41ABAD2C-1A0DEC92-2B22842E",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneCameraCutSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_1'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.18"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -18400
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 212800
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "305DE890-41ABAD2C-1A0DEC92-2B22842E"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraShakeSection",
+    "Name": "MovieSceneCameraShakeSection_0",
+    "Outer": "MovieSceneCameraShakeTrack_1",
+    "Class": "UScriptClass'MovieSceneCameraShakeSection'",
+    "Properties": {
+      "ShakeData": {
+        "ShakeClass": {
+          "ObjectName": "BlueprintGeneratedClass'C_RockTheCradel_CameraShake_C'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_CameraShake.0"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.8"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.9"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 800
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 195200
+            }
+          }
+        }
+      },
+      "Signature": "EEC7F89F-4A5A7947-B864C9B7-E24F0D29"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraShakeSection",
+    "Name": "MovieSceneCameraShakeSection_1",
+    "Outer": "MovieSceneCameraShakeTrack_1",
+    "Class": "UScriptClass'MovieSceneCameraShakeSection'",
+    "Properties": {
+      "ShakeData": {
+        "ShakeClass": {
+          "ObjectName": "BlueprintGeneratedClass'C_RockTheCradel_CameraShake_02_C'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_CameraShake_02.0"
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_1.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.10"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_1.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.11"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 800
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 196800
+            }
+          }
+        }
+      },
+      "RowIndex": 1,
+      "OverlapPriority": 1,
+      "Signature": "791FAD12-4AB970EE-5AB975BA-4C3EBA27"
+    }
+  },
+  {
+    "Type": "MovieSceneCameraShakeTrack",
+    "Name": "MovieSceneCameraShakeTrack_1",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneCameraShakeTrack'",
+    "Properties": {
+      "CameraShakeSections": [
+        {
+          "ObjectName": "MovieSceneCameraShakeSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.20"
+        },
+        {
+          "ObjectName": "MovieSceneCameraShakeSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.21"
+        }
+      ],
+      "EvaluationFieldGuid": "A55F3A66-4F33EAB3-849201B5-6B327F27",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneCameraShakeSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.20"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 800
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 195200
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          },
+          {
+            "Section": {
+              "ObjectName": "MovieSceneCameraShakeSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_1'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.21"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 800
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 196800
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "A55F3A66-4F33EAB3-849201B5-6B327F27"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "C_RockTheCradel_Shot2_01",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Properties": {
+      "EvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "D8D82298-49C4BC45-16C8DF8F-B4F86DCD",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "SourceTrack": {
+                "ObjectName": "MovieSceneCameraShakeTrack'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_1'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.22"
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneCameraShakeSectionTemplate",
+                  "Data": {
+                    "SourceData": {
+                      "ShakeClass": {
+                        "ObjectName": "BlueprintGeneratedClass'C_RockTheCradel_CameraShake_C'",
+                        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_CameraShake.0"
+                      },
+                      "PlayScale": 1.0,
+                      "PlaySpace": "ECameraShakePlaySpace::CameraLocal",
+                      "UserDefinedPlaySpace": {
+                        "Pitch": 0.0,
+                        "Yaw": 0.0,
+                        "Roll": 0.0
+                      }
+                    },
+                    "SectionStartTime": {
+                      "Value": 800
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::RestoreState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneCameraShakeSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_0'",
+                      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.20"
+                    }
+                  }
+                },
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneCameraShakeSectionTemplate",
+                  "Data": {
+                    "SourceData": {
+                      "ShakeClass": {
+                        "ObjectName": "BlueprintGeneratedClass'C_RockTheCradel_CameraShake_02_C'",
+                        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_CameraShake_02.0"
+                      },
+                      "PlayScale": 1.0,
+                      "PlaySpace": "ECameraShakePlaySpace::CameraLocal",
+                      "UserDefinedPlaySpace": {
+                        "Pitch": 0.0,
+                        "Yaw": 0.0,
+                        "Roll": 0.0
+                      }
+                    },
+                    "SectionStartTime": {
+                      "Value": 800
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::RestoreState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneCameraShakeSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraShakeTrack_1.MovieSceneCameraShakeSection_1'",
+                      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.21"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "A55F3A66-4F33EAB3-849201B5-6B327F27",
+              "Value": {
+                "Value": 0
+              }
+            }
+          ]
+        }
+      },
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 1,
+                  "Size": 4,
+                  "Capacity": 4
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 1,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 2,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 3,
+                  "MetaDataIndex": -1
+                },
+                {
+                  "EntityIndex": 4,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": 1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": -18400
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 212800
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneCameraCutSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneCameraCutTrack_0.MovieSceneCameraCutSection_1'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.18"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene3DTransformSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieScene3DTransformTrack_0.MovieScene3DTransformSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.2"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 1
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.24"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 2
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.25"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 3
+          },
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+                "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.26"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 4
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "00000000-00000000-00000000-00000000"
+          },
+          {
+            "ObjectBindingID": "D8D82298-49C4BC45-16C8DF8F-B4F86DCD"
+          },
+          {
+            "ObjectBindingID": "A5A96AE1-43795ECF-92308BAB-6D2A7CC4"
+          },
+          {
+            "ObjectBindingID": "A5A96AE1-43795ECF-92308BAB-6D2A7CC4"
+          },
+          {
+            "ObjectBindingID": "A5A96AE1-43795ECF-92308BAB-6D2A7CC4"
+          }
+        ]
+      },
+      "TrackTemplateField": {
+        "Ranges": [
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 800
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 800
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 195200
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 195200
+                }
+              },
+              "UpperBound": {
+                "Type": 0,
+                "Value": {
+                  "Value": 196800
+                }
+              }
+            }
+          },
+          {
+            "Value": {
+              "LowerBound": {
+                "Type": 1,
+                "Value": {
+                  "Value": 196800
+                }
+              },
+              "UpperBound": {
+                "Type": 2,
+                "Value": {
+                  "Value": 0
+                }
+              }
+            }
+          }
+        ],
+        "Groups": [
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 2
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 1,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              },
+              {
+                "ChildIndex": 0,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [
+              {
+                "NumInitPtrs": 0,
+                "NumEvalPtrs": 1
+              }
+            ],
+            "TrackLUT": [
+              {
+                "TrackPtr": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                "NumChildren": 1
+              }
+            ],
+            "SectionLUT": [
+              {
+                "ChildIndex": 1,
+                "Flags": "ESectionEvaluationFlags::None",
+                "ForcedTime": {
+                  "Value": -2147483648
+                }
+              }
+            ]
+          },
+          {
+            "LUTIndices": [],
+            "TrackLUT": [],
+            "SectionLUT": []
+          }
+        ],
+        "MetaData": [
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 0
+                },
+                "SetupIndex": 1,
+                "TearDownIndex": 65534
+              },
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 1
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": [
+              {
+                "Key": {
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  },
+                  "SectionIndex": 1
+                },
+                "SetupIndex": 0,
+                "TearDownIndex": 65535
+              }
+            ]
+          },
+          {
+            "ActiveSequences": [
+              {
+                "Value": 0
+              }
+            ],
+            "ActiveEntities": []
+          }
+        ]
+      },
+      "CompiledSignature": "62A6BB26-492B9EB9-8A993396-2EA925CA",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEvaluationTemplate": true,
+        "bEvaluationTemplateField": true,
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_0",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 2400
+          },
+          {
+            "Value": 194400
+          }
+        ],
+        "Values": [
+          {
+            "Value": 28.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 32.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 32.0,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.12"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.13"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "6DD15C20-43F51EA9-4554D1BA-85886957"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_1",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 2400
+          },
+          {
+            "Value": 194400
+          }
+        ],
+        "Values": [
+          {
+            "Value": 2823.2039,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 318.81302,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 2823.2039,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.14"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.15"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "E3827311-48B6B07F-BF3C2E8F-B690AD12"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_2",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 2400
+          },
+          {
+            "Value": 194400
+          }
+        ],
+        "Values": [
+          {
+            "Value": 2.5,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          },
+          {
+            "Value": 0.3,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0,
+            "PaddingByte": 0
+          }
+        ],
+        "DefaultValue": 0.3,
+        "bHasDefaultValue": true,
+        "TickResolution": {
+          "Numerator": 24000,
+          "Denominator": 1
+        },
+        "bShowCurve": false
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.16"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.17"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 2,
+            "Value": {
+              "Value": 0
+            }
+          }
+        }
+      },
+      "Signature": "A6725DDC-49BC7733-C4BE938C-FF92EFF2"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "CurrentFocalLength",
+        "PropertyPath": "CurrentFocalLength",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.24"
+        }
+      ],
+      "EvaluationFieldGuid": "9BEE6A51-4CEBAD35-383A60BF-276CF60B",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.24"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "9BEE6A51-4CEBAD35-383A60BF-276CF60B"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "ManualFocusDistance",
+        "PropertyPath": "FocusSettings.ManualFocusDistance"
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.25"
+        }
+      ],
+      "EvaluationFieldGuid": "6ED6AF2C-483CB3B0-F83130A2-724E0554",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.25"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "6ED6AF2C-483CB3B0-F83130A2-724E0554"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_2",
+    "Outer": "MovieScene_0",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "CurrentAperture",
+        "PropertyPath": "CurrentAperture",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.26"
+        }
+      ],
+      "EvaluationFieldGuid": "A5C51C06-4B5406B3-B708E3B6-D558B9FB",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'C_RockTheCradel_Shot2_01:MovieScene_0.MovieSceneFloatTrack_2.MovieSceneFloatSection_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_Shot2_01.26"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": {
+                  "Value": 0
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "A5C51C06-4B5406B3-B708E3B6-D558B9FB"
+    }
+  }
+]

@@ -1,0 +1,711 @@
+[
+  {
+    "Type": "Function",
+    "Name": "VisitCardPickedUp__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryActor_AccountantVisitCard_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ReplicatedBinaryActor_AccountantVisitCard",
+    "Outer": "BP_ReplicatedBinaryActor_AccountantVisitCard_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_Event_EndPlayReason",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'EEndPlayReason'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "BP_ReplicatedBinaryActor_AccountantVisitCard_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZReplicatedBinaryStateActor:OnStateChanged'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveEndPlay",
+    "Outer": "BP_ReplicatedBinaryActor_AccountantVisitCard_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveEndPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ByteProperty",
+        "Name": "EndPlayReason",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Enum'EEndPlayReason'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_ReplicatedBinaryActorVent_SBZInteractable_K2Node_ComponentBoundEvent_2_SBZOnInteraction__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryActor_AccountantVisitCard_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "BP_ReplicatedBinaryActor_AccountantVisitCard_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ReplicatedBinaryActor_AccountantVisitCard_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_ReplicatedBinaryActor_AccountantVisitCard_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.9"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ReplicatedBinaryActor_AccountantVisitCard_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.18"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_AccountantVisitCard_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_AccountantVisitCard'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZReplicatedBinaryStateActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_AccountantVisitCard_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.5"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_AccountantVisitCard_C:BndEvt__BP_ReplicatedBinaryActorVent_SBZInteractable_K2Node_ComponentBoundEvent_2_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.4"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_AccountantVisitCard_C:ReceiveEndPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.3"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_AccountantVisitCard_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.2"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_AccountantVisitCard_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_AccountantVisitCard'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.1"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_AccountantVisitCard_C:VisitCardPickedUp__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZOutline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZOutlineComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZInteractable",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "VisitCardPickedUp",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_ReplicatedBinaryActor_AccountantVisitCard_C:VisitCardPickedUp__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.0"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "MarkerID",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "FuncMap": {
+      "VisitCardPickedUp__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_AccountantVisitCard_C:VisitCardPickedUp__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.0"
+      },
+      "ExecuteUbergraph_BP_ReplicatedBinaryActor_AccountantVisitCard": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_AccountantVisitCard_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_AccountantVisitCard'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.1"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_AccountantVisitCard_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.2"
+      },
+      "ReceiveEndPlay": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_AccountantVisitCard_C:ReceiveEndPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.3"
+      },
+      "BndEvt__BP_ReplicatedBinaryActorVent_SBZInteractable_K2Node_ComponentBoundEvent_2_SBZOnInteraction__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_AccountantVisitCard_C:BndEvt__BP_ReplicatedBinaryActorVent_SBZInteractable_K2Node_ComponentBoundEvent_2_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.4"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_AccountantVisitCard_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ReplicatedBinaryActor_AccountantVisitCard_C'Default__BP_ReplicatedBinaryActor_AccountantVisitCard_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.7"
+    }
+  },
+  {
+    "Type": "BP_ReplicatedBinaryActor_AccountantVisitCard_C",
+    "Name": "Default__BP_ReplicatedBinaryActor_AccountantVisitCard_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.BP_ReplicatedBinaryActor_AccountantVisitCard_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bState": true
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_AccountantVisitCard_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 5.0,
+        "Y": 5.0,
+        "Z": 0.25
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "BlockAllDynamic",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Interaction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Throwable",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SBZProjectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Item",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SBZPiercingThrowable",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -0.089651585,
+        "Y": 0.00017245754,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99968,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.625,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "BP_ReplicatedBinaryActor_AccountantVisitCard_C",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "SBZInteractable",
+          "DelegatePropertyName": "OnServerCompleteInteraction",
+          "FunctionNameToBind": "BndEvt__BP_ReplicatedBinaryActorVent_SBZInteractable_K2Node_ComponentBoundEvent_2_SBZOnInteraction__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractable_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_AccountantVisitCard_C",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "bIsAllowedInCasing": true,
+      "bIsIllegal": false,
+      "Shapes": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'PrimitiveComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "Box"
+        }
+      ],
+      "Text": {
+        "TableId": "/Game/Localization/ST_Interaction.ST_Interaction",
+        "Key": "INT_GEN_PickUp"
+      },
+      "GameplayEffectsOnInteract": [
+        {
+          "GameplayEffectClass": {
+            "ObjectName": "BlueprintGeneratedClass'GE_BusinessCard_C'",
+            "ObjectPath": "PAYDAY3/Content/Gameplay/Props/KeycardReader/GE_BusinessCard.0"
+          },
+          "Level": 1.0,
+          "StackCount": 1
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SBZOutlineComponent",
+    "Name": "SBZOutline_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_AccountantVisitCard_C",
+    "Class": "UScriptClass'SBZOutlineComponent'",
+    "Properties": {
+      "DefaultAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_Interactable_3_5m'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_Interactable_3_5m.0"
+      },
+      "MeshSelectors": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "StaticMesh"
+        }
+      ],
+      "InteractableSelector": {
+        "ComponentName": "SBZInteractable"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_AccountantVisitCard_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ReplicatedBinaryActor_AccountantVisitCard_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.12"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_AccountantVisitCard_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.15"
+        }
+      ],
+      "VariableGuid": "FD85DE12-4504BBF8-A1AA98BA-70A64278",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZOutlineComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZOutlineComponent'BP_ReplicatedBinaryActor_AccountantVisitCard_C:SBZOutline_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.11"
+      },
+      "VariableGuid": "5F0DA4A0-45F93334-369529AD-D20D8026",
+      "InternalVariableName": "SBZOutline"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ReplicatedBinaryActor_AccountantVisitCard_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.19"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_AccountantVisitCard_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.16"
+        }
+      ],
+      "VariableGuid": "6EB5856F-4D0DFF5B-7AA1A29A-6B740750",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_ReplicatedBinaryActor_AccountantVisitCard_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.8"
+      },
+      "VariableGuid": "696F4094-45DDA79D-9224B4B7-3FC83217",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZInteractableComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZInteractableComponent'BP_ReplicatedBinaryActor_AccountantVisitCard_C:SBZInteractable_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.10"
+      },
+      "VariableGuid": "90496067-4171C77E-2D1573BD-C581C056",
+      "InternalVariableName": "SBZInteractable"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_ReplicatedBinaryActor_AccountantVisitCard_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_AccountantVisitCard_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_AccountantVisitCard_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_AccountantVisitCard_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.14"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_AccountantVisitCard_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_AccountantVisitCard_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_AccountantVisitCard_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_AccountantVisitCard_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_AccountantVisitCard_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.16"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_AccountantVisitCard_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_AccountantVisitCard.13"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_AccountantVisitCard_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BusinessCard_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/BusinessCard_01/BusinessCard_01.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.00034,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 2.0
+      }
+    }
+  }
+]

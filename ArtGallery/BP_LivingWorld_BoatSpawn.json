@@ -1,0 +1,619 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_LivingWorld_BoatSpawn",
+    "Outer": "BP_LivingWorld_BoatSpawn_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetSplineLength_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Lerp_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetRotationAtDistanceAlongSpline_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetLocationAtDistanceAlongSpline_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_RandomIntegerInRange_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetActorLocationAndRotation_SweepHitResult",
+        "Flags": "RF_Public",
+        "ElementSize": 144,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_K2_SetActorLocationAndRotation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "MoveBoat__UpdateFunc",
+    "Outer": "BP_LivingWorld_BoatSpawn_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "MoveBoat__FinishedFunc",
+    "Outer": "BP_LivingWorld_BoatSpawn_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Outer": "BP_LivingWorld_BoatSpawn_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_LivingWorld_BoatSpawn_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "NumReplicatedProperties": 1,
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate'BP_LivingWorld_BoatSpawn_C:MoveBoat_Template'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.18"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_LivingWorld_BoatSpawn_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.13"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_LivingWorld_BoatSpawn_C:ExecuteUbergraph_BP_LivingWorld_BoatSpawn'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_LivingWorld_BoatSpawn_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.3"
+      },
+      {
+        "ObjectName": "Function'BP_LivingWorld_BoatSpawn_C:MoveBoat__FinishedFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.2"
+      },
+      {
+        "ObjectName": "Function'BP_LivingWorld_BoatSpawn_C:MoveBoat__UpdateFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.1"
+      },
+      {
+        "ObjectName": "Function'BP_LivingWorld_BoatSpawn_C:ExecuteUbergraph_BP_LivingWorld_BoatSpawn'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh_3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "MoveBoat_Alpha_D8F65878410320566AA6569A8EBC35A7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "MoveBoat__Direction_D8F65878410320566AA6569A8EBC35A7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MoveBoat",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Spline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnTemplate",
+        "RepIndex": 10,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZTrafficSpline'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "RandomInt",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "PlayRate",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "AlternateStartBoat?",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_LivingWorld_BoatSpawn": {
+        "ObjectName": "Function'BP_LivingWorld_BoatSpawn_C:ExecuteUbergraph_BP_LivingWorld_BoatSpawn'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.0"
+      },
+      "MoveBoat__UpdateFunc": {
+        "ObjectName": "Function'BP_LivingWorld_BoatSpawn_C:MoveBoat__UpdateFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.1"
+      },
+      "MoveBoat__FinishedFunc": {
+        "ObjectName": "Function'BP_LivingWorld_BoatSpawn_C:MoveBoat__FinishedFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.2"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_LivingWorld_BoatSpawn_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_LivingWorld_BoatSpawn_C'Default__BP_LivingWorld_BoatSpawn_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.5"
+    }
+  },
+  {
+    "Type": "BP_LivingWorld_BoatSpawn_C",
+    "Name": "Default__BP_LivingWorld_BoatSpawn_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.BP_LivingWorld_BoatSpawn_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "PlayRate": 0.025
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0",
+    "Outer": "BP_LivingWorld_BoatSpawn_C",
+    "Class": "UScriptClass'CurveFloat'",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 5.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_LivingWorld_BoatSpawn_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_LivingWorld_BoatSpawn_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.7"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_LivingWorld_BoatSpawn_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LivingWorld_BoatSpawn_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.10"
+        }
+      ],
+      "VariableGuid": "6A76F411-4010FA58-56F8BFBC-AE9E1341",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_LivingWorld_BoatSpawn_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.17"
+      },
+      "VariableGuid": "462EA693-475C26CE-CA6916BC-978D8ED4",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_LivingWorld_BoatSpawn_C:StaticMesh_1_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.14"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_LivingWorld_BoatSpawn_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LivingWorld_BoatSpawn_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.12"
+        }
+      ],
+      "VariableGuid": "A9BC655F-4E5CB173-A6BC999F-50EF60D6",
+      "InternalVariableName": "StaticMesh_1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_LivingWorld_BoatSpawn_C:StaticMesh_2_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.15"
+      },
+      "VariableGuid": "54AB9549-49AECB9D-A3EE97A2-CFD22592",
+      "InternalVariableName": "StaticMesh_2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_LivingWorld_BoatSpawn_C:StaticMesh_3_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.16"
+      },
+      "VariableGuid": "391107BF-4228A59B-7601FEB2-3E12A0B1",
+      "InternalVariableName": "StaticMesh_3"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_LivingWorld_BoatSpawn_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_LivingWorld_BoatSpawn_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.8"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_LivingWorld_BoatSpawn_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.8"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LivingWorld_BoatSpawn_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LivingWorld_BoatSpawn_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LivingWorld_BoatSpawn_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LivingWorld_BoatSpawn_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.12"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_LivingWorld_BoatSpawn_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_1_GEN_VARIABLE",
+    "Outer": "BP_LivingWorld_BoatSpawn_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ship_02_Body'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/BackdropNear/Ship_02/Ship_02_Body.2"
+      },
+      "CastShadow": false,
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_2_GEN_VARIABLE",
+    "Outer": "BP_LivingWorld_BoatSpawn_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ship_02_Cabin'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/BackdropNear/Ship_02/Ship_02_Cabin.2"
+      },
+      "CastShadow": false,
+      "RelativeLocation": {
+        "X": -2168.0244,
+        "Y": 0.0,
+        "Z": 605.4379
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_3_GEN_VARIABLE",
+    "Outer": "BP_LivingWorld_BoatSpawn_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ship_02_Door'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/BackdropNear/Ship_02/Ship_02_Door.2"
+      },
+      "CastShadow": false,
+      "RelativeLocation": {
+        "X": 363.0381,
+        "Y": 0.00048828125,
+        "Z": 635.68695
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "BP_LivingWorld_BoatSpawn_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Veh_PassengerBoat_01'",
+        "ObjectPath": "PAYDAY3/Content/Vehicle/Boat/Veh_PassengerBoat_01/SM_Veh_PassengerBoat_01.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "CastShadow": false,
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -0.00015258789,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "MoveBoat_Template",
+    "Outer": "BP_LivingWorld_BoatSpawn_C",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Properties": {
+      "bAutoPlay": true,
+      "bReplicated": true,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_LivingWorld_BoatSpawn_C:CurveFloat_0'",
+            "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_LivingWorld_BoatSpawn.6"
+          },
+          "PropertyName": "MoveBoat_Alpha_D8F65878410320566AA6569A8EBC35A7",
+          "TrackName": "Alpha",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "D8F65878-41032056-6AA6569A-8EBC35A7",
+      "VariableName": "MoveBoat",
+      "DirectionPropertyName": "MoveBoat__Direction_D8F65878410320566AA6569A8EBC35A7",
+      "UpdateFunctionName": "MoveBoat__UpdateFunc",
+      "FinishedFunctionName": "MoveBoat__FinishedFunc"
+    }
+  }
+]

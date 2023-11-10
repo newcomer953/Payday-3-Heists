@@ -1,0 +1,3344 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_SafeHousePrototype",
+    "Outer": "SafeHousePrototype_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'SBZOnInteraction__DelegateSignature'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsStackEmpty_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetComponentByClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Interactable_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Interactor_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_bIsLocallyControlledInteractor_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Interactable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Interactor_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_bIsLocallyControlledInteractor_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'SBZOnInteraction__DelegateSignature'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetComponentByClass_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsStackEmpty_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_7",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_8",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsStackEmpty_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_9",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_10",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'SBZOnInteraction__DelegateSignature'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Interactable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Interactor_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_bIsLocallyControlledInteractor_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetComponentByClass_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_11",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_12",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue_7",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_13",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsStackEmpty_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetComponentByClass_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'SBZOnInteraction__DelegateSignature'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_14",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue_8",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_15",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_16",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_MakeLiteralName_ReturnValue_9",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetUIManager_ReturnValue_17",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZUIManager'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnServerBrowserInteraction",
+    "Outer": "SafeHousePrototype_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInventorySelectionAction",
+    "Outer": "SafeHousePrototype_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "SafeHousePrototype_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnHeistSelectionInteraction",
+    "Outer": "SafeHousePrototype_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMenuInteraction",
+    "Outer": "SafeHousePrototype_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SafeHousePrototype_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'SafeHousePrototype_C:ExecuteUbergraph_SafeHousePrototype'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'SafeHousePrototype_C:OnMenuInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.5"
+      },
+      {
+        "ObjectName": "Function'SafeHousePrototype_C:OnHeistSelectionInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.4"
+      },
+      {
+        "ObjectName": "Function'SafeHousePrototype_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.3"
+      },
+      {
+        "ObjectName": "Function'SafeHousePrototype_C:OnInventorySelectionAction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.2"
+      },
+      {
+        "ObjectName": "Function'SafeHousePrototype_C:OnServerBrowserInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.1"
+      },
+      {
+        "ObjectName": "Function'SafeHousePrototype_C:ExecuteUbergraph_SafeHousePrototype'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HeistSelectionInteraction_ExecuteUbergraph_SafeHousePrototype_RefProperty",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshActor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MenuInteraction_ExecuteUbergraph_SafeHousePrototype_RefProperty",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshActor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "InventoryInteraction_ExecuteUbergraph_SafeHousePrototype_RefProperty",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshActor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ServerBrowserInteraction_ExecuteUbergraph_SafeHousePrototype_RefProperty",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshActor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_SafeHousePrototype": {
+        "ObjectName": "Function'SafeHousePrototype_C:ExecuteUbergraph_SafeHousePrototype'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.0"
+      },
+      "OnServerBrowserInteraction": {
+        "ObjectName": "Function'SafeHousePrototype_C:OnServerBrowserInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.1"
+      },
+      "OnInventorySelectionAction": {
+        "ObjectName": "Function'SafeHousePrototype_C:OnInventorySelectionAction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.2"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'SafeHousePrototype_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.3"
+      },
+      "OnHeistSelectionInteraction": {
+        "ObjectName": "Function'SafeHousePrototype_C:OnHeistSelectionInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.4"
+      },
+      "OnMenuInteraction": {
+        "ObjectName": "Function'SafeHousePrototype_C:OnMenuInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SafeHousePrototype_C'Default__SafeHousePrototype_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.7"
+    }
+  },
+  {
+    "Type": "SafeHousePrototype_C",
+    "Name": "Default__SafeHousePrototype_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.SafeHousePrototype_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "HeistSelectionInteraction_ExecuteUbergraph_SafeHousePrototype_RefProperty": {
+        "ObjectName": "StaticMeshActor'SafeHousePrototype:PersistentLevel.HeistSelectionInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.53"
+      },
+      "MenuInteraction_ExecuteUbergraph_SafeHousePrototype_RefProperty": {
+        "ObjectName": "StaticMeshActor'SafeHousePrototype:PersistentLevel.MenuInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.55"
+      },
+      "InventoryInteraction_ExecuteUbergraph_SafeHousePrototype_RefProperty": {
+        "ObjectName": "StaticMeshActor'SafeHousePrototype:PersistentLevel.InventoryInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.54"
+      },
+      "ServerBrowserInteraction_ExecuteUbergraph_SafeHousePrototype_RefProperty": {
+        "ObjectName": "StaticMeshActor'SafeHousePrototype:PersistentLevel.ServerBrowserInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.56"
+      }
+    }
+  },
+  {
+    "Type": "AtmosphericFog",
+    "Name": "AtmosphericFog_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'AtmosphericFog'",
+    "Properties": {
+      "AtmosphericFogComponent": {
+        "ObjectName": "AtmosphericFogComponent'SafeHousePrototype:PersistentLevel.AtmosphericFog_0.AtmosphericFogComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.9"
+      },
+      "RootComponent": {
+        "ObjectName": "AtmosphericFogComponent'SafeHousePrototype:PersistentLevel.AtmosphericFog_0.AtmosphericFogComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.9"
+      }
+    }
+  },
+  {
+    "Type": "AtmosphericFogComponent",
+    "Name": "AtmosphericFogComponent0",
+    "Outer": "AtmosphericFog_0",
+    "Class": "UScriptClass'AtmosphericFogComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -110.0,
+        "Y": 165.0,
+        "Z": 530.0
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "EF47D03B44E357C2C63E108EEAF65C7D",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x136860"
+      }
+    }
+  },
+  {
+    "Type": "BookMark",
+    "Name": "BookMark_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'BookMark'",
+    "Properties": {
+      "Location": {
+        "X": -16.336401,
+        "Y": 229.69455,
+        "Z": 735.5347
+      },
+      "Rotation": {
+        "Pitch": -27.492523,
+        "Yaw": -61.17591,
+        "Roll": -2.9882076E-06
+      }
+    }
+  },
+  {
+    "Type": "BP_Sky_Sphere_C",
+    "Name": "SkySphere_0",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'Engine/Content/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C'",
+    "Template": {
+      "ObjectName": "BP_Sky_Sphere_C'Default__BP_Sky_Sphere_C'",
+      "ObjectPath": "Engine/Content/EngineSky/BP_Sky_Sphere.4"
+    },
+    "Properties": {
+      "SkySphereMesh": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.SkySphere_0.SkySphereMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.66"
+      },
+      "Base": {
+        "ObjectName": "SceneComponent'SafeHousePrototype:PersistentLevel.SkySphere_0.Base'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.42"
+      },
+      "Sky material": {
+        "ObjectName": "MaterialInstanceDynamic'SafeHousePrototype:PersistentLevel.SkySphere_0.SkySphereMesh.MaterialInstanceDynamic_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.24"
+      },
+      "Directional light actor": {
+        "ObjectName": "DirectionalLight'SafeHousePrototype:PersistentLevel.LightSource_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.16"
+      },
+      "Sun height": 0.3444444,
+      "Sun brightness": 75.0,
+      "Cloud speed": 2.0,
+      "Cloud opacity": 1.0,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'SafeHousePrototype:PersistentLevel.SkySphere_0.Base'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.42"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'SafeHousePrototype:PersistentLevel.SkySphere_0.Base'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.42"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.SkySphere_0.SkySphereMesh'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.66"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "PostProcessVolume_1",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'SafeHousePrototype:PersistentLevel.PostProcessVolume_1.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.26"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'SafeHousePrototype:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.10"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false,
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 100.0
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCapsule",
+    "Outer": "PlayerStart",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": -180.0,
+        "Y": -1075.0,
+        "Z": 47.000687
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00012,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "CH_UI_MM_PlayerCharacter_C",
+    "Name": "PlayerMannequin",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/UI/Assets/FrontEnd/CH_UI_MM_PlayerCharacter.CH_UI_MM_PlayerCharacter_C'",
+    "Template": {
+      "ObjectName": "CH_UI_MM_PlayerCharacter_C'Default__CH_UI_MM_PlayerCharacter_C'",
+      "ObjectPath": "PAYDAY3/Content/UI/Assets/FrontEnd/CH_UI_MM_PlayerCharacter.1"
+    },
+    "Properties": {
+      "Mesh": {
+        "ObjectName": "SBZModularCharacterComponent'SafeHousePrototype:PersistentLevel.PlayerMannequin.UIPlayerCharacterMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.38"
+      },
+      "CharacterComponent": {
+        "ObjectName": "SBZCharacterComponent'SafeHousePrototype:PersistentLevel.PlayerMannequin.CharacterComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.31"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'SafeHousePrototype:PersistentLevel.PlayerMannequin.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.41"
+      },
+      "InstanceComponents": [
+        {
+          "ObjectName": "SBZInteractableComponent'SafeHousePrototype:PersistentLevel.PlayerMannequin.SBZInteractable'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.36"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DirectionalLight",
+    "Name": "LightSource_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DirectionalLight'",
+    "Properties": {
+      "LightComponent": {
+        "ObjectName": "DirectionalLightComponent'SafeHousePrototype:PersistentLevel.LightSource_0.LightComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.17"
+      },
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "DirectionalLightComponent'SafeHousePrototype:PersistentLevel.LightSource_0.LightComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.17"
+      }
+    }
+  },
+  {
+    "Type": "DirectionalLightComponent",
+    "Name": "LightComponent0",
+    "Outer": "LightSource_0",
+    "Class": "UScriptClass'DirectionalLightComponent'",
+    "Properties": {
+      "bUsedAsAtmosphereSunLight": true,
+      "LightGuid": "AEAD7BB0-4E43D95D-984D3D97-276AA97E",
+      "Intensity": 5.0,
+      "RelativeLocation": {
+        "X": 50.0,
+        "Y": -225.0,
+        "Z": 680.0
+      },
+      "RelativeRotation": {
+        "Pitch": -31.0,
+        "Yaw": 36.412563,
+        "Roll": -51.27301
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius0",
+    "Outer": "SphereReflectionCapture_0",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "SphereRadius": 3000.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false,
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'SafeHousePrototype:PersistentLevel.SphereReflectionCapture_0.NewReflectionComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.48"
+      }
+    }
+  },
+  {
+    "Type": "DrawSphereComponent",
+    "Name": "DrawRadius1",
+    "Outer": "SphereReflectionCapture_0",
+    "Class": "UScriptClass'DrawSphereComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false,
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SphereReflectionCaptureComponent'SafeHousePrototype:PersistentLevel.SphereReflectionCapture_0.NewReflectionComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.48"
+      }
+    }
+  },
+  {
+    "Type": "InstancedFoliageActor",
+    "Name": "InstancedFoliageActor_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'InstancedFoliageActor'",
+    "Properties": {
+      "RootComponent": {
+        "ObjectName": "SceneComponent'SafeHousePrototype:PersistentLevel.InstancedFoliageActor_0.RootComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.40"
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "SafeHousePrototype",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'SafeHousePrototype:PersistentLevel.Model_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.25"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "SafeHousePrototype_C'SafeHousePrototype:PersistentLevel.SafeHousePrototype_C_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.30"
+      },
+      "StreamingTextureGuids": [
+        "176EE41E-465BFAB6-AEB85FBB-C9FCAD8F",
+        "9C995DBB-453D9568-054E658F-761F0E1F",
+        "DE7F91FA-4D57CF4C-A115CABE-2AF1225E"
+      ],
+      "LevelBuildDataId": "89E9F90E-4C7BEA69-A1FFD5A3-FA72DFD8",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'SafeHousePrototype_BuiltData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype_BuiltData.4"
+      },
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'SafeHousePrototype:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.39"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'SafeHousePrototype:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.39"
+      },
+      null,
+      {
+        "ObjectName": "PlayerStart'SafeHousePrototype:PersistentLevel.PlayerStart'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.28"
+      },
+      {
+        "ObjectName": "InstancedFoliageActor'SafeHousePrototype:PersistentLevel.InstancedFoliageActor_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.20"
+      },
+      {
+        "ObjectName": "TextRenderActor'SafeHousePrototype:PersistentLevel.TextRenderActor_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.72"
+      },
+      {
+        "ObjectName": "DirectionalLight'SafeHousePrototype:PersistentLevel.LightSource_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.16"
+      },
+      {
+        "ObjectName": "AtmosphericFog'SafeHousePrototype:PersistentLevel.AtmosphericFog_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.8"
+      },
+      {
+        "ObjectName": "SkyLight'SafeHousePrototype:PersistentLevel.SkyLight_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.45"
+      },
+      {
+        "ObjectName": "SphereReflectionCapture'SafeHousePrototype:PersistentLevel.SphereReflectionCapture_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.47"
+      },
+      {
+        "ObjectName": "BP_Sky_Sphere_C'SafeHousePrototype:PersistentLevel.SkySphere_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.12"
+      },
+      {
+        "ObjectName": "PostProcessVolume'SafeHousePrototype:PersistentLevel.PostProcessVolume_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.29"
+      },
+      {
+        "ObjectName": "StaticMeshActor'SafeHousePrototype:PersistentLevel.MenuInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.55"
+      },
+      {
+        "ObjectName": "TextRenderActor'SafeHousePrototype:PersistentLevel.TextRender_MenuInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.70"
+      },
+      {
+        "ObjectName": "StaticMeshActor'SafeHousePrototype:PersistentLevel.HeistSelectionInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.53"
+      },
+      {
+        "ObjectName": "TextRenderActor'SafeHousePrototype:PersistentLevel.TextRender_HeistInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.68"
+      },
+      {
+        "ObjectName": "CH_UI_MM_PlayerCharacter_C'SafeHousePrototype:PersistentLevel.PlayerMannequin'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.15"
+      },
+      {
+        "ObjectName": "TextRenderActor'SafeHousePrototype:PersistentLevel.TextRender_MenuInteraction2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.71"
+      },
+      {
+        "ObjectName": "StaticMeshActor'SafeHousePrototype:PersistentLevel.InventoryInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.54"
+      },
+      {
+        "ObjectName": "StaticMeshActor'SafeHousePrototype:PersistentLevel.SM_Mkp_Prop_Int_OfficeDesk8'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.57"
+      },
+      {
+        "ObjectName": "StaticMeshActor'SafeHousePrototype:PersistentLevel.Cube2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.49"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'SafeHousePrototype:PersistentLevel.Cube76'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.50"
+      },
+      {
+        "ObjectName": "StaticMeshActor'SafeHousePrototype:PersistentLevel.Cube77'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.51"
+      },
+      {
+        "ObjectName": "StaticMeshActor'SafeHousePrototype:PersistentLevel.Cube78'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.52"
+      },
+      {
+        "ObjectName": "TextRenderActor'SafeHousePrototype:PersistentLevel.TextRender_HeistInteraction2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.69"
+      },
+      {
+        "ObjectName": "StaticMeshActor'SafeHousePrototype:PersistentLevel.ServerBrowserInteraction'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.56"
+      },
+      {
+        "ObjectName": "SafeHousePrototype_C'SafeHousePrototype:PersistentLevel.SafeHousePrototype_C_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.30"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Engine/Maps/Entry",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'SafeHousePrototype:PersistentLevel.Model_3'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.25"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "SafeHousePrototype_C'SafeHousePrototype:PersistentLevel.SafeHousePrototype_C_1'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.30"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_0",
+    "Outer": "SafeHousePrototype",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.Sublevel_SafeHousePrototype_Room",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.820312,
+        "A": 1.0,
+        "Hex": "FFFF00EA"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_1",
+    "Outer": "SafeHousePrototype",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.Sublevel_SafeHousePrototype_Mockup",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.3515625,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFA000"
+      }
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_0",
+    "Outer": "SkySphereMesh",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_Sky_Panning_Clouds2'",
+        "ObjectPath": "Engine/Content/EngineSky/M_Sky_Panning_Clouds2.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Horizon falloff",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 4.3777776,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Cloud speed",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Sun brightness",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 75.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Sun height",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Cloud opacity",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Stars brightness",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Light direction",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.6898172,
+            "G": 0.50881046,
+            "B": -0.515038,
+            "A": 1.0,
+            "Hex": "FFD9BD00"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Sun color",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFFFF"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Horizon color",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.70971406,
+            "G": 0.6829661,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFDCD8FF"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Zenith color",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.03476791,
+            "G": 0.074020475,
+            "B": 0.1873953,
+            "A": 1.0,
+            "Hex": "FF344D78"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Cloud color",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.8457971,
+            "G": 0.7574842,
+            "B": 0.7463697,
+            "A": 1.0,
+            "Hex": "FFEDE2E1"
+          },
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_Sky_Clouds_M'",
+          "ObjectPath": "Engine/Content/EngineSky/T_Sky_Clouds_M.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Sky_Stars'",
+          "ObjectPath": "Engine/Content/EngineSky/T_Sky_Stars.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_Sky_Blue'",
+          "ObjectPath": "Engine/Content/EngineSky/T_Sky_Blue.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "A1656C45-4075B57E-9D992195-949710F7",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PostProcessVolume_1",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "36081B2E-4E5CF193-350BD8B7-6338544E",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "NavigationSystemConfig",
+    "Name": "NavigationSystemConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemConfig'",
+    "Properties": {
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PlayerStart",
+    "Name": "PlayerStart",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PlayerStart'",
+    "Properties": {
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'SafeHousePrototype:PersistentLevel.PlayerStart.CollisionCapsule'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.14"
+      },
+      "GoodSprite": null,
+      "BadSprite": null,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'SafeHousePrototype:PersistentLevel.PlayerStart.CollisionCapsule'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.14"
+      }
+    }
+  },
+  {
+    "Type": "PostProcessVolume",
+    "Name": "PostProcessVolume_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PostProcessVolume'",
+    "Properties": {
+      "Settings": {
+        "bOverride_AutoExposureMinBrightness": true,
+        "bOverride_AutoExposureMaxBrightness": true,
+        "bOverride_AutoExposureBias": true,
+        "AutoExposureBias": 0.0,
+        "AutoExposureBiasBackup": 1.0,
+        "AutoExposureMinBrightness": 1.0,
+        "AutoExposureMaxBrightness": 1.0
+      },
+      "bUnbound": true,
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'SafeHousePrototype:PersistentLevel.PostProcessVolume_1.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.26"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'SafeHousePrototype:PersistentLevel.PostProcessVolume_1.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.13"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'SafeHousePrototype:PersistentLevel.PostProcessVolume_1.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.13"
+      }
+    }
+  },
+  {
+    "Type": "SafeHousePrototype_C",
+    "Name": "SafeHousePrototype_C_1",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.SafeHousePrototype_C'",
+    "Template": {
+      "ObjectName": "SafeHousePrototype_C'Default__SafeHousePrototype_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.7"
+    },
+    "Properties": {
+      "Seed": 13605,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "SBZCharacterComponent",
+    "Name": "CharacterComponent",
+    "Outer": "PlayerMannequin",
+    "Class": "UScriptClass'SBZCharacterComponent'",
+    "Template": {
+      "ObjectName": "SBZCharacterComponent'Default__CH_UI_MM_PlayerCharacter_C:CharacterComponent'",
+      "ObjectPath": "PAYDAY3/Content/UI/Assets/FrontEnd/CH_UI_MM_PlayerCharacter.2"
+    }
+  },
+  {
+    "Type": "SBZCustomizableSuitMeshComponent",
+    "Name": "SuitSkeletalMesh",
+    "Outer": "UIPlayerCharacterMesh",
+    "Class": "UScriptClass'SBZCustomizableSuitMeshComponent'",
+    "Template": {
+      "ObjectName": "SBZCustomizableSuitMeshComponent'Default__CH_UI_MM_PlayerCharacter_C:UIPlayerCharacterMesh.SuitSkeletalMesh'",
+      "ObjectPath": "PAYDAY3/Content/UI/Assets/FrontEnd/CH_UI_MM_PlayerCharacter.3"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SBZModularCharacterComponent'SafeHousePrototype:PersistentLevel.PlayerMannequin.UIPlayerCharacterMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.38"
+      }
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractable",
+    "Outer": "HeistSelectionInteraction",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "bRepeatable": true,
+      "bIsAllowedInCasing": true,
+      "bIsIllegal": false,
+      "Duration": 0.0,
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractable",
+    "Outer": "InventoryInteraction",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "bRepeatable": true,
+      "bIsAllowedInCasing": true,
+      "bIsIllegal": false,
+      "Duration": 0.0,
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractable",
+    "Outer": "MenuInteraction",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "bRepeatable": true,
+      "bIsAllowedInCasing": true,
+      "bIsIllegal": false,
+      "Duration": 0.0,
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractable",
+    "Outer": "PlayerMannequin",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "bRepeatable": true,
+      "bIsAllowedInCasing": true,
+      "bIsIllegal": false,
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractable",
+    "Outer": "ServerBrowserInteraction",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "bRepeatable": true,
+      "bIsAllowedInCasing": true,
+      "bIsIllegal": false,
+      "Duration": 0.0,
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZModularCharacterComponent",
+    "Name": "UIPlayerCharacterMesh",
+    "Outer": "PlayerMannequin",
+    "Class": "UScriptClass'SBZModularCharacterComponent'",
+    "Template": {
+      "ObjectName": "SBZModularCharacterComponent'Default__CH_UI_MM_PlayerCharacter_C:UIPlayerCharacterMesh'",
+      "ObjectPath": "PAYDAY3/Content/UI/Assets/FrontEnd/CH_UI_MM_PlayerCharacter.4"
+    },
+    "Properties": {
+      "SuitMeshComponent": {
+        "ObjectName": "SBZCustomizableSuitMeshComponent'SafeHousePrototype:PersistentLevel.PlayerMannequin.UIPlayerCharacterMesh.SuitSkeletalMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.32"
+      },
+      "GlovesMeshComponent": {
+        "ObjectName": "SkeletalMeshComponent'SafeHousePrototype:PersistentLevel.PlayerMannequin.UIPlayerCharacterMesh.GlovesSkeletalMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.44"
+      },
+      "BodyMeshComponent": {
+        "ObjectName": "SkeletalMeshComponent'SafeHousePrototype:PersistentLevel.PlayerMannequin.UIPlayerCharacterMesh.BodySkeletalMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.43"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'SafeHousePrototype:PersistentLevel.PlayerMannequin.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.41"
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "bEnableNavigationSystem": false,
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemConfig'SafeHousePrototype:PersistentLevel.SBZWorldSettings.NavigationSystemConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.27"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        {
+          "ObjectName": "BookMark'SafeHousePrototype:PersistentLevel.SBZWorldSettings.BookMark_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.11"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent0",
+    "Outer": "InstancedFoliageActor_0",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -25.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "PlayerMannequin",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'Default__CH_UI_MM_PlayerCharacter_C:SceneComponent'",
+      "ObjectPath": "PAYDAY3/Content/UI/Assets/FrontEnd/CH_UI_MM_PlayerCharacter.6"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 250.0,
+        "Y": 150.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99999,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Base",
+    "Outer": "SkySphere_0",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'BP_Sky_Sphere_C:SceneComponent_1'",
+      "ObjectPath": "Engine/Content/EngineSky/BP_Sky_Sphere.6"
+    },
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "BodySkeletalMesh",
+    "Outer": "UIPlayerCharacterMesh",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'Default__CH_UI_MM_PlayerCharacter_C:UIPlayerCharacterMesh.BodySkeletalMesh'",
+      "ObjectPath": "PAYDAY3/Content/UI/Assets/FrontEnd/CH_UI_MM_PlayerCharacter.9"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SBZModularCharacterComponent'SafeHousePrototype:PersistentLevel.PlayerMannequin.UIPlayerCharacterMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.38"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "GlovesSkeletalMesh",
+    "Outer": "UIPlayerCharacterMesh",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'Default__CH_UI_MM_PlayerCharacter_C:UIPlayerCharacterMesh.GlovesSkeletalMesh'",
+      "ObjectPath": "PAYDAY3/Content/UI/Assets/FrontEnd/CH_UI_MM_PlayerCharacter.10"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SBZModularCharacterComponent'SafeHousePrototype:PersistentLevel.PlayerMannequin.UIPlayerCharacterMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.38"
+      }
+    }
+  },
+  {
+    "Type": "SkyLight",
+    "Name": "SkyLight_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SkyLight'",
+    "Properties": {
+      "LightComponent": {
+        "ObjectName": "SkyLightComponent'SafeHousePrototype:PersistentLevel.SkyLight_0.SkyLightComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.46"
+      },
+      "RootComponent": {
+        "ObjectName": "SkyLightComponent'SafeHousePrototype:PersistentLevel.SkyLight_0.SkyLightComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.46"
+      }
+    }
+  },
+  {
+    "Type": "SkyLightComponent",
+    "Name": "SkyLightComponent0",
+    "Outer": "SkyLight_0",
+    "Class": "UScriptClass'SkyLightComponent'",
+    "Properties": {
+      "LightGuid": "9BA9B1EE-4EFD89FD-5E49FDAA-F19BAAC7",
+      "RelativeLocation": {
+        "X": -29.225647,
+        "Y": -55.995117,
+        "Z": 614.7482
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "SphereReflectionCapture",
+    "Name": "SphereReflectionCapture_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SphereReflectionCapture'",
+    "Properties": {
+      "DrawCaptureRadius": {
+        "ObjectName": "DrawSphereComponent'SafeHousePrototype:PersistentLevel.SphereReflectionCapture_0.DrawRadius1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.19"
+      },
+      "CaptureComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'SafeHousePrototype:PersistentLevel.SphereReflectionCapture_0.NewReflectionComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.48"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereReflectionCaptureComponent'SafeHousePrototype:PersistentLevel.SphereReflectionCapture_0.NewReflectionComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.48"
+      }
+    }
+  },
+  {
+    "Type": "SphereReflectionCaptureComponent",
+    "Name": "NewReflectionComponent",
+    "Outer": "SphereReflectionCapture_0",
+    "Class": "UScriptClass'SphereReflectionCaptureComponent'",
+    "Properties": {
+      "PreviewInfluenceRadius": {
+        "ObjectName": "DrawSphereComponent'SafeHousePrototype:PersistentLevel.SphereReflectionCapture_0.DrawRadius0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.18"
+      },
+      "CaptureOffsetComponent": null,
+      "MapBuildDataId": "B76EFA2D-47964639-8B713687-D749CE86",
+      "RelativeLocation": {
+        "X": -60.907654,
+        "Y": -34.328613,
+        "Z": 376.86133
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.Cube2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.58"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.Cube2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.58"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube76",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.Cube76.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.59"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.Cube76.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.59"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube77",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.Cube77.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.60"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.Cube77.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.60"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube78",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.Cube78.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.61"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.Cube78.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.61"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "HeistSelectionInteraction",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.HeistSelectionInteraction.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.62"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.HeistSelectionInteraction.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.62"
+      },
+      "InstanceComponents": [
+        {
+          "ObjectName": "SBZInteractableComponent'SafeHousePrototype:PersistentLevel.HeistSelectionInteraction.SBZInteractable'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.33"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "InventoryInteraction",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.InventoryInteraction.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.63"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.InventoryInteraction.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.63"
+      },
+      "InstanceComponents": [
+        {
+          "ObjectName": "SBZInteractableComponent'SafeHousePrototype:PersistentLevel.InventoryInteraction.SBZInteractable'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.34"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "MenuInteraction",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.MenuInteraction.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.64"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.MenuInteraction.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.64"
+      },
+      "InstanceComponents": [
+        {
+          "ObjectName": "SBZInteractableComponent'SafeHousePrototype:PersistentLevel.MenuInteraction.SBZInteractable'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.35"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "ServerBrowserInteraction",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.ServerBrowserInteraction.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.65"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.ServerBrowserInteraction.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.65"
+      },
+      "InstanceComponents": [
+        {
+          "ObjectName": "SBZInteractableComponent'SafeHousePrototype:PersistentLevel.ServerBrowserInteraction.SBZInteractable'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.37"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Mkp_Prop_Int_OfficeDesk8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.SM_Mkp_Prop_Int_OfficeDesk8.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.67"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'SafeHousePrototype:PersistentLevel.SM_Mkp_Prop_Int_OfficeDesk8.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.67"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 846.37946,
+        "Y": 161.84836,
+        "Z": 137.0434
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 351.4915,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6875,
+        "Y": 0.0625,
+        "Z": 0.4375
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube76",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 846.37946,
+        "Y": 161.84836,
+        "Z": 182.54419
+      },
+      "RelativeRotation": {
+        "Pitch": 0.010068,
+        "Yaw": 351.49155,
+        "Roll": 0.121009
+      },
+      "RelativeScale3D": {
+        "X": 0.6875,
+        "Y": 0.0625,
+        "Z": 0.4375
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube77",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 776.15546,
+        "Y": 167.67638,
+        "Z": 137.04346
+      },
+      "RelativeRotation": {
+        "Pitch": -0.008345,
+        "Yaw": 360.19156,
+        "Roll": 0.12114
+      },
+      "RelativeScale3D": {
+        "X": 0.6875,
+        "Y": 0.0625,
+        "Z": 0.4375
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube78",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 776.1616,
+        "Y": 167.77254,
+        "Z": 182.54138
+      },
+      "RelativeRotation": {
+        "Pitch": -0.008345,
+        "Yaw": 360.19156,
+        "Roll": 0.12114
+      },
+      "RelativeScale3D": {
+        "X": 0.6875,
+        "Y": 0.0625,
+        "Z": 0.4375
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "HeistSelectionInteraction",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 2,
+      "RelativeLocation": {
+        "X": 610.0,
+        "Y": 160.0,
+        "Z": 105.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "748DE9D44137EF13B6ECEF9C4766F245"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "InventoryInteraction",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 250.0,
+        "Y": 130.0,
+        "Z": 115.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "MenuInteraction",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 1,
+      "RelativeLocation": {
+        "X": 450.0,
+        "Y": 160.0,
+        "Z": 105.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D205ADFA4669454A37C18B99BF3D5575"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "ServerBrowserInteraction",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 800.0,
+        "Y": 160.0,
+        "Z": 105.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SkySphereMesh",
+    "Outer": "SkySphere_0",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Sky_Sphere_C:SkySphereMesh_GEN_VARIABLE'",
+      "ObjectPath": "Engine/Content/EngineSky/BP_Sky_Sphere.11"
+    },
+    "Properties": {
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1427.2891
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 21601.676
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 10800.838
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceDynamic'SafeHousePrototype:PersistentLevel.SkySphere_0.SkySphereMesh.MaterialInstanceDynamic_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.24"
+        }
+      ],
+      "VisibilityId": 0,
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'SafeHousePrototype:PersistentLevel.SkySphere_0.Base'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.42"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "OverrideMaterials",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F997D86A4D4F506B42C361BA51ACC10D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Mkp_Prop_Int_OfficeDesk8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'1M_Cube'",
+        "ObjectPath": "PAYDAY3/Content/Editor/Defaults/1M_Cube.2"
+      },
+      "RelativeLocation": {
+        "X": 917.6463,
+        "Y": 191.0376,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TextRenderActor",
+    "Name": "TextRender_HeistInteraction",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'TextRenderActor'",
+    "Properties": {
+      "TextRender": {
+        "ObjectName": "TextRenderComponent'SafeHousePrototype:PersistentLevel.TextRender_HeistInteraction.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.73"
+      },
+      "RootComponent": {
+        "ObjectName": "TextRenderComponent'SafeHousePrototype:PersistentLevel.TextRender_HeistInteraction.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.73"
+      }
+    }
+  },
+  {
+    "Type": "TextRenderActor",
+    "Name": "TextRender_HeistInteraction2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'TextRenderActor'",
+    "Properties": {
+      "TextRender": {
+        "ObjectName": "TextRenderComponent'SafeHousePrototype:PersistentLevel.TextRender_HeistInteraction2.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.74"
+      },
+      "RootComponent": {
+        "ObjectName": "TextRenderComponent'SafeHousePrototype:PersistentLevel.TextRender_HeistInteraction2.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.74"
+      }
+    }
+  },
+  {
+    "Type": "TextRenderActor",
+    "Name": "TextRender_MenuInteraction",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'TextRenderActor'",
+    "Properties": {
+      "TextRender": {
+        "ObjectName": "TextRenderComponent'SafeHousePrototype:PersistentLevel.TextRender_MenuInteraction.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.75"
+      },
+      "RootComponent": {
+        "ObjectName": "TextRenderComponent'SafeHousePrototype:PersistentLevel.TextRender_MenuInteraction.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.75"
+      }
+    }
+  },
+  {
+    "Type": "TextRenderActor",
+    "Name": "TextRender_MenuInteraction2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'TextRenderActor'",
+    "Properties": {
+      "TextRender": {
+        "ObjectName": "TextRenderComponent'SafeHousePrototype:PersistentLevel.TextRender_MenuInteraction2.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.76"
+      },
+      "RootComponent": {
+        "ObjectName": "TextRenderComponent'SafeHousePrototype:PersistentLevel.TextRender_MenuInteraction2.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.76"
+      }
+    }
+  },
+  {
+    "Type": "TextRenderActor",
+    "Name": "TextRenderActor_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'TextRenderActor'",
+    "Properties": {
+      "TextRender": {
+        "ObjectName": "TextRenderComponent'SafeHousePrototype:PersistentLevel.TextRenderActor_2.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.77"
+      },
+      "RootComponent": {
+        "ObjectName": "TextRenderComponent'SafeHousePrototype:PersistentLevel.TextRenderActor_2.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.77"
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "NewTextRenderComponent",
+    "Outer": "TextRender_HeistInteraction",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "6703A546426C3EED7C0BB3A0595AC119",
+        "SourceString": "Heist Selection",
+        "LocalizedString": "Heist Selection"
+      },
+      "TextRenderColor": {
+        "B": 0,
+        "G": 0,
+        "R": 0,
+        "A": 255,
+        "Hex": "FF000000"
+      },
+      "WorldSize": 119.118225,
+      "RelativeLocation": {
+        "X": 680.0,
+        "Y": 160.0,
+        "Z": 150.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -95.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.2,
+        "Y": 0.2,
+        "Z": 0.2
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "NewTextRenderComponent",
+    "Outer": "TextRender_HeistInteraction2",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "686763FA4F091B1BAD6D2EA644A22232",
+        "SourceString": "ServerBrowser",
+        "LocalizedString": "ServerBrowser"
+      },
+      "TextRenderColor": {
+        "B": 0,
+        "G": 0,
+        "R": 0,
+        "A": 255,
+        "Hex": "FF000000"
+      },
+      "WorldSize": 119.118225,
+      "RelativeLocation": {
+        "X": 880.0,
+        "Y": 150.0,
+        "Z": 150.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -95.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.2,
+        "Y": 0.2,
+        "Z": 0.2
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "NewTextRenderComponent",
+    "Outer": "TextRender_MenuInteraction",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "53C4D08849A269E93F638EBA87BBE962",
+        "SourceString": "Menu Interaction",
+        "LocalizedString": "Menu Interaction"
+      },
+      "TextRenderColor": {
+        "B": 0,
+        "G": 0,
+        "R": 0,
+        "A": 255,
+        "Hex": "FF000000"
+      },
+      "WorldSize": 119.118225,
+      "RelativeLocation": {
+        "X": 520.0,
+        "Y": 170.0,
+        "Z": 150.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00012,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.2,
+        "Y": 0.2,
+        "Z": 0.2
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "NewTextRenderComponent",
+    "Outer": "TextRender_MenuInteraction2",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "E4B89D8D4F57812E1A0A689629DF67A3",
+        "SourceString": "Inventory",
+        "LocalizedString": "Inventory"
+      },
+      "TextRenderColor": {
+        "B": 0,
+        "G": 0,
+        "R": 0,
+        "A": 255,
+        "Hex": "FF000000"
+      },
+      "WorldSize": 119.118225,
+      "RelativeLocation": {
+        "X": 280.0,
+        "Y": 170.0,
+        "Z": 190.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00012,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.2,
+        "Y": 0.2,
+        "Z": 0.2
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "NewTextRenderComponent",
+    "Outer": "TextRenderActor_2",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "6A66C91649AC25D58681FFA6884DD93F",
+        "SourceString": "Safe House",
+        "LocalizedString": "Safe House"
+      },
+      "TextRenderColor": {
+        "B": 0,
+        "G": 0,
+        "R": 0,
+        "A": 255,
+        "Hex": "FF000000"
+      },
+      "WorldSize": 119.118225,
+      "RelativeLocation": {
+        "X": 630.0,
+        "Y": 1510.0,
+        "Z": 220.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00012,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "SafeHousePrototype",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'SafeHousePrototype:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.21"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'SafeHousePrototype:LevelStreamingAlwaysLoaded_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.22"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'SafeHousePrototype:LevelStreamingAlwaysLoaded_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/SafeHousePrototype.23"
+      }
+    ]
+  }
+]

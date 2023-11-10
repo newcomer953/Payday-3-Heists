@@ -1,0 +1,934 @@
+[
+  {
+    "Type": "Function",
+    "Name": "SSDPlaced__DelegateSignature",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "StartFlickering__DelegateSignature",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "StopFlickering__DelegateSignature",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "PluggedIn__DelegateSignature",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_TempSSD",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_ConnectedSSD_SBZInteractable_K2Node_ComponentBoundEvent_1_SBZOnInteraction__DelegateSignature",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZReplicatedBinaryStateActor:OnStateChanged'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "GrabSSD",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetState",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "State",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_TempSSD_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_TempSSD_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.13"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_TempSSD_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.23"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_TempSSD_C:ExecuteUbergraph_BP_TempSSD'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZReplicatedBinaryStateActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_TempSSD_C:GetState'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.9"
+      },
+      {
+        "ObjectName": "Function'BP_TempSSD_C:GrabSSD'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.8"
+      },
+      {
+        "ObjectName": "Function'BP_TempSSD_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.7"
+      },
+      {
+        "ObjectName": "Function'BP_TempSSD_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.6"
+      },
+      {
+        "ObjectName": "Function'BP_TempSSD_C:BndEvt__BP_ConnectedSSD_SBZInteractable_K2Node_ComponentBoundEvent_1_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.5"
+      },
+      {
+        "ObjectName": "Function'BP_TempSSD_C:ExecuteUbergraph_BP_TempSSD'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.4"
+      },
+      {
+        "ObjectName": "Function'BP_TempSSD_C:PluggedIn__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.3"
+      },
+      {
+        "ObjectName": "Function'BP_TempSSD_C:StopFlickering__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.2"
+      },
+      {
+        "ObjectName": "Function'BP_TempSSD_C:StartFlickering__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.1"
+      },
+      {
+        "ObjectName": "Function'BP_TempSSD_C:SSDPlaced__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZInteractable",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OutlineMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZOutline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZOutlineComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Mesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "SSDPlaced",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_TempSSD_C:SSDPlaced__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.0"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "DisableEffect",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "DisableEffect",
+          "Flags": "RF_Public",
+          "ElementSize": 16,
+          "Struct": {
+            "ObjectName": "ScriptStruct'SBZGameplayEffectData'",
+            "ObjectPath": "/Script/Starbreeze"
+          }
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "StartFlickering",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_TempSSD_C:StartFlickering__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.1"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "StopFlickering",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_TempSSD_C:StopFlickering__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.2"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "PluggedIn",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_TempSSD_C:PluggedIn__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.3"
+        }
+      }
+    ],
+    "FuncMap": {
+      "SSDPlaced__DelegateSignature": {
+        "ObjectName": "Function'BP_TempSSD_C:SSDPlaced__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.0"
+      },
+      "StartFlickering__DelegateSignature": {
+        "ObjectName": "Function'BP_TempSSD_C:StartFlickering__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.1"
+      },
+      "StopFlickering__DelegateSignature": {
+        "ObjectName": "Function'BP_TempSSD_C:StopFlickering__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.2"
+      },
+      "PluggedIn__DelegateSignature": {
+        "ObjectName": "Function'BP_TempSSD_C:PluggedIn__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.3"
+      },
+      "ExecuteUbergraph_BP_TempSSD": {
+        "ObjectName": "Function'BP_TempSSD_C:ExecuteUbergraph_BP_TempSSD'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.4"
+      },
+      "BndEvt__BP_ConnectedSSD_SBZInteractable_K2Node_ComponentBoundEvent_1_SBZOnInteraction__DelegateSignature": {
+        "ObjectName": "Function'BP_TempSSD_C:BndEvt__BP_ConnectedSSD_SBZInteractable_K2Node_ComponentBoundEvent_1_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.5"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'BP_TempSSD_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.6"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_TempSSD_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.7"
+      },
+      "GrabSSD": {
+        "ObjectName": "Function'BP_TempSSD_C:GrabSSD'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.8"
+      },
+      "GetState": {
+        "ObjectName": "Function'BP_TempSSD_C:GetState'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.9"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_TempSSD_C'Default__BP_TempSSD_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.11"
+    }
+  },
+  {
+    "Type": "BP_TempSSD_C",
+    "Name": "Default__BP_TempSSD_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.BP_TempSSD_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "DisableEffect": [
+        {
+          "GameplayEffectClass": {
+            "ObjectName": "BlueprintGeneratedClass'GE_PortableSSD_C'",
+            "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/GE_PortableSSD.0"
+          },
+          "Level": 1.0,
+          "StackCount": 1
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Interaction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 2.0
+      },
+      "RelativeScale3D": {
+        "X": 0.17705762,
+        "Y": 0.26974794,
+        "Z": 0.10036606
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "SBZInteractable",
+          "DelegatePropertyName": "OnServerCompleteInteraction",
+          "FunctionNameToBind": "BndEvt__BP_ConnectedSSD_SBZInteractable_K2Node_ComponentBoundEvent_1_SBZOnInteraction__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractable_GEN_VARIABLE",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "GameplayInteractionQuery": {
+        "ObjectName": "SBZGameplayAbilityQuery'DA_PortableSSD'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/MissionItem/DA_PortableSSD.0"
+      },
+      "bIsAllowedInCasing": true,
+      "Shapes": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'PrimitiveComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "Box"
+        }
+      ],
+      "Text": {
+        "TableId": "/Game/Localization/ST_Interaction.ST_Interaction",
+        "Key": "INT_PlaceSSD"
+      },
+      "GameplayEffectsOnInteract": [
+        {
+          "GameplayEffectClass": {
+            "ObjectName": "BlueprintGeneratedClass'GE_PortableSSD_C'",
+            "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/GE_PortableSSD.0"
+          },
+          "Level": 1.0,
+          "StackCount": -1
+        }
+      ],
+      "OnStart2DAudioEvent": {
+        "ObjectName": "AkAudioEvent'PLR_INT_SSD_Place'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/Player/Interactions/Misc/PLR_INT_SSD_Place.1"
+      },
+      "OnFinish2DAudioEvent": {
+        "ObjectName": "AkAudioEvent'PLR_INT_SSD_Place_Finish'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/Player/Interactions/Misc/PLR_INT_SSD_Place_Finish.1"
+      },
+      "OnCancel2DAudioEvent": {
+        "ObjectName": "AkAudioEvent'PLR_INT_SSD_Place_STOP'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/Player/Interactions/Misc/PLR_INT_SSD_Place_STOP.1"
+      }
+    }
+  },
+  {
+    "Type": "SBZOutlineComponent",
+    "Name": "SBZOutline_GEN_VARIABLE",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'SBZOutlineComponent'",
+    "Properties": {
+      "DefaultAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_SSD'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_SSD.0"
+      },
+      "MeshSelectors": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "OutlineMesh"
+        }
+      ],
+      "InteractableSelector": {
+        "ComponentName": "SBZInteractable"
+      },
+      "InteractableFocusAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_InteractableInFocus'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_InteractableInFocus.0"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_TempSSD_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.16"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_TempSSD_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.18"
+        }
+      ],
+      "VariableGuid": "AB8C2F0F-423C560C-2AE940A2-2D5E5C17",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_TempSSD_C:Mesh_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.24"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_TempSSD_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TempSSD_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.22"
+        }
+      ],
+      "VariableGuid": "1EE0DA79-4D9FE1D4-FFF052B6-7E8B9A8D",
+      "InternalVariableName": "Mesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZOutlineComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZOutlineComponent'BP_TempSSD_C:SBZOutline_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.15"
+      },
+      "VariableGuid": "64674047-42861F7A-A2A9C4A6-8593F063",
+      "InternalVariableName": "SBZOutline"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_TempSSD_C:OutlineMesh_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.25"
+      },
+      "VariableGuid": "E583D691-4D18E7AE-A493C586-AC986965",
+      "InternalVariableName": "OutlineMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZInteractableComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZInteractableComponent'BP_TempSSD_C:SBZInteractable_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.14"
+      },
+      "VariableGuid": "B7ADA1D7-4C365826-F8E17C81-1978474F",
+      "InternalVariableName": "SBZInteractable"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_TempSSD_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.12"
+      },
+      "VariableGuid": "07750C39-4DED9001-9422BA86-8BAD3857",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_TempSSD_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TempSSD_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TempSSD_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.21"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_TempSSD_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TempSSD_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TempSSD_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TempSSD_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TempSSD_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_TempSSD_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.22"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_TempSSD_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_TempSSD.17"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh_GEN_VARIABLE",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'PortableSSD_01_Cable'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/PortableSSD_01/PortableSSD_01_Cable.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PortableSSD_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/PortableSSD_01/Component/MI_PortableSSD_01.0"
+        }
+      ],
+      "bSSREnabled": false,
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "OutlineMesh_GEN_VARIABLE",
+    "Outer": "BP_TempSSD_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'PortableSSD_01_Cable'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/PortableSSD_01/PortableSSD_01_Cable.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PortableSSD_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/PortableSSD_01/Component/MI_PortableSSD_01.0"
+        }
+      ],
+      "bRenderInMainPass": false,
+      "bRenderInDepthPass": false,
+      "bSSREnabled": false
+    }
+  }
+]

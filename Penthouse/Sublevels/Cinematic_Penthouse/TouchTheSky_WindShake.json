@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TouchTheSky_WindShake_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'CameraShakeBase'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TouchTheSky_WindShake_C'Default__TouchTheSky_WindShake_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/TouchTheSky_WindShake.1"
+    }
+  },
+  {
+    "Type": "TouchTheSky_WindShake_C",
+    "Name": "Default__TouchTheSky_WindShake_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/TouchTheSky_WindShake.TouchTheSky_WindShake_C'",
+    "Properties": {
+      "RootShakePattern": {
+        "ObjectName": "PerlinNoiseCameraShakePattern'Default__TouchTheSky_WindShake_C:PerlinNoiseCameraShakePattern_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/Cinematic_Penthouse/TouchTheSky_WindShake.2"
+      }
+    }
+  },
+  {
+    "Type": "PerlinNoiseCameraShakePattern",
+    "Name": "PerlinNoiseCameraShakePattern_0",
+    "Outer": "Default__TouchTheSky_WindShake_C",
+    "Class": "UScriptClass'PerlinNoiseCameraShakePattern'",
+    "Properties": {
+      "LocationAmplitudeMultiplier": 3.0,
+      "LocationFrequencyMultiplier": 0.5,
+      "RotationAmplitudeMultiplier": 1.0,
+      "Pitch": {
+        "Amplitude": 0.0,
+        "Frequency": 0.0
+      },
+      "Yaw": {
+        "Amplitude": 0.2
+      },
+      "Roll": {
+        "Amplitude": 0.0,
+        "Frequency": 0.0
+      },
+      "FOV": {
+        "Frequency": 0.0
+      },
+      "Duration": 0.0,
+      "BlendInTime": 0.0,
+      "BlendOutTime": 0.0
+    }
+  }
+]

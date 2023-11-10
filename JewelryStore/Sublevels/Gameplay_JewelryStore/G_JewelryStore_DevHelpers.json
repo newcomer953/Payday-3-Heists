@@ -1,0 +1,456 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "G_JewelryStore_DevHelpers",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'G_JewelryStore_DevHelpers:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.1"
+      },
+      "LevelBuildDataId": "46786122-45D0F4D0-DEC6CD8B-889796C8",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'G_JewelryStore_DevHelpers:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.3"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'G_JewelryStore_DevHelpers:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.3"
+      },
+      null,
+      {
+        "ObjectName": "TextRenderActor'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.9"
+      },
+      null,
+      {
+        "ObjectName": "TextRenderActor'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor11_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.4"
+      },
+      null,
+      {
+        "ObjectName": "TextRenderActor'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor14'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.5"
+      },
+      null,
+      {
+        "ObjectName": "TextRenderActor'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor16'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.6"
+      },
+      null,
+      {
+        "ObjectName": "TextRenderActor'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor32'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.7"
+      },
+      null,
+      {
+        "ObjectName": "TextRenderActor'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor34'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.8"
+      },
+      null
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'G_JewelryStore_DevHelpers:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "1984B804-44910858-38626498-568718BE",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'G_JewelryStore_DevHelpers:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "TextRenderActor",
+    "Name": "TextRenderActor11_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'TextRenderActor'",
+    "Properties": {
+      "TextRender": {
+        "ObjectName": "TextRenderComponent'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor11_2.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.10"
+      },
+      "RootComponent": {
+        "ObjectName": "TextRenderComponent'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor11_2.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.10"
+      }
+    }
+  },
+  {
+    "Type": "TextRenderActor",
+    "Name": "TextRenderActor14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'TextRenderActor'",
+    "Properties": {
+      "TextRender": {
+        "ObjectName": "TextRenderComponent'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor14.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.11"
+      },
+      "RootComponent": {
+        "ObjectName": "TextRenderComponent'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor14.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.11"
+      }
+    }
+  },
+  {
+    "Type": "TextRenderActor",
+    "Name": "TextRenderActor16",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'TextRenderActor'",
+    "Properties": {
+      "TextRender": {
+        "ObjectName": "TextRenderComponent'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor16.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.12"
+      },
+      "RootComponent": {
+        "ObjectName": "TextRenderComponent'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor16.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.12"
+      }
+    }
+  },
+  {
+    "Type": "TextRenderActor",
+    "Name": "TextRenderActor32",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'TextRenderActor'",
+    "Properties": {
+      "TextRender": {
+        "ObjectName": "TextRenderComponent'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor32.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.13"
+      },
+      "RootComponent": {
+        "ObjectName": "TextRenderComponent'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor32.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.13"
+      }
+    }
+  },
+  {
+    "Type": "TextRenderActor",
+    "Name": "TextRenderActor34",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'TextRenderActor'",
+    "Properties": {
+      "TextRender": {
+        "ObjectName": "TextRenderComponent'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor34.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.14"
+      },
+      "RootComponent": {
+        "ObjectName": "TextRenderComponent'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor34.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.14"
+      }
+    }
+  },
+  {
+    "Type": "TextRenderActor",
+    "Name": "TextRenderActor9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'TextRenderActor'",
+    "Properties": {
+      "TextRender": {
+        "ObjectName": "TextRenderComponent'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor9.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.15"
+      },
+      "RootComponent": {
+        "ObjectName": "TextRenderComponent'G_JewelryStore_DevHelpers:PersistentLevel.TextRenderActor9.NewTextRenderComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.15"
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "NewTextRenderComponent",
+    "Outer": "TextRenderActor11_2",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "788B49984E0A2AC8179284BD90F1228F",
+        "SourceString": "----->",
+        "LocalizedString": "----->"
+      },
+      "RelativeLocation": {
+        "X": 336.0,
+        "Y": -1352.0,
+        "Z": 0.000122
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 6.72139,
+        "Roll": 6.721283
+      },
+      "RelativeScale3D": {
+        "X": 9.037498,
+        "Y": 9.037498,
+        "Z": 9.037498
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "NewTextRenderComponent",
+    "Outer": "TextRenderActor14",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "F18488D04DD727315FC694B5CF221CE8",
+        "SourceString": "----->",
+        "LocalizedString": "----->"
+      },
+      "RelativeLocation": {
+        "X": -776.0,
+        "Y": 1824.0,
+        "Z": 0.000122
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 14.850994,
+        "Roll": -165.14912
+      },
+      "RelativeScale3D": {
+        "X": 9.037498,
+        "Y": 9.037498,
+        "Z": 9.037498
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "NewTextRenderComponent",
+    "Outer": "TextRenderActor16",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "118880C442BEFD3762C99AA496C1C24E",
+        "SourceString": "----->",
+        "LocalizedString": "----->"
+      },
+      "RelativeLocation": {
+        "X": 336.0,
+        "Y": 2376.0,
+        "Z": 0.000122
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 14.850994,
+        "Roll": 14.850884
+      },
+      "RelativeScale3D": {
+        "X": 9.037498,
+        "Y": 9.037498,
+        "Z": 9.037498
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "NewTextRenderComponent",
+    "Outer": "TextRenderActor32",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "FF43DCAA44B228A27016EAB817A4804F",
+        "SourceString": "----->",
+        "LocalizedString": "----->"
+      },
+      "RelativeLocation": {
+        "X": 2039.9998,
+        "Y": -232.0,
+        "Z": 0.000122
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 153.43495,
+        "Roll": -116.56506
+      },
+      "RelativeScale3D": {
+        "X": 9.037498,
+        "Y": 9.037498,
+        "Z": 9.037498
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "NewTextRenderComponent",
+    "Outer": "TextRenderActor34",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "46D0EB654770A3FEF25108903692F35E",
+        "SourceString": "----->",
+        "LocalizedString": "----->"
+      },
+      "RelativeLocation": {
+        "X": 1504.0,
+        "Y": 856.0,
+        "Z": 0.000122
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 45.0,
+        "Roll": 314.99994
+      },
+      "RelativeScale3D": {
+        "X": 9.037498,
+        "Y": 9.037498,
+        "Z": 9.037498
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "NewTextRenderComponent",
+    "Outer": "TextRenderActor9",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "C81E890B43F33584816A20A8B706ECEE",
+        "SourceString": "----->",
+        "LocalizedString": "----->"
+      },
+      "RelativeLocation": {
+        "X": -776.0,
+        "Y": -1792.0,
+        "Z": 0.00012207031
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 160.52881,
+        "Roll": -19.471313
+      },
+      "RelativeScale3D": {
+        "X": 9.037498,
+        "Y": 9.037498,
+        "Z": 9.037498
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "G_JewelryStore_DevHelpers",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'G_JewelryStore_DevHelpers:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Gameplay_JewelryStore/G_JewelryStore_DevHelpers.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

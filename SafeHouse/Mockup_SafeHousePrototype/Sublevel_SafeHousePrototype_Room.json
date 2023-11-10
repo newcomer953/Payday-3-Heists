@@ -1,0 +1,933 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Sublevel_SafeHousePrototype_Room",
+    "Outer": "Sublevel_SafeHousePrototype_Room_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "Sublevel_SafeHousePrototype_Room_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Sublevel_SafeHousePrototype_Room_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'Sublevel_SafeHousePrototype_Room_C:ExecuteUbergraph_Sublevel_SafeHousePrototype_Room'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Sublevel_SafeHousePrototype_Room_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.1"
+      },
+      {
+        "ObjectName": "Function'Sublevel_SafeHousePrototype_Room_C:ExecuteUbergraph_Sublevel_SafeHousePrototype_Room'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Sublevel_SafeHousePrototype_Room": {
+        "ObjectName": "Function'Sublevel_SafeHousePrototype_Room_C:ExecuteUbergraph_Sublevel_SafeHousePrototype_Room'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.0"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'Sublevel_SafeHousePrototype_Room_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.1"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Sublevel_SafeHousePrototype_Room_C'Default__Sublevel_SafeHousePrototype_Room_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.3"
+    }
+  },
+  {
+    "Type": "Sublevel_SafeHousePrototype_Room_C",
+    "Name": "Default__Sublevel_SafeHousePrototype_Room_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.Sublevel_SafeHousePrototype_Room_C'",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Sublevel_SafeHousePrototype_Room",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Sublevel_SafeHousePrototype_Room:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.5"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "Sublevel_SafeHousePrototype_Room_C'Sublevel_SafeHousePrototype_Room:PersistentLevel.Sublevel_SafeHousePrototype_Room_C_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.30"
+      },
+      "LevelBuildDataId": "181B0AE2-46B2CF94-2C29028F-F299E68A",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Sublevel_SafeHousePrototype_Room_BuiltData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room_BuiltData.2"
+      },
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'Sublevel_SafeHousePrototype_Room:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.7"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'Sublevel_SafeHousePrototype_Room:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.7"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube_10'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.15"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Room:PersistentLevel.SM_Mkp_Prop_Int_OfficeChair17_22'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.16"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Room:PersistentLevel.SM_Mkp_Prop_Int_OfficeDesk6_27'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.17"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Room:PersistentLevel.SM_Mkp_Prop_Int_OfficeDesk7'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.18"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube69_34'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.8"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube70_37'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube71_38'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.10"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube72'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.11"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube73'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.12"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube74'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.13"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube75'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.14"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "Sublevel_SafeHousePrototype_Room_C'Sublevel_SafeHousePrototype_Room:PersistentLevel.Sublevel_SafeHousePrototype_Room_C_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.30"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Sublevel_SafeHousePrototype_Room:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.5"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "Sublevel_SafeHousePrototype_Room_C'Sublevel_SafeHousePrototype_Room:PersistentLevel.Sublevel_SafeHousePrototype_Room_C_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.30"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "2CDB5098-4F71B0A5-4F216F9C-537908A9",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "GlobalMaterialParameters": {
+        "WindDirection": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "WindSpeed": 0.01,
+        "EnemyBacklightInfluence": {
+          "R": 0.15,
+          "G": 7.0,
+          "B": 0.0,
+          "A": 0.1,
+          "Hex": "196CFF00"
+        },
+        "EnemyBacklightFade": {
+          "R": 3000.0,
+          "G": 1500.0,
+          "B": 40.0,
+          "A": 30.0,
+          "Hex": "FFFFFFFF"
+        },
+        "EnemyBacklightRangeFuzz": {
+          "R": 0.2,
+          "G": 0.5,
+          "B": 0.1,
+          "A": 0.5,
+          "Hex": "7F7CBC59"
+        }
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Sublevel_SafeHousePrototype_Room:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.6"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube69_34",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube69_34.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.19"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube69_34.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.19"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube70_37",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube70_37.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.20"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube70_37.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.20"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube71_38",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube71_38.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.21"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube71_38.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.21"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube72",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube72.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.22"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube72.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.22"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube73",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube73.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.23"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube73.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.23"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube74",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube74.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.24"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube74.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.24"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube75",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube75.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.25"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube75.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.25"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Cube_10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube_10.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.26"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.Cube_10.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.26"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Mkp_Prop_Int_OfficeChair17_22",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.SM_Mkp_Prop_Int_OfficeChair17_22.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.27"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.SM_Mkp_Prop_Int_OfficeChair17_22.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.27"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Mkp_Prop_Int_OfficeDesk6_27",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.SM_Mkp_Prop_Int_OfficeDesk6_27.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.28"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.SM_Mkp_Prop_Int_OfficeDesk6_27.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.28"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Mkp_Prop_Int_OfficeDesk7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.SM_Mkp_Prop_Int_OfficeDesk7.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.29"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Room:PersistentLevel.SM_Mkp_Prop_Int_OfficeDesk7.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.29"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube69_34",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 5,
+      "RelativeLocation": {
+        "X": 646.37946,
+        "Y": 171.84836,
+        "Z": 182.54419
+      },
+      "RelativeRotation": {
+        "Pitch": 0.010068,
+        "Yaw": 351.49155,
+        "Roll": 0.121009
+      },
+      "RelativeScale3D": {
+        "X": 0.6875,
+        "Y": 0.0625,
+        "Z": 0.4375
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "574B44874486C38A959561A94FB6D28B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube70_37",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 6,
+      "RelativeLocation": {
+        "X": 576.15546,
+        "Y": 177.67638,
+        "Z": 137.04346
+      },
+      "RelativeRotation": {
+        "Pitch": -0.008345,
+        "Yaw": 360.19156,
+        "Roll": 0.121140026
+      },
+      "RelativeScale3D": {
+        "X": 0.6875,
+        "Y": 0.0625,
+        "Z": 0.4375
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "AB15F8CC4792C3B67ED07391A7EF3035"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube71_38",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 7,
+      "RelativeLocation": {
+        "X": 576.1616,
+        "Y": 177.77254,
+        "Z": 182.54138
+      },
+      "RelativeRotation": {
+        "Pitch": -0.008345,
+        "Yaw": 360.19156,
+        "Roll": 0.121140026
+      },
+      "RelativeScale3D": {
+        "X": 0.6875,
+        "Y": 0.0625,
+        "Z": 0.4375
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "854A59FD4F272728B51B8ABFB73E9496"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube72",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 8,
+      "RelativeLocation": {
+        "X": 482.02313,
+        "Y": 178.86728,
+        "Z": 137.0434
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 356.91196,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6875,
+        "Y": 0.0625,
+        "Z": 0.4375
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E315E9714DE301F3A754E4AE10ACFF25"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube73",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 9,
+      "RelativeLocation": {
+        "X": 481.80194,
+        "Y": 178.87415,
+        "Z": 182.54138
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 356.91196,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6875,
+        "Y": 0.0625,
+        "Z": 0.4375
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "85F196BF466AB119EE6D4C82FF93547A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube74",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 10,
+      "RelativeLocation": {
+        "X": 411.55975,
+        "Y": 178.13213,
+        "Z": 137.0434
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 365.61337,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6875,
+        "Y": 0.0625,
+        "Z": 0.4375
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A49A984D4A536EBE6E87889205261341"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube75",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 11,
+      "RelativeLocation": {
+        "X": 411.33865,
+        "Y": 178.13895,
+        "Z": 182.54138
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 365.61337,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6875,
+        "Y": 0.0625,
+        "Z": 0.4375
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "951CE09B4F2C2220D5BA4A8A9B63ADB0"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Cube_10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cube'",
+        "ObjectPath": "Engine/Content/BasicShapes/Cube.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "VisibilityId": 1,
+      "RelativeLocation": {
+        "X": 646.37946,
+        "Y": 171.84836,
+        "Z": 137.0434
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 351.4915,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6875,
+        "Y": 0.0625,
+        "Z": 0.4375
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E7D3FC904C669A6571C1D78E896C59C2"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Mkp_Prop_Int_OfficeChair17_22",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'1M_Cube'",
+        "ObjectPath": "PAYDAY3/Content/Editor/Defaults/1M_Cube.2"
+      },
+      "VisibilityId": 2,
+      "RelativeLocation": {
+        "X": 623.6466,
+        "Y": 79.03769,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0002117157,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D4DC3F474591F68999E795843300BC0D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Mkp_Prop_Int_OfficeDesk6_27",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'1M_Cube'",
+        "ObjectPath": "PAYDAY3/Content/Editor/Defaults/1M_Cube.2"
+      },
+      "VisibilityId": 3,
+      "RelativeLocation": {
+        "X": 719.64636,
+        "Y": 191.03793,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.000114,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "513BD2874BD946CF7397869CFDBAD91C"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Mkp_Prop_Int_OfficeDesk7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'1M_Cube'",
+        "ObjectPath": "PAYDAY3/Content/Editor/Defaults/1M_Cube.2"
+      },
+      "VisibilityId": 4,
+      "RelativeLocation": {
+        "X": 527.6463,
+        "Y": 191.03754,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.000114,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A2E1914C466DD772AB014BB0132B98CF"
+      }
+    ]
+  },
+  {
+    "Type": "Sublevel_SafeHousePrototype_Room_C",
+    "Name": "Sublevel_SafeHousePrototype_Room_C_0",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.Sublevel_SafeHousePrototype_Room_C'",
+    "Template": {
+      "ObjectName": "Sublevel_SafeHousePrototype_Room_C'Default__Sublevel_SafeHousePrototype_Room_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.3"
+    },
+    "Properties": {
+      "Seed": 31465,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "Sublevel_SafeHousePrototype_Room",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Sublevel_SafeHousePrototype_Room:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Room.4"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

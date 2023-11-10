@@ -1,0 +1,559 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ReplicatedCollision",
+    "Outer": "BP_ReplicatedCollision_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetRelativeLocation_SweepHitResult",
+        "Flags": "RF_Public",
+        "ElementSize": 144,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "BP_ReplicatedCollision_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZReplicatedBinaryStateActor:OnStateChanged'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__UpdateFunc",
+    "Outer": "BP_ReplicatedCollision_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__FinishedFunc",
+    "Outer": "BP_ReplicatedCollision_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ReplicatedCollision_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate'BP_ReplicatedCollision_C:Timeline_0_Template'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.17"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ReplicatedCollision_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.15"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_ReplicatedCollision_C:InheritableComponentHandler'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.8"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_ReplicatedCollision_C:ExecuteUbergraph_BP_ReplicatedCollision'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZReplicatedBinaryStateActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ReplicatedCollision_C:Timeline_0__FinishedFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.3"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedCollision_C:Timeline_0__UpdateFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.2"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedCollision_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.1"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedCollision_C:ExecuteUbergraph_BP_ReplicatedCollision'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Int_SHE_AirDuct_01_BotMesh_01_16_128_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Scene",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_0_Y_E8952FBE43E4FD5B94AD9CB5E6E2D982",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_0__Direction_E8952FBE43E4FD5B94AD9CB5E6E2D982",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_ReplicatedCollision": {
+        "ObjectName": "Function'BP_ReplicatedCollision_C:ExecuteUbergraph_BP_ReplicatedCollision'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.0"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'BP_ReplicatedCollision_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.1"
+      },
+      "Timeline_0__UpdateFunc": {
+        "ObjectName": "Function'BP_ReplicatedCollision_C:Timeline_0__UpdateFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.2"
+      },
+      "Timeline_0__FinishedFunc": {
+        "ObjectName": "Function'BP_ReplicatedCollision_C:Timeline_0__FinishedFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ReplicatedCollision_C'Default__BP_ReplicatedCollision_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.5"
+    }
+  },
+  {
+    "Type": "BP_ReplicatedCollision_C",
+    "Name": "Default__BP_ReplicatedCollision_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.BP_ReplicatedCollision_C'",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedCollision_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 10.0,
+        "Y": 160.0,
+        "Z": 160.0
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Throwable",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SBZProjectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SBZPiercingThrowable",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 63.999992,
+        "Y": 32.000027,
+        "Z": 2.0980835E-05
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -0.079123616,
+        "Roll": -0.07912344
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0",
+    "Outer": "BP_ReplicatedCollision_C",
+    "Class": "UScriptClass'CurveFloat'",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.3,
+            "Value": 128.0,
+            "ArriveTangent": -2.9093451E-05,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -4.364018E-05,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5,
+            "Value": 122.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.7,
+            "Value": 128.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BP_ReplicatedCollision_C",
+    "Class": "UScriptClass'InheritableComponentHandler'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedCollision_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedCollision_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ReplicatedCollision_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.9"
+      },
+      "VariableGuid": "F34B9B0D-4BFDBD3F-EEF9BAB7-2405BC67",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_ReplicatedCollision_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.6"
+      },
+      "VariableGuid": "9654E769-43B1D0D0-6EA2B99E-333E3404",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ReplicatedCollision_C:Scene_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.10"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedCollision_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedCollision_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.14"
+        }
+      ],
+      "VariableGuid": "D98E3B3D-4671FC5B-825888AA-D4EDB35F",
+      "InternalVariableName": "Scene"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ReplicatedCollision_C:Int_SHE_AirDuct_01_BotMesh_01_16_128_01_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.16"
+      },
+      "VariableGuid": "35BFB9CD-472C0393-8D3DEBB5-A40712FB",
+      "InternalVariableName": "Int_SHE_AirDuct_01_BotMesh_01_16_128_01"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_ReplicatedCollision_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedCollision_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.13"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedCollision_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedCollision_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedCollision_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.14"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ReplicatedCollision_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.11"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Int_SHE_AirDuct_01_BotMesh_01_16_128_01_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedCollision_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_SHE_AirDuct_01_BotMesh_01_16_128_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Interior/Shell/AirDuct_01/Int_SHE_AirDuct_01_BotMesh_01_16_128_01.2"
+      },
+      "RelativeLocation": {
+        "X": 2.3841858E-07,
+        "Y": 0.0,
+        "Z": 2.0
+      }
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_0_Template",
+    "Outer": "BP_ReplicatedCollision_C",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Properties": {
+      "TimelineLength": 0.7,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_ReplicatedCollision_C:CurveFloat_0'",
+            "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedCollision.7"
+          },
+          "PropertyName": "Timeline_0_Y_E8952FBE43E4FD5B94AD9CB5E6E2D982",
+          "TrackName": "Y",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "E8952FBE-43E4FD5B-94AD9CB5-E6E2D982",
+      "VariableName": "Timeline_0",
+      "DirectionPropertyName": "Timeline_0__Direction_E8952FBE43E4FD5B94AD9CB5E6E2D982",
+      "UpdateFunctionName": "Timeline_0__UpdateFunc",
+      "FinishedFunctionName": "Timeline_0__FinishedFunc"
+    }
+  }
+]

@@ -1,0 +1,903 @@
+[
+  {
+    "Type": "Function",
+    "Name": "LasersDisabled__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ReplicatedBinaryActor_Switch",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 56,
+          "Struct": {
+            "ObjectName": "ScriptStruct'AkExternalSourceInfo'",
+            "ObjectPath": "/Script/AkAudio"
+          }
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "Temp_delegate_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "ConstParm",
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_struct_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable_1",
+          "Flags": "RF_Public",
+          "ElementSize": 56,
+          "Struct": {
+            "ObjectName": "ScriptStruct'AkExternalSourceInfo'",
+            "ObjectPath": "/Script/AkAudio"
+          }
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "Temp_delegate_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "ConstParm",
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_PostEvent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInstanceDynamic'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetGameTimeInSeconds_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_PostAkEvent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_ReplicatedBinaryActor_Switch_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZReplicatedBinaryStateActor:OnStateChanged'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetC",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetB",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetA",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_ReplicatedBinaryActor_Switch_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.12"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ReplicatedBinaryActor_Switch_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.23"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_Switch'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZReplicatedBinaryStateActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.8"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.7"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:SetA'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.6"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:SetB'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.5"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:SetC'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.4"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.3"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:BndEvt__BP_ReplicatedBinaryActor_Switch_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.2"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_Switch'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.1"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:LasersDisabled__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "led",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Plane",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Ak",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AkComponent'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZOutline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZOutlineComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZInteractable",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PowerBox",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "LasersDisabled",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:LasersDisabled__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LED",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInstanceDynamic'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "LEDInt",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "FuncMap": {
+      "LasersDisabled__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:LasersDisabled__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.0"
+      },
+      "ExecuteUbergraph_BP_ReplicatedBinaryActor_Switch": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_Switch'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.1"
+      },
+      "BndEvt__BP_ReplicatedBinaryActor_Switch_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:BndEvt__BP_ReplicatedBinaryActor_Switch_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.2"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.3"
+      },
+      "SetC": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:SetC'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.4"
+      },
+      "SetB": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:SetB'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.5"
+      },
+      "SetA": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:SetA'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.6"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.7"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Switch_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.8"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ReplicatedBinaryActor_Switch_C'Default__BP_ReplicatedBinaryActor_Switch_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.10"
+    }
+  },
+  {
+    "Type": "BP_ReplicatedBinaryActor_Switch_C",
+    "Name": "Default__BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.BP_ReplicatedBinaryActor_Switch_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bState": true
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AkAudioEvent": {
+        "ObjectName": "AkAudioEvent'bar_proto_drill_place_cancel'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/Gear/PLACEHOLDER_PROTO_Drill/bar_proto_drill_place_cancel.1"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "SBZInteractable",
+          "DelegatePropertyName": "OnAckCompleteInteraction",
+          "FunctionNameToBind": "BndEvt__BP_ReplicatedBinaryActor_Switch_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractable_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "bIsAllowedInCasing": true,
+      "Shapes": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'PrimitiveComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "PowerBox"
+        }
+      ],
+      "ShapeTraceLocationsArray": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'ActorComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "PowerBox"
+        }
+      ],
+      "Text": {
+        "TableId": "/Game/Localization/ST_Interaction.ST_Interaction",
+        "Key": "INT_GEN_TurnOff"
+      }
+    }
+  },
+  {
+    "Type": "SBZOutlineComponent",
+    "Name": "SBZOutline_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'SBZOutlineComponent'",
+    "Properties": {
+      "DefaultAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_Interactable_7_5m'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_Interactable_7_5m.0"
+      },
+      "InteractableSelector": {
+        "ComponentName": "SBZInteractable"
+      },
+      "InteractableFocusAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_InteractableInFocus'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_InteractableInFocus.0"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ReplicatedBinaryActor_Switch_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.15"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Switch_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.18"
+        }
+      ],
+      "VariableGuid": "FD85DE12-4504BBF8-A1AA98BA-70A64278",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ReplicatedBinaryActor_Switch_C:Plane_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.25"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Switch_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.21"
+        }
+      ],
+      "VariableGuid": "54739F2F-41AA7E48-102835AA-AE6914B0",
+      "InternalVariableName": "Plane"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ReplicatedBinaryActor_Switch_C:PowerBox_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.26"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Switch_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Switch_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.17"
+        }
+      ],
+      "VariableGuid": "6EB5856F-4D0DFF5B-7AA1A29A-6B740750",
+      "InternalVariableName": "PowerBox"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_38",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZOutlineComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZOutlineComponent'BP_ReplicatedBinaryActor_Switch_C:SBZOutline_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.14"
+      },
+      "VariableGuid": "E347F425-4E201BE7-86D3EFB2-BC02F1E5",
+      "InternalVariableName": "SBZOutline"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AkComponent'",
+        "ObjectPath": "/Script/AkAudio"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AkComponent'BP_ReplicatedBinaryActor_Switch_C:Ak_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.11"
+      },
+      "VariableGuid": "6194E0D5-4F229058-85D3B8B2-C0EDE722",
+      "InternalVariableName": "Ak"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ReplicatedBinaryActor_Switch_C:led_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.24"
+      },
+      "VariableGuid": "3D6393ED-4511B4F7-DD846AA6-117934F0",
+      "InternalVariableName": "led"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZInteractableComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZInteractableComponent'BP_ReplicatedBinaryActor_Switch_C:SBZInteractable_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.13"
+      },
+      "VariableGuid": "90496067-4171C77E-2D1573BD-C581C056",
+      "InternalVariableName": "SBZInteractable"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Switch_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Switch_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Switch_C:SimpleConstructionScript_0.SCS_Node_38'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.19"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Switch_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Switch_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Switch_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Switch_C:SimpleConstructionScript_0.SCS_Node_38'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Switch_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Switch_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Switch_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.21"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Switch_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ReplicatedBinaryActor_Switch.16"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "led_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_LedLamp_Red'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/JewelryMachine_01/Component/MI_LedLamp_Red.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 3.1044087E-07,
+        "Z": -1.6049716
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": -90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.5179682,
+        "Y": 0.8861746,
+        "Z": 0.5179682
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Plane_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Plane'",
+        "ObjectPath": "Engine/Content/BasicShapes/Plane.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BLD_ParkingLot_PureMetal_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/BranchBank/Architecture/Exterior/ParkingLot/Component/MI_BLD_ParkingLot_PureMetal_01.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -2.2039871,
+        "Y": 23.473724,
+        "Z": -11.950716
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.00001
+      },
+      "RelativeScale3D": {
+        "X": 0.022499999,
+        "Y": 0.022499999,
+        "Z": 0.022499999
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "PowerBox_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_Switch_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'HeavySwitch_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/HeavySwitch_01/HeavySwitch_01.2"
+      },
+      "RelativeScale3D": {
+        "X": 0.6,
+        "Y": 0.6,
+        "Z": 0.6
+      }
+    }
+  }
+]

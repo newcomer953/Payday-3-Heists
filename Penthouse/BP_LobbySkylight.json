@@ -1,0 +1,996 @@
+[
+  {
+    "Type": "Function",
+    "Name": "BookCleared__DelegateSignature",
+    "Outer": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BookMoved__DelegateSignature",
+    "Outer": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_LobbySkylight",
+    "Outer": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 56,
+          "Struct": {
+            "ObjectName": "ScriptStruct'AkExternalSourceInfo'",
+            "ObjectPath": "/Script/AkAudio"
+          }
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "Temp_delegate_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "ConstParm",
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_PostAkEvent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZReplicatedBinaryStateActor:OnStateChanged'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Outer": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_LobbySkylight_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.20"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_LobbySkylight_C:ExecuteUbergraph_BP_LobbySkylight'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZReplicatedBinaryStateActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_LobbySkylight_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.4"
+      },
+      {
+        "ObjectName": "Function'BP_LobbySkylight_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.3"
+      },
+      {
+        "ObjectName": "Function'BP_LobbySkylight_C:ExecuteUbergraph_BP_LobbySkylight'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.2"
+      },
+      {
+        "ObjectName": "Function'BP_LobbySkylight_C:BookMoved__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.1"
+      },
+      {
+        "ObjectName": "Function'BP_LobbySkylight_C:BookCleared__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MeshDecal_NC_BrokenGlass",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Ak",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AkComponent'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Niagara",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PH_Skylight_Chunk_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PH_Skylight_Frame_03",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PH_Skylight_Chunk_04",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PH_Skylight_Chunk_03",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PH_Skylight_Chunk_02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PH_Skylight_Frame_02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "BookTransform",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "BookLocation",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "BookCleared",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_LobbySkylight_C:BookCleared__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.0"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "BookMoved",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_LobbySkylight_C:BookMoved__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.1"
+        }
+      }
+    ],
+    "FuncMap": {
+      "BookCleared__DelegateSignature": {
+        "ObjectName": "Function'BP_LobbySkylight_C:BookCleared__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.0"
+      },
+      "BookMoved__DelegateSignature": {
+        "ObjectName": "Function'BP_LobbySkylight_C:BookMoved__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.1"
+      },
+      "ExecuteUbergraph_BP_LobbySkylight": {
+        "ObjectName": "Function'BP_LobbySkylight_C:ExecuteUbergraph_BP_LobbySkylight'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.2"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'BP_LobbySkylight_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.3"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_LobbySkylight_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_LobbySkylight_C'Default__BP_LobbySkylight_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.6"
+    }
+  },
+  {
+    "Type": "BP_LobbySkylight_C",
+    "Name": "Default__BP_LobbySkylight_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.BP_LobbySkylight_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "BookTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      },
+      "BookLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "bState": true
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Ak_GEN_VARIABLE",
+    "Outer": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 319.9999,
+        "Y": 959.9998,
+        "Z": 68.57141
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "Niagara_GEN_VARIABLE",
+    "Outer": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_Nightclub_GlassDestruction_Small'",
+        "ObjectPath": "PAYDAY3/Content/FX/Props/FX_Nightclub_GlassDestruction_Small.38"
+      },
+      "OverrideParameters": {},
+      "RelativeLocation": {
+        "X": 319.99994,
+        "Y": 960.00037,
+        "Z": -2.2857218
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeScale3D": {
+        "X": 0.875,
+        "Y": 0.875,
+        "Z": 0.875
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_LobbySkylight_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.9"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.11"
+        }
+      ],
+      "VariableGuid": "FD85DE12-4504BBF8-A1AA98BA-70A64278",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_LobbySkylight_C:MeshDecal_NC_BrokenGlass_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.21"
+      },
+      "VariableGuid": "C3F5D52A-4371B92D-1CDB3FAA-D9AE410A",
+      "InternalVariableName": "MeshDecal_NC_BrokenGlass"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_LobbySkylight_C:PH_Skylight_Frame_02_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.26"
+      },
+      "VariableGuid": "9870C0DD-4E4351C8-35A8F98A-C1A71376",
+      "InternalVariableName": "PH_Skylight_Frame_02"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_LobbySkylight_C:PH_Skylight_Chunk_01_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.22"
+      },
+      "VariableGuid": "4AEB0B6B-49F337BE-F3F5539F-97386B04",
+      "InternalVariableName": "PH_Skylight_Chunk_01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_LobbySkylight_C:PH_Skylight_Chunk_02_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.23"
+      },
+      "VariableGuid": "9CE516FA-4FD8C9C9-7C19D7A2-461D015D",
+      "InternalVariableName": "PH_Skylight_Chunk_02"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_LobbySkylight_C:PH_Skylight_Chunk_03_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.24"
+      },
+      "VariableGuid": "B0725576-4B68B3FC-FDC7E788-054492F6",
+      "InternalVariableName": "PH_Skylight_Chunk_03"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_LobbySkylight_C:PH_Skylight_Chunk_04_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.25"
+      },
+      "VariableGuid": "82E4A8EE-46B8186D-2DE9EDB4-64BFEEED",
+      "InternalVariableName": "PH_Skylight_Chunk_04"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_LobbySkylight_C:PH_Skylight_Frame_03_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.27"
+      },
+      "VariableGuid": "FDD1FD7D-4CB57E63-F24B99A0-37DAA3A2",
+      "InternalVariableName": "PH_Skylight_Frame_03"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BP_LobbySkylight_C:Niagara_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.8"
+      },
+      "VariableGuid": "8233032A-4B415B69-FDA707B1-CD07EA7C",
+      "InternalVariableName": "Niagara"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AkComponent'",
+        "ObjectPath": "/Script/AkAudio"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AkComponent'BP_LobbySkylight_C:Ak_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.7"
+      },
+      "VariableGuid": "1579BEBD-48AD5E7B-DA36639B-4AC61D5B",
+      "InternalVariableName": "Ak"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.10"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.11"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_LobbySkylight_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/BP_LobbySkylight.10"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MeshDecal_NC_BrokenGlass_GEN_VARIABLE",
+    "Outer": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MeshDecal_NC_BrokenGlass'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Debris/MeshDecal_NC_BrokenGlass.2"
+      },
+      "RelativeLocation": {
+        "X": 990.85266,
+        "Y": -370.47632,
+        "Z": -1171.4291
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.31205,
+        "Roll": 0.0
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "PH_Skylight_Chunk_01_GEN_VARIABLE",
+    "Outer": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'PH_Skylight_Chunk_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Architecture/Exterior/Skylight/PH_Skylight_Chunk_01.2"
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Throwable",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SBZProjectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "PH_Skylight_Chunk_02_GEN_VARIABLE",
+    "Outer": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'PH_Skylight_Chunk_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Architecture/Exterior/Skylight/PH_Skylight_Chunk_02.2"
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Throwable",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SBZProjectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "PH_Skylight_Chunk_03_GEN_VARIABLE",
+    "Outer": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'PH_Skylight_Chunk_03'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Architecture/Exterior/Skylight/PH_Skylight_Chunk_03.2"
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Throwable",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SBZProjectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "PH_Skylight_Chunk_04_GEN_VARIABLE",
+    "Outer": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'PH_Skylight_Chunk_04'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Architecture/Exterior/Skylight/PH_Skylight_Chunk_04.2"
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Throwable",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SBZProjectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "PH_Skylight_Frame_02_GEN_VARIABLE",
+    "Outer": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'PH_Skylight_Frame_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Architecture/Exterior/Skylight/PH_Skylight_Frame_02.2"
+      },
+      "bUseDefaultCollision": true,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "PH_Skylight_Frame_03_GEN_VARIABLE",
+    "Outer": "BP_LobbySkylight_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'PH_Skylight_Frame_03'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/Penthouse/Architecture/Exterior/Skylight/PH_Skylight_Frame_03.2"
+      },
+      "bUseDefaultCollision": true,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,1141 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_C_CargoDock_IntroOutro",
+    "Outer": "C_CargoDock_IntroOutro_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMovieSceneSequencePlayerEvent__DelegateSignature'",
+          "ObjectPath": "/Script/MovieScene"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSequencePlayer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelSequencePlayer'",
+          "ObjectPath": "/Script/LevelSequence"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "C_CargoDock_IntroOutro_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnIntroFinished",
+    "Outer": "C_CargoDock_IntroOutro_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "IntroSequenceStarted",
+    "Outer": "C_CargoDock_IntroOutro_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZLevelScriptActor:IntroSequenceStarted'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_CargoDock_IntroOutro_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'C_CargoDock_IntroOutro_C:ExecuteUbergraph_C_CargoDock_IntroOutro'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'C_CargoDock_IntroOutro_C:IntroSequenceStarted'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.3"
+      },
+      {
+        "ObjectName": "Function'C_CargoDock_IntroOutro_C:OnIntroFinished'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.2"
+      },
+      {
+        "ObjectName": "Function'C_CargoDock_IntroOutro_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.1"
+      },
+      {
+        "ObjectName": "Function'C_CargoDock_IntroOutro_C:ExecuteUbergraph_C_CargoDock_IntroOutro'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "C_99boxes_Master_01_2_ExecuteUbergraph_C_CargoDock_IntroOutro_RefProperty",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelSequenceActor'",
+          "ObjectPath": "/Script/LevelSequence"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_C_CargoDock_IntroOutro": {
+        "ObjectName": "Function'C_CargoDock_IntroOutro_C:ExecuteUbergraph_C_CargoDock_IntroOutro'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.0"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'C_CargoDock_IntroOutro_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.1"
+      },
+      "OnIntroFinished": {
+        "ObjectName": "Function'C_CargoDock_IntroOutro_C:OnIntroFinished'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.2"
+      },
+      "IntroSequenceStarted": {
+        "ObjectName": "Function'C_CargoDock_IntroOutro_C:IntroSequenceStarted'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_CargoDock_IntroOutro_C'Default__C_CargoDock_IntroOutro_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.5"
+    }
+  },
+  {
+    "Type": "C_CargoDock_IntroOutro_C",
+    "Name": "Default__C_CargoDock_IntroOutro_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.C_CargoDock_IntroOutro_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "C_99boxes_Master_01_2_ExecuteUbergraph_C_CargoDock_IntroOutro_RefProperty": {
+        "ObjectName": "LevelSequenceActor'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Master_01_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.23"
+      }
+    }
+  },
+  {
+    "Type": "C_CargoDock_IntroOutro_C",
+    "Name": "C_CargoDock_IntroOutro_C_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.C_CargoDock_IntroOutro_C'",
+    "Template": {
+      "ObjectName": "C_CargoDock_IntroOutro_C'Default__C_CargoDock_IntroOutro_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.5"
+    },
+    "Properties": {
+      "Seed": 27714,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CameraRig_Crane",
+    "Name": "CameraRig_Crane_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraRig_Crane'",
+    "Properties": {
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.CameraRig_Crane_1.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.51"
+      },
+      "CraneYawControl": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.CameraRig_Crane_1.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.50"
+      },
+      "CranePitchControl": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.CameraRig_Crane_1.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.49"
+      },
+      "CraneCameraMount": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.CameraRig_Crane_1.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.48"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.CameraRig_Crane_1.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.51"
+      }
+    }
+  },
+  {
+    "Type": "CameraRig_Crane",
+    "Name": "Crane_99boxes_Shot3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraRig_Crane'",
+    "Properties": {
+      "CranePitch": 9.0,
+      "CraneArmLength": 1193.949,
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Crane_99boxes_Shot3.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.56"
+      },
+      "CraneYawControl": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Crane_99boxes_Shot3.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.55"
+      },
+      "CranePitchControl": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Crane_99boxes_Shot3.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.54"
+      },
+      "CraneCameraMount": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Crane_99boxes_Shot3.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.53"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Crane_99boxes_Shot3.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.56"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_99boxes_Shot1_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Ext_Arch.E_CargoDock_Ext_Arch",
+          "SubPathString": "PersistentLevel.CD_Exterior_Sign_01_38"
+        },
+        "RelativeOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -793.76605
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_CargoDock_IntroOutro:PersistentLevel.Camera_99boxes_Shot1_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.13"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Camera_99boxes_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.45"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Camera_99boxes_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.45"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_99boxes_Shot2_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_CargoDock_IntroOutro:PersistentLevel.Camera_99boxes_Shot2_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.14"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Camera_99boxes_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.46"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Camera_99boxes_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.46"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_99boxes_Shot3_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Ext_Prop.E_CargoDock_Ext_Prop",
+          "SubPathString": "PersistentLevel.HSMI_CameraPole_01_80"
+        },
+        "RelativeOffset": {
+          "X": 33.842484,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_CargoDock_IntroOutro:PersistentLevel.Camera_99boxes_Shot3_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.15"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Camera_99boxes_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.47"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Camera_99boxes_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.47"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "CineCameraActor_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_CargoDock_IntroOutro:PersistentLevel.CineCameraActor_1.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.16"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.CineCameraActor_1.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.52"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.CineCameraActor_1.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.52"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_99boxes_Shot1_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 500.0
+      },
+      "FocusSettings": {
+        "TrackingFocusSettings": {
+          "ActorToTrack": {
+            "AssetPathName": "/Game/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Ext_Arch.E_CargoDock_Ext_Arch",
+            "SubPathString": "PersistentLevel.CD_Exterior_Sign_01_38"
+          }
+        }
+      },
+      "CurrentFocusDistance": 10465.182,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Camera_99boxes_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.45"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_99boxes_Shot2_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2
+      },
+      "CurrentFocusDistance": 6792.9326,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Camera_99boxes_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.46"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_99boxes_Shot3_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2
+      },
+      "CurrentFocusDistance": 3548.6934,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "PostProcessSettings": {
+        "bOverride_VignetteIntensity": true,
+        "VignetteIntensity": 0.7
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Camera_99boxes_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.47"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "CineCameraActor_1",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "CurrentFocusDistance": 100000.0,
+      "FieldOfView": 37.497356,
+      "AspectRatio": 1.7777778,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.CineCameraActor_1.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.52"
+      }
+    }
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_99boxes_Master_01_2",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_99boxes_Shot1_01_9",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_99boxes_Shot2_01_11",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_99boxes_Shot3_01_7",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "IntroSequence_4",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "C_CargoDock_IntroOutro",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'C_CargoDock_IntroOutro:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.33"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "C_CargoDock_IntroOutro_C'C_CargoDock_IntroOutro:PersistentLevel.C_CargoDock_IntroOutro_C_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.6"
+      },
+      "LevelBuildDataId": "4A0CE483-4B791A87-C17A08B7-3B0F94D0",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'C_CargoDock_IntroOutro:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.40"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'C_CargoDock_IntroOutro:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.40"
+      },
+      null,
+      {
+        "ObjectName": "CameraRig_Crane'C_CargoDock_IntroOutro:PersistentLevel.CameraRig_Crane_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.7"
+      },
+      {
+        "ObjectName": "CameraRig_Crane'C_CargoDock_IntroOutro:PersistentLevel.Crane_99boxes_Shot3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.8"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_CargoDock_IntroOutro:PersistentLevel.Camera_99boxes_Shot1_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.9"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_CargoDock_IntroOutro:PersistentLevel.Camera_99boxes_Shot2_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.10"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_CargoDock_IntroOutro:PersistentLevel.IntroSequence_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.27"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Master_01_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.23"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Shot3_01_7'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.26"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Shot1_01_9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.24"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Shot2_01_11'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.25"
+      },
+      {
+        "ObjectName": "C_CargoDock_IntroOutro_C'C_CargoDock_IntroOutro:PersistentLevel.C_CargoDock_IntroOutro_C_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.6"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_CargoDock_IntroOutro:PersistentLevel.CineCameraActor_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.12"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_CargoDock_IntroOutro:PersistentLevel.Camera_99boxes_Shot3_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.11"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'C_CargoDock_IntroOutro:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.33"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "C_CargoDock_IntroOutro_C'C_CargoDock_IntroOutro:PersistentLevel.C_CargoDock_IntroOutro_C_2'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.6"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_99boxes_Master_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_99boxes_Master_01.C_99boxes_Master_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Master_01_2.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.28"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Master_01_2.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.34"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Master_01_2.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.17"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Master_01_2.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.41"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_99boxes_Shot1_01_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_99boxes_Shot1_01.C_99boxes_Shot1_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Shot1_01_9.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.29"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Shot1_01_9.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.35"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Shot1_01_9.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.18"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Shot1_01_9.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.42"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_99boxes_Shot2_01_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_99boxes_Shot2_01.C_99boxes_Shot2_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Shot2_01_11.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.30"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Shot2_01_11.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.36"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Shot2_01_11.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.19"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Shot2_01_11.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.43"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_99boxes_Shot3_01_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_99boxes_Shot3_01.C_99boxes_Shot3_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Shot3_01_7.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.31"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Shot3_01_7.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.37"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Shot3_01_7.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.20"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.C_99boxes_Shot3_01_7.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.44"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "IntroSequence_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/IntroSequence.IntroSequence",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_CargoDock_IntroOutro:PersistentLevel.IntroSequence_4.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.32"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_CargoDock_IntroOutro:PersistentLevel.IntroSequence_4.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.38"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_CargoDock_IntroOutro:PersistentLevel.IntroSequence_4.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.21"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.IntroSequence_4.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.57"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_99boxes_Master_01_2",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_99boxes_Shot1_01_9",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_99boxes_Shot2_01_11",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_99boxes_Shot3_01_7",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "IntroSequence_4",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "E54AD82B-443D5916-743B0698-F278D03F",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_99boxes_Master_01_2",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_99boxes_Shot1_01_9",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_99boxes_Shot2_01_11",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_99boxes_Shot3_01_7",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "IntroSequence_4",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "GlobalMaterialParameters": {
+        "WindDirection": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "WindSpeed": 0.01,
+        "EnemyBacklightInfluence": {
+          "R": 0.05,
+          "G": 5.0,
+          "B": 0.2,
+          "A": 0.5,
+          "Hex": "7F3FFF7C"
+        },
+        "EnemyBacklightFade": {
+          "R": 3000.0,
+          "G": 1500.0,
+          "B": 40.0,
+          "A": 30.0,
+          "Hex": "FFFFFFFF"
+        },
+        "EnemyBacklightRangeFuzz": {
+          "R": 0.2,
+          "G": 0.5,
+          "B": 0.1,
+          "A": 0.5,
+          "Hex": "7F7CBC59"
+        }
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'C_CargoDock_IntroOutro:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.39"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_99boxes_Master_01_2",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_99boxes_Shot1_01_9",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_99boxes_Shot2_01_11",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_99boxes_Shot3_01_7",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_99boxes_Shot1_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "ComponentVelocity": {
+        "X": -37831.473,
+        "Y": -73055.38,
+        "Z": -9145.759
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_99boxes_Shot2_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "ComponentVelocity": {
+        "X": -200263.67,
+        "Y": -31323.232,
+        "Z": -8587.193
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_99boxes_Shot3_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Crane_99boxes_Shot3.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.53"
+      },
+      "RelativeLocation": {
+        "X": -499.97693,
+        "Y": -9.1552734E-05,
+        "Z": 2.4257824E-05
+      },
+      "RelativeRotation": {
+        "Pitch": -4.729817,
+        "Yaw": 139.4755,
+        "Roll": -1.6062955E-06
+      },
+      "ComponentVelocity": {
+        "X": 0.0,
+        "Y": -12139.136,
+        "Z": 0.0029637923
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneCameraMount",
+    "Outer": "CameraRig_Crane_1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.CameraRig_Crane_1.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.49"
+      },
+      "RelativeLocation": {
+        "X": 500.0,
+        "Y": 0.0026855469,
+        "Z": -14.987297
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CranePitchControl",
+    "Outer": "CameraRig_Crane_1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.CameraRig_Crane_1.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.50"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneYawControl",
+    "Outer": "CameraRig_Crane_1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.CameraRig_Crane_1.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.51"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent",
+    "Outer": "CameraRig_Crane_1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 1453.4559,
+        "Y": 3875.8484,
+        "Z": 16.1781
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "CineCameraActor_1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.CameraRig_Crane_1.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.48"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneCameraMount",
+    "Outer": "Crane_99boxes_Shot3",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Crane_99boxes_Shot3.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.54"
+      },
+      "RelativeLocation": {
+        "X": 1193.9487,
+        "Y": -0.38415527,
+        "Z": -14.411812
+      },
+      "RelativeRotation": {
+        "Pitch": -9.000003,
+        "Yaw": -1.0006128E-08,
+        "Roll": 1.2713986E-07
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CranePitchControl",
+    "Outer": "Crane_99boxes_Shot3",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Crane_99boxes_Shot3.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.55"
+      },
+      "RelativeRotation": {
+        "Pitch": 9.000003,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneYawControl",
+    "Outer": "Crane_99boxes_Shot3",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_CargoDock_IntroOutro:PersistentLevel.Crane_99boxes_Shot3.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.56"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent",
+    "Outer": "Crane_99boxes_Shot3",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 6157.6436,
+        "Y": 6482.758,
+        "Z": 537.282
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "ComponentVelocity": {
+        "X": -2590.556,
+        "Y": 1022.3779,
+        "Z": 13044.877
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "IntroSequence_4",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "World",
+    "Name": "C_CargoDock_IntroOutro",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'C_CargoDock_IntroOutro:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/C_CargoDock_IntroOutro.22"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

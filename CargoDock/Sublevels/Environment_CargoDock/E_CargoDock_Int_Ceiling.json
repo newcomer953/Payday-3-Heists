@@ -1,0 +1,332 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "E_CargoDock_Int_Ceiling",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'E_CargoDock_Int_Ceiling:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Ceiling.1"
+      },
+      "StreamingTextureGuids": [
+        "4720F8F7-41A2B2EE-6EB6C49C-E13C8C9F",
+        "A27C3985-4789EE4F-4DB21A8D-3D060E8B",
+        "D32C815D-48B42430-5C444CAD-0BCD93C4",
+        "280737A8-4C12B094-F4DED998-68C42AF3",
+        "F22897B6-4BCDBB2E-92B15086-7B689F3B",
+        "FD5FB5A1-4A45FE23-01EC028B-3DFD3003",
+        "EE87EA59-4BBFA8FB-DEF0F89F-A7257990",
+        "78EA03B9-4CB55701-DD4CB1A7-CAF40A2B",
+        "3A37833E-412D350F-90DB098A-4778A778",
+        "79FC82F5-4F3C3BFA-8DB266A7-E4C663DF",
+        "11732972-495D8D28-B6EE5AA2-F0C4BF27",
+        "3470A439-4904DB4E-55CAE7AF-5251DFEE"
+      ],
+      "LevelBuildDataId": "936F17BB-45C59337-A563288A-CCA825B9",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'E_CargoDock_Int_Ceiling:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Ceiling.3"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'E_CargoDock_Int_Ceiling:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Ceiling.3"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'E_CargoDock_Int_Ceiling:PersistentLevel.AirDuct_01_32'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Ceiling.4"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_CargoDock_Int_Ceiling:PersistentLevel.CD_Interior_Warehouse_Ceiling_01_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Ceiling.5"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'E_CargoDock_Int_Ceiling:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Ceiling.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "FBCB4230-4B758AC2-40E49B81-3C5C0A51",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'E_CargoDock_Int_Ceiling:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Ceiling.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "AirDuct_01_32",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_CargoDock_Int_Ceiling:PersistentLevel.AirDuct_01_32.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Ceiling.6"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_CargoDock_Int_Ceiling:PersistentLevel.AirDuct_01_32.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Ceiling.6"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "CD_Interior_Warehouse_Ceiling_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_CargoDock_Int_Ceiling:PersistentLevel.CD_Interior_Warehouse_Ceiling_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Ceiling.7"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_CargoDock_Int_Ceiling:PersistentLevel.CD_Interior_Warehouse_Ceiling_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Ceiling.7"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "AirDuct_01_32",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'AirDuct_01_64'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Roof/AirDuct_01/AirDuct_01_64.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 32,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 231.98622
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 231.98622
+        }
+      ],
+      "VisibilityId": 2070,
+      "RelativeLocation": {
+        "X": 7167.0,
+        "Y": 1500.0,
+        "Z": 926.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.00002
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.65625,
+        "Z": 0.78125
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "0C175260468792D4D11595AC0AA6E92F"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "CD_Interior_Warehouse_Ceiling_01_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'CD_Interior_Warehouse_Ceiling_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/CargoDock/Architecture/Interior/Warehouse/CD_Interior_Warehouse_Ceiling_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 3924.018
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 256.15372
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 641.87573
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 256.15372
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 641.87573
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 641.87573
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 641.87573
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 632.6179
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 253.50778
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 253.50778
+        }
+      ],
+      "VisibilityId": 2071,
+      "RelativeLocation": {
+        "X": 6420.0,
+        "Y": 2096.0,
+        "Z": 1520.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "8B51264E43064FCD985DFE96DCE0E53F"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "E_CargoDock_Int_Ceiling",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'E_CargoDock_Int_Ceiling:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Ceiling.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

@@ -1,0 +1,605 @@
+[
+  {
+    "Type": "DecalActor",
+    "Name": "MI_DD_Ext_Puddle_01_05_16",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.MI_DD_Ext_Puddle_01_05_16.NewDecalComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.2"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.MI_DD_Ext_Puddle_01_05_16.NewDecalComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.2"
+      }
+    }
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "MI_DD_Ext_Puddle_01_07_10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.MI_DD_Ext_Puddle_01_07_10.NewDecalComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.3"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.MI_DD_Ext_Puddle_01_07_10.NewDecalComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.3"
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "MI_DD_Ext_Puddle_01_05_16",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_DD_Ext_Puddle_01_05'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Decal/DD_Ext_Puddle_01/MI_DD_Ext_Puddle_01_05.0"
+      },
+      "FadeScreenSize": 0.03,
+      "RelativeLocation": {
+        "X": 5050.0,
+        "Y": -3.0,
+        "Z": -415.0
+      },
+      "RelativeScale3D": {
+        "X": 0.021119364,
+        "Y": 0.17582248,
+        "Z": 0.17582248
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "MI_DD_Ext_Puddle_01_07_10",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_DD_Ext_Puddle_01_07'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Decal/DD_Ext_Puddle_01/MI_DD_Ext_Puddle_01_07.0"
+      },
+      "FadeScreenSize": 0.03,
+      "RelativeLocation": {
+        "X": 4933.8945,
+        "Y": 212.40887,
+        "Z": -417.0
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -705.96375,
+        "Roll": 780.9639
+      },
+      "RelativeScale3D": {
+        "X": 0.023159634,
+        "Y": 0.27627754,
+        "Z": 0.27627754
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "E_FirstPlayable_Int_F0Hall_Floor",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.5"
+      },
+      "StreamingTextureGuids": [
+        "D869D954-4FA0D5FC-7D2D2ABF-55D2F10B",
+        "201C526E-4153AA7D-8F20119B-1ABB86CF",
+        "D20612F8-4688C8B4-81AF458A-E755D9B4",
+        "DBD6BCD1-4ED76425-7AC7A48B-E2C3175C",
+        "AE72AA46-48581779-BBCB87AC-88FDA14C",
+        "8B0B43AF-427D2969-86BA03B3-ECEB3EF0",
+        "2546B9D9-481170E3-E743308D-E62A5EE7",
+        "18EFB6E9-402466EC-D0405281-FBB274A2",
+        "7360BFC3-459C6C7B-072A6BA8-23C4EA3A"
+      ],
+      "LevelBuildDataId": "813BC17D-4A2BF8EB-39F3E09B-6A83AD55",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.7"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.7"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.Int_Garage_Hall_Floor_01_9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.Int_Garage_Hall_Floor_02_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.10"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.Int_GarageHall_01_Stairway_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.11"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.CableWall_01_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.8"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.Int_GarageHall_01_Stairway_Floor_01_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.12"
+      },
+      {
+        "ObjectName": "DecalActor'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.MI_DD_Ext_Puddle_01_07_10'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.1"
+      },
+      {
+        "ObjectName": "DecalActor'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.MI_DD_Ext_Puddle_01_05_16'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.0"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.5"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "1CDF1F8B-4541A785-3EA300B6-DE21602A",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.6"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "CableWall_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.CableWall_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.13"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.CableWall_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.13"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_Garage_Hall_Floor_01_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.Int_Garage_Hall_Floor_01_9.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.14"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.Int_Garage_Hall_Floor_01_9.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.14"
+      },
+      "InstanceComponents": [
+        null
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_Garage_Hall_Floor_02_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.Int_Garage_Hall_Floor_02_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.15"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.Int_Garage_Hall_Floor_02_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.15"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_GarageHall_01_Stairway_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.Int_GarageHall_01_Stairway_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.16"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.Int_GarageHall_01_Stairway_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.16"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Int_GarageHall_01_Stairway_Floor_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.Int_GarageHall_01_Stairway_Floor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.17"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel.Int_GarageHall_01_Stairway_Floor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.17"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "CableWall_01_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'CableWall_01_512'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Electronic/Cable_01/CableWall_01_512.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 14.074459
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 14.074459
+        }
+      ],
+      "VisibilityId": 1584,
+      "RelativeLocation": {
+        "X": 4026.0,
+        "Y": -1496.0,
+        "Z": -65.13548
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "088780854568C7F185BE8686A108AB2C"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_Garage_Hall_Floor_01_9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_Garage_Hall_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/FirstPlayable/Architecture/Interior/Garage/Int_Garage_Hall_Floor_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 256,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 134152192,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 256.06772
+        },
+        {
+          "PackedRelativeBox": 4284476455,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 254.69307
+        },
+        {
+          "PackedRelativeBox": 4284476455,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 254.69307
+        },
+        {
+          "PackedRelativeBox": 134152192,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 1024.2709
+        },
+        {
+          "PackedRelativeBox": 134152192,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 1024.2709
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_ConcreteBare_Dark_02'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Concrete/ConcreteBare_02/MI_TIL_ConcreteBare_Dark_02.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TRA_NeoClassical_02_Wet'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Transition/NeoClassical_01/MI_TRA_NeoClassical_02_Wet.0"
+        }
+      ],
+      "VisibilityId": 1581
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "DA90BC54472DD2CF878E68BF4AA7180D",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 667
+        }
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_Garage_Hall_Floor_02_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_Garage_Hall_Floor_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/FirstPlayable/Architecture/Interior/Garage/Int_Garage_Hall_Floor_02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 256.00955
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 1024.0382
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 1024.0382
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_ConcreteBare_Dark_02'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Concrete/ConcreteBare_02/MI_TIL_ConcreteBare_Dark_02.0"
+        }
+      ],
+      "VisibilityId": 1582
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "97B29D7C413E85176575B38F218FBC97",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 77
+        }
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_GarageHall_01_Stairway_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_GarageHall_01_Stairway_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/FirstPlayable/Architecture/Interior/Garage/Int_GarageHall_01_Stairway_Floor_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 255.64923
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 255.64923
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_ConcreteStained_02_Rough_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Concrete/ConcreteStained_02/MI_TIL_ConcreteStained_02_Rough_01.0"
+        }
+      ],
+      "VisibilityId": 1583,
+      "RelativeLocation": {
+        "X": 5104.0,
+        "Y": -1976.0,
+        "Z": -416.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -270.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": -1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "FDFAF2BF48F0FA2DA0DD96B7DDC85368"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Int_GarageHall_01_Stairway_Floor_01_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Int_GarageHall_01_Stairway_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/FirstPlayable/Architecture/Interior/Garage/Int_GarageHall_01_Stairway_Floor_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 128,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 255.64923
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 255.64923
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_ConcreteStained_02_Rough_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Concrete/ConcreteStained_02/MI_TIL_ConcreteStained_02_Rough_01.0"
+        }
+      ],
+      "VisibilityId": 1585,
+      "RelativeLocation": {
+        "X": 4857.0,
+        "Y": -304.0,
+        "Z": -416.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A86AC7CF475FF76B57B388BF44833E58"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "E_FirstPlayable_Int_F0Hall_Floor",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'E_FirstPlayable_Int_F0Hall_Floor:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Int_F0Hall_Floor.4"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

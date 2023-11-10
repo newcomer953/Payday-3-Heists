@@ -1,0 +1,3615 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "VFX_Penthouse_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "VFX_Penthouse_C'Default__VFX_Penthouse_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.1"
+    }
+  },
+  {
+    "Type": "VFX_Penthouse_C",
+    "Name": "Default__VFX_Penthouse_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.VFX_Penthouse_C'"
+  },
+  {
+    "Type": "DecalActor",
+    "Name": "DecalCaustic",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'DecalActor'",
+    "Properties": {
+      "Decal": {
+        "ObjectName": "DecalComponent'VFX_Penthouse:PersistentLevel.DecalCaustic.NewDecalComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.3"
+      },
+      "RootComponent": {
+        "ObjectName": "DecalComponent'VFX_Penthouse:PersistentLevel.DecalCaustic.NewDecalComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.3"
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "DecalCaustic",
+    "Class": "UScriptClass'DecalComponent'",
+    "Properties": {
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Decal_Caustic_Yellow'",
+        "ObjectPath": "PAYDAY3/Content/FX/Decals/MI_Decal_Caustic_Yellow.0"
+      },
+      "RelativeLocation": {
+        "X": 2472.784,
+        "Y": 2128.8333,
+        "Z": 4317.6777
+      },
+      "RelativeRotation": {
+        "Pitch": -90.000015,
+        "Yaw": -1170.0,
+        "Roll": -264.9989
+      },
+      "RelativeScale3D": {
+        "X": 1.4101942,
+        "Y": 1.0181458,
+        "Z": 2.911553
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "VFX_Penthouse",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'VFX_Penthouse:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.5"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "VFX_Penthouse_C'VFX_Penthouse:PersistentLevel.VFX_Penthouse_C_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.56"
+      },
+      "LevelBuildDataId": "1991E359-418CDC30-CE9E80A7-10308751",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'VFX_Penthouse_BuiltData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'VFX_Penthouse:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.29"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'VFX_Penthouse:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.29"
+      },
+      null,
+      {
+        "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_GoldFish_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.13"
+      },
+      {
+        "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_FlyingBirds_StraightLine_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.12"
+      },
+      {
+        "ObjectName": "StaticMeshActor'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.38"
+      },
+      {
+        "ObjectName": "StaticMeshActor'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.30"
+      },
+      {
+        "ObjectName": "StaticMeshActor'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.32"
+      },
+      {
+        "ObjectName": "StaticMeshActor'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.33"
+      },
+      {
+        "ObjectName": "StaticMeshActor'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights6'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.34"
+      },
+      {
+        "ObjectName": "StaticMeshActor'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights7'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.35"
+      },
+      {
+        "ObjectName": "StaticMeshActor'VFX_Penthouse:PersistentLevel.CurvePlane2x18'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.39"
+      },
+      {
+        "ObjectName": "StaticMeshActor'VFX_Penthouse:PersistentLevel.CurvePlane2x9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.42"
+      },
+      {
+        "ObjectName": "StaticMeshActor'VFX_Penthouse:PersistentLevel.CurvePlane2x24'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.40"
+      },
+      {
+        "ObjectName": "StaticMeshActor'VFX_Penthouse:PersistentLevel.CurvePlane2x29'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.41"
+      },
+      {
+        "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Airplane_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.8"
+      },
+      {
+        "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Airplane2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.7"
+      },
+      {
+        "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Firetable_6'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.11"
+      },
+      {
+        "ObjectName": "StaticMeshActor'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights8'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.36"
+      },
+      {
+        "ObjectName": "StaticMeshActor'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.37"
+      },
+      {
+        "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Leaves_onGround_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.16"
+      },
+      {
+        "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Leaves_onGround2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.14"
+      },
+      {
+        "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Leaves_onGround3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.15"
+      },
+      {
+        "ObjectName": "DecalActor'VFX_Penthouse:PersistentLevel.DecalCaustic'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.2"
+      },
+      {
+        "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Dustmotes_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.10"
+      },
+      {
+        "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Dustmotes2_5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.9"
+      },
+      {
+        "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_SunFlare_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.17"
+      },
+      {
+        "ObjectName": "VFX_Penthouse_C'VFX_Penthouse:PersistentLevel.VFX_Penthouse_C_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.56"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'VFX_Penthouse:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.5"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "VFX_Penthouse_C'VFX_Penthouse:PersistentLevel.VFX_Penthouse_C_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.56"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "34CDF144-4D67A5B5-F5143DA4-7AF561EF",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "FX_Airplane2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_Airplane2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.18"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_Airplane2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.18"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "FX_Airplane_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_Airplane_2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.19"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_Airplane_2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.19"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "FX_Dustmotes2_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_Dustmotes2_5.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.20"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_Dustmotes2_5.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.20"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "FX_Dustmotes_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_Dustmotes_2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.21"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_Dustmotes_2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.21"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "FX_Firetable_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_Firetable_6.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.22"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_Firetable_6.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.22"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "FX_FlyingBirds_StraightLine_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_FlyingBirds_StraightLine_2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.23"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_FlyingBirds_StraightLine_2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.23"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "FX_GoldFish_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_GoldFish_2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.24"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_GoldFish_2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.24"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "FX_Leaves_onGround2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_Leaves_onGround2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.25"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_Leaves_onGround2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.25"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "FX_Leaves_onGround3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_Leaves_onGround3.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.26"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_Leaves_onGround3.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.26"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "FX_Leaves_onGround_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_Leaves_onGround_2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.27"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_Leaves_onGround_2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.27"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "FX_SunFlare_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_SunFlare_2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.28"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'VFX_Penthouse:PersistentLevel.FX_SunFlare_2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.28"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "FX_Airplane2",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_Airplane'",
+        "ObjectPath": "PAYDAY3/Content/FX/Enviroment/FX_Airplane.12"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "TrailOpacity",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.TrailOpacity",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "MeshScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.MeshScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "FlightDuration",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.FlightDuration",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.FlightDuration",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.MeshScale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 8,
+            "Name": "User.TrailOpacity",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          92,
+          67,
+          0,
+          0,
+          250,
+          67,
+          0,
+          0,
+          128,
+          64
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Airplane_2'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.8"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          },
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Airplane2'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.7"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": 515947.0,
+        "Y": -922115.0,
+        "Z": 347655.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -202.77036,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "FX_Airplane_2",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_Airplane'",
+        "ObjectPath": "PAYDAY3/Content/FX/Enviroment/FX_Airplane.12"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "TrailOpacity",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.TrailOpacity",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "MeshScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.MeshScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "FlightDuration",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.FlightDuration",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.FlightDuration",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.MeshScale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 8,
+            "Name": "User.TrailOpacity",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          92,
+          67,
+          0,
+          0,
+          200,
+          67,
+          0,
+          0,
+          128,
+          64
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Airplane_2'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.8"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": -1811191.0,
+        "Y": 1378692.0,
+        "Z": 462134.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -46.42117,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "FX_Dustmotes2_5",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_Dustmotes'",
+        "ObjectPath": "PAYDAY3/Content/FX/Enviroment/FX_Dustmotes.57"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "BoundingBox",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.BoundingBox",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Emissive",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Emissive",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "PScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.PScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SpeedLimit",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SpeedLimit",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.BoundingBox",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 12,
+            "Name": "User.Emissive",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.PScale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.Spawnrate",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 24,
+            "Name": "User.SpeedLimit",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          122,
+          68,
+          0,
+          64,
+          156,
+          68,
+          0,
+          128,
+          59,
+          68,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          0,
+          64,
+          0,
+          0,
+          250,
+          67,
+          0,
+          0,
+          160,
+          65
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Dustmotes2_5'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.9"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": 2065.8618,
+        "Y": -590.4172,
+        "Z": 4095.927
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "FX_Dustmotes_2",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_Dustmotes'",
+        "ObjectPath": "PAYDAY3/Content/FX/Enviroment/FX_Dustmotes.57"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "BoundingBox",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.BoundingBox",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Emissive",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Emissive",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "PScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.PScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SpeedLimit",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SpeedLimit",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.BoundingBox",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 12,
+            "Name": "User.Emissive",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.PScale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.Spawnrate",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 24,
+            "Name": "User.SpeedLimit",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          128,
+          59,
+          68,
+          0,
+          128,
+          59,
+          68,
+          0,
+          128,
+          59,
+          68,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          0,
+          64,
+          0,
+          0,
+          122,
+          68,
+          0,
+          0,
+          160,
+          65
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Dustmotes_2'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.10"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": 3819.508,
+        "Y": -1309.2903,
+        "Z": 4543.9995
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "FX_Firetable_6",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_Firetable'",
+        "ObjectPath": "PAYDAY3/Content/FX/Enviroment/FX_Firetable.48"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SpawnRate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SpawnRate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "BoxDimensions",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.BoxDimensions",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.BoxDimensions",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 12,
+            "Name": "User.SpawnRate",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          175,
+          67,
+          0,
+          0,
+          200,
+          65,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          200,
+          65
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Firetable_6'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.11"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": 2014.0,
+        "Y": 191.0,
+        "Z": 4200.0
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "FX_FlyingBirds_StraightLine_2",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_FlyingBirds_StraightLine'",
+        "ObjectPath": "PAYDAY3/Content/FX/Enviroment/FX_FlyingBirds_StraightLine.17"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "MeshScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.MeshScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.MeshScale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          160,
+          63
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_FlyingBirds_StraightLine_2'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.12"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": -3353.0771,
+        "Y": -12198.632,
+        "Z": 3337.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 10.000084,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "FX_GoldFish_2",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_GoldFish'",
+        "ObjectPath": "PAYDAY3/Content/FX/Enviroment/FX_GoldFish.34"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "BoxDim",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.BoxDim",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Amount",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Amount",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "AvoidBordersFalloff",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.AvoidBordersFalloff",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Velocity",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Velocity",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.Amount",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.AvoidBordersFalloff",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.BoxDim",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.Velocity",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          200,
+          0,
+          0,
+          0,
+          0,
+          128,
+          212,
+          67,
+          0,
+          0,
+          175,
+          67,
+          0,
+          0,
+          32,
+          65,
+          0,
+          0,
+          160,
+          64,
+          0,
+          0,
+          128,
+          63
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_GoldFish_2'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.13"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": 2446.5374,
+        "Y": 2197.05,
+        "Z": 4105.0
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "FX_Leaves_onGround2",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_Leaves_onGround'",
+        "ObjectPath": "PAYDAY3/Content/FX/Enviroment/FX_Leaves_onGround.48"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Noise",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Noise",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Collision_GroundPlane",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Collision_GroundPlane",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SpawnArea",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SpawnArea",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Wind",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Wind",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "WindDirection",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.WindDirection",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Color",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Color",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.Collision_GroundPlane",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraBool'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 40,
+            "Name": "User.Color",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.Noise",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 8,
+            "Name": "User.SpawnArea",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.Spawnrate",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 24,
+            "Name": "User.Wind",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 28,
+            "Name": "User.WindDirection",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          200,
+          66,
+          0,
+          0,
+          250,
+          68,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          150,
+          67,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          128,
+          191,
+          0,
+          0,
+          0,
+          0,
+          214,
+          120,
+          241,
+          62,
+          85,
+          85,
+          41,
+          63,
+          119,
+          70,
+          254,
+          61,
+          0,
+          0,
+          128,
+          63
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Leaves_onGround_2'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.16"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          },
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Leaves_onGround2'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.14"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": 342.70383,
+        "Y": -110.19098,
+        "Z": 4192.0386
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "FX_Leaves_onGround3",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_Leaves_onGround'",
+        "ObjectPath": "PAYDAY3/Content/FX/Enviroment/FX_Leaves_onGround.48"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Noise",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Noise",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Collision_GroundPlane",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Collision_GroundPlane",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SpawnArea",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SpawnArea",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Wind",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Wind",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "WindDirection",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.WindDirection",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Color",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Color",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.Collision_GroundPlane",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraBool'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 40,
+            "Name": "User.Color",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.Noise",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 8,
+            "Name": "User.SpawnArea",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.Spawnrate",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 24,
+            "Name": "User.Wind",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 28,
+            "Name": "User.WindDirection",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          150,
+          67,
+          0,
+          0,
+          150,
+          67,
+          0,
+          0,
+          150,
+          67,
+          0,
+          0,
+          200,
+          66,
+          0,
+          0,
+          128,
+          63,
+          205,
+          204,
+          76,
+          62,
+          0,
+          0,
+          128,
+          191,
+          0,
+          0,
+          0,
+          0,
+          214,
+          120,
+          241,
+          62,
+          85,
+          85,
+          41,
+          63,
+          119,
+          70,
+          254,
+          61,
+          0,
+          0,
+          128,
+          63
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Leaves_onGround_2'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.16"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          },
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Leaves_onGround3'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.15"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": -5.5595093,
+        "Y": 2650.1045,
+        "Z": 4689.545
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "FX_Leaves_onGround_2",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_Leaves_onGround'",
+        "ObjectPath": "PAYDAY3/Content/FX/Enviroment/FX_Leaves_onGround.48"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Noise",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Noise",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Collision_GroundPlane",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Collision_GroundPlane",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraBool'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SpawnArea",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SpawnArea",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Wind",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Wind",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "WindDirection",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.WindDirection",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Color",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Color",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.Collision_GroundPlane",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraBool'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 40,
+            "Name": "User.Color",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.Noise",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 8,
+            "Name": "User.SpawnArea",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.Spawnrate",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 24,
+            "Name": "User.Wind",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 28,
+            "Name": "User.WindDirection",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          200,
+          66,
+          0,
+          0,
+          97,
+          68,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          72,
+          67,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          128,
+          191,
+          0,
+          0,
+          0,
+          0,
+          214,
+          120,
+          241,
+          62,
+          85,
+          85,
+          41,
+          63,
+          119,
+          70,
+          254,
+          61,
+          0,
+          0,
+          128,
+          63
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_Leaves_onGround_2'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.16"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": 342.7054,
+        "Y": 1508.153,
+        "Z": 4192.0386
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "FX_SunFlare_2",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_SunFlare'",
+        "ObjectPath": "PAYDAY3/Content/FX/Enviroment/FX_SunFlare.40"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Color",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Color",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Size_Global",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Size_Global",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Size_Streak",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Size_Streak",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.Color",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.Size_Global",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.Size_Streak",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          128,
+          63,
+          236,
+          81,
+          184,
+          62,
+          205,
+          204,
+          76,
+          62,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          160,
+          64,
+          0,
+          0,
+          0,
+          63
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_Penthouse:PersistentLevel.FX_SunFlare_2'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.17"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": -44158.945,
+        "Y": -9141.964,
+        "Z": 15178.324
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'VFX_Penthouse:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.6"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BG_Plane_Carlights2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.43"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.43"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BG_Plane_Carlights3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.44"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.44"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BG_Plane_Carlights4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.45"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.45"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BG_Plane_Carlights5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.46"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.46"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BG_Plane_Carlights6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights6.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.47"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights6.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.47"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BG_Plane_Carlights7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights7.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.48"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights7.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.48"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BG_Plane_Carlights8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights8.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.49"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights8.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.49"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BG_Plane_Carlights9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights9.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.50"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights9.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.50"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BG_Plane_Carlights_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.51"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.BG_Plane_Carlights_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.51"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "CurvePlane2x18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.CurvePlane2x18.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.52"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.CurvePlane2x18.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.52"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "CurvePlane2x24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.CurvePlane2x24.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.53"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.CurvePlane2x24.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.53"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "CurvePlane2x29",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.CurvePlane2x29.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.54"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.CurvePlane2x29.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.54"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "CurvePlane2x9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.CurvePlane2x9.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.55"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'VFX_Penthouse:PersistentLevel.CurvePlane2x9.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.55"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BG_Plane_Carlights2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BG_Plane_Carlights'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/BG_Plane_Carlights.2"
+      },
+      "VisibilityId": 3818,
+      "RelativeLocation": {
+        "X": -97153.16,
+        "Y": -11062.918,
+        "Z": -5304.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 95.000015,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 10.65625,
+        "Y": 10.65625,
+        "Z": 10.65625
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D5E11C164D5F8CD6E86019A0D5B580D0"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BG_Plane_Carlights3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BG_Plane_Carlights'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/BG_Plane_Carlights.2"
+      },
+      "VisibilityId": 3819,
+      "RelativeLocation": {
+        "X": -77004.18,
+        "Y": 99964.7,
+        "Z": -5661.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 95.000015,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 10.65625,
+        "Y": 10.65625,
+        "Z": 10.65625
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "929617EF4EF299FC59CEF7A6D6D30065"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BG_Plane_Carlights4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BG_Plane_Carlights'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/BG_Plane_Carlights.2"
+      },
+      "VisibilityId": 3820,
+      "RelativeLocation": {
+        "X": -106639.99,
+        "Y": 97371.91,
+        "Z": -5304.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 95.000015,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 10.65625,
+        "Y": 10.65625,
+        "Z": 10.65625
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C94CFAAD4733AF6117CCBFB2F886BF11"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BG_Plane_Carlights5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BG_Plane_Carlights'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/BG_Plane_Carlights.2"
+      },
+      "VisibilityId": 3821,
+      "RelativeLocation": {
+        "X": -59262.996,
+        "Y": -102817.69,
+        "Z": -5661.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 95.000015,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 10.65625,
+        "Y": 10.65625,
+        "Z": 10.65625
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C1C63C574B11B56A7A43F78932659E35"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BG_Plane_Carlights6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BG_Plane_Carlights'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/BG_Plane_Carlights.2"
+      },
+      "VisibilityId": 3822,
+      "RelativeLocation": {
+        "X": -88898.76,
+        "Y": -105410.46,
+        "Z": -5304.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 95.000015,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 10.65625,
+        "Y": 10.65625,
+        "Z": 10.65625
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "669BB47B41F98DE50C04E68B943F4D83"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BG_Plane_Carlights7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BG_Plane_Carlights'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/BG_Plane_Carlights.2"
+      },
+      "VisibilityId": 3823,
+      "RelativeLocation": {
+        "X": -90147.195,
+        "Y": -152172.28,
+        "Z": -4328.4165
+      },
+      "RelativeRotation": {
+        "Pitch": -2.2219446,
+        "Yaw": 184.99997,
+        "Roll": 2.7034255E-06
+      },
+      "RelativeScale3D": {
+        "X": 10.65625,
+        "Y": 10.65625,
+        "Z": 10.65625
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "8ACA2F6A4FAA903E58D6CF8918E629AA"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BG_Plane_Carlights8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BG_Plane_Carlights'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/BG_Plane_Carlights.2"
+      },
+      "VisibilityId": 3824,
+      "RelativeLocation": {
+        "X": 17072.945,
+        "Y": -142791.84,
+        "Z": -2090.6133
+      },
+      "RelativeRotation": {
+        "Pitch": 0.8146503,
+        "Yaw": 184.99997,
+        "Roll": 4.185915E-06
+      },
+      "RelativeScale3D": {
+        "X": 10.65625,
+        "Y": 10.65625,
+        "Z": 10.65625
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4A4E7D7342E09BB0664538A09530AB0F"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BG_Plane_Carlights9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BG_Plane_Carlights'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/BG_Plane_Carlights.2"
+      },
+      "VisibilityId": 3825,
+      "RelativeLocation": {
+        "X": -66676.88,
+        "Y": -93699.19,
+        "Z": -3630.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 95.000015,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 10.65625,
+        "Y": 10.65625,
+        "Z": 10.65625
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "FAE8355A49569CF43511109345A4C932"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BG_Plane_Carlights_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BG_Plane_Carlights'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/BG_Plane_Carlights.2"
+      },
+      "VisibilityId": 3817,
+      "RelativeLocation": {
+        "X": -67517.34,
+        "Y": -8470.113,
+        "Z": -5661.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 95.000015,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 10.65625,
+        "Y": 10.65625,
+        "Z": 10.65625
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D211F0874B669EB3CDBDBFBFC293008A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "CurvePlane2x18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'CurvePlane2x1'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/CurvePlane2x1.2"
+      },
+      "bUseDefaultCollision": false,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Cloudsheets_PT_High_Warm'",
+          "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/Comp/MI_Cloudsheets_PT_High_Warm.0"
+        }
+      ],
+      "CastShadow": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -92406.016,
+        "Y": 507.96094,
+        "Z": 45485.42
+      },
+      "RelativeRotation": {
+        "Pitch": 16.378199,
+        "Yaw": 255.72275,
+        "Roll": 47.934944
+      },
+      "RelativeScale3D": {
+        "X": 126.75,
+        "Y": 126.75,
+        "Z": 126.75
+      },
+      "Mobility": "EComponentMobility::Movable"
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "CurvePlane2x24",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'CurvePlane2x1'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/CurvePlane2x1.2"
+      },
+      "bUseDefaultCollision": false,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Cloudsheets_PT_High_Warm'",
+          "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/Comp/MI_Cloudsheets_PT_High_Warm.0"
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "CastShadow": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -52369.812,
+        "Y": -17479.086,
+        "Z": 34590.85
+      },
+      "RelativeRotation": {
+        "Pitch": -23.280247,
+        "Yaw": -66.36201,
+        "Roll": -189.91077
+      },
+      "RelativeScale3D": {
+        "X": 96.0,
+        "Y": 96.0,
+        "Z": 96.0
+      },
+      "Mobility": "EComponentMobility::Movable"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "CurvePlane2x29",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'CurvePlane2x1'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/CurvePlane2x1.2"
+      },
+      "bUseDefaultCollision": false,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Cloudsheets_PT_Low_Warm'",
+          "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/Comp/MI_Cloudsheets_PT_Low_Warm.0"
+        }
+      ],
+      "CastShadow": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -17876.26,
+        "Y": -78905.34,
+        "Z": 29202.916
+      },
+      "RelativeRotation": {
+        "Pitch": -26.839586,
+        "Yaw": -1.1727307,
+        "Roll": -125.933235
+      },
+      "RelativeScale3D": {
+        "X": 141.91562,
+        "Y": 141.91562,
+        "Z": 141.91562
+      },
+      "Mobility": "EComponentMobility::Movable"
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D2418322474140D94E4E17902BFC9969"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "CurvePlane2x9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'CurvePlane2x1'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/CurvePlane2x1.2"
+      },
+      "bUseDefaultCollision": false,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Cloudsheets_PT_Low_Warm'",
+          "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Backdrop/Comp/MI_Cloudsheets_PT_Low_Warm.0"
+        }
+      ],
+      "CastShadow": false,
+      "bCastFarShadow": true,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionProfileName": "BlockAllDynamic",
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -58609.992,
+        "Y": 20271.613,
+        "Z": -3532.1553
+      },
+      "RelativeRotation": {
+        "Pitch": -0.00032,
+        "Yaw": -264.4223,
+        "Roll": -179.99985
+      },
+      "RelativeScale3D": {
+        "X": 199.27972,
+        "Y": 157.6024,
+        "Z": 134.0703
+      },
+      "Mobility": "EComponentMobility::Movable"
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "Type": "VFX_Penthouse_C",
+    "Name": "VFX_Penthouse_C_0",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.VFX_Penthouse_C'",
+    "Template": {
+      "ObjectName": "VFX_Penthouse_C'Default__VFX_Penthouse_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.1"
+    },
+    "Properties": {
+      "Seed": 10345,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "VFX_Penthouse",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'VFX_Penthouse:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Penthouse/Sublevels/VFX_Penthouse/VFX_Penthouse.4"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]
