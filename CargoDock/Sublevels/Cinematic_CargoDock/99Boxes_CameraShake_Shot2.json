@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "99Boxes_CameraShake_Shot2_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'CameraShakeBase'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "99Boxes_CameraShake_Shot2_C'Default__99Boxes_CameraShake_Shot2_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/99Boxes_CameraShake_Shot2.1"
+    }
+  },
+  {
+    "Type": "99Boxes_CameraShake_Shot2_C",
+    "Name": "Default__99Boxes_CameraShake_Shot2_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/99Boxes_CameraShake_Shot2.99Boxes_CameraShake_Shot2_C'",
+    "Properties": {
+      "RootShakePattern": {
+        "ObjectName": "PerlinNoiseCameraShakePattern'Default__99Boxes_CameraShake_Shot2_C:PerlinNoiseCameraShakePattern_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Cinematic_CargoDock/99Boxes_CameraShake_Shot2.2"
+      }
+    }
+  },
+  {
+    "Type": "PerlinNoiseCameraShakePattern",
+    "Name": "PerlinNoiseCameraShakePattern_0",
+    "Outer": "Default__99Boxes_CameraShake_Shot2_C",
+    "Class": "UScriptClass'PerlinNoiseCameraShakePattern'",
+    "Properties": {
+      "LocationAmplitudeMultiplier": 0.0,
+      "LocationFrequencyMultiplier": 0.0,
+      "RotationAmplitudeMultiplier": 0.05,
+      "RotationFrequencyMultiplier": 2.0,
+      "Roll": {
+        "Amplitude": 0.0,
+        "Frequency": 0.0
+      },
+      "FOV": {
+        "Amplitude": 0.05,
+        "Frequency": 0.5
+      },
+      "Duration": 0.0,
+      "BlendInTime": 0.0,
+      "BlendOutTime": 0.0
+    }
+  }
+]

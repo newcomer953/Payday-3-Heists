@@ -1,0 +1,814 @@
+[
+  {
+    "Type": "Function",
+    "Name": "TemplateInside__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryActor_VIPPrinter_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "PrintFakeInvitation__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryActor_VIPPrinter_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ReplicatedBinaryActor_VIPPrinter",
+    "Outer": "BP_ReplicatedBinaryActor_VIPPrinter_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_VIPInvitation_Fake_C'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_VIPInvitation_Fake.5"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_ReplicatedBinaryActorVent_SBZInteractable_K2Node_ComponentBoundEvent_2_SBZOnInteraction__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryActor_VIPPrinter_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "BP_ReplicatedBinaryActor_VIPPrinter_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZReplicatedBinaryStateActor:OnStateChanged'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ReplicatedBinaryActor_VIPPrinter_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_ReplicatedBinaryActor_VIPPrinter_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.7"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ReplicatedBinaryActor_VIPPrinter_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.16"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_VIPPrinter_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_VIPPrinter'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZReplicatedBinaryStateActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_VIPPrinter_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.4"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_VIPPrinter_C:BndEvt__BP_ReplicatedBinaryActorVent_SBZInteractable_K2Node_ComponentBoundEvent_2_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.3"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_VIPPrinter_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_VIPPrinter'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.2"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_VIPPrinter_C:PrintFakeInvitation__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.1"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_VIPPrinter_C:TemplateInside__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Blank",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZOutline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZOutlineComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZInteractable",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "TemplateInside",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_ReplicatedBinaryActor_VIPPrinter_C:TemplateInside__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.0"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "PrintFakeInvitation",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_ReplicatedBinaryActor_VIPPrinter_C:PrintFakeInvitation__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.1"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Interacted_1stTime",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Spawn Transform",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PrintedInvitation",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_VIPInvitation_Fake_C'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_VIPInvitation_Fake.5"
+        }
+      }
+    ],
+    "FuncMap": {
+      "TemplateInside__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_VIPPrinter_C:TemplateInside__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.0"
+      },
+      "PrintFakeInvitation__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_VIPPrinter_C:PrintFakeInvitation__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.1"
+      },
+      "ExecuteUbergraph_BP_ReplicatedBinaryActor_VIPPrinter": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_VIPPrinter_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_VIPPrinter'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.2"
+      },
+      "BndEvt__BP_ReplicatedBinaryActorVent_SBZInteractable_K2Node_ComponentBoundEvent_2_SBZOnInteraction__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_VIPPrinter_C:BndEvt__BP_ReplicatedBinaryActorVent_SBZInteractable_K2Node_ComponentBoundEvent_2_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.3"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_VIPPrinter_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ReplicatedBinaryActor_VIPPrinter_C'Default__BP_ReplicatedBinaryActor_VIPPrinter_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.6"
+    }
+  },
+  {
+    "Type": "BP_ReplicatedBinaryActor_VIPPrinter_C",
+    "Name": "Default__BP_ReplicatedBinaryActor_VIPPrinter_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.BP_ReplicatedBinaryActor_VIPPrinter_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Spawn Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "BP_ReplicatedBinaryActor_VIPPrinter_C",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "SBZInteractable",
+          "DelegatePropertyName": "OnServerCompleteInteraction",
+          "FunctionNameToBind": "BndEvt__BP_ReplicatedBinaryActorVent_SBZInteractable_K2Node_ComponentBoundEvent_2_SBZOnInteraction__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractable_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_VIPPrinter_C",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "GameplayInteractionQuery": {
+        "ObjectName": "SBZGameplayAbilityQuery'DA_VIPInvtitation_Template'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/MissionItem/DA_VIPInvtitation_Template.0"
+      },
+      "bIsAllowedInCasing": true,
+      "Shapes": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'PrimitiveComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "StaticMesh"
+        }
+      ],
+      "Text": {
+        "TableId": "/Game/Localization/ST_Interaction.ST_Interaction",
+        "Key": "INT_GEN_Place"
+      },
+      "GameplayEffectsOnInteract": [
+        {
+          "GameplayEffectClass": {
+            "ObjectName": "BlueprintGeneratedClass'GE_VIPInvitation_Template_C'",
+            "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/GE_VIPInvitation_Template.0"
+          },
+          "Level": 1.0,
+          "StackCount": -1
+        }
+      ],
+      "OnStart3DAudioEvent": {
+        "ObjectName": "AkAudioEvent'PLR_INT_RFID_Writer_INT'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/Player/Interactions/Misc/PLR_INT_RFID_Writer_INT.1"
+      },
+      "OnFinish3DAudioEvent": {
+        "ObjectName": "AkAudioEvent'PLR_INT_RFID_Writer_Done'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/Player/Interactions/Misc/PLR_INT_RFID_Writer_Done.1"
+      },
+      "OnCancel3DAudioEvent": {
+        "ObjectName": "AkAudioEvent'PLR_INT_RFID_Writer_INT_STOP'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/Player/Interactions/Misc/PLR_INT_RFID_Writer_INT_STOP.1"
+      }
+    }
+  },
+  {
+    "Type": "SBZOutlineComponent",
+    "Name": "SBZOutline_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_VIPPrinter_C",
+    "Class": "UScriptClass'SBZOutlineComponent'",
+    "Properties": {
+      "DefaultAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_Interactable_3_5m'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_Interactable_3_5m.0"
+      },
+      "MeshSelectors": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "StaticMesh"
+        }
+      ],
+      "InteractableSelector": {
+        "ComponentName": "SBZInteractable"
+      },
+      "InteractableFocusAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_InteractableInFocus'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_InteractableInFocus.0"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_VIPPrinter_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ReplicatedBinaryActor_VIPPrinter_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.10"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_VIPPrinter_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.13"
+        }
+      ],
+      "VariableGuid": "FD85DE12-4504BBF8-A1AA98BA-70A64278",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZOutlineComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZOutlineComponent'BP_ReplicatedBinaryActor_VIPPrinter_C:SBZOutline_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.9"
+      },
+      "VariableGuid": "5F0DA4A0-45F93334-369529AD-D20D8026",
+      "InternalVariableName": "SBZOutline"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ReplicatedBinaryActor_VIPPrinter_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.18"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_VIPPrinter_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.14"
+        }
+      ],
+      "VariableGuid": "6EB5856F-4D0DFF5B-7AA1A29A-6B740750",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ReplicatedBinaryActor_VIPPrinter_C:Blank_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.17"
+      },
+      "VariableGuid": "3AEDFD6C-469272C5-A1E95996-BB8C32E3",
+      "InternalVariableName": "Blank"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZInteractableComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZInteractableComponent'BP_ReplicatedBinaryActor_VIPPrinter_C:SBZInteractable_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.8"
+      },
+      "VariableGuid": "90496067-4171C77E-2D1573BD-C581C056",
+      "InternalVariableName": "SBZInteractable"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_ReplicatedBinaryActor_VIPPrinter_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_VIPPrinter_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_VIPPrinter_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_VIPPrinter_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.12"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_VIPPrinter_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_VIPPrinter_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_VIPPrinter_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_VIPPrinter_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_VIPPrinter_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.14"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_VIPPrinter_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_VIPPrinter.11"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Blank_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_VIPPrinter_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'VipCard_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/NightClub/Prop/VipCard_01/VipCard_01.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -3.0,
+        "Z": 3.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "bHiddenInGame": true,
+      "bReplicates": true
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_VIPPrinter_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'RFID_Writer_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/RFID_Writer_01/RFID_Writer_01.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 2.0
+      }
+    }
+  }
+]

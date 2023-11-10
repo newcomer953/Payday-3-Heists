@@ -1,0 +1,2368 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "StealthTutSocialStealth_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "StealthTutSocialStealth_C'Default__StealthTutSocialStealth_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.1"
+    }
+  },
+  {
+    "Type": "StealthTutSocialStealth_C",
+    "Name": "Default__StealthTutSocialStealth_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.StealthTutSocialStealth_C'"
+  },
+  {
+    "Type": "Actor",
+    "Name": "SBZAIVisibilityVolume",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Actor'",
+    "Properties": {
+      "RootComponent": {
+        "ObjectName": "SceneComponent'StealthTutSocialStealth:PersistentLevel.SBZAIVisibilityVolume.DefaultSceneRoot'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.38"
+      },
+      "InstanceComponents": [
+        {
+          "ObjectName": "SceneComponent'StealthTutSocialStealth:PersistentLevel.SBZAIVisibilityVolume.DefaultSceneRoot'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.38"
+        },
+        {
+          "ObjectName": "SBZAIVisibilityComponent'StealthTutSocialStealth:PersistentLevel.SBZAIVisibilityVolume.SBZAIVisibility'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.33"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -6.965504,
+                "Y": 19.593754,
+                "Z": -100.0
+              },
+              {
+                "X": -6.965504,
+                "Y": 19.593744,
+                "Z": 202.375
+              },
+              {
+                "X": -6.965504,
+                "Y": -19.565649,
+                "Z": 202.375
+              },
+              {
+                "X": -6.965504,
+                "Y": -19.565649,
+                "Z": -100.0
+              },
+              {
+                "X": 74.049706,
+                "Y": 19.568787,
+                "Z": -100.0
+              },
+              {
+                "X": 74.049706,
+                "Y": 19.568787,
+                "Z": 202.375
+              },
+              {
+                "X": 74.0369,
+                "Y": -19.565649,
+                "Z": -100.0
+              },
+              {
+                "X": 74.0369,
+                "Y": -19.565649,
+                "Z": 202.375
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -6.965504,
+                "Y": -19.565649,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 74.049706,
+                "Y": 19.593754,
+                "Z": 202.375
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "405DDFE44A273F2F3BD6278250FF7B76",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x48F0A8"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -5.280011,
+                "Y": 20.625,
+                "Z": -100.0
+              },
+              {
+                "X": -5.280011,
+                "Y": 20.625,
+                "Z": 100.0
+              },
+              {
+                "X": -5.280011,
+                "Y": -20.6325,
+                "Z": 100.0
+              },
+              {
+                "X": -5.280011,
+                "Y": -20.632498,
+                "Z": -100.0
+              },
+              {
+                "X": 87.193756,
+                "Y": 20.639994,
+                "Z": -100.0
+              },
+              {
+                "X": 87.193756,
+                "Y": 20.639994,
+                "Z": 100.0
+              },
+              {
+                "X": 87.20001,
+                "Y": -20.632502,
+                "Z": -100.0
+              },
+              {
+                "X": 87.20001,
+                "Y": -20.6325,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -5.280011,
+                "Y": -20.632502,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 87.20001,
+                "Y": 20.639994,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "6C669F9A458CBFDA4EA87CBD69E786DB",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x48F6C6"
+      }
+    }
+  },
+  {
+    "Type": "BookMark",
+    "Name": "BookMark_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'BookMark'",
+    "Properties": {
+      "Location": {
+        "X": 6918.737,
+        "Y": 515.3998,
+        "Z": 1594.5745
+      },
+      "Rotation": {
+        "Pitch": -40.730316,
+        "Yaw": 912.39966,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "NavMeshBoundsVolume_0",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'StealthTutSocialStealth:PersistentLevel.NavMeshBoundsVolume_0.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.27"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'StealthTutSocialStealth:PersistentLevel.NavMeshBoundsVolume_0.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.3"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": -0.016479492,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 118.32171,
+        "Y": 111.39957,
+        "Z": 5.0
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "SBZAIVisibilityVolume_1",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'StealthTutSocialStealth:PersistentLevel.SBZAIVisibilityVolume_1.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.28"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'StealthTutSocialStealth:PersistentLevel.SBZAIVisibilityVolume_1.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.4"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": -0.016479492,
+        "Y": 0.0,
+        "Z": 144.0
+      },
+      "RelativeScale3D": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 5.0
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCapsule",
+    "Outer": "PlayerStart_3",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": -424.01648,
+        "Y": -240.0,
+        "Z": 92.05008
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 24.999949,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "InstancedFoliageActor",
+    "Name": "InstancedFoliageActor_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'InstancedFoliageActor'",
+    "Properties": {
+      "RootComponent": {
+        "ObjectName": "SceneComponent'StealthTutSocialStealth:PersistentLevel.InstancedFoliageActor_0.RootComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.36"
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "StealthTutSocialStealth",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'StealthTutSocialStealth:PersistentLevel.Model_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.26"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "StealthTutSocialStealth_C'StealthTutSocialStealth:PersistentLevel.StealthTutSocialStealth_C_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.41"
+      },
+      "StreamingTextureGuids": [
+        "984990B5-4E2DC007-EF88D5AD-979D27A1",
+        "4C506F34-4E40B7EA-C8ACBFB0-131D64DA"
+      ],
+      "LevelBuildDataId": "89E9F90E-4C7BEA69-A1FFD5A3-FA72DFD8",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'StealthTutSocialStealth:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.35"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'StealthTutSocialStealth:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.35"
+      },
+      null,
+      {
+        "ObjectName": "InstancedFoliageActor'StealthTutSocialStealth:PersistentLevel.InstancedFoliageActor_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.9"
+      },
+      {
+        "ObjectName": "RecastNavMesh'StealthTutSocialStealth:PersistentLevel.RecastNavMesh-Common'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.32"
+      },
+      {
+        "ObjectName": "SBZAIVisibilityVolume'StealthTutSocialStealth:PersistentLevel.SBZAIVisibilityVolume_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.34"
+      },
+      {
+        "ObjectName": "NavMeshBoundsVolume'StealthTutSocialStealth:PersistentLevel.NavMeshBoundsVolume_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.30"
+      },
+      {
+        "ObjectName": "PlayerStart'StealthTutSocialStealth:PersistentLevel.PlayerStart_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'StealthTutSocialStealth:PersistentLevel.Magazine_01_B_17'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.39"
+      },
+      {
+        "ObjectName": "Actor'StealthTutSocialStealth:PersistentLevel.SBZAIVisibilityVolume'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.2"
+      },
+      {
+        "ObjectName": "StealthTutSocialStealth_C'StealthTutSocialStealth:PersistentLevel.StealthTutSocialStealth_C_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.41"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Engine/Maps/Entry",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'StealthTutSocialStealth:PersistentLevel.Model_3'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.26"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "StealthTutSocialStealth_C'StealthTutSocialStealth:PersistentLevel.StealthTutSocialStealth_C_1'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.41"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_0",
+    "Outer": "StealthTutSocialStealth",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/_common/G_Tutorial_Warehouse_Collision.G_Tutorial_Warehouse_Collision",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.875,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFF1FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_1",
+    "Outer": "StealthTutSocialStealth",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Gameplay_StealthTutSocialStealth/G_StealthTutSocialStealth_Collision.G_StealthTutSocialStealth_Collision",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.078125,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF4F00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_10",
+    "Outer": "StealthTutSocialStealth",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/_common/E_Tutorial_Warehouse.E_Tutorial_Warehouse",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.83593726,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF00ECFF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_11",
+    "Outer": "StealthTutSocialStealth",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Environment_StealthTutSocialStealth/E_StealthTutSocialStealth_Prop.E_StealthTutSocialStealth_Prop",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.960937,
+        "A": 1.0,
+        "Hex": "FFFF00FB"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_12",
+    "Outer": "StealthTutSocialStealth",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Lighting_StealthTutSocialStealth/L_StealthTutSocialStealth_Lighting.L_StealthTutSocialStealth_Lighting",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.16406202,
+        "A": 1.0,
+        "Hex": "FFFF0071"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_2",
+    "Outer": "StealthTutSocialStealth",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Gameplay_StealthTutSocialStealth/G_StealthTutSocialStealth_Coverpoints.G_StealthTutSocialStealth_Coverpoints",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.328125,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFF9B00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_3",
+    "Outer": "StealthTutSocialStealth",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Audio_StealthTutSocialStealth/A_StealthTutSocialStealth.A_StealthTutSocialStealth",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.5,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFBC00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_4",
+    "Outer": "StealthTutSocialStealth",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.VFX_StealthTutSocialStealth",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.03124988,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF31FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_5",
+    "Outer": "StealthTutSocialStealth",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Environment_StealthTutSocialStealth/E_StealthTutSocialStealth_Arch.E_StealthTutSocialStealth_Arch",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.679687,
+        "A": 1.0,
+        "Hex": "FFFF00D7"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_7",
+    "Outer": "StealthTutSocialStealth",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Cinematic_StealthTutSocialStealth/C_StealthTutSocialStealth_IntroOutro.C_StealthTutSocialStealth_IntroOutro",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.12499988,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF63FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_8",
+    "Outer": "StealthTutSocialStealth",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Gameplay_StealthTutSocialStealth/G_StealthTutSocialStealth_Navlinks.G_StealthTutSocialStealth_Navlinks",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.5703125,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFC700FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_9",
+    "Outer": "StealthTutSocialStealth",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Gameplay_StealthTutSocialStealth/G_StealthTutSocialStealth_Scripting.G_StealthTutSocialStealth_Scripting",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.046875,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFF3D00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "StealthTutSocialStealth",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Gameplay_StealthTutSocialStealth/G_StealthTutSocialStealth_Testing.G_StealthTutSocialStealth_Testing",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.6874999,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFD8FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_1",
+    "Outer": "StealthTutSocialStealth",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Gameplay_StealthTutSocialStealth/G_StealthTutSocialStealth_DevHelpers.G_StealthTutSocialStealth_DevHelpers",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.5703124,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFC7FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_4",
+    "Outer": "StealthTutSocialStealth",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Mockup_StealthTutSocialStealth/M_StealthTutSocialStealth_Architecture.M_StealthTutSocialStealth_Architecture",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.6874999,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFD8FF00"
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "3D103D54-4669399A-F885C0B5-571B8D87",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "NavMeshBoundsVolume_0",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 33.5357,
+        "Y": -5.722046E-06,
+        "Z": 51.199997
+      },
+      "BoxExtent": {
+        "X": 40.501205,
+        "Y": 19.568792,
+        "Z": 151.2
+      },
+      "SphereRadius": 157.74893
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -6.965504,
+        "Y": -19.568798,
+        "Z": -100.0
+      },
+      {
+        "X": -6.965504,
+        "Y": -19.568798,
+        "Z": 202.4
+      },
+      {
+        "X": -6.965504,
+        "Y": 19.568787,
+        "Z": 202.4
+      },
+      {
+        "X": -6.965504,
+        "Y": 19.568787,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 74.0369,
+        "Y": 19.568787,
+        "Z": 202.4
+      },
+      {
+        "X": 74.0369,
+        "Y": 19.568787,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 74.0369,
+        "Y": -19.568798,
+        "Z": 202.4
+      },
+      {
+        "X": 74.0369,
+        "Y": -19.568798,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 6.965504,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 19.568787,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 74.0369,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 19.568798,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 202.4,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 6.965504,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 19.568787,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 8,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 74.0369,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 11,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 19.568798,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 12,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 202.4,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "59FD20DE-45406A1F-EBFD97AE-CB58B7CB",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "SBZAIVisibilityVolume_1",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 40.960003,
+        "Y": -1.9073486E-06,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 46.240013,
+        "Y": 20.639996,
+        "Z": 100.0
+      },
+      "SphereRadius": 112.08991
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -5.280011,
+        "Y": -20.639997,
+        "Z": -100.0
+      },
+      {
+        "X": -5.280011,
+        "Y": -20.639997,
+        "Z": 100.0
+      },
+      {
+        "X": -5.280011,
+        "Y": 20.639994,
+        "Z": 100.0
+      },
+      {
+        "X": -5.280011,
+        "Y": 20.639994,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 87.20001,
+        "Y": 20.639994,
+        "Z": 100.0
+      },
+      {
+        "X": 87.20001,
+        "Y": 20.639994,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 87.20001,
+        "Y": -20.639997,
+        "Z": 100.0
+      },
+      {
+        "X": 87.20001,
+        "Y": -20.639997,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 5.280011,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 20.639994,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 87.20001,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 20.639997,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 5.280011,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 20.639994,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 8,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 87.20001,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 11,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 20.639997,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 12,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "8EF85BFC-464B23BA-C9448092-D0B46058",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "NavigationSystemConfig",
+    "Name": "NavigationSystemConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemConfig'",
+    "Properties": {
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "NavMeshBoundsVolume",
+    "Name": "NavMeshBoundsVolume_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NavMeshBoundsVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'StealthTutSocialStealth:PersistentLevel.NavMeshBoundsVolume_0.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.27"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'StealthTutSocialStealth:PersistentLevel.NavMeshBoundsVolume_0.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.6"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'StealthTutSocialStealth:PersistentLevel.NavMeshBoundsVolume_0.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.6"
+      }
+    }
+  },
+  {
+    "Type": "PlayerStart",
+    "Name": "PlayerStart_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PlayerStart'",
+    "Properties": {
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'StealthTutSocialStealth:PersistentLevel.PlayerStart_3.CollisionCapsule'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.8"
+      },
+      "GoodSprite": null,
+      "BadSprite": null,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'StealthTutSocialStealth:PersistentLevel.PlayerStart_3.CollisionCapsule'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.8"
+      }
+    }
+  },
+  {
+    "Type": "RecastNavMesh",
+    "Name": "RecastNavMesh-Common",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RecastNavMesh'",
+    "Properties": {
+      "AgentRadius": 35.0,
+      "NavDataConfig": {
+        "Name": "Common",
+        "PreferredNavData": {
+          "AssetPathName": "/Script/NavigationSystem.RecastNavMesh",
+          "SubPathString": ""
+        }
+      },
+      "RuntimeGeneration": "ERuntimeGenerationType::SBZStaticWithRandomRoomsSupport",
+      "SupportedAreas": [
+        {
+          "AreaClassName": "NavArea_Null",
+          "AreaID": 0
+        },
+        {
+          "AreaClassName": "NavArea_LowHeight",
+          "AreaID": 62
+        },
+        {
+          "AreaClassName": "NavArea_Default",
+          "AreaID": 63
+        },
+        {
+          "AreaClassName": "NavArea_Obstacle",
+          "AreaID": 1
+        },
+        {
+          "AreaClassName": "SBZNavArea_AllowedArea",
+          "AreaID": 2
+        },
+        {
+          "AreaClassName": "SBZNavArea_DefaultCarve",
+          "AreaID": 3
+        },
+        {
+          "AreaClassName": "SBZNavArea_NoPatrol",
+          "AreaID": 4
+        },
+        {
+          "AreaClassName": "SBZNavArea_PrivateArea",
+          "AreaID": 5
+        },
+        {
+          "AreaClassName": "SBZNavArea_PublicArea",
+          "AreaID": 6
+        },
+        {
+          "AreaClassName": "SBZNavArea_SecureArea",
+          "AreaID": 7
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityGrapplingHook",
+          "AreaID": 8
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityJumpingDown",
+          "AreaID": 9
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityLadder",
+          "AreaID": 10
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityMantling",
+          "AreaID": 11
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityMisc",
+          "AreaID": 12
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityRappel",
+          "AreaID": 13
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityVaulting",
+          "AreaID": 14
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilitySlideUnder",
+          "AreaID": 15
+        },
+        {
+          "AreaClassName": "SBZNavArea_ExitableNoEnter",
+          "AreaID": 16
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityClimbOnTopHigh",
+          "AreaID": 17
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityClimbOnTopLow",
+          "AreaID": 18
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityClimbOverHigh",
+          "AreaID": 19
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityClimbOverLow",
+          "AreaID": 20
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityJumpingDownHigh",
+          "AreaID": 21
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityJumpingDownLow",
+          "AreaID": 22
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityJumpingStraightBig",
+          "AreaID": 23
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityJumpingStraightSmall",
+          "AreaID": 24
+        },
+        {
+          "AreaClassName": "SBZNavArea_ForbiddenDuringStealth",
+          "AreaID": 25
+        },
+        {
+          "AreaClassName": "SBZNavArea_PedestrianCrossing",
+          "AreaID": 26
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityWallRunning",
+          "AreaID": 27
+        },
+        {
+          "AreaClassName": "SBZNavArea_WallRunningDetour",
+          "AreaID": 28
+        },
+        {
+          "AreaClassName": "SBZNavArea_ZipLine",
+          "AreaID": 29
+        },
+        {
+          "AreaClassName": "SBZNavArea_Street",
+          "AreaID": 30
+        },
+        {
+          "AreaClassName": "SBZNavArea_StreetPedestrianCrossing",
+          "AreaID": 31
+        },
+        {
+          "AreaClassName": "SBZNavArea_ZipLinePlatform",
+          "AreaID": 32
+        }
+      ],
+      "bNetLoadOnClient": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'StealthTutSocialStealth:PersistentLevel.RecastNavMesh-Common.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.37"
+      }
+    }
+  },
+  {
+    "Type": "SBZAIVisibilityComponent",
+    "Name": "SBZAIVisibility",
+    "Outer": "SBZAIVisibilityVolume",
+    "Class": "UScriptClass'SBZAIVisibilityComponent'",
+    "Properties": {
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZAIVisibilityVolume",
+    "Name": "SBZAIVisibilityVolume_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAIVisibilityVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'StealthTutSocialStealth:PersistentLevel.SBZAIVisibilityVolume_1.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.28"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'StealthTutSocialStealth:PersistentLevel.SBZAIVisibilityVolume_1.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.7"
+      },
+      "SavedSelections": [
+        {
+          "Type": 1,
+          "Index": 2,
+          "SelectionIndex": 3
+        }
+      ],
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'StealthTutSocialStealth:PersistentLevel.SBZAIVisibilityVolume_1.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.7"
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "MusicEvent": {
+        "ObjectName": "AkAudioEvent'MusicTutorial_SocialStealth'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/Music/Tutorial/MusicTutorial_SocialStealth.1"
+      },
+      "KeyItemDataMap": [
+        {
+          "Key": {
+            "TagName": "Item.Keycard.Blue"
+          },
+          "Value": {
+            "ObjectName": "SBZKeyItemData'DA_KeyItem_KeyCardBlue'",
+            "ObjectPath": "PAYDAY3/Content/UI/Assets/KeyItems/DA_KeyItem_KeyCardBlue.0"
+          }
+        },
+        {
+          "Key": {
+            "TagName": "Item.Key.QRCode"
+          },
+          "Value": {
+            "ObjectName": "SBZKeyItemData'DA_KeyItem_QRCode'",
+            "ObjectPath": "PAYDAY3/Content/UI/Assets/KeyItems/DA_KeyItem_QRCode.0"
+          }
+        }
+      ],
+      "bSkipNegotiation": false,
+      "bSkipFirstResponders": false,
+      "TimeToNextState": 1.0,
+      "bAICrewStartInCasing": false,
+      "bStartWithAICrew": false,
+      "AssaultManagerSettings": {
+        "ObjectName": "PD3AssaultSettings'DA_AssaultManagerSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Assault/DA_AssaultManagerSettings.0"
+      },
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "GlobalMaterialParameters": {
+        "WindDirection": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "WindSpeed": 0.01,
+        "EnemyBacklightInfluence": {
+          "R": 0.15,
+          "G": 7.0,
+          "B": 0.0,
+          "A": 0.1,
+          "Hex": "196CFF00"
+        },
+        "EnemyBacklightFade": {
+          "R": 3000.0,
+          "G": 1500.0,
+          "B": 30.0,
+          "A": 20.0,
+          "Hex": "FFFFFFFF"
+        },
+        "EnemyBacklightRangeFuzz": {
+          "R": 0.2,
+          "G": 0.5,
+          "B": 0.1,
+          "A": 0.5,
+          "Hex": "7F7CBC59"
+        }
+      },
+      "SoloPlayerLoadoutOverride": {
+        "ObjectName": "SBZPlayerLoadoutAsset'DA_TutorialLoadout'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Player/DA_TutorialLoadout.0"
+      },
+      "ConnectorGateConnection": [
+        {
+          "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Gameplay_StealthTutSocialStealth/G_StealthTutSocialStealth_Coverpoints.G_StealthTutSocialStealth_Coverpoints:PersistentLevel.SBZRoomConnectorVolume2": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Gameplay_StealthTutSocialStealth/G_StealthTutSocialStealth_Scripting.G_StealthTutSocialStealth_Scripting",
+            "SubPathString": "PersistentLevel.BP_InteractableUnBreachableSingleDoor_ToRestrictedArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Gameplay_StealthTutSocialStealth/G_StealthTutSocialStealth_Coverpoints.G_StealthTutSocialStealth_Coverpoints:PersistentLevel.SBZRoomConnectorVolume_1": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Gameplay_StealthTutSocialStealth/G_StealthTutSocialStealth_Scripting.G_StealthTutSocialStealth_Scripting",
+            "SubPathString": "PersistentLevel.BP_InteractableUnBreachableSingleDoor_KC"
+          }
+        }
+      ],
+      "DespawnRoomConnection": [
+        {
+          "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Gameplay_StealthTutSocialStealth/G_StealthTutSocialStealth_Scripting.G_StealthTutSocialStealth_Scripting:PersistentLevel.SBZDespawnVolume_1": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/Gameplay_StealthTutSocialStealth/G_StealthTutSocialStealth_Coverpoints.G_StealthTutSocialStealth_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_2ndRoom"
+          }
+        }
+      ],
+      "LifeActionMontages": [
+        {
+          "ObjectName": "AnimMontage'AM_CIV_Ntl_Std_Gen_LA_Waiting_HandOnWrist_TP_01'",
+          "ObjectPath": "PAYDAY3/Content/Gameplay/Animations/Animation/NPC/Civilian/Neutral/Unarmed/_GenericWeapon/Animations/LifeAction/AM_CIV_Ntl_Std_Gen_LA_Waiting_HandOnWrist_TP_01.0"
+        },
+        {
+          "ObjectName": "AnimMontage'AM_CIV_Ntl_Std_Gen_LA_Waiting_HandOnWrist_TP_02'",
+          "ObjectPath": "PAYDAY3/Content/Gameplay/Animations/Animation/NPC/Civilian/Neutral/Unarmed/_GenericWeapon/Animations/LifeAction/AM_CIV_Ntl_Std_Gen_LA_Waiting_HandOnWrist_TP_02.0"
+        },
+        {
+          "ObjectName": "AnimMontage'AM_CIV_Ntl_Std_Gen_LA_Stop_TP_01'",
+          "ObjectPath": "PAYDAY3/Content/Gameplay/Animations/Animation/NPC/Civilian/Neutral/Unarmed/_GenericWeapon/Animations/LifeAction/AM_CIV_Ntl_Std_Gen_LA_Stop_TP_01.0"
+        }
+      ],
+      "bEnableNavigationSystem": false,
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemConfig'StealthTutSocialStealth:PersistentLevel.SBZWorldSettings.NavigationSystemConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.29"
+      },
+      "DynamicIndirectShadowsSelfShadowingIntensity": 0.0,
+      "BookmarkArray": [
+        null,
+        {
+          "ObjectName": "BookMark'StealthTutSocialStealth:PersistentLevel.SBZWorldSettings.BookMark_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.5"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent0",
+    "Outer": "InstancedFoliageActor_0",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -0.016479492,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "RecastNavMesh-Common",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "SBZAIVisibilityVolume",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -128.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Magazine_01_B_17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'StealthTutSocialStealth:PersistentLevel.Magazine_01_B_17.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.40"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'StealthTutSocialStealth:PersistentLevel.Magazine_01_B_17.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.40"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Magazine_01_B_17",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Magazine_01_B'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/Magazine_01/Magazine_01_B.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 101.35979
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 101.35979
+        }
+      ],
+      "VisibilityId": 0,
+      "RelativeLocation": {
+        "X": 5171.0,
+        "Y": 205.0,
+        "Z": 146.17845
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -99.999985,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "9FF6B8D542871443D232DB9EFCB96A64"
+      }
+    ]
+  },
+  {
+    "Type": "StealthTutSocialStealth_C",
+    "Name": "StealthTutSocialStealth_C_1",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.StealthTutSocialStealth_C'",
+    "Template": {
+      "ObjectName": "StealthTutSocialStealth_C'Default__StealthTutSocialStealth_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.1"
+    },
+    "Properties": {
+      "Seed": 21155,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "StealthTutSocialStealth",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'StealthTutSocialStealth:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.10"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'StealthTutSocialStealth:LevelStreamingAlwaysLoaded_10'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.13"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'StealthTutSocialStealth:LevelStreamingAlwaysLoaded_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.12"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'StealthTutSocialStealth:LevelStreamingAlwaysLoaded_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.16"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'StealthTutSocialStealth:LevelStreamingAlwaysLoaded_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.17"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'StealthTutSocialStealth:LevelStreamingAlwaysLoaded_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.18"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'StealthTutSocialStealth:LevelStreamingAlwaysLoaded_5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.19"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'StealthTutSocialStealth:LevelStreamingAlwaysLoaded_7'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.20"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'StealthTutSocialStealth:LevelStreamingAlwaysLoaded_8'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.21"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'StealthTutSocialStealth:LevelStreamingAlwaysLoaded_9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.22"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'StealthTutSocialStealth:LevelStreamingDynamic_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.23"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'StealthTutSocialStealth:LevelStreamingDynamic_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.24"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'StealthTutSocialStealth:LevelStreamingAlwaysLoaded_11'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.14"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'StealthTutSocialStealth:LevelStreamingDynamic_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.25"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'StealthTutSocialStealth:LevelStreamingAlwaysLoaded_12'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.15"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'StealthTutSocialStealth:LevelStreamingAlwaysLoaded_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/StealthTutSocialStealth.11"
+      }
+    ]
+  }
+]

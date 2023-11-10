@@ -1,0 +1,878 @@
+[
+  {
+    "Type": "Function",
+    "Name": "On_Interacted__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "On_AnimCompleted__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "On_Finished__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ReplicatedBinaryActor_Forklift",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_ReplicatedBinaryActor2_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZReplicatedBinaryStateActor:OnStateChanged'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRep_Idle at Spawn",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRep_AtEndpoint",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRep_AtStartpoint",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRep_ForkRaised",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_ReplicatedBinaryActor_Forklift_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.14"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ReplicatedBinaryActor_Forklift_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.26"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_Forklift'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZReplicatedBinaryStateActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:OnRep_ForkRaised'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.9"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:OnRep_AtStartpoint'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.8"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:OnRep_AtEndpoint'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.7"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:OnRep_Idle at Spawn'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.6"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.5"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:BndEvt__BP_ReplicatedBinaryActor2_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.4"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_Forklift'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.3"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:On_Finished__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.2"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:On_AnimCompleted__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.1"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:On_Interacted__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_TestExplosiveFuelTank",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ChildActorComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZOutline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZOutlineComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Crates_01_Crate_120cm",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZInteractable",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "On_Interacted",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:On_Interacted__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.0"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "On_AnimCompleted",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:On_AnimCompleted__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.1"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "On_Finished",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:On_Finished__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "AtStartpoint",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "On_Interacted__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:On_Interacted__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.0"
+      },
+      "On_AnimCompleted__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:On_AnimCompleted__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.1"
+      },
+      "On_Finished__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:On_Finished__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.2"
+      },
+      "ExecuteUbergraph_BP_ReplicatedBinaryActor_Forklift": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_Forklift'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.3"
+      },
+      "BndEvt__BP_ReplicatedBinaryActor2_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:BndEvt__BP_ReplicatedBinaryActor2_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.4"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.5"
+      },
+      "OnRep_Idle at Spawn": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:OnRep_Idle at Spawn'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.6"
+      },
+      "OnRep_AtEndpoint": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:OnRep_AtEndpoint'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.7"
+      },
+      "OnRep_AtStartpoint": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:OnRep_AtStartpoint'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.8"
+      },
+      "OnRep_ForkRaised": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_Forklift_C:OnRep_ForkRaised'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.9"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ReplicatedBinaryActor_Forklift_C'Default__BP_ReplicatedBinaryActor_Forklift_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.11"
+    }
+  },
+  {
+    "Type": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Name": "Default__BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.BP_ReplicatedBinaryActor_Forklift_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AtStartpoint": true
+    }
+  },
+  {
+    "Type": "BP_FireExtinguisher_01_Gas_C",
+    "Name": "BP_TestExplosiveFuelTank_GEN_VARIABLE_BP_TestExplosiveFuelTank_C_CAT",
+    "Outer": "BP_TestExplosiveFuelTank_GEN_VARIABLE",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Blueprints/Traps/BP_FireExtinguisher_01_Gas.BP_FireExtinguisher_01_Gas_C'",
+    "Template": {
+      "ObjectName": "BP_FireExtinguisher_01_Gas_C'Default__BP_FireExtinguisher_01_Gas_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Blueprints/Traps/BP_FireExtinguisher_01_Gas.4"
+    },
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'BP_ReplicatedBinaryActor_Forklift_C:BP_TestExplosiveFuelTank_GEN_VARIABLE.BP_TestExplosiveFuelTank_GEN_VARIABLE_BP_TestExplosiveFuelTank_C_CAT.NiagaraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.15"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'BP_ReplicatedBinaryActor_Forklift_C:BP_TestExplosiveFuelTank_GEN_VARIABLE.BP_TestExplosiveFuelTank_GEN_VARIABLE_BP_TestExplosiveFuelTank_C_CAT.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.18"
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "BP_TestExplosiveFuelTank_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_FireExtinguisher_01_Gas_C'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Blueprints/Traps/BP_FireExtinguisher_01_Gas.3"
+      },
+      "ChildActorTemplate": {
+        "ObjectName": "BP_FireExtinguisher_01_Gas_C'BP_ReplicatedBinaryActor_Forklift_C:BP_TestExplosiveFuelTank_GEN_VARIABLE.BP_TestExplosiveFuelTank_GEN_VARIABLE_BP_TestExplosiveFuelTank_C_CAT'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.12"
+      },
+      "RelativeLocation": {
+        "X": -91.06602,
+        "Y": 39.985893,
+        "Z": 109.08565
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": -89.999985
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 2.0
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "SBZInteractable",
+          "DelegatePropertyName": "OnServerCompleteInteraction",
+          "FunctionNameToBind": "BndEvt__BP_ReplicatedBinaryActor2_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent",
+    "Outer": "BP_TestExplosiveFuelTank_GEN_VARIABLE_BP_TestExplosiveFuelTank_C_CAT",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_FireExtinguisher_01_Gas_C:NiagaraComponent'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Blueprints/Traps/BP_FireExtinguisher_01_Gas.6"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SceneComponent'BP_ReplicatedBinaryActor_Forklift_C:BP_TestExplosiveFuelTank_GEN_VARIABLE.BP_TestExplosiveFuelTank_GEN_VARIABLE_BP_TestExplosiveFuelTank_C_CAT.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.18"
+      }
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractable_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "bIsAllowedInCasing": true,
+      "bIsIllegal": false,
+      "Shapes": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'PrimitiveComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "SkeletalMesh"
+        }
+      ],
+      "bAutoActivate": true
+    }
+  },
+  {
+    "Type": "SBZOutlineComponent",
+    "Name": "SBZOutline_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'SBZOutlineComponent'",
+    "Properties": {
+      "DefaultAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_Interactable_7_5m'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_Interactable_7_5m.0"
+      },
+      "MeshSelectors": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "SkeletalMesh"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "BP_TestExplosiveFuelTank_GEN_VARIABLE_BP_TestExplosiveFuelTank_C_CAT",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_FireExtinguisher_01_Gas_C:RootComponent'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Blueprints/Traps/BP_FireExtinguisher_01_Gas.9"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ReplicatedBinaryActor_Forklift_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.19"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Forklift_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.23"
+        }
+      ],
+      "VariableGuid": "FD85DE12-4504BBF8-A1AA98BA-70A64278",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZOutlineComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZOutlineComponent'BP_ReplicatedBinaryActor_Forklift_C:SBZOutline_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.17"
+      },
+      "VariableGuid": "20FB1CAC-417B8419-1939EFB2-EE576F62",
+      "InternalVariableName": "SBZOutline"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ReplicatedBinaryActor_Forklift_C:Crates_01_Crate_120cm_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.28"
+      },
+      "AttachToName": "RaiseCrate",
+      "VariableGuid": "C7318A00-4AAF7085-21523AAB-022ECBB5",
+      "InternalVariableName": "Crates_01_Crate_120cm"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent'BP_ReplicatedBinaryActor_Forklift_C:SkeletalMesh_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.27"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Forklift_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Forklift_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.25"
+        }
+      ],
+      "VariableGuid": "4232D561-41CFB321-96AA2AAB-D73CFAE9",
+      "InternalVariableName": "SkeletalMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZInteractableComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZInteractableComponent'BP_ReplicatedBinaryActor_Forklift_C:SBZInteractable_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.16"
+      },
+      "VariableGuid": "2116FED9-46DC13B5-F291E094-08B23471",
+      "InternalVariableName": "SBZInteractable"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ChildActorComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ChildActorComponent'BP_ReplicatedBinaryActor_Forklift_C:BP_TestExplosiveFuelTank_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.13"
+      },
+      "AttachToName": "RootBone",
+      "VariableGuid": "25DA36B9-48A88BFA-8D5F3FA2-8D10AF0A",
+      "InternalVariableName": "BP_TestExplosiveFuelTank"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Forklift_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Forklift_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Forklift_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.21"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Forklift_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Forklift_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Forklift_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Forklift_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Forklift_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Forklift_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.25"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_Forklift_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/TempAnimations/BP_ReplicatedBinaryActor_Forklift.20"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletalMesh_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Properties": {
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class'ClothingSimulationFactoryNv'",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Forklift'",
+        "ObjectPath": "PAYDAY3/Content/Vehicle/_Mockup/Forklift/SK_Forklift.0"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "InteractiveDynamic",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Weapon",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Interaction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Throwable",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SBZProjectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Item",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SBZPiercingThrowable",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Crates_01_Crate_120cm_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_Forklift_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Crate_01_120'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Construction/Crate_01/Crate_01_120.2"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_Vehicle",
+        "CollisionProfileName": "Vehicle",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Throwable",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SBZProjectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Item",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SBZPiercingThrowable",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 74.60419,
+        "Y": 0.0010985434,
+        "Z": -9.718103
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": -3.5083541E-15
+      }
+    }
+  }
+]

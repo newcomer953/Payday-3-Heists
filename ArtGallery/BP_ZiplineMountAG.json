@@ -1,0 +1,357 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ZiplineMountAG",
+    "Outer": "BP_ZiplineMountAG_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "BP_ZiplineMountAG_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZReplicatedBinaryStateActor:OnStateChanged'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ZiplineMountAG_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ZiplineMountAG_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.9"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_ZiplineMountAG_C:ExecuteUbergraph_BP_ZiplineMountAG'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZReplicatedBinaryStateActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ZiplineMountAG_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.1"
+      },
+      {
+        "ObjectName": "Function'BP_ZiplineMountAG_C:ExecuteUbergraph_BP_ZiplineMountAG'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh__2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_ZiplineMountAG": {
+        "ObjectName": "Function'BP_ZiplineMountAG_C:ExecuteUbergraph_BP_ZiplineMountAG'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.0"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'BP_ZiplineMountAG_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.1"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ZiplineMountAG_C'Default__BP_ZiplineMountAG_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.3"
+    }
+  },
+  {
+    "Type": "BP_ZiplineMountAG_C",
+    "Name": "Default__BP_ZiplineMountAG_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.BP_ZiplineMountAG_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bState": true
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_ZiplineMountAG_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ZiplineMountAG_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.4"
+      },
+      "VariableGuid": "FD85DE12-4504BBF8-A1AA98BA-70A64278",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ZiplineMountAG_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.12"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ZiplineMountAG_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.7"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ZiplineMountAG_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.8"
+        }
+      ],
+      "VariableGuid": "134075F2-4A6FE44B-53E1F1BC-FFFD8F61",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ZiplineMountAG_C:StaticMesh_1_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.10"
+      },
+      "VariableGuid": "E9B217B9-4AAC4708-DB66709C-53B93385",
+      "InternalVariableName": "StaticMesh_1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ZiplineMountAG_C:StaticMesh__2_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.11"
+      },
+      "VariableGuid": "1FAF7EE6-49E5CB58-B2EE6ABE-F081E8CB",
+      "InternalVariableName": "StaticMesh__2"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_ZiplineMountAG_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ZiplineMountAG_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.6"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ZiplineMountAG_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.7"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ZiplineMountAG_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.8"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ZiplineMountAG_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.6"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ZiplineMountAG_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_ZiplineMountAG.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_1_GEN_VARIABLE",
+    "Outer": "BP_ZiplineMountAG_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Scaffolding_01_Beam_Horizontal_96'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Construction/Scaffolding_01/Scaffolding_01_Beam_Horizontal_96.2"
+      },
+      "bUseDefaultCollision": true,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh__2_GEN_VARIABLE",
+    "Outer": "BP_ZiplineMountAG_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Scaffolding_01_Beam_Horizontal_96'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Construction/Scaffolding_01/Scaffolding_01_Beam_Horizontal_96.2"
+      },
+      "bUseDefaultCollision": true,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 95.886826,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "BP_ZiplineMountAG_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Scaffolding_01_Floor_96_96'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Construction/Scaffolding_01/Scaffolding_01_Floor_96_96.2"
+      }
+    }
+  }
+]

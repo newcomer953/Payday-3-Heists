@@ -1,0 +1,2076 @@
+[
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_0",
+    "Outer": "InstancedFoliageActor_0",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 0.24966335,
+          "Z": 2.56227
+        },
+        "BoxExtent": {
+          "X": 10.644012,
+          "Y": 9.290618,
+          "Z": 5.7107406
+        },
+        "SphereRadius": 13.6363735
+      },
+      "InstancingRandomSeed": 4840,
+      "InstanceStartCullDistance": 1000,
+      "InstanceEndCullDistance": 2000,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Debris_01_RockBig_b'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/Debris_01/Debris_01_RockBig_b.2"
+      },
+      "OverriddenLightMapRes": 8,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 25,
+          "TexelFactor": 101.12381
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 26,
+          "TexelFactor": 101.12381
+        }
+      ],
+      "CachedMaxDrawDistance": 3000.0,
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.InstancedFoliageActor_0.RootComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.7"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "FoliageInstancedStaticMeshComponent",
+    "Name": "FoliageInstancedStaticMeshComponent_3",
+    "Outer": "InstancedFoliageActor_0",
+    "Class": "UScriptClass'FoliageInstancedStaticMeshComponent'",
+    "Properties": {
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": -0.09121895,
+          "Y": -0.7685833,
+          "Z": 2.8671439
+        },
+        "BoxExtent": {
+          "X": 12.916414,
+          "Y": 12.910984,
+          "Z": 5.0162177
+        },
+        "SphereRadius": 16.092382
+      },
+      "InstancingRandomSeed": 6630,
+      "InstanceStartCullDistance": 1000,
+      "InstanceEndCullDistance": 2000,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Debris_01_RockBig_a'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/Debris_01/Debris_01_RockBig_a.2"
+      },
+      "OverriddenLightMapRes": 8,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 25,
+          "TexelFactor": 98.49162
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 26,
+          "TexelFactor": 98.49162
+        }
+      ],
+      "CachedMaxDrawDistance": 3000.0,
+      "bReceivesDecals": false,
+      "bHasPerInstanceHitProxies": true,
+      "bAffectDynamicIndirectLighting": false,
+      "bAffectDistanceFieldLighting": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.InstancedFoliageActor_0.RootComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.7"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "InstancedFoliageActor",
+    "Name": "InstancedFoliageActor_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'InstancedFoliageActor'",
+    "Properties": {
+      "RootComponent": {
+        "ObjectName": "SceneComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.InstancedFoliageActor_0.RootComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.7"
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "E_ArtGallery_Ext_Garden_Floor",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.4"
+      },
+      "StreamingTextureGuids": [
+        "2B23A7B1-4714BBAB-84E7E0AC-718480D7",
+        "DBD6BCD1-4ED76425-7AC7A48B-E2C3175C",
+        "DE561949-48C67971-33554799-E4994C77",
+        "7ABA50A6-4A34975E-14F190B8-F2F7F3FA",
+        "5386E93C-4B41203A-EE28E7BC-17DADBE6",
+        "7AF2752D-48F6A137-939CD6BD-24F6F7B6",
+        "9811A922-47549EF9-DD3F8D9E-5E81E350",
+        "F03D2095-40EF8E4B-5CA807BB-30063AB5",
+        "86D4CDD9-4A4E8BAD-C2F55FAE-A9C05324",
+        "EF3C7763-47FB8EA5-9FB32384-68C91AB1",
+        "1110B769-4A1D5623-820E5083-60A34E8E",
+        "F0FF61D3-410DD409-D1D008BA-373BA852",
+        "B3BA0511-4CD2A954-3BD03198-B268F044",
+        "9BE85653-4E0E902B-D50F4EB3-97BC397F",
+        "593B8646-41B1D28C-ACAB9D8C-FB08F7C7",
+        "386D9A3E-4DB48A7F-0EC980BF-B19EB0C7",
+        "CEB265E7-4143C703-EF222AA2-DFA50C1A",
+        "6EBA2256-4ABDD030-CCE597A3-4A528E89",
+        "8E8E95F5-46CB54C2-F890DDA2-77D45D9D",
+        "62D3EA59-46F83A99-760C6081-CCFB9C62",
+        "714EB271-432ED046-A0C5B88D-5C9E0C8D",
+        "89C70581-48F82B3A-576520BB-0BBB025C",
+        "5AB4DC3D-41682FCB-3D2BCF9E-232B4958",
+        "FF4BE6D2-4A9D6ACE-515AD8B4-0FC85A1E",
+        "44E6C591-4EAA9E5D-826383B1-14277F78",
+        "17CDEE6C-4249C3A6-A75C86BF-9A7562DC"
+      ],
+      "LevelBuildDataId": "9538C847-4D6E9A5B-B420709B-C507AD3D",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.6"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.6"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_Garden_Floor_01_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.26"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_512_256_DoorDouble_95'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_512_256_DoorDouble_344'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.8"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.19"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.18"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_01_62'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.10"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.21"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_7'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.23"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_6'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.22"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_10'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.11"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_8'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.25"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.20"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_11'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.12"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_12'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.13"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_13'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.14"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_14'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.15"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_15'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.16"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_16'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.17"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_Garden_Floor_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.27"
+      },
+      {
+        "ObjectName": "InstancedFoliageActor'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.InstancedFoliageActor_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.2"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.4"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "8BEC80AB-48F8C13B-1A646799-F281C1A0",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.5"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent0",
+    "Outer": "InstancedFoliageActor_0",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_512_256_DoorDouble_344",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_512_256_DoorDouble_344.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.28"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_512_256_DoorDouble_344.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.28"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_512_256_DoorDouble_95",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_512_256_DoorDouble_95.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.29"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_512_256_DoorDouble_95.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.29"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_FloorConnetor_01_62",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_01_62.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.30"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_01_62.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.30"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_FloorConnetor_10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_10.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.31"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_10.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.31"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_FloorConnetor_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_11.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.32"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_11.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.32"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_FloorConnetor_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_12.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.33"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_12.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.33"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_FloorConnetor_13",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_13.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.34"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_13.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.34"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_FloorConnetor_14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_14.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.35"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_14.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.35"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_FloorConnetor_15",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_15.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.36"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_15.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.36"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_FloorConnetor_16",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_16.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.37"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_16.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.37"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_FloorConnetor_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.38"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.38"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_FloorConnetor_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.39"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.39"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_FloorConnetor_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.40"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.40"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_FloorConnetor_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.41"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.41"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_FloorConnetor_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_6.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.42"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_6.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.42"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_FloorConnetor_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_7.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.43"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_7.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.43"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_FloorConnetor_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_8.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.44"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_8.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.44"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_FAC_Industrial_01_FloorConnetor_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_9.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.45"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_FAC_Industrial_01_FloorConnetor_9.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.45"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_Garden_Floor_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_Garden_Floor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.46"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_Garden_Floor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.46"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Ext_Garden_Floor_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_Garden_Floor_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.47"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArtGallery_Ext_Garden_Floor:PersistentLevel.Ext_Garden_Floor_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.47"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_512_256_DoorDouble_344",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_02.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4227852288,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 261.14017
+        },
+        {
+          "PackedRelativeBox": 4294962176,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 196.45839
+        },
+        {
+          "PackedRelativeBox": 4294962176,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 196.45839
+        },
+        {
+          "PackedRelativeBox": 4160684032,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 771.836
+        },
+        {
+          "PackedRelativeBox": 4160684032,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 6174.688
+        },
+        {
+          "PackedRelativeBox": 4160684032,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 771.836
+        },
+        {
+          "PackedRelativeBox": 4160684032,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 6174.688
+        }
+      ],
+      "VisibilityId": 7457,
+      "RelativeLocation": {
+        "X": 2231.199,
+        "Y": -1361.8838,
+        "Z": 16.5
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 157.49982,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A83770CB475977375D45E3A7F9D7EE04"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_512_256_DoorDouble_95",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 266.79285
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 4444.125
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 4444.125
+        }
+      ],
+      "VisibilityId": 7456,
+      "RelativeLocation": {
+        "X": 605.1727,
+        "Y": -688.3554,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 157.49982,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "48B8B89E4EB225BBFD8DA387097FDFA3"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_FloorConnetor_01_62",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 266.79285
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 14,
+          "TexelFactor": 4444.125
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 15,
+          "TexelFactor": 4444.125
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BLD_Industrial_01_ConcreteStained_Rough'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Component/MI_BLD_Industrial_01_ConcreteStained_Rough.0"
+        }
+      ],
+      "VisibilityId": 7460,
+      "RelativeLocation": {
+        "X": -400.0,
+        "Y": 304.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.999954,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D237AE3E4865DA5BBF8880A72FB86744"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_FloorConnetor_10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 266.79285
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 4444.125
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 4444.125
+        }
+      ],
+      "VisibilityId": 7464,
+      "RelativeLocation": {
+        "X": 4720.0,
+        "Y": 47.99999,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7FA8CD424EF24BE9717C4DB5F08FFD95"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_FloorConnetor_11",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_03'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_03.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 4269.5146
+        },
+        {
+          "PackedRelativeBox": 4293066752,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 151.10529
+        },
+        {
+          "PackedRelativeBox": 4293066752,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 151.10529
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 533.68933
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 4269.5146
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 533.68933
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "VisibilityId": 7468,
+      "RelativeLocation": {
+        "X": -399.996,
+        "Y": 5872.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.999954,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7DC50CB04647FC5B0AE0AFAA25FC36A9"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_FloorConnetor_12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_03'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_03.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 4269.5146
+        },
+        {
+          "PackedRelativeBox": 4294902656,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 151.10529
+        },
+        {
+          "PackedRelativeBox": 4294902656,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 151.10529
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 533.68933
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 4269.5146
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 533.68933
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "VisibilityId": 7469,
+      "RelativeLocation": {
+        "X": 560.0,
+        "Y": 6224.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -0.00019836426,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B98DE121492E07BFEB5BF38B6681FAF5"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_FloorConnetor_13",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_03'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_03.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 4269.5146
+        },
+        {
+          "PackedRelativeBox": 4294902688,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 151.10529
+        },
+        {
+          "PackedRelativeBox": 4294902688,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 151.10529
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 533.68933
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 4269.5146
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 533.68933
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "VisibilityId": 7470,
+      "RelativeLocation": {
+        "X": 3888.0,
+        "Y": 6223.9897,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -0.000198,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "BF39F5A44B6678021F4DFA9FB06FC31E"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_FloorConnetor_14",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_03'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_03.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 4269.5146
+        },
+        {
+          "PackedRelativeBox": 4294901788,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 151.10529
+        },
+        {
+          "PackedRelativeBox": 4294901788,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 151.10529
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 533.68933
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 4269.5146
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 533.68933
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "VisibilityId": 7471,
+      "RelativeLocation": {
+        "X": 4719.998,
+        "Y": 5679.9873,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00017,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "EBBF009A47DB398DDD8A61B33EDA9AA4"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_FloorConnetor_15",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_03'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_03.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 4269.5146
+        },
+        {
+          "PackedRelativeBox": 4294901789,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 151.10529
+        },
+        {
+          "PackedRelativeBox": 4294901789,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 151.10529
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 533.68933
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 4269.5146
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 533.68933
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "VisibilityId": 7472,
+      "RelativeLocation": {
+        "X": 4719.9946,
+        "Y": 4143.9873,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00017,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "AED05A294093C208F381B39E7F50631E"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_FloorConnetor_16",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_03'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_03.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 4269.5146
+        },
+        {
+          "PackedRelativeBox": 4294901789,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 151.10529
+        },
+        {
+          "PackedRelativeBox": 4294901789,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 151.10529
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 533.68933
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 4269.5146
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 533.68933
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "VisibilityId": 7473,
+      "RelativeLocation": {
+        "X": 4719.988,
+        "Y": 1967.9873,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00017,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2A865F8A489E22570E2554876CA50142"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_FloorConnetor_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_01.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 266.79285
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 14,
+          "TexelFactor": 4444.125
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 15,
+          "TexelFactor": 4444.125
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BLD_Industrial_01_ConcreteStained_Rough'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Component/MI_BLD_Industrial_01_ConcreteStained_Rough.0"
+        }
+      ],
+      "VisibilityId": 7459,
+      "RelativeLocation": {
+        "X": -399.99716,
+        "Y": 4336.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.999954,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "EC96237A41ED4A6C3F13568E80815601"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_FloorConnetor_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 266.79285
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 4444.125
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 4444.125
+        }
+      ],
+      "VisibilityId": 7458,
+      "RelativeLocation": {
+        "X": 1776.0,
+        "Y": 6224.0,
+        "Z": 16.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "0CE7AC324C6BC5AE0171A48603ADCD8D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_FloorConnetor_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_03'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_03.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 4269.5146
+        },
+        {
+          "PackedRelativeBox": 4293066752,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 151.10529
+        },
+        {
+          "PackedRelativeBox": 4293066752,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 151.10529
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 533.68933
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 4269.5146
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 533.68933
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "VisibilityId": 7467,
+      "RelativeLocation": {
+        "X": -399.99655,
+        "Y": 5104.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.999954,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7490BC0D4DBDD816DDBF198A97C008FD"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_FloorConnetor_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 266.79285
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 4444.125
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 4444.125
+        }
+      ],
+      "VisibilityId": 7461,
+      "RelativeLocation": {
+        "X": 4720.0,
+        "Y": -1104.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C79B329744B8B52EBABD2A94A989D688"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_FloorConnetor_6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 266.79285
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 4444.125
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 4444.125
+        }
+      ],
+      "VisibilityId": 7463,
+      "RelativeLocation": {
+        "X": 4720.0107,
+        "Y": 751.99994,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -270.00037,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "6CA8C23A453B17F7A6BC6CB27331670D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_FloorConnetor_7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 266.79285
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 4444.125
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 4444.125
+        }
+      ],
+      "VisibilityId": 7462,
+      "RelativeLocation": {
+        "X": 4720.0,
+        "Y": -908.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -270.00037,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A2D74D9F4264D0BAA744519355A96239"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_FloorConnetor_8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 266.79285
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 3556744192,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 199.08966
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 4444.125
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 555.5156
+        },
+        {
+          "PackedRelativeBox": 4227792896,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 4444.125
+        }
+      ],
+      "VisibilityId": 7465,
+      "RelativeLocation": {
+        "X": 4720.0005,
+        "Y": 3055.9998,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00002,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "9AF40E71458418370E2DB2B1FCCA2DD4"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_FAC_Industrial_01_FloorConnetor_9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_FAC_Industrial_01_FloorConnetor_03'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/Facade/Industrial_01/Base/Ext_FAC_Industrial_01_FloorConnetor_03.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 16,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 4269.5146
+        },
+        {
+          "PackedRelativeBox": 4293001216,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 151.10529
+        },
+        {
+          "PackedRelativeBox": 4293001216,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 151.10529
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 533.68933
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 4269.5146
+        },
+        {
+          "PackedRelativeBox": 1006569472,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 533.68933
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "VisibilityId": 7466,
+      "RelativeLocation": {
+        "X": -399.99768,
+        "Y": 3568.0,
+        "Z": 16.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.999954,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A329E50C4A6C37363DDA6183503599E8"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_Garden_Floor_01_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_Garden_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/GardenFloor_01/Ext_Garden_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 1811873792,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1024.5474
+        },
+        {
+          "PackedRelativeBox": 1811873792,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 512.2737
+        },
+        {
+          "PackedRelativeBox": 1811873792,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 1024.5474
+        },
+        {
+          "PackedRelativeBox": 1205804097,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 1024.5474
+        },
+        {
+          "PackedRelativeBox": 1811873792,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 1024.4485
+        },
+        {
+          "PackedRelativeBox": 1205804097,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 256.13684
+        },
+        {
+          "PackedRelativeBox": 1811873792,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 256.11212
+        }
+      ],
+      "LDMaxDrawDistance": 7000.0,
+      "CachedMaxDrawDistance": 7000.0,
+      "VisibilityId": 7455,
+      "RelativeLocation": {
+        "X": -392.0,
+        "Y": 1104.0,
+        "Z": 16.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "9DCFCA4141F2C5E7696E8D9E157F4544"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Ext_Garden_Floor_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "ForcedLodModel": 1,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_Garden_Floor_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArtGallery/Architecture/Exterior/GardenFloor_01/Ext_Garden_Floor_02.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 512,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4196335620,
+          "TextureLevelIndex": 16,
+          "TexelFactor": 49.959694
+        },
+        {
+          "PackedRelativeBox": 4294959104,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 1025.1304
+        },
+        {
+          "PackedRelativeBox": 4294959104,
+          "TextureLevelIndex": 17,
+          "TexelFactor": 1025.1304
+        },
+        {
+          "PackedRelativeBox": 4294959104,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 256.2826
+        },
+        {
+          "PackedRelativeBox": 4275955717,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 186.00192
+        },
+        {
+          "PackedRelativeBox": 4275955717,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 186.00192
+        },
+        {
+          "PackedRelativeBox": 4196375556,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 237.01042
+        },
+        {
+          "PackedRelativeBox": 4196375556,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 181.4611
+        },
+        {
+          "PackedRelativeBox": 4196375556,
+          "TextureLevelIndex": 23,
+          "TexelFactor": 237.01042
+        },
+        {
+          "PackedRelativeBox": 4196375556,
+          "TextureLevelIndex": 24,
+          "TexelFactor": 181.4611
+        },
+        {
+          "PackedRelativeBox": 4196335620,
+          "TextureLevelIndex": 25,
+          "TexelFactor": 49.959694
+        }
+      ],
+      "LDMaxDrawDistance": 5000.0,
+      "CachedMaxDrawDistance": 5000.0,
+      "VisibilityId": 7474,
+      "RelativeLocation": {
+        "X": -392.0,
+        "Y": 1104.0,
+        "Z": 16.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "718086FB42F40532BFC70BBABB26DD15",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 3696
+        }
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "E_ArtGallery_Ext_Garden_Floor",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'E_ArtGallery_Ext_Garden_Floor:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Ext_Garden_Floor.3"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

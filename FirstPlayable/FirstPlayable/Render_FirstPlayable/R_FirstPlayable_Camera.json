@@ -1,0 +1,215 @@
+[
+  {
+    "Type": "CameraActor",
+    "Name": "CameraActor_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CameraComponent'R_FirstPlayable_Camera:PersistentLevel.CameraActor_1.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Render_FirstPlayable/R_FirstPlayable_Camera.1"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'R_FirstPlayable_Camera:PersistentLevel.CameraActor_1.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Render_FirstPlayable/R_FirstPlayable_Camera.6"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'R_FirstPlayable_Camera:PersistentLevel.CameraActor_1.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Render_FirstPlayable/R_FirstPlayable_Camera.6"
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "CameraActor_1",
+    "Class": "UScriptClass'CameraComponent'",
+    "Properties": {
+      "FieldOfView": 31.714287,
+      "OrthoWidth": 9617.421,
+      "OrthoNearClipPlane": -0.057143,
+      "AspectRatio": 1.525,
+      "ProjectionMode": "ECameraProjectionMode::Orthographic",
+      "AttachParent": {
+        "ObjectName": "SceneComponent'R_FirstPlayable_Camera:PersistentLevel.CameraActor_1.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Render_FirstPlayable/R_FirstPlayable_Camera.6"
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "R_FirstPlayable_Camera",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'R_FirstPlayable_Camera:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Render_FirstPlayable/R_FirstPlayable_Camera.3"
+      },
+      "LevelBuildDataId": "13A48E7D-4183D11A-C11804A3-C71A9BC7",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'R_FirstPlayable_Camera:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Render_FirstPlayable/R_FirstPlayable_Camera.5"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'R_FirstPlayable_Camera:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Render_FirstPlayable/R_FirstPlayable_Camera.5"
+      },
+      null,
+      {
+        "ObjectName": "CameraActor'R_FirstPlayable_Camera:PersistentLevel.CameraActor_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Render_FirstPlayable/R_FirstPlayable_Camera.0"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'R_FirstPlayable_Camera:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Render_FirstPlayable/R_FirstPlayable_Camera.3"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "95C7B8AB-4FAA60E3-11461FA8-55323522",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'R_FirstPlayable_Camera:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Render_FirstPlayable/R_FirstPlayable_Camera.4"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "CameraActor_1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4120.0,
+        "Y": -32.0,
+        "Z": 24062.582
+      },
+      "RelativeRotation": {
+        "Pitch": 270.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "R_FirstPlayable_Camera",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'R_FirstPlayable_Camera:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Render_FirstPlayable/R_FirstPlayable_Camera.2"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_DirtyIce_Shot3_CameraShake_03_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'CameraShakeBase'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_DirtyIce_Shot3_CameraShake_03_C'Default__C_DirtyIce_Shot3_CameraShake_03_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot3_CameraShake_03.1"
+    }
+  },
+  {
+    "Type": "C_DirtyIce_Shot3_CameraShake_03_C",
+    "Name": "Default__C_DirtyIce_Shot3_CameraShake_03_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot3_CameraShake_03.C_DirtyIce_Shot3_CameraShake_03_C'",
+    "Properties": {
+      "RootShakePattern": {
+        "ObjectName": "PerlinNoiseCameraShakePattern'Default__C_DirtyIce_Shot3_CameraShake_03_C:PerlinNoiseCameraShakePattern_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot3_CameraShake_03.2"
+      }
+    }
+  },
+  {
+    "Type": "PerlinNoiseCameraShakePattern",
+    "Name": "PerlinNoiseCameraShakePattern_0",
+    "Outer": "Default__C_DirtyIce_Shot3_CameraShake_03_C",
+    "Class": "UScriptClass'PerlinNoiseCameraShakePattern'",
+    "Properties": {
+      "LocationAmplitudeMultiplier": 0.015,
+      "LocationFrequencyMultiplier": 15.0,
+      "RotationAmplitudeMultiplier": 0.05,
+      "RotationFrequencyMultiplier": 15.0,
+      "FOV": {
+        "Amplitude": 0.3
+      },
+      "Duration": 6.0,
+      "BlendInTime": 0.0,
+      "BlendOutTime": 5.5
+    }
+  }
+]

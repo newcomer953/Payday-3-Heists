@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_RockTheCradel_CameraShake_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'CameraShakeBase'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_RockTheCradel_CameraShake_C'Default__C_RockTheCradel_CameraShake_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_CameraShake.1"
+    }
+  },
+  {
+    "Type": "C_RockTheCradel_CameraShake_C",
+    "Name": "Default__C_RockTheCradel_CameraShake_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_CameraShake.C_RockTheCradel_CameraShake_C'",
+    "Properties": {
+      "RootShakePattern": {
+        "ObjectName": "PerlinNoiseCameraShakePattern'Default__C_RockTheCradel_CameraShake_C:PerlinNoiseCameraShakePattern_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Cinematic_NightClub/C_RockTheCradel_CameraShake.2"
+      }
+    }
+  },
+  {
+    "Type": "PerlinNoiseCameraShakePattern",
+    "Name": "PerlinNoiseCameraShakePattern_0",
+    "Outer": "Default__C_RockTheCradel_CameraShake_C",
+    "Class": "UScriptClass'PerlinNoiseCameraShakePattern'",
+    "Properties": {
+      "LocationAmplitudeMultiplier": 2.0,
+      "RotationAmplitudeMultiplier": 0.05,
+      "RotationFrequencyMultiplier": 4.0,
+      "FOV": {
+        "Amplitude": 0.4,
+        "Frequency": 2.0
+      },
+      "Duration": 0.0,
+      "BlendInTime": 0.0,
+      "BlendOutTime": 0.0
+    }
+  }
+]

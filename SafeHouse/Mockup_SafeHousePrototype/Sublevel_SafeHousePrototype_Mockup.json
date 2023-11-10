@@ -1,0 +1,3317 @@
+[
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCapsule",
+    "Outer": "PlayerStart_1",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": 360.0,
+        "Y": -530.0,
+        "Z": 92.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00012,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "Sublevel_SafeHousePrototype_Mockup",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.2"
+      },
+      "LevelBuildDataId": "8741ED0F-41D3ACA5-8206F887-ECE10080",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'Sublevel_SafeHousePrototype_Mockup_BuiltData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup_BuiltData.4"
+      },
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.5"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.5"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a22_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.48"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a26_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.52"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a27_225'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.53"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a51_248'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.58"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a52_249'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.59"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a23_254'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.49"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a24'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.50"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a29_257'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.54"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a58'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.60"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a60'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.62"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a61'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.63"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a72'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.64"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a73'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.65"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_01_287'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.18"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.29"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.37"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.41"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.43"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_6'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.44"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_7'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.45"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_8'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.46"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.47"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_10'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.19"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_11'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.20"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_12'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.21"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_13'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.22"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_14'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.23"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_15'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_16'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.25"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_17'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.26"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_18'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.27"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_19'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.28"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_20'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.30"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_21'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_22'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.32"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_23'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.33"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_24'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.34"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_26'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.35"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_29'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.36"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_32'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.38"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_35'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.39"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_38'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.40"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_41'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.42"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Corner_i_01_385'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.6"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Corner_i_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.7"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_01_392'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.10"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.11"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a25_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.51"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a30_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.55"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a31_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.56"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a32_5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.57"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a59_403'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.61"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Corner_i_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.8"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Corner_i_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.12"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.13"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.14"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_6'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.15"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_7'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.16"
+      },
+      {
+        "ObjectName": "StaticMeshActor'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_8'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.17"
+      },
+      {
+        "ObjectName": "PlayerStart'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.PlayerStart_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.4"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.2"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "230CB848-47351858-07C79181-053F5AAE",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PlayerStart",
+    "Name": "PlayerStart_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PlayerStart'",
+    "Properties": {
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.PlayerStart_1.CollisionCapsule'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.0"
+      },
+      "GoodSprite": null,
+      "BadSprite": null,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.PlayerStart_1.CollisionCapsule'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.0"
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.3"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_384_128_Corner_i_01_385",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Corner_i_01_385.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.66"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Corner_i_01_385.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.66"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_384_128_Corner_i_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Corner_i_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.67"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Corner_i_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.67"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_384_128_Corner_i_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Corner_i_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.68"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Corner_i_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.68"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_384_128_Corner_i_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Corner_i_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.69"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Corner_i_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.69"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_384_128_Wall_01_392",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_01_392.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.70"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_01_392.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.70"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_384_128_Wall_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.71"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.71"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_384_128_Wall_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.72"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.72"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_384_128_Wall_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.73"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.73"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_384_128_Wall_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.74"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.74"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_384_128_Wall_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_6.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.75"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_6.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.75"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_384_128_Wall_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_7.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.76"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_7.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.76"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_384_128_Wall_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_8.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.77"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_384_128_Wall_8.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.77"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_01_287",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_01_287.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.78"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_01_287.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.78"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_10.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.79"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_10.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.79"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_11.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.80"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_11.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.80"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_12.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.81"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_12.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.81"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_13",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_13.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.82"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_13.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.82"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_14.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.83"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_14.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.83"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_15",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_15.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.84"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_15.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.84"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_16",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_16.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.85"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_16.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.85"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_17.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.86"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_17.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.86"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_18.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.87"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_18.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.87"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_19",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_19.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.88"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_19.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.88"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.89"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.89"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_20.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.90"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_20.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.90"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_21",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_21.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.91"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_21.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.91"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_22",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_22.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.92"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_22.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.92"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_23",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_23.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.93"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_23.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.93"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_24.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.94"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_24.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.94"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_26",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_26.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.95"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_26.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.95"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_29",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_29.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.96"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_29.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.96"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.97"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.97"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_32",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_32.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.98"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_32.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.98"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_35",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_35.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.99"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_35.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.99"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_38",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_38.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.100"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_38.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.100"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.101"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.101"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_41",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_41.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.102"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_41.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.102"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.103"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.103"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_6.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.104"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_6.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.104"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_7.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.105"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_7.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.105"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_8.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.106"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_8.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.106"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Mkp_Int_512_512_Floor_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_9.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.107"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.Mkp_Int_512_512_Floor_9.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.107"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a22_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a22_0.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.108"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a22_0.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.108"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a23_254",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a23_254.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.109"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a23_254.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.109"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a24.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.110"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a24.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.110"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a25_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a25_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.111"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a25_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.111"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a26_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a26_1.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.112"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a26_1.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.112"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a27_225",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a27_225.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.113"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a27_225.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.113"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a29_257",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a29_257.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.114"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a29_257.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.114"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a30_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a30_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.115"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a30_3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.115"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a31_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a31_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.116"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a31_4.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.116"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a32_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a32_5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.117"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a32_5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.117"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a51_248",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a51_248.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.118"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a51_248.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.118"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a52_249",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a52_249.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.119"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a52_249.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.119"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a58",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a58.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.120"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a58.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.120"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a59_403",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a59_403.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.121"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a59_403.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.121"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a60",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a60.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.122"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a60.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.122"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a61",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a61.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.123"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a61.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.123"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a72",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a72.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.124"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a72.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.124"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "mkp_int_wall_4m_a73",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a73.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.125"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Sublevel_SafeHousePrototype_Mockup:PersistentLevel.mkp_int_wall_4m_a73.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.125"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_384_128_Corner_i_01_385",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_128_Corner_i_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_128_Corner_i_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.0652
+        }
+      ],
+      "VisibilityId": 55,
+      "RelativeLocation": {
+        "X": -1024.0,
+        "Y": 1536.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "CC0FBBEA4D0C1BC38BC56A89C613E3C9"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_384_128_Corner_i_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_128_Corner_i_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_128_Corner_i_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.0652
+        }
+      ],
+      "VisibilityId": 56,
+      "RelativeLocation": {
+        "X": -1024.0,
+        "Y": -1536.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.00018,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "ACF201E7499E66E34278F78BF14738F9"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_384_128_Corner_i_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_128_Corner_i_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_128_Corner_i_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.0652
+        }
+      ],
+      "VisibilityId": 64,
+      "RelativeLocation": {
+        "X": 1536.0,
+        "Y": 1536.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "9BC15AD34270FBFD7F752B884D0A865A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_384_128_Corner_i_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_128_Corner_i_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_128_Corner_i_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.0652
+        }
+      ],
+      "VisibilityId": 65,
+      "RelativeLocation": {
+        "X": 1536.0,
+        "Y": -1536.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1DF3177A46497B293D940EB1390286F9"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_384_128_Wall_01_392",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_128_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_128_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.00246
+        }
+      ],
+      "VisibilityId": 57,
+      "RelativeLocation": {
+        "X": -1024.0,
+        "Y": 1408.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "549E3A114BA3A8AAD6701F94C8B14CC8"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_384_128_Wall_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_128_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_128_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.00246
+        }
+      ],
+      "VisibilityId": 58,
+      "RelativeLocation": {
+        "X": -1024.0,
+        "Y": -1280.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "757758344DA976890C4F928B3D506A69"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_384_128_Wall_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_128_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_128_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.00246
+        }
+      ],
+      "VisibilityId": 66,
+      "RelativeLocation": {
+        "X": 1536.0,
+        "Y": 1280.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "755201B4457C2BE1CAF4F397F831BD68"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_384_128_Wall_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_128_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_128_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.00246
+        }
+      ],
+      "VisibilityId": 67,
+      "RelativeLocation": {
+        "X": 1536.0,
+        "Y": -1408.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A648BD7A4396E8E8586C51B592A46C38"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_384_128_Wall_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_128_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_128_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.00246
+        }
+      ],
+      "VisibilityId": 68,
+      "RelativeLocation": {
+        "X": -896.0,
+        "Y": -1536.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "16CE55664623D3C61B1016AC54CCB0A9"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_384_128_Wall_6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_128_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_128_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.00246
+        }
+      ],
+      "VisibilityId": 69,
+      "RelativeLocation": {
+        "X": 1280.0,
+        "Y": -1536.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "CF5430134F99206695C449B059BF384C"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_384_128_Wall_7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_128_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_128_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.00246
+        }
+      ],
+      "VisibilityId": 70,
+      "RelativeLocation": {
+        "X": -768.0,
+        "Y": 1536.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F2E079584F2FA14F80AC5D8070240A4D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_384_128_Wall_8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_128_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_128_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.00246
+        }
+      ],
+      "VisibilityId": 71,
+      "RelativeLocation": {
+        "X": 1408.0,
+        "Y": 1536.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "129B42454455ABC57D103B9981E95032"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_01_287",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 25
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "134D384D430F1691929D9FB08E2A6630"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 34,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -1536.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4D6E818E4DF8547D88F4EC80A8ADDC5A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_11",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 35,
+      "RelativeLocation": {
+        "X": -1024.0,
+        "Y": -1536.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "529663284A2DB0D2CA648EA37857DDFF"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 36,
+      "RelativeLocation": {
+        "X": -512.0,
+        "Y": -1536.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "967C9EBD403193F498928FAEE1BE1397"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_13",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 37,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 512.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "43D09FC94DD6184B9932658127590AC3"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_14",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 38,
+      "RelativeLocation": {
+        "X": -1024.0,
+        "Y": 512.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "17B94E48457077A69CAD98B9B7E299DC"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_15",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 39,
+      "RelativeLocation": {
+        "X": -512.0,
+        "Y": 512.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2CBB547547206A9636894A98F2F61A41"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_16",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 40,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 1024.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "967D3D354DC2A1D19C50769BA57186D9"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_17",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 41,
+      "RelativeLocation": {
+        "X": -1024.0,
+        "Y": 1024.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D329BD834C928B69E4CF9C855BA77676"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 42,
+      "RelativeLocation": {
+        "X": -512.0,
+        "Y": 1024.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A6A0E07E43CE7AF61E0B47B05746DA5D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_19",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 43,
+      "RelativeLocation": {
+        "X": 512.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E8DD728443E6FEA0BB726F924CCC8BD0"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 26,
+      "RelativeLocation": {
+        "X": -1024.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "8B6365A74924CA977201A880936ADE58"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 44,
+      "RelativeLocation": {
+        "X": 512.0,
+        "Y": -512.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "83FCACE543F04E9CD9E6AF854AF23997"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_21",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 45,
+      "RelativeLocation": {
+        "X": 512.0,
+        "Y": -1024.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1FF74A7B4DA06ED85C2BFD9461E5ED72"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_22",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 46,
+      "RelativeLocation": {
+        "X": 512.0,
+        "Y": -1536.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D93C3EC348B39D28BBEB9681B2B43C84"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_23",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 47,
+      "RelativeLocation": {
+        "X": 512.0,
+        "Y": 512.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "04787C91436C2DCCE2AC93839B1D68B4"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_24",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 48,
+      "RelativeLocation": {
+        "X": 512.0,
+        "Y": 1024.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "64861644406E0FC487E7F29F69AD9011"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_26",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 49,
+      "RelativeLocation": {
+        "X": 1024.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3E62935C4FD9B947896250B423A40580"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_29",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 50,
+      "RelativeLocation": {
+        "X": 1024.0,
+        "Y": -512.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "496B83434F94C8B37289059EF7F43FEC"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 27,
+      "RelativeLocation": {
+        "X": -512.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E87441364C10C7D831C6EBAB10BD6FE4"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_32",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 51,
+      "RelativeLocation": {
+        "X": 1024.0,
+        "Y": -1024.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "BC31B1EB417986810D8301916A797ED2"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_35",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 52,
+      "RelativeLocation": {
+        "X": 1024.0,
+        "Y": -1536.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4485435343639AF99ECC808FF09CBCC7"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_38",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 53,
+      "RelativeLocation": {
+        "X": 1024.0,
+        "Y": 512.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "EF495B9E46DC5E88CE10C286691CAFE9"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 28,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -512.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A61A72B745A14AD1F529759719B84EDB"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_41",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 54,
+      "RelativeLocation": {
+        "X": 1024.0,
+        "Y": 1024.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7059EDA544230E11E0F271AB977D2D3A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 29,
+      "RelativeLocation": {
+        "X": -1024.0,
+        "Y": -512.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "715CB7A9430A4E725E24E98BD850CA50"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 30,
+      "RelativeLocation": {
+        "X": -512.0,
+        "Y": -512.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "3148A62045F5FF71798B599C55C25D1B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 31,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -1024.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "5D31F4B842C00301E2F7779DF8F69C1F"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 32,
+      "RelativeLocation": {
+        "X": -1024.0,
+        "Y": -1024.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "024BC7464F048D1EFE221A83D437DD38"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Mkp_Int_512_512_Floor_9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_512_512_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_512_512_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.03413
+        }
+      ],
+      "VisibilityId": 33,
+      "RelativeLocation": {
+        "X": -512.0,
+        "Y": -1024.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "20E00B33486EA0A7A113E698F886C1E5"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a22_0",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 12,
+      "RelativeLocation": {
+        "X": -1024.0,
+        "Y": 256.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "A34765FC457A6B358BFCA0B4A3D80982"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a23_254",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 17,
+      "RelativeLocation": {
+        "X": -1024.0,
+        "Y": -256.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "164D604846CDC575D84EFC938F528972"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a24",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 18,
+      "RelativeLocation": {
+        "X": -1024.0,
+        "Y": -768.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "0276CB4A4F6CD20D3EF691BCD8F00161"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a25_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 59,
+      "RelativeLocation": {
+        "X": 1536.0,
+        "Y": -256.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E1218F7E43C20C3F370BE9AC1415BFF7"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a26_1",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 13,
+      "RelativeLocation": {
+        "X": 256.0,
+        "Y": -1536.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "9E395EE34F928D32E1061FA160F2AC48"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a27_225",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 14,
+      "RelativeLocation": {
+        "X": 768.0,
+        "Y": -1536.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "827A2E3D4984EF29984D5DAB725EB2A6"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a29_257",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 19,
+      "RelativeLocation": {
+        "X": -1024.0,
+        "Y": 768.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7EF71BA74FB2B15AB55B05AFFB401549"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a30_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 60,
+      "RelativeLocation": {
+        "X": 1536.0,
+        "Y": -768.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2E109561485C62DE6B11188C4655DCC8"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a31_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 61,
+      "RelativeLocation": {
+        "X": 1536.0,
+        "Y": -1280.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "053F31354652B9C946434FB734D1964C"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a32_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 62,
+      "RelativeLocation": {
+        "X": 1536.0,
+        "Y": 256.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "90E490BC4F0CD242C443C7AED9F1BCCA"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a51_248",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 15,
+      "RelativeLocation": {
+        "X": -768.0,
+        "Y": -1536.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E2D07D1942B4015BD0F800A8A3C27EFF"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a52_249",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 16,
+      "RelativeLocation": {
+        "X": -256.0,
+        "Y": -1536.0,
+        "Z": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7C4EE8EB49938E463C8AB58044B06D04"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a58",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 20,
+      "RelativeLocation": {
+        "X": -1024.0,
+        "Y": 1280.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "8B6AAE144C19A93FC83CCCB4E3BD6392"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a59_403",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 63,
+      "RelativeLocation": {
+        "X": 1536.0,
+        "Y": 768.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "64368E694522D26EAFA83A87C7C54D50"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a60",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 21,
+      "RelativeLocation": {
+        "X": 768.0,
+        "Y": 1536.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "38EBD5944D37935BC306F882242577EB"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a61",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 22,
+      "RelativeLocation": {
+        "X": 1280.0,
+        "Y": 1536.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "41513D9A402957A0367E03BFD0DCF878"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a72",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 23,
+      "RelativeLocation": {
+        "X": -256.0,
+        "Y": 1536.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "D268C6A44A10F74BEBB3E1AAFE40E156"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "mkp_int_wall_4m_a73",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Mkp_Int_384_512_Wall_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/deprecated/Architecture/Interior/Mkp_Int_384_512_Wall_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 128.25148
+        }
+      ],
+      "VisibilityId": 24,
+      "RelativeLocation": {
+        "X": 256.0,
+        "Y": 1536.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "BE565E6B410638E49692C1BA8361D5D6"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "Sublevel_SafeHousePrototype_Mockup",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'Sublevel_SafeHousePrototype_Mockup:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/SafeHouse/Mockup_SafeHousePrototype/Sublevel_SafeHousePrototype_Mockup.1"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

@@ -1,0 +1,2264 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_G_FirstPlayable_IntroOutroSequence",
+    "Outer": "G_FirstPlayable_IntroOutroSequence_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMovieSceneSequencePlayerEvent__DelegateSignature'",
+          "ObjectPath": "/Script/MovieScene"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSequencePlayer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelSequencePlayer'",
+          "ObjectPath": "/Script/LevelSequence"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnIntroFinished",
+    "Outer": "G_FirstPlayable_IntroOutroSequence_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "IntroSequenceStarted",
+    "Outer": "G_FirstPlayable_IntroOutroSequence_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZLevelScriptActor:IntroSequenceStarted'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "G_FirstPlayable_IntroOutroSequence_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "G_FirstPlayable_IntroOutroSequence_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'G_FirstPlayable_IntroOutroSequence_C:ExecuteUbergraph_G_FirstPlayable_IntroOutroSequence'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'G_FirstPlayable_IntroOutroSequence_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.3"
+      },
+      {
+        "ObjectName": "Function'G_FirstPlayable_IntroOutroSequence_C:IntroSequenceStarted'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.2"
+      },
+      {
+        "ObjectName": "Function'G_FirstPlayable_IntroOutroSequence_C:OnIntroFinished'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.1"
+      },
+      {
+        "ObjectName": "Function'G_FirstPlayable_IntroOutroSequence_C:ExecuteUbergraph_G_FirstPlayable_IntroOutroSequence'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "C_GoldAndSharke_Master_02_9_ExecuteUbergraph_G_FirstPlayable_IntroOutroSequence_RefProperty",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelSequenceActor'",
+          "ObjectPath": "/Script/LevelSequence"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_G_FirstPlayable_IntroOutroSequence": {
+        "ObjectName": "Function'G_FirstPlayable_IntroOutroSequence_C:ExecuteUbergraph_G_FirstPlayable_IntroOutroSequence'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.0"
+      },
+      "OnIntroFinished": {
+        "ObjectName": "Function'G_FirstPlayable_IntroOutroSequence_C:OnIntroFinished'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.1"
+      },
+      "IntroSequenceStarted": {
+        "ObjectName": "Function'G_FirstPlayable_IntroOutroSequence_C:IntroSequenceStarted'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.2"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'G_FirstPlayable_IntroOutroSequence_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "G_FirstPlayable_IntroOutroSequence_C'Default__G_FirstPlayable_IntroOutroSequence_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.5"
+    }
+  },
+  {
+    "Type": "G_FirstPlayable_IntroOutroSequence_C",
+    "Name": "Default__G_FirstPlayable_IntroOutroSequence_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.G_FirstPlayable_IntroOutroSequence_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "C_GoldAndSharke_Master_02_9_ExecuteUbergraph_G_FirstPlayable_IntroOutroSequence_RefProperty": {
+        "ObjectName": "LevelSequenceActor'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Master_02_9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.32"
+      }
+    }
+  },
+  {
+    "Type": "CameraRig_Crane",
+    "Name": "CameraRig_Crane_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraRig_Crane'",
+    "Properties": {
+      "CranePitch": 20.571426,
+      "CraneYaw": -90.0,
+      "CraneArmLength": 3046.0618,
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_01.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.62"
+      },
+      "CraneYawControl": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_01.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.61"
+      },
+      "CranePitchControl": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_01.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.60"
+      },
+      "CraneCameraMount": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_01.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.59"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_01.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.62"
+      }
+    }
+  },
+  {
+    "Type": "CameraRig_Crane",
+    "Name": "CameraRig_Crane_02",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraRig_Crane'",
+    "Properties": {
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_02.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.66"
+      },
+      "CraneYawControl": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_02.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.65"
+      },
+      "CranePitchControl": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_02.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.64"
+      },
+      "CraneCameraMount": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_02.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.63"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_02.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.66"
+      }
+    }
+  },
+  {
+    "Type": "CameraRig_Rail",
+    "Name": "C_Shot1_Rail",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraRig_Rail'",
+    "Properties": {
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_Shot1_Rail.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.55"
+      },
+      "RailSplineComponent": {
+        "ObjectName": "SplineComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_Shot1_Rail.RailSplineComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.76"
+      },
+      "RailCameraMount": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_Shot1_Rail.RailCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.54"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_Shot1_Rail.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.55"
+      }
+    }
+  },
+  {
+    "Type": "CameraRig_Rail",
+    "Name": "CameraRig_Rail_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraRig_Rail'",
+    "Properties": {
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Rail_1.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.68"
+      },
+      "RailSplineComponent": {
+        "ObjectName": "SplineComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Rail_1.RailSplineComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.77"
+      },
+      "RailCameraMount": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Rail_1.RailCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.67"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Rail_1.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.68"
+      }
+    }
+  },
+  {
+    "Type": "CameraRig_Rail",
+    "Name": "CameraRig_Rail_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraRig_Rail'",
+    "Properties": {
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Rail_3.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.70"
+      },
+      "RailSplineComponent": {
+        "ObjectName": "SplineComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Rail_3.RailSplineComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.78"
+      },
+      "RailCameraMount": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Rail_3.RailCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.69"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Rail_3.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.70"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_Shot1_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/E_FirstPlayable_Ext_Bankoptimisation_test.E_FirstPlayable_Ext_Bankoptimisation_test",
+          "SubPathString": "PersistentLevel.BankSign_01_259"
+        },
+        "RelativeOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -615.77167
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Camera_Shot1_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.18"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Camera_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.56"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Camera_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.56"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_Shot2_01_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/FirstPlayable/FirstPlayable/Gameplay_FirstPlayable/G_FirstPlayable_Scripting.G_FirstPlayable_Scripting",
+          "SubPathString": "PersistentLevel.BP_int_door_01_LobbyGate_RFID"
+        },
+        "RelativeOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 263.7241
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Camera_Shot2_01_6.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.19"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Camera_Shot2_01_6.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.57"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Camera_Shot2_01_6.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.57"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_Shot3_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/FirstPlayable/FirstPlayable/Gameplay_FirstPlayable/G_FirstPlayable_Scripting.G_FirstPlayable_Scripting",
+          "SubPathString": "PersistentLevel.BP_Vault"
+        },
+        "RelativeOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 143.92282
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Camera_Shot3_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.20"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Camera_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.58"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Camera_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.58"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "LS_am_Shot1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/Street/E_FirstPlayable_Ext_Street_Prop_optimisation_test.E_FirstPlayable_Ext_Street_Prop_optimisation_test",
+          "SubPathString": "PersistentLevel.BankSign_01_B_2"
+        },
+        "RelativeOffset": {
+          "X": -1027.8938,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_am_Shot1.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.21"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_am_Shot1.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.71"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_am_Shot1.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.71"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "LS_Cam_Shot1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_Cam_Shot1.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.22"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_Cam_Shot1.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.72"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_Cam_Shot1.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.72"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "LS_Cam_Shot2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/FirstPlayable/FirstPlayable/Gameplay_FirstPlayable/G_FirstPlayable_Scripting.G_FirstPlayable_Scripting",
+          "SubPathString": "PersistentLevel.BP_int_door_01_LobbyGate_RFID"
+        },
+        "RelativeOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -903.28796
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_Cam_Shot2.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.23"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_Cam_Shot2.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.73"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_Cam_Shot2.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.73"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "LS_Cam_Shot3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/FirstPlayable/FirstPlayable/Gameplay_FirstPlayable/G_FirstPlayable_Scripting.G_FirstPlayable_Scripting",
+          "SubPathString": "PersistentLevel.BP_Vault"
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_Cam_Shot3.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.24"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_Cam_Shot3.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.74"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_Cam_Shot3.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.74"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_Shot1_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2
+      },
+      "FocusSettings": {
+        "TrackingFocusSettings": {
+          "ActorToTrack": {
+            "AssetPathName": "/Game/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/Street/E_FirstPlayable_Ext_Street_Prop_optimisation_test.E_FirstPlayable_Ext_Street_Prop_optimisation_test",
+            "SubPathString": "PersistentLevel.BankSign_01_259"
+          }
+        }
+      },
+      "CurrentFocusDistance": 5265.6406,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Camera_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.56"
+      },
+      "ComponentVelocity": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1648.4413
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_Shot2_01_6",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2
+      },
+      "FocusSettings": {
+        "TrackingFocusSettings": {
+          "ActorToTrack": {
+            "AssetPathName": "/Game/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/Street/E_FirstPlayable_Ext_Street_Prop_optimisation_test.E_FirstPlayable_Ext_Street_Prop_optimisation_test",
+            "SubPathString": "PersistentLevel.BankSign_01_259"
+          }
+        }
+      },
+      "CurrentFocusDistance": 1832.8763,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Camera_Shot2_01_6.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.57"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_Shot3_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2
+      },
+      "FocusSettings": {
+        "TrackingFocusSettings": {
+          "ActorToTrack": {
+            "AssetPathName": "/Game/Prototype/Maps/FirstPlayable/FirstPlayable/Environment_FirstPlayable/Street/E_FirstPlayable_Ext_Street_Prop_optimisation_test.E_FirstPlayable_Ext_Street_Prop_optimisation_test",
+            "SubPathString": "PersistentLevel.BankSign_01_259"
+          }
+        }
+      },
+      "CurrentFocusDistance": 100000.0,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Camera_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.58"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "LS_am_Shot1",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 24.0,
+        "SensorHeight": 13.5
+      },
+      "LensSettings": {
+        "MinFocalLength": 12.0,
+        "MaxFocalLength": 12.0,
+        "MinFStop": 2.8
+      },
+      "CurrentFocalLength": 12.0,
+      "CurrentFocusDistance": 100000.0,
+      "AspectRatio": 1.7777778,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_am_Shot1.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.71"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "LS_Cam_Shot1",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 24.0,
+        "SensorHeight": 13.5
+      },
+      "LensSettings": {
+        "MinFocalLength": 12.0,
+        "MaxFocalLength": 12.0,
+        "MinFStop": 2.8
+      },
+      "CurrentFocalLength": 12.0,
+      "CurrentFocusDistance": 100000.0,
+      "AspectRatio": 1.7777778,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_Cam_Shot1.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.72"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "LS_Cam_Shot2",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 24.0,
+        "SensorHeight": 13.5
+      },
+      "LensSettings": {
+        "MinFocalLength": 12.0,
+        "MaxFocalLength": 12.0,
+        "MinFStop": 2.8
+      },
+      "CurrentFocalLength": 12.0,
+      "CurrentFocusDistance": 100000.0,
+      "AspectRatio": 1.7777778,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_Cam_Shot2.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.73"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "LS_Cam_Shot3",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 24.0,
+        "SensorHeight": 13.5
+      },
+      "LensSettings": {
+        "MinFocalLength": 12.0,
+        "MaxFocalLength": 12.0,
+        "MinFStop": 2.8
+      },
+      "CurrentFocalLength": 12.0,
+      "CurrentFocusDistance": 100000.0,
+      "AspectRatio": 1.7777778,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_Cam_Shot3.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.74"
+      }
+    }
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_GoldAndSharke_Master_02_9",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_GoldAndSharke_Shot1_01_7",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_GoldAndSharke_Shot2_01_10",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_GoldAndSharke_Shot3_01_12",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "LS_FirstPlayable_Intro_01_2",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "G_FirstPlayable_IntroOutroSequence_C",
+    "Name": "G_FirstPlayable_IntroOutroSequence_C_1",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.G_FirstPlayable_IntroOutroSequence_C'",
+    "Template": {
+      "ObjectName": "G_FirstPlayable_IntroOutroSequence_C'Default__G_FirstPlayable_IntroOutroSequence_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.5"
+    },
+    "Properties": {
+      "Seed": 1327,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "G_FirstPlayable_IntroOutroSequence",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.42"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "G_FirstPlayable_IntroOutroSequence_C'G_FirstPlayable_IntroOutroSequence:PersistentLevel.G_FirstPlayable_IntroOutroSequence_C_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.30"
+      },
+      "LevelBuildDataId": "DC4323D6-403DBB80-B9148B92-E9185E13",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'G_FirstPlayable_IntroOutroSequence:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.49"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'G_FirstPlayable_IntroOutroSequence:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.49"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "CineCameraActor'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Camera_Shot2_01_6'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.12"
+      },
+      {
+        "ObjectName": "CineCameraActor'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Camera_Shot3_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.13"
+      },
+      {
+        "ObjectName": "CameraRig_Crane'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.6"
+      },
+      {
+        "ObjectName": "CameraRig_Crane'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_02'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.7"
+      },
+      {
+        "ObjectName": "CameraRig_Rail'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Rail_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.9"
+      },
+      {
+        "ObjectName": "CameraRig_Rail'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Rail_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.10"
+      },
+      {
+        "ObjectName": "CineCameraActor'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_Cam_Shot2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.16"
+      },
+      {
+        "ObjectName": "CineCameraActor'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_Cam_Shot3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.17"
+      },
+      {
+        "ObjectName": "CineCameraActor'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_Cam_Shot1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.15"
+      },
+      {
+        "ObjectName": "CameraRig_Rail'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_Shot1_Rail'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.8"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_FirstPlayable_Intro_01_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.36"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Master_02_9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.32"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Shot1_01_7'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.33"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Shot2_01_10'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.34"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Shot3_01_12'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.35"
+      },
+      {
+        "ObjectName": "G_FirstPlayable_IntroOutroSequence_C'G_FirstPlayable_IntroOutroSequence:PersistentLevel.G_FirstPlayable_IntroOutroSequence_C_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.30"
+      },
+      {
+        "ObjectName": "CineCameraActor'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Camera_Shot1_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.11"
+      },
+      {
+        "ObjectName": "CineCameraActor'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_am_Shot1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.14"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'G_FirstPlayable_IntroOutroSequence:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.42"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "G_FirstPlayable_IntroOutroSequence_C'G_FirstPlayable_IntroOutroSequence:PersistentLevel.G_FirstPlayable_IntroOutroSequence_C_1'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.30"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_GoldAndSharke_Master_02_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Master_02.C_GoldAndSharke_Master_02",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Master_02_9.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.37"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Master_02_9.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.43"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Master_02_9.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.25"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Master_02_9.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.50"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_GoldAndSharke_Shot1_01_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot1_01.C_GoldAndSharke_Shot1_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Shot1_01_7.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.38"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Shot1_01_7.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.44"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Shot1_01_7.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.26"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Shot1_01_7.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.51"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_GoldAndSharke_Shot2_01_10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot2_01.C_GoldAndSharke_Shot2_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Shot2_01_10.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.39"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Shot2_01_10.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.45"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Shot2_01_10.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.27"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Shot2_01_10.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.52"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_GoldAndSharke_Shot3_01_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/C_GoldAndSharke_Shot3_01.C_GoldAndSharke_Shot3_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Shot3_01_12.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.40"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Shot3_01_12.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.46"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Shot3_01_12.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.28"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_GoldAndSharke_Shot3_01_12.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.53"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "LS_FirstPlayable_Intro_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/LS_FirstPlayable_Intro_01.LS_FirstPlayable_Intro_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_FirstPlayable_Intro_01_2.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.41"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_FirstPlayable_Intro_01_2.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.47"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_FirstPlayable_Intro_01_2.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.29"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_FirstPlayable_Intro_01_2.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.75"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_GoldAndSharke_Master_02_9",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_GoldAndSharke_Shot1_01_7",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_GoldAndSharke_Shot2_01_10",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_GoldAndSharke_Shot3_01_12",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "LS_FirstPlayable_Intro_01_2",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "C365AA20-408DC21A-1C02CB90-C41B51C6",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_GoldAndSharke_Master_02_9",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_GoldAndSharke_Shot1_01_7",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_GoldAndSharke_Shot2_01_10",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_GoldAndSharke_Shot3_01_12",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "LS_FirstPlayable_Intro_01_2",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "GlobalMaterialParameters": {
+        "WindDirection": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "WindSpeed": 0.01,
+        "EnemyBacklightInfluence": {
+          "R": 0.05,
+          "G": 5.0,
+          "B": 0.2,
+          "A": 0.5,
+          "Hex": "7F3FFF7C"
+        },
+        "EnemyBacklightFade": {
+          "R": 3000.0,
+          "G": 1500.0,
+          "B": 40.0,
+          "A": 30.0,
+          "Hex": "FFFFFFFF"
+        },
+        "EnemyBacklightRangeFuzz": {
+          "R": 0.2,
+          "G": 0.5,
+          "B": 0.1,
+          "A": 0.5,
+          "Hex": "7F7CBC59"
+        }
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'G_FirstPlayable_IntroOutroSequence:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.48"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_GoldAndSharke_Master_02_9",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_GoldAndSharke_Shot1_01_7",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_GoldAndSharke_Shot2_01_10",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_GoldAndSharke_Shot3_01_12",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RailCameraMount",
+    "Outer": "C_Shot1_Rail",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SplineComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_Shot1_Rail.RailSplineComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.76"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent",
+    "Outer": "C_Shot1_Rail",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -2967.1313,
+        "Y": 2273.647,
+        "Z": -57.356476
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -24.87137,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_Shot1_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_Shot1_Rail.RailCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.54"
+      },
+      "RelativeRotation": {
+        "Pitch": 16.780489,
+        "Yaw": -15.289506,
+        "Roll": -2.2293652E-07
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_Shot2_01_6",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -2968.892,
+        "Y": 2300.9868,
+        "Z": -94.262375
+      },
+      "RelativeRotation": {
+        "Pitch": 3.6370413,
+        "Yaw": -19.201267,
+        "Roll": 0.0
+      },
+      "ComponentVelocity": {
+        "X": -109530.7,
+        "Y": 51096.516,
+        "Z": -6478.452
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_Shot3_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -2968.895,
+        "Y": 2300.9868,
+        "Z": -94.26248
+      },
+      "RelativeRotation": {
+        "Pitch": 3.7609546,
+        "Yaw": -13.320751,
+        "Roll": 0.0
+      },
+      "ComponentVelocity": {
+        "X": -299088.16,
+        "Y": 74789.65,
+        "Z": -18338.887
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneCameraMount",
+    "Outer": "CameraRig_Crane_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_01.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.60"
+      },
+      "RelativeLocation": {
+        "X": 3046.0605,
+        "Y": 0.24023438,
+        "Z": -14.887634
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00001,
+        "Roll": -20.571413
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CranePitchControl",
+    "Outer": "CameraRig_Crane_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_01.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.61"
+      },
+      "RelativeRotation": {
+        "Pitch": 20.571423,
+        "Yaw": 1.6283003E-07,
+        "Roll": 8.972676E-07
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneYawControl",
+    "Outer": "CameraRig_Crane_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_01.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.62"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99999,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent",
+    "Outer": "CameraRig_Crane_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -2156.3687,
+        "Y": -36.22412,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneCameraMount",
+    "Outer": "CameraRig_Crane_02",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_02.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.64"
+      },
+      "RelativeLocation": {
+        "X": 500.0,
+        "Y": 0.004776001,
+        "Z": -14.995842
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CranePitchControl",
+    "Outer": "CameraRig_Crane_02",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_02.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.65"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneYawControl",
+    "Outer": "CameraRig_Crane_02",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Crane_02.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.66"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 70.00003
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent",
+    "Outer": "CameraRig_Crane_02",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -609.1858,
+        "Y": -71.395996,
+        "Z": 0.0
+      },
+      "ComponentVelocity": {
+        "X": 7583.371,
+        "Y": 14153.177,
+        "Z": -2509.3464
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RailCameraMount",
+    "Outer": "CameraRig_Rail_1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SplineComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Rail_1.RailSplineComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.77"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent",
+    "Outer": "CameraRig_Rail_1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 2803.5293,
+        "Y": -398.04425,
+        "Z": 235.2085
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.000114,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RailCameraMount",
+    "Outer": "CameraRig_Rail_3",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SplineComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Rail_3.RailSplineComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.78"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent",
+    "Outer": "CameraRig_Rail_3",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -2803.5293,
+        "Y": 398.0442,
+        "Z": -235.2085
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "LS_am_Shot1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CineCameraComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.LS_Cam_Shot1.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.22"
+      },
+      "RelativeLocation": {
+        "X": -1709.1613,
+        "Y": -2893.2827,
+        "Z": 1731.0015
+      },
+      "RelativeRotation": {
+        "Pitch": -20.18644,
+        "Yaw": 37.85767,
+        "Roll": -3.0357864
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "LS_Cam_Shot1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -2803.5293,
+        "Y": 398.0442,
+        "Z": -235.2085
+      },
+      "RelativeRotation": {
+        "Pitch": 4.748327,
+        "Yaw": -8.080843,
+        "Roll": 5.354462E-08
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "LS_Cam_Shot2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -2912.715,
+        "Y": 326.65295,
+        "Z": -180.20415
+      },
+      "RelativeRotation": {
+        "Pitch": -5.347628,
+        "Yaw": -3.2059417,
+        "Roll": 1.3398529E-08
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "LS_Cam_Shot3",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 2803.5293,
+        "Y": -398.04425,
+        "Z": 235.2085
+      },
+      "RelativeRotation": {
+        "Pitch": 2.7063053,
+        "Yaw": 4.8231473,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "LS_FirstPlayable_Intro_01_2",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "RailSplineComponent",
+    "Outer": "C_Shot1_Rail",
+    "Class": "UScriptClass'SplineComponent'",
+    "Properties": {
+      "SplineCurves": {
+        "Position": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 153.2507,
+                "Y": -0.004061699,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 153.2507,
+                "Y": -0.004061699,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 153.2507,
+                "Y": -0.004061699,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 394.31097,
+                "Y": -0.010602951,
+                "Z": 6.1035156E-05
+              },
+              "LeaveTangent": {
+                "X": 394.31097,
+                "Y": -0.010602951,
+                "Z": 6.1035156E-05
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 788.6219,
+                "Y": -0.021205902,
+                "Z": 0.00012207031
+              },
+              "ArriveTangent": {
+                "X": 635.3712,
+                "Y": -0.017144203,
+                "Z": 0.00012207031
+              },
+              "LeaveTangent": {
+                "X": 635.3712,
+                "Y": -0.017144203,
+                "Z": 0.00012207031
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "Rotation": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "Scale": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "ReparamTable": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": 0.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 13.155528,
+              "OutVal": 0.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 22.93621,
+              "OutVal": 0.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 30.788414,
+              "OutVal": 0.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 38.15849,
+              "OutVal": 0.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 46.492813,
+              "OutVal": 0.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 57.237747,
+              "OutVal": 0.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 71.83962,
+              "OutVal": 0.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 91.74484,
+              "OutVal": 0.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 118.39976,
+              "OutVal": 0.90000004,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 153.2507,
+              "OutVal": 1.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 197.26195,
+              "OutVal": 1.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 249.46924,
+              "OutVal": 1.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 308.4262,
+              "OutVal": 1.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 372.68652,
+              "OutVal": 1.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 440.80377,
+              "OutVal": 1.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 511.3317,
+              "OutVal": 1.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 582.8237,
+              "OutVal": 1.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 653.83374,
+              "OutVal": 1.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 722.9153,
+              "OutVal": 1.9000001,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 788.62195,
+              "OutVal": 2.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            }
+          ]
+        }
+      },
+      "bSplineHasBeenEdited": true,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.C_Shot1_Rail.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.55"
+      }
+    }
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "RailSplineComponent",
+    "Outer": "CameraRig_Rail_1",
+    "Class": "UScriptClass'SplineComponent'",
+    "Properties": {
+      "SplineCurves": {
+        "Position": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 1431.8328,
+                "Y": -0.0029296875,
+                "Z": -0.0016479492
+              },
+              "LeaveTangent": {
+                "X": 1431.8328,
+                "Y": -0.0029296875,
+                "Z": -0.0016479492
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 1431.8328,
+                "Y": -0.0029296875,
+                "Z": -0.0016479492
+              },
+              "ArriveTangent": {
+                "X": 1431.8328,
+                "Y": -0.0029296875,
+                "Z": -0.0016479492
+              },
+              "LeaveTangent": {
+                "X": 1431.8328,
+                "Y": -0.0029296875,
+                "Z": -0.0016479492
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "ReparamTable": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": 0.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 143.18329,
+              "OutVal": 0.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 286.36655,
+              "OutVal": 0.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 429.54984,
+              "OutVal": 0.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 572.7331,
+              "OutVal": 0.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 715.9164,
+              "OutVal": 0.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 859.0997,
+              "OutVal": 0.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1002.28284,
+              "OutVal": 0.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1145.4662,
+              "OutVal": 0.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1288.6494,
+              "OutVal": 0.90000004,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1431.8326,
+              "OutVal": 1.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            }
+          ]
+        }
+      },
+      "bSplineHasBeenEdited": true,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Rail_1.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.68"
+      }
+    }
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "RailSplineComponent",
+    "Outer": "CameraRig_Rail_3",
+    "Class": "UScriptClass'SplineComponent'",
+    "Properties": {
+      "SplineCurves": {
+        "Position": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 4640.964,
+                "Y": 0.0009765625,
+                "Z": 0.00018310547
+              },
+              "LeaveTangent": {
+                "X": 4640.964,
+                "Y": 0.0009765625,
+                "Z": 0.00018310547
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 4640.964,
+                "Y": 0.0009765625,
+                "Z": 0.00018310547
+              },
+              "ArriveTangent": {
+                "X": 4640.964,
+                "Y": 0.0009765625,
+                "Z": 0.00018310547
+              },
+              "LeaveTangent": {
+                "X": 4640.964,
+                "Y": 0.0009765625,
+                "Z": 0.00018310547
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "ReparamTable": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": 0.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 464.0964,
+              "OutVal": 0.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 928.1928,
+              "OutVal": 0.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1392.2892,
+              "OutVal": 0.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1856.3856,
+              "OutVal": 0.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2320.482,
+              "OutVal": 0.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 2784.5784,
+              "OutVal": 0.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 3248.6746,
+              "OutVal": 0.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 3712.7712,
+              "OutVal": 0.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 4176.8677,
+              "OutVal": 0.90000004,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 4640.964,
+              "OutVal": 1.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            }
+          ]
+        }
+      },
+      "bSplineHasBeenEdited": true,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'G_FirstPlayable_IntroOutroSequence:PersistentLevel.CameraRig_Rail_3.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.70"
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "G_FirstPlayable_IntroOutroSequence",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'G_FirstPlayable_IntroOutroSequence:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/FirstPlayable/FirstPlayable/Cinematic_FirstPlayable/G_FirstPlayable_IntroOutroSequence.31"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

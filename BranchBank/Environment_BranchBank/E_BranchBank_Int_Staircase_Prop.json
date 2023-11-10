@@ -1,0 +1,955 @@
+[
+  {
+    "Type": "BP_LGT_StripLightCorner_01_128_C",
+    "Name": "BP_LGT_StripLightCorner_01_148",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Environment/_Common/Light/LGT_StripLightCorner_01/BP_LGT_StripLightCorner_01_128.BP_LGT_StripLightCorner_01_128_C'",
+    "Template": {
+      "ObjectName": "BP_LGT_StripLightCorner_01_128_C'Default__BP_LGT_StripLightCorner_01_128_C'",
+      "ObjectPath": "PAYDAY3/Content/Environment/_Common/Light/LGT_StripLightCorner_01/BP_LGT_StripLightCorner_01_128.1"
+    },
+    "Properties": {
+      "RectLight": {
+        "ObjectName": "RectLightComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BP_LGT_StripLightCorner_01_148.RectLight'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.6"
+      },
+      "StaticMesh": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BP_LGT_StripLightCorner_01_148.StaticMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.17"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BP_LGT_StripLightCorner_01_148.DefaultSceneRoot'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.8"
+      },
+      "Emissive Strength": 2.0,
+      "Light Intensity": 0.6,
+      "Attenuation Radius": 250.0,
+      "Source Width": 115.0,
+      "Source Height": 3.855533,
+      "Barn Door Angle": 90.0,
+      "Barn Door Length": 4.0,
+      "Use_ Temperature": false,
+      "Cast Shadows": false,
+      "Affect Reflections": true,
+      "Use Emissive for Static Lighting": true,
+      "Temperature (Kelvin)": 6500.0,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BP_LGT_StripLightCorner_01_148.DefaultSceneRoot'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.8"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BP_LGT_StripLightCorner_01_148.DefaultSceneRoot'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.8"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BP_LGT_StripLightCorner_01_148.StaticMesh'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.17"
+        },
+        {
+          "ObjectName": "RectLightComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BP_LGT_StripLightCorner_01_148.RectLight'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HierarchicalInstancedStaticMeshComponent",
+    "Name": "HierarchicalInstancedStaticMesh",
+    "Outer": "HSMI_SocketElectricity_01_Double_6",
+    "Class": "UScriptClass'HierarchicalInstancedStaticMeshComponent'",
+    "Properties": {
+      "SortedInstances": [
+        0,
+        1,
+        2
+      ],
+      "NumBuiltInstances": 3,
+      "BuiltInstanceBounds": {
+        "Min": {
+          "X": -9.715557E-06,
+          "Y": -10.522259,
+          "Z": -8.009897
+        },
+        "Max": {
+          "X": 0.54614294,
+          "Y": 6.498671,
+          "Z": 777.2958
+        },
+        "IsValid": 1
+      },
+      "CacheMeshExtendedBounds": {
+        "Origin": {
+          "X": 0.011793613,
+          "Y": 0.2730667,
+          "Z": -0.35708094
+        },
+        "BoxExtent": {
+          "X": 4.5104656,
+          "Y": 0.27306724,
+          "Z": 7.6528163
+        },
+        "SphereRadius": 8.8599615
+      },
+      "InstanceCountToRender": 3,
+      "InstancingRandomSeed": 18188,
+      "InstanceStartCullDistance": 1224,
+      "InstanceEndCullDistance": 1724,
+      "InstanceReorderTable": [
+        0,
+        1,
+        2
+      ],
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SocketElectricity_01_Double'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Electronic/SocketElectricity_01/SocketElectricity_01_Double.2"
+      },
+      "bOverrideLightMapRes": true,
+      "OverriddenLightMapRes": 4,
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 17.711191
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 17.711191
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "VisibilityId": 1898,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll"
+      },
+      "RelativeLocation": {
+        "X": 1344.0,
+        "Y": -2636.0,
+        "Z": 74.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C3DB92194EB4B64E35EBDCA01CD588E7"
+      }
+    ],
+    "PerInstanceSMData": [
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.70591044,
+            "W": 0.705909,
+            "IsNormalized": true,
+            "Size": 0.9983071,
+            "SizeSquared": 0.9966171
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 0.99999976,
+            "Y": 0.99999976,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      },
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.70591044,
+            "W": 0.705909,
+            "IsNormalized": true,
+            "Size": 0.9983071,
+            "SizeSquared": 0.9966171
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": -6.0,
+            "Z": 378.0
+          },
+          "Scale3D": {
+            "X": 0.99999976,
+            "Y": 0.99999976,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      },
+      {
+        "TransformData": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.70591044,
+            "W": 0.705909,
+            "IsNormalized": true,
+            "Size": 0.9983071,
+            "SizeSquared": 0.9966171
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 2.0,
+            "Z": 770.0
+          },
+          "Scale3D": {
+            "X": 0.99999976,
+            "Y": 0.99999976,
+            "Z": 1.0
+          },
+          "IsRotationNormalized": true
+        }
+      }
+    ]
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "E_BranchBank_Int_Staircase_Prop",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'E_BranchBank_Int_Staircase_Prop:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.3"
+      },
+      "StreamingTextureGuids": [
+        "78EA03B9-4CB55701-DD4CB1A7-CAF40A2B",
+        "F22897B6-4BCDBB2E-92B15086-7B689F3B",
+        "5554CB45-4322A0E3-9C3AEF8C-6CD7E863",
+        "D3352AD5-46764264-F89FA5B8-686F862F",
+        "767B540A-405B5678-27024A93-765615F4",
+        "539AA565-411119A4-62740EB2-7B564DC6",
+        "14935893-4432A0C9-068A63B6-D803F0A9",
+        "A42F1E8C-4DDFBF8E-21F7A183-9CE91CE9",
+        "E73BE36A-47212990-70FA9B89-78E98C44",
+        "6F2978ED-47B00DC3-F4BC3FAE-028B06A1"
+      ],
+      "LevelBuildDataId": "ACB0B0EE-4A15BC73-0C1B7FAB-BAEE3B94",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'E_BranchBank_Int_Staircase_Prop_BuiltData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'E_BranchBank_Int_Staircase_Prop:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.7"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'E_BranchBank_Int_Staircase_Prop:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.7"
+      },
+      null,
+      {
+        "ObjectName": "BP_LGT_StripLightCorner_01_128_C'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BP_LGT_StripLightCorner_01_148'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.0"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_BranchBank_Int_Staircase_Prop:PersistentLevel.CrateTrolley_12'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.13"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BoxStack_01_A_15'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BoxStack_01_B_18'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.10"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BoxStack_01_D2_21'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.11"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_BranchBank_Int_Staircase_Prop:PersistentLevel.CardboardBox_01_A10_24'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.12"
+      },
+      {
+        "ObjectName": "PrefabHSMIActor'E_BranchBank_Int_Staircase_Prop:PersistentLevel.HSMI_SocketElectricity_01_Double_6'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.5"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'E_BranchBank_Int_Staircase_Prop:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.3"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "EA493936-4684F722-A6F48A97-EDEE0400",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "PrefabHSMIActor",
+    "Name": "HSMI_SocketElectricity_01_Double_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PrefabHSMIActor'",
+    "Properties": {
+      "HierarchicalInstancedStaticMesh": {
+        "ObjectName": "HierarchicalInstancedStaticMeshComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.HSMI_SocketElectricity_01_Double_6.HierarchicalInstancedStaticMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.1"
+      },
+      "RootComponent": {
+        "ObjectName": "HierarchicalInstancedStaticMeshComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.HSMI_SocketElectricity_01_Double_6.HierarchicalInstancedStaticMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.1"
+      }
+    }
+  },
+  {
+    "Type": "RectLightComponent",
+    "Name": "RectLight",
+    "Outer": "BP_LGT_StripLightCorner_01_148",
+    "Class": "UScriptClass'RectLightComponent'",
+    "Template": {
+      "ObjectName": "RectLightComponent'BP_LGT_StripLightCorner_01_128_C:RectLight_GEN_VARIABLE'",
+      "ObjectPath": "PAYDAY3/Content/Environment/_Common/Light/LGT_StripLightCorner_01/BP_LGT_StripLightCorner_01_128.3"
+    },
+    "Properties": {
+      "SourceWidth": 115.0,
+      "SourceHeight": 3.855533,
+      "BarnDoorLength": 4.0,
+      "AttenuationRadius": 250.0,
+      "LightGuid": "DF30ECC4-4BE38FCB-1D7E079A-A8A52834",
+      "Intensity": 0.6,
+      "CastShadows": false,
+      "bAffectTranslucentLighting": false,
+      "IndirectLightingIntensity": 2.0,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BP_LGT_StripLightCorner_01_148.DefaultSceneRoot'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.8"
+      },
+      "Mobility": "EComponentMobility::Static",
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'RectLightComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SourceWidth",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'RectLightComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "SourceHeight",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'RectLightComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "BarnDoorLength",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'LocalLightComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "AttenuationRadius",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'LightComponentBase'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "Intensity",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'LightComponentBase'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "CastShadows",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'LightComponentBase'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "bAffectTranslucentLighting",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'LightComponentBase'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "IndirectLightingIntensity",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "Mobility",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'E_BranchBank_Int_Staircase_Prop:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.4"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "BP_LGT_StripLightCorner_01_148",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'BP_Master_Light_Fixture_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "PAYDAY3/Content/Environment/Utility/Prop/BP_Master_Light_Fixture.3"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 1536.1453,
+        "Y": -1668.8329,
+        "Z": 334.95966
+      },
+      "RelativeRotation": {
+        "Pitch": -0.0002746582,
+        "Yaw": 0.0,
+        "Roll": 134.96657
+      },
+      "RelativeScale3D": {
+        "X": 0.8125,
+        "Y": 0.75,
+        "Z": 0.75
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeScale3D",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BoxStack_01_A_15",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BoxStack_01_A_15.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.14"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BoxStack_01_A_15.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.14"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BoxStack_01_B_18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BoxStack_01_B_18.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.15"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BoxStack_01_B_18.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.15"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BoxStack_01_D2_21",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BoxStack_01_D2_21.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.16"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BoxStack_01_D2_21.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.16"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "CardboardBox_01_A10_24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.CardboardBox_01_A10_24.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.18"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.CardboardBox_01_A10_24.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.18"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "CrateTrolley_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.CrateTrolley_12.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.19"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.CrateTrolley_12.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.19"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BoxStack_01_A_15",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BoxStack_01_A'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/BoxStack_01/BoxStack_01_A.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 246.52327
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 246.52327
+        }
+      ],
+      "VisibilityId": 1894,
+      "RelativeLocation": {
+        "X": 1573.1725,
+        "Y": -1776.6135,
+        "Z": 40.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "2FCFDF8B40937B6B3E61C488D8D19376"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BoxStack_01_B_18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BoxStack_01_B'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/BoxStack_01/BoxStack_01_B.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 268.74677
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 268.74677
+        }
+      ],
+      "VisibilityId": 1895,
+      "RelativeLocation": {
+        "X": 1432.0282,
+        "Y": -1783.9106,
+        "Z": 39.999985
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "4F85E5BF427D4A0E40073EA0B5400F3D"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BoxStack_01_D2_21",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BoxStack_01_D'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/BoxStack_01/BoxStack_01_D.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4290707456,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 259.39316
+        },
+        {
+          "PackedRelativeBox": 4290707456,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 259.39316
+        }
+      ],
+      "VisibilityId": 1896,
+      "RelativeLocation": {
+        "X": 1552.5068,
+        "Y": -1901.8878,
+        "Z": 40.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -15.000061,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "B4F37E9A4F6A1260DBA61790BB7D2FC2"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh",
+    "Outer": "BP_LGT_StripLightCorner_01_148",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_LGT_StripLightCorner_01_128_C:StaticMesh_GEN_VARIABLE'",
+      "ObjectPath": "PAYDAY3/Content/Environment/_Common/Light/LGT_StripLightCorner_01/BP_LGT_StripLightCorner_01_128.8"
+    },
+    "Properties": {
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294928384,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 261.80865
+        },
+        {
+          "PackedRelativeBox": 4294928384,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 261.80865
+        }
+      ],
+      "LightmassSettings": {
+        "bUseEmissiveForStaticLighting": true
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_MetalPainted_01_Black'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/BranchBank/Architecture/Interior/Lobby/Base/Component/MI_TIL_MetalPainted_01_Black.0"
+        }
+      ],
+      "CastShadow": false,
+      "CustomPrimitiveData": {
+        "Data": [
+          1.0,
+          6500.0,
+          2.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          10.0,
+          16.0
+        ]
+      },
+      "VisibilityId": 1892,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'E_BranchBank_Int_Staircase_Prop:PersistentLevel.BP_LGT_StripLightCorner_01_148.DefaultSceneRoot'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.8"
+      },
+      "RelativeLocation": {
+        "X": -26.666668,
+        "Y": 0.000251,
+        "Z": -7E-05
+      },
+      "RelativeScale3D": {
+        "X": 1.40625,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "LightmassSettings",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'PrimitiveComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "CastShadow",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'PrimitiveComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "CustomPrimitiveData",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "C78C2E66484EE968D1919AB172298B0B"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "CardboardBox_01_A10_24",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'CardboardBox_01_A'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Misc/CardboardBox_01/CardboardBox_01_A.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 265.33688
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 265.33688
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "VisibilityId": 1897,
+      "RelativeLocation": {
+        "X": 1459.8444,
+        "Y": -1984.9537,
+        "Z": 40.438694
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 45.000103,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "F3B8F475470B5B751F6C469000706CFB"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "CrateTrolley_12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'CrateTrolley_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Construction/CrateTrolley_01/CrateTrolley_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4292804608,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 64.55021
+        },
+        {
+          "PackedRelativeBox": 4292804608,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 64.55021
+        }
+      ],
+      "VisibilityId": 1893,
+      "RelativeLocation": {
+        "X": 1441.5667,
+        "Y": -1999.371,
+        "Z": 40.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -42.998367,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "1862DD7745AA7805C7ECBB8835F3EC5D"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "E_BranchBank_Int_Staircase_Prop",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'E_BranchBank_Int_Staircase_Prop:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Environment_BranchBank/E_BranchBank_Int_Staircase_Prop.2"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

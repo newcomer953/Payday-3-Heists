@@ -1,0 +1,1332 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_A_CrowdControlTut",
+    "Outer": "A_CrowdControlTut_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ActorBoundEvent_OverlappedActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ActorBoundEvent_OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 56,
+          "Struct": {
+            "ObjectName": "ScriptStruct'AkExternalSourceInfo'",
+            "ObjectPath": "/Script/AkAudio"
+          }
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "Temp_delegate_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "ConstParm",
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_DestroyActors_KeptActors",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_DestroyActors_KeptActors",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Actor'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_DestroyActors_DestroyedActors",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_DestroyActors_DestroyedActors",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Actor'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_PostEvent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ActorBoundEvent_OverlappedActor_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ActorBoundEvent_OtherActor_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__A_CrowdControlTut_TriggerBox_ES_Killbox_K2Node_ActorBoundEvent_1_ActorBeginOverlapSignature__DelegateSignature",
+    "Outer": "A_CrowdControlTut_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Scan_Complete",
+    "Outer": "A_CrowdControlTut_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__A_CrowdControlTut_TriggerBox_ES_VO_K2Node_ActorBoundEvent_0_ActorBeginOverlapSignature__DelegateSignature",
+    "Outer": "A_CrowdControlTut_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "A_CrowdControlTut_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'A_CrowdControlTut_C:ExecuteUbergraph_A_CrowdControlTut'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'A_CrowdControlTut_C:BndEvt__A_CrowdControlTut_TriggerBox_ES_VO_K2Node_ActorBoundEvent_0_ActorBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.3"
+      },
+      {
+        "ObjectName": "Function'A_CrowdControlTut_C:Scan_Complete'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.2"
+      },
+      {
+        "ObjectName": "Function'A_CrowdControlTut_C:BndEvt__A_CrowdControlTut_TriggerBox_ES_Killbox_K2Node_ActorBoundEvent_1_ActorBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.1"
+      },
+      {
+        "ObjectName": "Function'A_CrowdControlTut_C:ExecuteUbergraph_A_CrowdControlTut'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IS_Scanning_Eye",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZDestroyGroup_VO_Trigger_ExecuteUbergraph_A_CrowdControlTut_RefProperty",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZDestroyGroup'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZAmbientSound_ES_VO_ExecuteUbergraph_A_CrowdControlTut_RefProperty",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZAmbientSound'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_A_CrowdControlTut": {
+        "ObjectName": "Function'A_CrowdControlTut_C:ExecuteUbergraph_A_CrowdControlTut'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.0"
+      },
+      "BndEvt__A_CrowdControlTut_TriggerBox_ES_Killbox_K2Node_ActorBoundEvent_1_ActorBeginOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'A_CrowdControlTut_C:BndEvt__A_CrowdControlTut_TriggerBox_ES_Killbox_K2Node_ActorBoundEvent_1_ActorBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.1"
+      },
+      "Scan_Complete": {
+        "ObjectName": "Function'A_CrowdControlTut_C:Scan_Complete'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.2"
+      },
+      "BndEvt__A_CrowdControlTut_TriggerBox_ES_VO_K2Node_ActorBoundEvent_0_ActorBeginOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'A_CrowdControlTut_C:BndEvt__A_CrowdControlTut_TriggerBox_ES_VO_K2Node_ActorBoundEvent_0_ActorBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "A_CrowdControlTut_C'Default__A_CrowdControlTut_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.5"
+    }
+  },
+  {
+    "Type": "A_CrowdControlTut_C",
+    "Name": "Default__A_CrowdControlTut_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.A_CrowdControlTut_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "SBZDestroyGroup_VO_Trigger_ExecuteUbergraph_A_CrowdControlTut_RefProperty": {
+        "ObjectName": "SBZDestroyGroup'A_CrowdControlTut:PersistentLevel.SBZDestroyGroup_VO_Trigger'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.18"
+      },
+      "SBZAmbientSound_ES_VO_ExecuteUbergraph_A_CrowdControlTut_RefProperty": {
+        "ObjectName": "SBZAmbientSound'A_CrowdControlTut:PersistentLevel.SBZAmbientSound_ES_VO'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.16"
+      }
+    }
+  },
+  {
+    "Type": "A_CrowdControlTut_C",
+    "Name": "A_CrowdControlTut_C_0",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.A_CrowdControlTut_C'",
+    "Template": {
+      "ObjectName": "A_CrowdControlTut_C'Default__A_CrowdControlTut_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.5"
+    },
+    "Properties": {
+      "Seed": 24517,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "BE5274D643D51DD3B3FD13BE192A77DC",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x773E"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "CollisionComp",
+    "Outer": "TriggerBox_ES_Killbox",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 131.25,
+        "Y": 118.75,
+        "Z": 123.75
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": 3058.0,
+        "Y": 419.0,
+        "Z": 121.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "CollisionComp",
+    "Outer": "TriggerBox_ES_VO",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 13.75,
+        "Y": 40.0,
+        "Z": 77.5
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": 3222.0,
+        "Y": 299.0,
+        "Z": 76.0
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "SBZFilteredTriggerVolume_ES_VO_Check",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'A_CrowdControlTut:PersistentLevel.SBZFilteredTriggerVolume_ES_VO_Check.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.13"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'A_CrowdControlTut:PersistentLevel.SBZFilteredTriggerVolume_ES_VO_Check.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.7"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": 3305.0,
+        "Y": 298.0,
+        "Z": 93.0
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "A_CrowdControlTut",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'A_CrowdControlTut:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.12"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "A_CrowdControlTut_C'A_CrowdControlTut:PersistentLevel.A_CrowdControlTut_C_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.6"
+      },
+      "LevelBuildDataId": "3BFD20A5-408BA57B-3EF2729F-CB9C7635",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'A_CrowdControlTut:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.20"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'A_CrowdControlTut:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.20"
+      },
+      null,
+      {
+        "ObjectName": "TriggerBox'A_CrowdControlTut:PersistentLevel.TriggerBox_ES_VO'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.24"
+      },
+      {
+        "ObjectName": "SBZAmbientSound'A_CrowdControlTut:PersistentLevel.SBZAmbientSound_ES_VO'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.16"
+      },
+      {
+        "ObjectName": "TriggerBox'A_CrowdControlTut:PersistentLevel.TriggerBox_ES_Killbox'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.23"
+      },
+      {
+        "ObjectName": "SBZFilteredTriggerVolume'A_CrowdControlTut:PersistentLevel.SBZFilteredTriggerVolume_ES_VO_Check'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.19"
+      },
+      {
+        "ObjectName": "SBZDestroyGroup'A_CrowdControlTut:PersistentLevel.SBZDestroyGroup_VO_Trigger'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.18"
+      },
+      {
+        "ObjectName": "A_CrowdControlTut_C'A_CrowdControlTut:PersistentLevel.A_CrowdControlTut_C_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.6"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'A_CrowdControlTut:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.12"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "A_CrowdControlTut_C'A_CrowdControlTut:PersistentLevel.A_CrowdControlTut_C_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.6"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "75767B69-4BA89871-672EE695-980C261F",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "SBZFilteredTriggerVolume_ES_VO_Check",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "10D571BB-4AF1E42A-76BD01B8-EC66F8EE",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZActorFilterComponent",
+    "Name": "ActorFilterComponent",
+    "Outer": "SBZFilteredTriggerVolume_ES_VO_Check",
+    "Class": "UScriptClass'SBZActorFilterComponent'",
+    "Properties": {
+      "WeakPrimitiveComponent": {
+        "ObjectName": "BrushComponent'A_CrowdControlTut:PersistentLevel.SBZFilteredTriggerVolume_ES_VO_Check.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.10"
+      }
+    }
+  },
+  {
+    "Type": "SBZAmbientSound",
+    "Name": "SBZAmbientSound_ES_VO",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAmbientSound'",
+    "Properties": {
+      "AmbientSoundComponent": {
+        "ObjectName": "SBZAmbientSoundComponent'A_CrowdControlTut:PersistentLevel.SBZAmbientSound_ES_VO.SBZAmbientSoundComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.17"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'A_CrowdControlTut:PersistentLevel.SBZAmbientSound_ES_VO.Root'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.21"
+      }
+    }
+  },
+  {
+    "Type": "SBZAmbientSoundComponent",
+    "Name": "SBZAmbientSoundComponent",
+    "Outer": "SBZAmbientSound_ES_VO",
+    "Class": "UScriptClass'SBZAmbientSoundComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'A_CrowdControlTut:PersistentLevel.SBZAmbientSound_ES_VO.Root'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.21"
+      }
+    }
+  },
+  {
+    "Type": "SBZDestroyGroup",
+    "Name": "SBZDestroyGroup_VO_Trigger",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZDestroyGroup'",
+    "Properties": {
+      "ActorsToDestroy": [
+        {
+          "ObjectName": "TriggerBox'A_CrowdControlTut:PersistentLevel.TriggerBox_ES_VO'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.24"
+        }
+      ],
+      "Seed": 19461,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'A_CrowdControlTut:PersistentLevel.SBZDestroyGroup_VO_Trigger.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.22"
+      }
+    }
+  },
+  {
+    "Type": "SBZFilteredTriggerVolume",
+    "Name": "SBZFilteredTriggerVolume_ES_VO_Check",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZFilteredTriggerVolume'",
+    "Properties": {
+      "ActorFilterComponent": {
+        "ObjectName": "SBZActorFilterComponent'A_CrowdControlTut:PersistentLevel.SBZFilteredTriggerVolume_ES_VO_Check.ActorFilterComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.15"
+      },
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'A_CrowdControlTut:PersistentLevel.SBZFilteredTriggerVolume_ES_VO_Check.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.13"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'A_CrowdControlTut:PersistentLevel.SBZFilteredTriggerVolume_ES_VO_Check.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.10"
+      },
+      "bHidden": false,
+      "RootComponent": {
+        "ObjectName": "BrushComponent'A_CrowdControlTut:PersistentLevel.SBZFilteredTriggerVolume_ES_VO_Check.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.10"
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'A_CrowdControlTut:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.14"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Root",
+    "Outer": "SBZAmbientSound_ES_VO",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3218.0,
+        "Y": 296.0,
+        "Z": 129.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "SBZDestroyGroup_VO_Trigger",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 3219.0,
+        "Y": 365.0,
+        "Z": 117.0
+      }
+    }
+  },
+  {
+    "Type": "TriggerBox",
+    "Name": "TriggerBox_ES_Killbox",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'TriggerBox'",
+    "Properties": {
+      "CollisionComponent": {
+        "ObjectName": "BoxComponent'A_CrowdControlTut:PersistentLevel.TriggerBox_ES_Killbox.CollisionComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.8"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'A_CrowdControlTut:PersistentLevel.TriggerBox_ES_Killbox.CollisionComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.8"
+      },
+      "OnActorBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "A_CrowdControlTut_C'A_CrowdControlTut:PersistentLevel.A_CrowdControlTut_C_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.6"
+            },
+            "FunctionName": "BndEvt__A_CrowdControlTut_TriggerBox_ES_Killbox_K2Node_ActorBoundEvent_1_ActorBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "TriggerBox",
+    "Name": "TriggerBox_ES_VO",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'TriggerBox'",
+    "Properties": {
+      "CollisionComponent": {
+        "ObjectName": "BoxComponent'A_CrowdControlTut:PersistentLevel.TriggerBox_ES_VO.CollisionComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.9"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'A_CrowdControlTut:PersistentLevel.TriggerBox_ES_VO.CollisionComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.9"
+      },
+      "OnActorBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "A_CrowdControlTut_C'A_CrowdControlTut:PersistentLevel.A_CrowdControlTut_C_0'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.6"
+            },
+            "FunctionName": "BndEvt__A_CrowdControlTut_TriggerBox_ES_VO_K2Node_ActorBoundEvent_0_ActorBeginOverlapSignature__DelegateSignature"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "A_CrowdControlTut",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'A_CrowdControlTut:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/CrowdControlTut/Sublevels/Audio_CrowdControlTut/A_CrowdControlTut.11"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

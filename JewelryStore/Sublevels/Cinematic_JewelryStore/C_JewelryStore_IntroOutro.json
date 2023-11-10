@@ -1,0 +1,1715 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_C_JewelryStore_IntroOutro",
+    "Outer": "C_JewelryStore_IntroOutro_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMovieSceneSequencePlayerEvent__DelegateSignature'",
+          "ObjectPath": "/Script/MovieScene"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSequencePlayer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelSequencePlayer'",
+          "ObjectPath": "/Script/LevelSequence"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "C_JewelryStore_IntroOutro_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnIntroFinished",
+    "Outer": "C_JewelryStore_IntroOutro_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "IntroSequenceStarted",
+    "Outer": "C_JewelryStore_IntroOutro_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZLevelScriptActor:IntroSequenceStarted'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_JewelryStore_IntroOutro_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'C_JewelryStore_IntroOutro_C:ExecuteUbergraph_C_JewelryStore_IntroOutro'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'C_JewelryStore_IntroOutro_C:IntroSequenceStarted'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.3"
+      },
+      {
+        "ObjectName": "Function'C_JewelryStore_IntroOutro_C:OnIntroFinished'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.2"
+      },
+      {
+        "ObjectName": "Function'C_JewelryStore_IntroOutro_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.1"
+      },
+      {
+        "ObjectName": "Function'C_JewelryStore_IntroOutro_C:ExecuteUbergraph_C_JewelryStore_IntroOutro'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "SpawnIsMiddle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "SpawnIsLeft",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "SpawnIsRight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "C_DirtyIce_Master_02_2_ExecuteUbergraph_C_JewelryStore_IntroOutro_RefProperty",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelSequenceActor'",
+          "ObjectPath": "/Script/LevelSequence"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_C_JewelryStore_IntroOutro": {
+        "ObjectName": "Function'C_JewelryStore_IntroOutro_C:ExecuteUbergraph_C_JewelryStore_IntroOutro'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.0"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'C_JewelryStore_IntroOutro_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.1"
+      },
+      "OnIntroFinished": {
+        "ObjectName": "Function'C_JewelryStore_IntroOutro_C:OnIntroFinished'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.2"
+      },
+      "IntroSequenceStarted": {
+        "ObjectName": "Function'C_JewelryStore_IntroOutro_C:IntroSequenceStarted'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_JewelryStore_IntroOutro_C'Default__C_JewelryStore_IntroOutro_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.5"
+    }
+  },
+  {
+    "Type": "C_JewelryStore_IntroOutro_C",
+    "Name": "Default__C_JewelryStore_IntroOutro_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.C_JewelryStore_IntroOutro_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "C_DirtyIce_Master_02_2_ExecuteUbergraph_C_JewelryStore_IntroOutro_RefProperty": {
+        "ObjectName": "LevelSequenceActor'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Master_02_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.24"
+      }
+    }
+  },
+  {
+    "Type": "C_JewelryStore_IntroOutro_C",
+    "Name": "C_JewelryStore_IntroOutro_C_4",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.C_JewelryStore_IntroOutro_C'",
+    "Template": {
+      "ObjectName": "C_JewelryStore_IntroOutro_C'Default__C_JewelryStore_IntroOutro_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.5"
+    },
+    "Properties": {
+      "Seed": 3850,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CameraRig_Rail",
+    "Name": "C_Shot01_Rail",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraRig_Rail'",
+    "Properties": {
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Shot01_Rail.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.53"
+      },
+      "RailSplineComponent": {
+        "ObjectName": "SplineComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Shot01_Rail.RailSplineComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.54"
+      },
+      "RailCameraMount": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Shot01_Rail.RailCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.52"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Shot01_Rail.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.53"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "C_Camera_Shot1_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/JewelryStore/Sublevels/Environment_JewelryStore/E_JewelryStore_Ext_Arch.E_JewelryStore_Ext_Arch",
+          "SubPathString": "PersistentLevel.AshtonFine_01_Bottom_2"
+        },
+        "RelativeOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 137.79733
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot1_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.13"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.42"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.42"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "C_Camera_Shot2_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot2_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.14"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.43"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.43"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "C_Camera_Shot3_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot3_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.15"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.44"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.44"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "C_Camera_Shot3_02",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot3_02.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.16"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot3_02.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.45"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot3_02.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.45"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "C_Camera_Shot3_03_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot3_03_3.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.17"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot3_03_3.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.46"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot3_03_3.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.46"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "C_Camera_Shot1_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2
+      },
+      "FocusSettings": {
+        "FocusMethod": "ECameraFocusMethod::Tracking",
+        "TrackingFocusSettings": {
+          "ActorToTrack": {
+            "AssetPathName": "/Game/Prototype/Maps/JewelryStore/Sublevels/Environment_JewelryStore/E_JewelryStore_Ext_Arch.E_JewelryStore_Ext_Arch",
+            "SubPathString": "PersistentLevel.AshtonFine_01_Bottom_2"
+          }
+        }
+      },
+      "CurrentFocusDistance": 3428.989,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.42"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "C_Camera_Shot2_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2
+      },
+      "FocusSettings": {
+        "ManualFocusDistance": 414160.0
+      },
+      "CurrentFocalLength": 59.456066,
+      "CurrentAperture": 5.0,
+      "CurrentFocusDistance": 11012698.0,
+      "FieldOfView": 56.579384,
+      "AspectRatio": 2.3703704,
+      "PostProcessSettings": {
+        "bOverride_VignetteIntensity": true,
+        "VignetteIntensity": 0.0
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.43"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "C_Camera_Shot3_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 1000.0
+      },
+      "CurrentFocusDistance": 707.837,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "PostProcessSettings": {
+        "bOverride_VignetteIntensity": true,
+        "VignetteIntensity": 0.6
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.44"
+      },
+      "RelativeLocation": {
+        "X": 2.5884788,
+        "Y": -1.6107254,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.10658716,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "C_Camera_Shot3_02",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 1000.0
+      },
+      "CurrentFocusDistance": 40.953693,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "PostProcessSettings": {
+        "bOverride_SceneFringeIntensity": true,
+        "bOverride_BloomMethod": true,
+        "bOverride_BloomIntensity": true,
+        "bOverride_BloomThreshold": true,
+        "bOverride_BloomDirtMaskIntensity": true,
+        "bOverride_BloomDirtMaskTint": true,
+        "bOverride_BloomDirtMask": true,
+        "bOverride_CameraShutterSpeed": true,
+        "bOverride_CameraISO": true,
+        "bOverride_AutoExposureMethod": true,
+        "bOverride_AutoExposureMinBrightness": true,
+        "bOverride_AutoExposureMaxBrightness": true,
+        "bOverride_AutoExposureBias": true,
+        "bOverride_AutoExposureApplyPhysicalCameraExposure": true,
+        "bOverride_LensFlareIntensity": true,
+        "bOverride_LensFlareTint": true,
+        "bOverride_LensFlareBokehSize": true,
+        "bOverride_LensFlareThreshold": true,
+        "bOverride_VignetteIntensity": true,
+        "bOverride_GrainIntensity": true,
+        "bOverride_GrainJitter": true,
+        "bOverride_DepthOfFieldFstop": true,
+        "bOverride_DepthOfFieldMinFstop": true,
+        "bOverride_DepthOfFieldBladeCount": true,
+        "bOverride_TopPassDepthOfFieldFstop": true,
+        "bOverride_ScreenSpaceReflectionIntensity": true,
+        "bOverride_ScreenSpaceReflectionQuality": true,
+        "bOverride_ScreenSpaceReflectionMaxRoughness": true,
+        "BloomMethod": "BM_FFT",
+        "SceneFringeIntensity": 0.6,
+        "BloomIntensity": 5.104762,
+        "BloomThreshold": 0.628571,
+        "BloomDirtMask": {
+          "ObjectName": "Texture2D'T_TIL_Dirt_12_BR'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Dirt/Dirt_12/T_TIL_Dirt_12_BR.0"
+        },
+        "BloomDirtMaskIntensity": 1.295238,
+        "CameraShutterSpeed": 534.0668,
+        "CameraISO": 94.84474,
+        "DepthOfFieldFstop": 20.485716,
+        "DepthOfFieldMinFstop": 25.6,
+        "DepthOfFieldBladeCount": 9,
+        "AutoExposureBias": -0.142856,
+        "AutoExposureMinBrightness": 1.0,
+        "AutoExposureMaxBrightness": 7.428572,
+        "LensFlareIntensity": 0.0,
+        "LensFlareBokehSize": 3.304762,
+        "LensFlareThreshold": 13.468572,
+        "VignetteIntensity": 1.0,
+        "GrainJitter": 0.266667,
+        "GrainIntensity": 0.114286,
+        "TopPassDepthOfFieldFstop": 22.84762,
+        "DepthOfFieldOcclusion": 0.390476,
+        "DepthOfFieldVignetteSize": 44.76191,
+        "ScreenSpaceReflectionIntensity": 39.047623,
+        "ScreenSpaceReflectionQuality": 21.428568
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot3_02.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.45"
+      },
+      "RelativeLocation": {
+        "X": 2.588479,
+        "Y": -1.610725,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.106587,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "C_Camera_Shot3_03_3",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 1000.0
+      },
+      "CurrentFocusDistance": 100000.0,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "PostProcessSettings": {
+        "bOverride_SceneFringeIntensity": true,
+        "bOverride_ChromaticAberrationStartOffset": true,
+        "bOverride_VignetteIntensity": true,
+        "VignetteIntensity": 0.6
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot3_03_3.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.46"
+      }
+    }
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_DirtyIce_Master_02_2",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_DirtyIce_Shot1_01_5",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_DirtyIce_Shot2_01_9",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_DirtyIce_Shot3_01_11",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_DirtyIce_Shot3_03_2",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "C_JewelryStore_IntroOutro",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'C_JewelryStore_IntroOutro:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.34"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "C_JewelryStore_IntroOutro_C'C_JewelryStore_IntroOutro:PersistentLevel.C_JewelryStore_IntroOutro_C_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.6"
+      },
+      "LevelBuildDataId": "4A0CE483-4B791A87-C17A08B7-3B0F94D0",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'C_JewelryStore_IntroOutro:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.41"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'C_JewelryStore_IntroOutro:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.41"
+      },
+      null,
+      {
+        "ObjectName": "CameraRig_Rail'C_JewelryStore_IntroOutro:PersistentLevel.C_Shot01_Rail'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.7"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot2_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.9"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot3_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.10"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot3_02'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.11"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot3_03_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.12"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot1_01_5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.25"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot2_01_9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.26"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot3_01_11'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.27"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Master_02_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.24"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot3_03_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.28"
+      },
+      {
+        "ObjectName": "C_JewelryStore_IntroOutro_C'C_JewelryStore_IntroOutro:PersistentLevel.C_JewelryStore_IntroOutro_C_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.6"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_JewelryStore_IntroOutro:PersistentLevel.C_Camera_Shot1_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.8"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'C_JewelryStore_IntroOutro:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.34"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "C_JewelryStore_IntroOutro_C'C_JewelryStore_IntroOutro:PersistentLevel.C_JewelryStore_IntroOutro_C_4'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.6"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_DirtyIce_Master_02_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Master_02.C_DirtyIce_Master_02",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Master_02_2.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.29"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Master_02_2.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.35"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Master_02_2.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.18"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Master_02_2.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.47"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_DirtyIce_Shot1_01_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot1_01.C_DirtyIce_Shot1_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot1_01_5.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.30"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot1_01_5.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.36"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot1_01_5.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.19"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot1_01_5.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.48"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_DirtyIce_Shot2_01_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot2_01.C_DirtyIce_Shot2_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot2_01_9.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.31"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot2_01_9.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.37"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot2_01_9.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.20"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot2_01_9.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.49"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_DirtyIce_Shot3_01_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot3_01.C_DirtyIce_Shot3_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot3_01_11.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.32"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot3_01_11.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.38"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot3_01_11.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.21"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot3_01_11.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.50"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_DirtyIce_Shot3_03_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_DirtyIce_Shot3_03.C_DirtyIce_Shot3_03",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot3_03_2.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.33"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot3_03_2.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.39"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot3_03_2.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.22"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_DirtyIce_Shot3_03_2.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.51"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_DirtyIce_Master_02_2",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_DirtyIce_Shot1_01_5",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_DirtyIce_Shot2_01_9",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_DirtyIce_Shot3_01_11",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_DirtyIce_Shot3_03_2",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "1D54D4EC-47DDD14E-8F171D81-3DAD4395",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_DirtyIce_Master_02_2",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_DirtyIce_Shot1_01_5",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_DirtyIce_Shot2_01_9",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_DirtyIce_Shot3_01_11",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_DirtyIce_Shot3_03_2",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "GlobalMaterialParameters": {
+        "WindDirection": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "WindSpeed": 0.01,
+        "EnemyBacklightInfluence": {
+          "R": 0.05,
+          "G": 5.0,
+          "B": 0.2,
+          "A": 0.5,
+          "Hex": "7F3FFF7C"
+        },
+        "EnemyBacklightFade": {
+          "R": 3000.0,
+          "G": 1500.0,
+          "B": 40.0,
+          "A": 30.0,
+          "Hex": "FFFFFFFF"
+        },
+        "EnemyBacklightRangeFuzz": {
+          "R": 0.2,
+          "G": 0.5,
+          "B": 0.1,
+          "A": 0.5,
+          "Hex": "7F7CBC59"
+        }
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'C_JewelryStore_IntroOutro:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.40"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "C_Camera_Shot1_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Shot01_Rail.RailCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.52"
+      },
+      "RelativeRotation": {
+        "Pitch": 12.923605,
+        "Yaw": 1.4960552,
+        "Roll": 5.2010273E-07
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "C_Camera_Shot2_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "ComponentVelocity": {
+        "X": -79477.37,
+        "Y": 74801.14,
+        "Z": -12734.489
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "C_Camera_Shot3_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "ComponentVelocity": {
+        "X": -75245.52,
+        "Y": 48021.92,
+        "Z": -6562.0854
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "C_Camera_Shot3_02",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "C_Camera_Shot3_03_3",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "ComponentVelocity": {
+        "X": -48237.99,
+        "Y": 48781.75,
+        "Z": 3244.585
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_DirtyIce_Master_02_2",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_DirtyIce_Shot1_01_5",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_DirtyIce_Shot2_01_9",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_DirtyIce_Shot3_01_11",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_DirtyIce_Shot3_03_2",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RailCameraMount",
+    "Outer": "C_Shot01_Rail",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SplineComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Shot01_Rail.RailSplineComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.54"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent",
+    "Outer": "C_Shot01_Rail",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1138.1498,
+        "Y": 1128.3967,
+        "Z": 152.45575
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -45.497406,
+        "Roll": 0.0
+      },
+      "ComponentVelocity": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -4460.377
+      }
+    }
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "RailSplineComponent",
+    "Outer": "C_Shot01_Rail",
+    "Class": "UScriptClass'SplineComponent'",
+    "Properties": {
+      "SplineCurves": {
+        "Position": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 100.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 100.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 100.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 488.77972,
+                "Y": -0.00077819824,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 488.77972,
+                "Y": -0.00077819824,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 977.55945,
+                "Y": -0.0015563965,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 904.97833,
+                "Y": -0.001373291,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 904.97833,
+                "Y": -0.001373291,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 3.0,
+              "OutVal": {
+                "X": 1909.9567,
+                "Y": -0.002746582,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 932.3972,
+                "Y": -0.0011901855,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 932.3972,
+                "Y": -0.0011901855,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "Rotation": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.5,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 3.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "Scale": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            },
+            {
+              "InVal": 3.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "CIM_CurveAuto"
+            }
+          ]
+        },
+        "ReparamTable": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": 0.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 6.500982,
+              "OutVal": 0.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 7.8356667,
+              "OutVal": 0.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 9.911576,
+              "OutVal": 0.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 12.762721,
+              "OutVal": 0.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 14.536213,
+              "OutVal": 0.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 16.667484,
+              "OutVal": 0.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 24.505043,
+              "OutVal": 0.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 42.798817,
+              "OutVal": 0.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 70.3488,
+              "OutVal": 0.90000004,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 108.291336,
+              "OutVal": 1.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 164.30936,
+              "OutVal": 1.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 233.162,
+              "OutVal": 1.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 312.68118,
+              "OutVal": 1.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 400.6986,
+              "OutVal": 1.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 495.0462,
+              "OutVal": 1.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 593.5558,
+              "OutVal": 1.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 694.0592,
+              "OutVal": 1.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 794.3883,
+              "OutVal": 1.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 892.3749,
+              "OutVal": 1.9000001,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 985.85065,
+              "OutVal": 2.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1076.8694,
+              "OutVal": 2.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1168.8204,
+              "OutVal": 2.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1261.5393,
+              "OutVal": 2.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1354.8612,
+              "OutVal": 2.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1448.6218,
+              "OutVal": 2.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1542.6567,
+              "OutVal": 2.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1636.8013,
+              "OutVal": 2.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1730.8911,
+              "OutVal": 2.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1824.7615,
+              "OutVal": 2.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            },
+            {
+              "InVal": 1918.2478,
+              "OutVal": 3.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "CIM_Linear"
+            }
+          ]
+        }
+      },
+      "bSplineHasBeenEdited": true,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_JewelryStore_IntroOutro:PersistentLevel.C_Shot01_Rail.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.53"
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "C_JewelryStore_IntroOutro",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'C_JewelryStore_IntroOutro:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/JewelryStore/Sublevels/Cinematic_JewelryStore/C_JewelryStore_IntroOutro.23"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

@@ -1,0 +1,1244 @@
+[
+  {
+    "Type": "Function",
+    "Name": "OnSnipersKilled__DelegateSignature",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnShieldKilled__DelegateSignature",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnGrenadierKilled__DelegateSignature",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_CombatTutorialSpawner",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetComponentLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetComponentLocation_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'CH_SWAT_SHIELD_C'",
+          "ObjectPath": "PAYDAY3/Content/Gameplay/Characters/Cop/CH_SWAT_SHIELD.2"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'CH_Sniper_C'",
+          "ObjectPath": "PAYDAY3/Content/Gameplay/Characters/Cop/CH_Sniper.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetComponentLocation_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetComponentLocation_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'CH_Grenadier_C'",
+          "ObjectPath": "PAYDAY3/Content/Gameplay/Characters/Cop/CH_Grenadier.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'CH_Sniper_C'",
+          "ObjectPath": "PAYDAY3/Content/Gameplay/Characters/Cop/CH_Sniper.0"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "CheckShieldAlive",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "CheckGrenadierAlive",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "CheckSnipersAlive",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SERVER_SpawnGrenader",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Net | FUNC_NetReliable | FUNC_NetServer | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SERVER_SpawnShield",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Net | FUNC_NetReliable | FUNC_NetServer | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SERVER_SpawnSniper",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Net | FUNC_NetReliable | FUNC_NetServer | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ReplicatedBinaryActor_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_ReplicatedBinaryActor.3"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.27"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_CombatTutorialSpawner_C:InheritableComponentHandler'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.12"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:ExecuteUbergraph_BP_CombatTutorialSpawner'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ReplicatedBinaryActor_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_ReplicatedBinaryActor.3"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:SERVER_SpawnSniper'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.9"
+      },
+      {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:SERVER_SpawnShield'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.8"
+      },
+      {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:SERVER_SpawnGrenader'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.7"
+      },
+      {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:CheckSnipersAlive'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.6"
+      },
+      {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:CheckGrenadierAlive'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.5"
+      },
+      {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:CheckShieldAlive'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.4"
+      },
+      {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:ExecuteUbergraph_BP_CombatTutorialSpawner'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.3"
+      },
+      {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:OnGrenadierKilled__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.2"
+      },
+      {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:OnShieldKilled__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.1"
+      },
+      {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:OnSnipersKilled__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ShieldText",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'TextRenderComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SniperText",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'TextRenderComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GrenadierText",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'TextRenderComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GrenadierSpawnLocationRef",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ShieldSpawnLocationRef",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SniperSpawnLocationRef",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GrenadierSpawnLocation",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ShieldSpawnLocation",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SniperSpawnLocation",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Sniper1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'CH_Sniper_C'",
+          "ObjectPath": "PAYDAY3/Content/Gameplay/Characters/Cop/CH_Sniper.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Sniper2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'CH_Sniper_C'",
+          "ObjectPath": "PAYDAY3/Content/Gameplay/Characters/Cop/CH_Sniper.0"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnSnipersKilled",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_CombatTutorialSpawner_C:OnSnipersKilled__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.0"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnShieldKilled",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_CombatTutorialSpawner_C:OnShieldKilled__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.1"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnGrenadierKilled",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_CombatTutorialSpawner_C:OnGrenadierKilled__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.2"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Shield",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'CH_SWAT_SHIELD_C'",
+          "ObjectPath": "PAYDAY3/Content/Gameplay/Characters/Cop/CH_SWAT_SHIELD.2"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Grenadier",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'CH_Grenadier_C'",
+          "ObjectPath": "PAYDAY3/Content/Gameplay/Characters/Cop/CH_Grenadier.0"
+        }
+      }
+    ],
+    "FuncMap": {
+      "OnSnipersKilled__DelegateSignature": {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:OnSnipersKilled__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.0"
+      },
+      "OnShieldKilled__DelegateSignature": {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:OnShieldKilled__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.1"
+      },
+      "OnGrenadierKilled__DelegateSignature": {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:OnGrenadierKilled__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.2"
+      },
+      "ExecuteUbergraph_BP_CombatTutorialSpawner": {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:ExecuteUbergraph_BP_CombatTutorialSpawner'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.3"
+      },
+      "CheckShieldAlive": {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:CheckShieldAlive'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.4"
+      },
+      "CheckGrenadierAlive": {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:CheckGrenadierAlive'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.5"
+      },
+      "CheckSnipersAlive": {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:CheckSnipersAlive'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.6"
+      },
+      "SERVER_SpawnGrenader": {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:SERVER_SpawnGrenader'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.7"
+      },
+      "SERVER_SpawnShield": {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:SERVER_SpawnShield'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.8"
+      },
+      "SERVER_SpawnSniper": {
+        "ObjectName": "Function'BP_CombatTutorialSpawner_C:SERVER_SpawnSniper'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.9"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_CombatTutorialSpawner_C'Default__BP_CombatTutorialSpawner_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.11"
+    }
+  },
+  {
+    "Type": "BP_CombatTutorialSpawner_C",
+    "Name": "Default__BP_CombatTutorialSpawner_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.BP_CombatTutorialSpawner_C'",
+    "Template": {
+      "ObjectName": "BP_ReplicatedBinaryActor_C'Default__BP_ReplicatedBinaryActor_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_ReplicatedBinaryActor.4"
+    },
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_CombatTutorialSpawner_C:Cylinder_GEN_VARIABLE'",
+            "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.28"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_ReplicatedBinaryActor_C'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_ReplicatedBinaryActor.3"
+            },
+            "SCSVariableName": "Cylinder",
+            "AssociatedGuid": "52FA8BAE-4203E9A3-3F6B94A2-5B8F8E36"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "GrenadierSpawnLocation_GEN_VARIABLE",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "ShieldSpawnLocation_GEN_VARIABLE",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SniperSpawnLocation_GEN_VARIABLE",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_CombatTutorialSpawner_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.13"
+      },
+      "VariableGuid": "23EB92A3-49C97CD5-815317A2-AA52FA57",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CombatTutorialSpawner_C:SniperSpawnLocationRef_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.31"
+      },
+      "VariableGuid": "51F6E67A-4A2DD5EA-CFA191A6-6B62BA79",
+      "InternalVariableName": "SniperSpawnLocationRef"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_CombatTutorialSpawner_C:SniperSpawnLocation_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.16"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_ReplicatedBinaryActor_C",
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.24"
+        }
+      ],
+      "VariableGuid": "65D21D91-4D98511D-802AC1A6-BEF049C8",
+      "InternalVariableName": "SniperSpawnLocation"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_CombatTutorialSpawner_C:ShieldSpawnLocation_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.15"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_ReplicatedBinaryActor_C",
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.25"
+        }
+      ],
+      "VariableGuid": "A5160A6C-47C6578F-6A8119BB-DBE87959",
+      "InternalVariableName": "ShieldSpawnLocation"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_CombatTutorialSpawner_C:GrenadierSpawnLocation_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.14"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_ReplicatedBinaryActor_C",
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.26"
+        }
+      ],
+      "VariableGuid": "97AA4A8A-41063B75-D516F784-C0861E00",
+      "InternalVariableName": "GrenadierSpawnLocation"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CombatTutorialSpawner_C:ShieldSpawnLocationRef_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.30"
+      },
+      "VariableGuid": "EF0ED466-44423A15-2192F4AB-8B6D90AA",
+      "InternalVariableName": "ShieldSpawnLocationRef"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CombatTutorialSpawner_C:GrenadierSpawnLocationRef_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.29"
+      },
+      "VariableGuid": "BF15C8E3-43F7554A-D71B34A5-6EA4C7F9",
+      "InternalVariableName": "GrenadierSpawnLocationRef"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TextRenderComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TextRenderComponent'BP_CombatTutorialSpawner_C:SniperText_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.34"
+      },
+      "VariableGuid": "41CD0DBE-42582240-CBFEF395-7D23B130",
+      "InternalVariableName": "SniperText"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TextRenderComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TextRenderComponent'BP_CombatTutorialSpawner_C:ShieldText_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.33"
+      },
+      "VariableGuid": "F5C2E909-44E7EFCB-BF54D29F-C7A6ABFD",
+      "InternalVariableName": "ShieldText"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TextRenderComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TextRenderComponent'BP_CombatTutorialSpawner_C:GrenadierText_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.32"
+      },
+      "VariableGuid": "3ED9A515-47DA5751-A2F68891-0A82CC90",
+      "InternalVariableName": "GrenadierText"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.21"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.25"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_CombatTutorialSpawner_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/BP_CombatTutorialSpawner.17"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Cylinder_GEN_VARIABLE",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_ReplicatedBinaryActor_C:Cylinder_GEN_VARIABLE'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_ReplicatedBinaryActor.9"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "GrenadierSpawnLocationRef_GEN_VARIABLE",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'BlueprintMI_DangerRed'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Blueprints/Material/BlueprintMI_DangerRed.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ShieldSpawnLocationRef_GEN_VARIABLE",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'BlueprintMI_DarkGreen'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Blueprints/Material/BlueprintMI_DarkGreen.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SniperSpawnLocationRef_GEN_VARIABLE",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Sphere'",
+        "ObjectPath": "Engine/Content/BasicShapes/Sphere.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'BlueprintMI_VeryOrange'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Blueprints/Material/BlueprintMI_VeryOrange.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "GrenadierText_GEN_VARIABLE",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "7E71963B436D24889B513D88260104E9",
+        "SourceString": "Grenadier",
+        "LocalizedString": "Grenadier"
+      },
+      "HorizontalAlignment": "EHTA_Center",
+      "TextRenderColor": {
+        "B": 0,
+        "G": 0,
+        "R": 0,
+        "A": 255,
+        "Hex": "FF000000"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 64.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -0.00010681152,
+        "Roll": 0.0
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "ShieldText_GEN_VARIABLE",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "2C0CA8C4497B16985EB6D88F37DADEE3",
+        "SourceString": "Shield",
+        "LocalizedString": "Shield"
+      },
+      "HorizontalAlignment": "EHTA_Center",
+      "TextRenderColor": {
+        "B": 0,
+        "G": 0,
+        "R": 0,
+        "A": 255,
+        "Hex": "FF000000"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 64.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -0.00030517572,
+        "Roll": 0.0
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "SniperText_GEN_VARIABLE",
+    "Outer": "BP_CombatTutorialSpawner_C",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "22A05A4A481EA07E95F7DEB0E261F986",
+        "SourceString": "Sniper",
+        "LocalizedString": "Sniper"
+      },
+      "HorizontalAlignment": "EHTA_Center",
+      "TextRenderColor": {
+        "B": 0,
+        "G": 0,
+        "R": 0,
+        "A": 255,
+        "Hex": "FF000000"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 64.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -0.00018310547,
+        "Roll": 0.0
+      },
+      "bHiddenInGame": true
+    }
+  }
+]

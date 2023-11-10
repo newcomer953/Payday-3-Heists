@@ -1,0 +1,596 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "G_LoudTutCombat_Navlinks",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'G_LoudTutCombat_Navlinks:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Navlinks.1"
+      },
+      "LevelBuildDataId": "1CD178A7-4DE963DF-74F64A95-09F88FE6",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'G_LoudTutCombat_Navlinks:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Navlinks.7"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'G_LoudTutCombat_Navlinks:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Navlinks.7"
+      },
+      null,
+      {
+        "ObjectName": "SBZAgilityNavLink'G_LoudTutCombat_Navlinks:PersistentLevel.SBZAgilityNavLink_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Navlinks.4"
+      },
+      {
+        "ObjectName": "SBZAgilityNavLink'G_LoudTutCombat_Navlinks:PersistentLevel.SBZAgilityNavLink2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Navlinks.3"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'G_LoudTutCombat_Navlinks:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Navlinks.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "BB6BC0C8-477A66F5-7B574D81-CEBA77E5",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZAgilityNavLink",
+    "Name": "SBZAgilityNavLink2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAgilityNavLink'",
+    "Properties": {
+      "NavLinkAgilityComponent": {
+        "ObjectName": "SBZNavLinkAgilityComponent'G_LoudTutCombat_Navlinks:PersistentLevel.SBZAgilityNavLink2.SBZNavLinkAgilityComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Navlinks.5"
+      },
+      "NavigationLink": {
+        "Left": {
+          "X": 76.00001,
+          "Y": -2.2888184E-05,
+          "Z": -272.0
+        },
+        "Right": {
+          "X": -75.9994,
+          "Y": 0.0049057007,
+          "Z": -270.84494
+        },
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityClimbOverHigh'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "NavLinkUserId": 215,
+      "SpriteComponent": null,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_LoudTutCombat_Navlinks:PersistentLevel.SBZAgilityNavLink2.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Navlinks.8"
+      }
+    }
+  },
+  {
+    "Type": "SBZAgilityNavLink",
+    "Name": "SBZAgilityNavLink_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAgilityNavLink'",
+    "Properties": {
+      "NavLinkAgilityComponent": {
+        "ObjectName": "SBZNavLinkAgilityComponent'G_LoudTutCombat_Navlinks:PersistentLevel.SBZAgilityNavLink_1.SBZNavLinkAgilityComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Navlinks.6"
+      },
+      "NavigationLink": {
+        "Left": {
+          "X": 76.00001,
+          "Y": -2.2888184E-05,
+          "Z": -272.0
+        },
+        "Right": {
+          "X": -59.999393,
+          "Y": 0.004901886,
+          "Z": -270.84494
+        },
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityClimbOverHigh'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "NavLinkUserId": 214,
+      "SpriteComponent": null,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'G_LoudTutCombat_Navlinks:PersistentLevel.SBZAgilityNavLink_1.RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Navlinks.9"
+      }
+    }
+  },
+  {
+    "Type": "SBZNavLinkAgilityComponent",
+    "Name": "SBZNavLinkAgilityComponent",
+    "Outer": "SBZAgilityNavLink2",
+    "Class": "UScriptClass'SBZNavLinkAgilityComponent'",
+    "Properties": {
+      "LeftTrajectory": {
+        "AgilityType": "ESBZAgilityType::ClimbOver",
+        "Points": [
+          {
+            "Location": {
+              "X": 5120.0,
+              "Y": 587.9999,
+              "Z": 6.1035156E-05
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.00184,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 5119.999,
+              "Y": 521.5,
+              "Z": 48.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.00184,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::Wall"
+          },
+          {
+            "Location": {
+              "X": 5120.007,
+              "Y": 521.5,
+              "Z": 294.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.00184,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FrontEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 5120.0063,
+              "Y": 502.4999,
+              "Z": 294.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.00184,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::BackEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 5119.995,
+              "Y": 436.0004,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.00184,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "bValid": true,
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityClimbOverHigh'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "RightTrajectory": {
+        "AgilityType": "ESBZAgilityType::ClimbOver",
+        "Points": [
+          {
+            "Location": {
+              "X": 5119.995,
+              "Y": 436.0004,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.99816,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 5119.9956,
+              "Y": 502.4999,
+              "Z": 48.000008
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.99816,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::Wall"
+          },
+          {
+            "Location": {
+              "X": 5119.988,
+              "Y": 502.4999,
+              "Z": 294.00003
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.99816,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FrontEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 5119.9883,
+              "Y": 521.50006,
+              "Z": 294.00003
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.99816,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::BackEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 5120.0,
+              "Y": 587.9999,
+              "Z": 6.1035156E-05
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.99816,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "bValid": true,
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityClimbOverHigh'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "QueryParams": {
+        "ObjectName": "SBZAgilityQueryParams'DA_BaseCopAIAgilityData'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Abilities/DA_BaseCopAIAgilityData.0"
+      },
+      "LeftToRightType": "ESBZAgilityType::ClimbOver",
+      "RightToLeftType": "ESBZAgilityType::ClimbOver"
+    }
+  },
+  {
+    "Type": "SBZNavLinkAgilityComponent",
+    "Name": "SBZNavLinkAgilityComponent",
+    "Outer": "SBZAgilityNavLink_1",
+    "Class": "UScriptClass'SBZNavLinkAgilityComponent'",
+    "Properties": {
+      "LeftTrajectory": {
+        "AgilityType": "ESBZAgilityType::ClimbOver",
+        "Points": [
+          {
+            "Location": {
+              "X": 4992.0,
+              "Y": -435.99997,
+              "Z": 6.1035156E-05
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.00205,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 4991.9995,
+              "Y": -504.0,
+              "Z": 47.999985
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.00205,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::Wall"
+          },
+          {
+            "Location": {
+              "X": 4992.0063,
+              "Y": -506.00003,
+              "Z": 259.99994
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.00205,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FrontEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 4992.006,
+              "Y": -520.0,
+              "Z": 259.99994
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.00205,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::BackEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 4991.995,
+              "Y": -571.9994,
+              "Z": 1.155056
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": -90.00205,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "bValid": true,
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityClimbOverHigh'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "RightTrajectory": {
+        "AgilityType": "ESBZAgilityType::ClimbOver",
+        "Points": [
+          {
+            "Location": {
+              "X": 4991.995,
+              "Y": -571.9994,
+              "Z": 1.155056
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.99794,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorStart"
+          },
+          {
+            "Location": {
+              "X": 4991.9956,
+              "Y": -520.0,
+              "Z": 47.999954
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.99794,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::Wall"
+          },
+          {
+            "Location": {
+              "X": 4991.988,
+              "Y": -520.00006,
+              "Z": 259.99994
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.99794,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FrontEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 4991.9883,
+              "Y": -506.0,
+              "Z": 259.9999
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.99794,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::BackEdgeTop"
+          },
+          {
+            "Location": {
+              "X": 4992.0,
+              "Y": -435.99997,
+              "Z": 6.1035156E-05
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 89.99794,
+              "Roll": 0.0
+            },
+            "AgilityPointType": "ESBZAgilityPointType::FloorEnd"
+          }
+        ],
+        "bValid": true,
+        "AreaClass": {
+          "ObjectName": "Class'SBZNavArea_AgilityClimbOverHigh'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      "QueryParams": {
+        "ObjectName": "SBZAgilityQueryParams'DA_BaseCopAIAgilityData'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Abilities/DA_BaseCopAIAgilityData.0"
+      },
+      "LeftToRightType": "ESBZAgilityType::ClimbOver",
+      "RightToLeftType": "ESBZAgilityType::ClimbOver"
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'G_LoudTutCombat_Navlinks:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Navlinks.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "SBZAgilityNavLink2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 5120.0,
+        "Y": 512.0,
+        "Z": 272.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.000015,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "SBZAgilityNavLink_1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4992.0,
+        "Y": -512.0,
+        "Z": 272.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.000015,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "G_LoudTutCombat_Navlinks",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'G_LoudTutCombat_Navlinks:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Navlinks.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

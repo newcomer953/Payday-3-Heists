@@ -1,0 +1,5110 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LoudTutCombat_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LoudTutCombat_C'Default__LoudTutCombat_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.1"
+    }
+  },
+  {
+    "Type": "LoudTutCombat_C",
+    "Name": "Default__LoudTutCombat_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.LoudTutCombat_C'"
+  },
+  {
+    "Type": "Actor",
+    "Name": "AIVisibilityVolume",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Actor'",
+    "Properties": {
+      "RootComponent": {
+        "ObjectName": "SceneComponent'LoudTutCombat:PersistentLevel.AIVisibilityVolume.DefaultSceneRoot'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.53"
+      },
+      "InstanceComponents": [
+        {
+          "ObjectName": "SceneComponent'LoudTutCombat:PersistentLevel.AIVisibilityVolume.DefaultSceneRoot'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.53"
+        },
+        {
+          "ObjectName": "SBZAIVisibilityComponent'LoudTutCombat:PersistentLevel.AIVisibilityVolume.SBZAIVisibility'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.49"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -39.419407,
+                "Y": 17.25,
+                "Z": -99.9375
+              },
+              {
+                "X": -39.419407,
+                "Y": 17.25,
+                "Z": 100.0
+              },
+              {
+                "X": -39.419407,
+                "Y": -18.428642,
+                "Z": 100.0
+              },
+              {
+                "X": -39.419407,
+                "Y": -18.428644,
+                "Z": -100.0
+              },
+              {
+                "X": 39.42845,
+                "Y": 17.270763,
+                "Z": -99.9375
+              },
+              {
+                "X": 39.42845,
+                "Y": 17.270763,
+                "Z": 100.0
+              },
+              {
+                "X": 39.4194,
+                "Y": -18.42864,
+                "Z": -99.9375
+              },
+              {
+                "X": 39.4194,
+                "Y": -18.428642,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -39.419407,
+                "Y": -18.428644,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 39.42845,
+                "Y": 17.270763,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "4969F4C043BBC7415D16ED95776E8311",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x68D27F"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 196.0,
+                "Z": -99.9375
+              },
+              {
+                "X": -100.0,
+                "Y": 196.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -163.96875,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -163.96875,
+                "Z": -100.0
+              },
+              {
+                "X": -28.031248,
+                "Y": 195.99997,
+                "Z": -99.9375
+              },
+              {
+                "X": -28.031254,
+                "Y": 195.99997,
+                "Z": 100.0
+              },
+              {
+                "X": -28.0,
+                "Y": -163.96875,
+                "Z": -99.9375
+              },
+              {
+                "X": -28.0,
+                "Y": -163.96875,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -163.96875,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": -28.0,
+                "Y": 196.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "11C411624D91BD149B954D9E07222491",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x68D89D"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 28.0,
+                "Y": 100.0,
+                "Z": -99.9375
+              },
+              {
+                "X": 28.0,
+                "Y": 99.99997,
+                "Z": 100.0
+              },
+              {
+                "X": 28.0,
+                "Y": -99.968765,
+                "Z": 100.0
+              },
+              {
+                "X": 28.0,
+                "Y": -99.96876,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 99.999985,
+                "Z": -99.9375
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -99.96876,
+                "Z": -99.9375
+              },
+              {
+                "X": 100.0,
+                "Y": -99.96875,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": 28.0,
+                "Y": -99.968765,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "BAD7049D4FD9B98E01A2C7B97A571289",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x68DEBB"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "DA9947FC490119DE2FE3A49945B8C291",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x68E4D9"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 304.75
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 304.8125
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 304.75
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 304.75
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 304.8125
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "27B233944E66CA9192C334B691795206",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x68EAF7"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "BrushComponent0",
+    "Class": "UScriptClass'BodySetup'",
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": -100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              },
+              {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              {
+                "X": 100.0,
+                "Y": -100.0,
+                "Z": 100.0
+              }
+            ],
+            "IndexData": [
+              0,
+              1,
+              2,
+              0,
+              2,
+              3,
+              4,
+              5,
+              1,
+              4,
+              1,
+              0,
+              6,
+              7,
+              5,
+              6,
+              5,
+              4,
+              3,
+              2,
+              7,
+              3,
+              7,
+              6,
+              5,
+              7,
+              2,
+              5,
+              2,
+              1,
+              6,
+              4,
+              0,
+              6,
+              0,
+              3
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -100.0,
+                "Y": -100.0,
+                "Z": -100.0
+              },
+              "Max": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            "RestOffset": 0.0,
+            "Name": "None",
+            "bContributeToMass": true,
+            "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics"
+          }
+        ]
+      },
+      "bGenerateMirroredCollision": false,
+      "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+    },
+    "BodySetupGuid": "EE3536F548F699E1DAF7B7A2A1D8A9A7",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 470,
+        "SizeOnDisk": 470,
+        "OffsetInFile": "0x68F115"
+      }
+    }
+  },
+  {
+    "Type": "BookMark",
+    "Name": "BookMark_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'BookMark'",
+    "Properties": {
+      "Location": {
+        "X": 6918.737,
+        "Y": 515.3998,
+        "Z": 1594.5745
+      },
+      "Rotation": {
+        "Pitch": -40.730316,
+        "Yaw": 912.39966,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "NavMeshBoundsVolume_0",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'LoudTutCombat:PersistentLevel.NavMeshBoundsVolume_0.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.36"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'LoudTutCombat:PersistentLevel.NavMeshBoundsVolume_0.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.3"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": 3968.0,
+        "Y": 0.0,
+        "Z": 608.0
+      },
+      "RelativeScale3D": {
+        "X": 118.32171,
+        "Y": 111.39957,
+        "Z": 10.0
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "NavModifierVolume2",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'LoudTutCombat:PersistentLevel.NavModifierVolume2.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.37"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'LoudTutCombat:PersistentLevel.NavModifierVolume2.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.4"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": 4048.0,
+        "Y": -192.0,
+        "Z": 64.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 2.0,
+        "Z": 1.25
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "NavModifierVolume3",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'LoudTutCombat:PersistentLevel.NavModifierVolume3.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.38"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'LoudTutCombat:PersistentLevel.NavModifierVolume3.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.5"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": 3664.0,
+        "Y": 128.0,
+        "Z": 64.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00008,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 2.5,
+        "Z": 1.25
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "NavModifierVolume_1",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'LoudTutCombat:PersistentLevel.NavModifierVolume_1.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.39"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'LoudTutCombat:PersistentLevel.NavModifierVolume_1.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.6"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": 6464.0,
+        "Y": 768.0,
+        "Z": 32.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 2.0,
+        "Z": 1.25
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "SBZAIVisibilityVolume_1",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'LoudTutCombat:PersistentLevel.SBZAIVisibilityVolume_1.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.40"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'LoudTutCombat:PersistentLevel.SBZAIVisibilityVolume_1.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.7"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": 3968.0,
+        "Y": 0.0,
+        "Z": 144.0
+      },
+      "RelativeScale3D": {
+        "X": 47.0,
+        "Y": 20.0,
+        "Z": 5.0
+      }
+    }
+  },
+  {
+    "Type": "BrushComponent",
+    "Name": "BrushComponent0",
+    "Outer": "SBZNavMeshGeneratorVolume_5",
+    "Class": "UScriptClass'BrushComponent'",
+    "Properties": {
+      "Brush": {
+        "ObjectName": "Model'LoudTutCombat:PersistentLevel.SBZNavMeshGeneratorVolume_5.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.41"
+      },
+      "BrushBodySetup": {
+        "ObjectName": "BodySetup'LoudTutCombat:PersistentLevel.SBZNavMeshGeneratorVolume_5.BrushComponent0.BodySetup_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.8"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": 6624.0,
+        "Y": 640.0,
+        "Z": 352.0
+      },
+      "RelativeScale3D": {
+        "X": 2.25,
+        "Y": 1.0,
+        "Z": 0.25
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCapsule",
+    "Outer": "PlayerStart_3",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false
+      },
+      "RelativeLocation": {
+        "X": -420.0,
+        "Y": -224.0,
+        "Z": 100.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 25.000057,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "InstancedFoliageActor",
+    "Name": "InstancedFoliageActor_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'InstancedFoliageActor'",
+    "Properties": {
+      "RootComponent": {
+        "ObjectName": "SceneComponent'LoudTutCombat:PersistentLevel.InstancedFoliageActor_0.RootComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.54"
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "LoudTutCombat",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'LoudTutCombat:PersistentLevel.Model_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.35"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "LoudTutCombat_C'LoudTutCombat:PersistentLevel.LoudTutCombat_C_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.34"
+      },
+      "StreamingTextureGuids": [
+        "41870252-45D4AA40-41E077AC-1A6F7B2D",
+        "28BEFF7E-4D89591F-CF1116AA-42F52A66"
+      ],
+      "LevelBuildDataId": "89E9F90E-4C7BEA69-A1FFD5A3-FA72DFD8",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'LoudTutCombat:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.52"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'LoudTutCombat:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.52"
+      },
+      null,
+      {
+        "ObjectName": "InstancedFoliageActor'LoudTutCombat:PersistentLevel.InstancedFoliageActor_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.17"
+      },
+      {
+        "ObjectName": "RecastNavMesh'LoudTutCombat:PersistentLevel.RecastNavMesh-Common'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.48"
+      },
+      {
+        "ObjectName": "SBZAIVisibilityVolume'LoudTutCombat:PersistentLevel.SBZAIVisibilityVolume_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.50"
+      },
+      {
+        "ObjectName": "NavMeshBoundsVolume'LoudTutCombat:PersistentLevel.NavMeshBoundsVolume_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.43"
+      },
+      {
+        "ObjectName": "PlayerStart'LoudTutCombat:PersistentLevel.PlayerStart_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.47"
+      },
+      {
+        "ObjectName": "SBZNavMeshGeneratorVolume'LoudTutCombat:PersistentLevel.SBZNavMeshGeneratorVolume_5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.51"
+      },
+      {
+        "ObjectName": "NavModifierVolume'LoudTutCombat:PersistentLevel.NavModifierVolume_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.46"
+      },
+      {
+        "ObjectName": "StaticMeshActor'LoudTutCombat:PersistentLevel.TableFoldout_01_A5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.56"
+      },
+      {
+        "ObjectName": "NavModifierVolume'LoudTutCombat:PersistentLevel.NavModifierVolume2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.44"
+      },
+      {
+        "ObjectName": "NavModifierVolume'LoudTutCombat:PersistentLevel.NavModifierVolume3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.45"
+      },
+      {
+        "ObjectName": "Actor'LoudTutCombat:PersistentLevel.AIVisibilityVolume'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.2"
+      },
+      {
+        "ObjectName": "LoudTutCombat_C'LoudTutCombat:PersistentLevel.LoudTutCombat_C_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.34"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Engine/Maps/Entry",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'LoudTutCombat:PersistentLevel.Model_3'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.35"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "LoudTutCombat_C'LoudTutCombat:PersistentLevel.LoudTutCombat_C_1'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.34"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_0",
+    "Outer": "LoudTutCombat",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/_common/G_Tutorial_Warehouse_Collision.G_Tutorial_Warehouse_Collision",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.0,
+        "G": 0.015624762,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF0021FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_1",
+    "Outer": "LoudTutCombat",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Collision.G_LoudTutCombat_Collision",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.078125,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FF4F00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_10",
+    "Outer": "LoudTutCombat",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Environment_LoudTutCombat/E_LoudTutCombat_Prop.E_LoudTutCombat_Prop",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.84375006,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFFED00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_11",
+    "Outer": "LoudTutCombat",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/_common/E_Tutorial_Warehouse.E_Tutorial_Warehouse",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.820312,
+        "A": 1.0,
+        "Hex": "FFFF00EA"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_12",
+    "Outer": "LoudTutCombat",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Lighting_LoudTutCombat/L_LoudTutCombat_Lighting.L_LoudTutCombat_Lighting",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.14843738,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF6BFF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_2",
+    "Outer": "LoudTutCombat",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.328125,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFF9B00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_3",
+    "Outer": "LoudTutCombat",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Audio_LoudTutCombat/A_LoudTutCombat.A_LoudTutCombat",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.5,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFBC00FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_4",
+    "Outer": "LoudTutCombat",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/VFX_LoudTutCombat/VFX_LoudTutCombat.VFX_LoudTutCombat",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.03124988,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF31FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_5",
+    "Outer": "LoudTutCombat",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Environment_LoudTutCombat/E_LoudTutCombat_Arch.E_LoudTutCombat_Arch",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.679687,
+        "A": 1.0,
+        "Hex": "FFFF00D7"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_7",
+    "Outer": "LoudTutCombat",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Cinematic_LoudTutCombat/C_LoudTutCombat_IntroOutro.C_LoudTutCombat_IntroOutro",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.12499988,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF63FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_8",
+    "Outer": "LoudTutCombat",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Navlinks.G_LoudTutCombat_Navlinks",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 0.5703125,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFC700FF"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingAlwaysLoaded",
+    "Name": "LevelStreamingAlwaysLoaded_9",
+    "Outer": "LoudTutCombat",
+    "Class": "UScriptClass'LevelStreamingAlwaysLoaded'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Scripting.G_LoudTutCombat_Scripting",
+        "SubPathString": ""
+      },
+      "LevelColor": {
+        "R": 1.0,
+        "G": 0.046875,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFFF3D00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_0",
+    "Outer": "LoudTutCombat",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Testing.G_LoudTutCombat_Testing",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.6874999,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFD8FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_1",
+    "Outer": "LoudTutCombat",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_DevHelpers.G_LoudTutCombat_DevHelpers",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.5703124,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFC7FF00"
+      }
+    }
+  },
+  {
+    "Type": "LevelStreamingDynamic",
+    "Name": "LevelStreamingDynamic_3",
+    "Outer": "LoudTutCombat",
+    "Class": "UScriptClass'LevelStreamingDynamic'",
+    "Properties": {
+      "WorldAsset": {
+        "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Mockup_LoudTutCombat/M_LoudTutCombat_Architecture.M_LoudTutCombat_Architecture",
+        "SubPathString": ""
+      },
+      "bShouldBeVisible": true,
+      "bShouldBeLoaded": true,
+      "LevelColor": {
+        "R": 0.6874999,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FFD8FF00"
+      }
+    }
+  },
+  {
+    "Type": "LoudTutCombat_C",
+    "Name": "LoudTutCombat_C_1",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.LoudTutCombat_C'",
+    "Template": {
+      "ObjectName": "LoudTutCombat_C'Default__LoudTutCombat_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.1"
+    },
+    "Properties": {
+      "Seed": 28834,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "87BE0207-4619F99C-F4146A9F-4C6BCB85",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "NavMeshBoundsVolume_0",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": -3.8146973E-06,
+        "Y": -0.5745106,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 39.419403,
+        "Y": 17.845272,
+        "Z": 100.0
+      },
+      "SphereRadius": 108.96028
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.99999994
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -39.419407,
+        "Y": -18.419783,
+        "Z": -100.0
+      },
+      {
+        "X": -39.419407,
+        "Y": -18.419783,
+        "Z": 100.0
+      },
+      {
+        "X": -39.419407,
+        "Y": 17.270763,
+        "Z": 100.0
+      },
+      {
+        "X": -39.419407,
+        "Y": 17.270763,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 39.4194,
+        "Y": 17.270763,
+        "Z": 100.0
+      },
+      {
+        "X": 39.4194,
+        "Y": 17.270763,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 39.4194,
+        "Y": -18.419783,
+        "Z": 100.0
+      },
+      {
+        "X": 39.4194,
+        "Y": -18.419783,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 39.419407,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 17.270763,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 39.4194,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 18.419783,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.99999994
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.99999994
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 39.419407,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 17.270763,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 8,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 39.4194,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 11,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 18.419783,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 12,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.99999994
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.99999994
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "C1A83B3F-4DDB206A-E41822B9-217ED0D3",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "NavModifierVolume2",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": -64.0,
+        "Y": 16.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 36.0,
+        "Y": 180.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 209.03589
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.99999994
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -164.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -164.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 196.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 196.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -28.0,
+        "Y": 196.0,
+        "Z": 100.0
+      },
+      {
+        "X": -28.0,
+        "Y": 196.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -28.0,
+        "Y": -164.0,
+        "Z": 100.0
+      },
+      {
+        "X": -28.0,
+        "Y": -164.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.99999994,
+            "Z": 0.0
+          },
+          "W": 195.99998,
+          "X": 0.0,
+          "Y": 0.99999994,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": -28.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -0.99999994,
+            "Z": 0.0
+          },
+          "W": 163.99998,
+          "X": 0.0,
+          "Y": -0.99999994,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.99999994
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.99999994
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.99999994,
+            "Z": 0.0
+          },
+          "W": 195.99998,
+          "X": 0.0,
+          "Y": 0.99999994,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 8,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": -28.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 11,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -0.99999994,
+            "Z": 0.0
+          },
+          "W": 163.99998,
+          "X": 0.0,
+          "Y": -0.99999994,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 12,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.99999994
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.99999994
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "C22BA571-4B9E0F48-2FC7B19F-378CA873",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "NavModifierVolume3",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 64.0,
+        "Y": -1.5258789E-05,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 36.0,
+        "Y": 100.000015,
+        "Z": 100.0
+      },
+      "SphereRadius": 145.9315
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.99999994
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 28.0,
+        "Y": -100.00003,
+        "Z": -100.0
+      },
+      {
+        "X": 28.0,
+        "Y": -100.00003,
+        "Z": 100.0
+      },
+      {
+        "X": 28.0,
+        "Y": 99.99997,
+        "Z": 100.0
+      },
+      {
+        "X": 28.0,
+        "Y": 99.99997,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": -28.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": -4.2385523E-07,
+            "Y": 0.99999994,
+            "Z": 0.0
+          },
+          "W": 99.99995,
+          "X": -4.2385523E-07,
+          "Y": 0.99999994,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 4.2385523E-07,
+            "Y": -0.99999994,
+            "Z": 0.0
+          },
+          "W": 100.00004,
+          "X": 4.2385523E-07,
+          "Y": -0.99999994,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.99999994
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.99999994
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": -28.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -4.2385523E-07,
+            "Y": 0.99999994,
+            "Z": 0.0
+          },
+          "W": 99.99995,
+          "X": -4.2385523E-07,
+          "Y": 0.99999994,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 9,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 4.2385523E-07,
+            "Y": -0.99999994,
+            "Z": 0.0
+          },
+          "W": 100.00004,
+          "X": 4.2385523E-07,
+          "Y": -0.99999994,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 10,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.99999994
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -0.99999994
+          },
+          "W": 99.99999,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.99999994
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "C82432F4-47990CEC-971B0690-CC599C9E",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "NavModifierVolume_1",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "2764BA95-46CF9D84-9A3A0698-52F4B037",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "SBZAIVisibilityVolume_1",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 102.40001
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 202.40001
+      },
+      "SphereRadius": 246.91246
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 304.80002
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 304.80002
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 304.80002
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 304.80002
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 304.80002,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 8,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 304.80002,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "8D9A76E4-4F982F05-4A5AA18C-5D12F6C9",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "SBZNavMeshGeneratorVolume_5",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      "SphereRadius": 173.20508
+    },
+    "Vectors": [
+      {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      {
+        "X": 1.0,
+        "Y": -0.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": -1.0,
+        "Z": 0.0
+      },
+      {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0
+      }
+    ],
+    "Points": [
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      },
+      {
+        "X": -100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": -100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": 100.0,
+        "Z": -100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": 100.0
+      },
+      {
+        "X": 100.0,
+        "Y": -100.0,
+        "Z": -100.0
+      }
+    ],
+    "Nodes": [
+      {
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 0,
+        "iSurf": 0,
+        "iVertexIndex": 0,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 4,
+        "iSurf": 1,
+        "iVertexIndex": 4,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 2,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "iVertPool": 8,
+        "iSurf": 2,
+        "iVertexIndex": 8,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 3,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "iVertPool": 12,
+        "iSurf": 3,
+        "iVertexIndex": 12,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 4,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "iVertPool": 16,
+        "iSurf": 4,
+        "iVertexIndex": 16,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": 5,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": -1,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      },
+      {
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "iVertPool": 20,
+        "iSurf": 5,
+        "iVertexIndex": 20,
+        "ComponentIndex": 0,
+        "ComponentNodeIndex": 0,
+        "ComponentElementIndex": 0,
+        "iBack": -1,
+        "iFront": -1,
+        "iPlane": -1,
+        "iCollisionBound": 0,
+        "iZone0": 0,
+        "iZone1": 0,
+        "NumVertices": 4,
+        "NodeFlags": 0,
+        "iLeaf0": -1,
+        "iLeaf1": -1
+      }
+    ],
+    "Surfs": [
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 0,
+        "vTextureU": 1,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": -1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": -1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 3,
+        "vNormal": 1,
+        "vTextureU": 3,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 5,
+        "vNormal": 3,
+        "vTextureU": 4,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 1.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 7,
+        "vNormal": 4,
+        "vTextureU": 0,
+        "vTextureV": 2,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": -1.0,
+            "Z": 0.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": -1.0,
+          "Z": 0.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 2,
+        "vNormal": 5,
+        "vTextureU": 3,
+        "vTextureV": 1,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      },
+      {
+        "Material": null,
+        "PolyFlags": 0,
+        "pBase": 0,
+        "vNormal": 2,
+        "vTextureU": 3,
+        "vTextureV": 4,
+        "iBrushPoly": -1,
+        "Actor": null,
+        "Plane": {
+          "Vector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -1.0
+          },
+          "W": 100.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -1.0
+        },
+        "LightMapScale": 32.0,
+        "iLightmassIndex": 0
+      }
+    ],
+    "NumSharedSides": 4,
+    "VertexBuffer": null,
+    "LightingGuid": "F5FFD5FC-45E3FD55-90CA78A0-09C4F2B6",
+    "LightmassSettings": [
+      {
+        "bUseTwoSidedLighting": false,
+        "bShadowIndirectOnly": false,
+        "bUseEmissiveForStaticLighting": false,
+        "bUseVertexNormalForHemisphereGather": false,
+        "EmissiveLightFalloffExponent": 8.0,
+        "EmissiveLightExplicitInfluenceRadius": 0.0,
+        "EmissiveBoost": 1.0,
+        "DiffuseBoost": 1.0,
+        "FullyOccludedSamplesFraction": 1.0
+      }
+    ]
+  },
+  {
+    "Type": "NavigationSystemConfig",
+    "Name": "NavigationSystemConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemConfig'",
+    "Properties": {
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "NavMeshBoundsVolume",
+    "Name": "NavMeshBoundsVolume_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NavMeshBoundsVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'LoudTutCombat:PersistentLevel.NavMeshBoundsVolume_0.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.36"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'LoudTutCombat:PersistentLevel.NavMeshBoundsVolume_0.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.10"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'LoudTutCombat:PersistentLevel.NavMeshBoundsVolume_0.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.10"
+      }
+    }
+  },
+  {
+    "Type": "NavModifierVolume",
+    "Name": "NavModifierVolume2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NavModifierVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'LoudTutCombat:PersistentLevel.NavModifierVolume2.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.37"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'LoudTutCombat:PersistentLevel.NavModifierVolume2.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.11"
+      },
+      "SavedSelections": [
+        {
+          "Type": 1,
+          "Index": 3,
+          "SelectionIndex": 0
+        }
+      ],
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'LoudTutCombat:PersistentLevel.NavModifierVolume2.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.11"
+      }
+    }
+  },
+  {
+    "Type": "NavModifierVolume",
+    "Name": "NavModifierVolume3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NavModifierVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'LoudTutCombat:PersistentLevel.NavModifierVolume3.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.38"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'LoudTutCombat:PersistentLevel.NavModifierVolume3.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.12"
+      },
+      "SavedSelections": [
+        {
+          "Type": 1,
+          "Index": 0,
+          "SelectionIndex": 0
+        }
+      ],
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'LoudTutCombat:PersistentLevel.NavModifierVolume3.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.12"
+      }
+    }
+  },
+  {
+    "Type": "NavModifierVolume",
+    "Name": "NavModifierVolume_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NavModifierVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'LoudTutCombat:PersistentLevel.NavModifierVolume_1.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.39"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'LoudTutCombat:PersistentLevel.NavModifierVolume_1.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.13"
+      },
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'LoudTutCombat:PersistentLevel.NavModifierVolume_1.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.13"
+      }
+    }
+  },
+  {
+    "Type": "PlayerStart",
+    "Name": "PlayerStart_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'PlayerStart'",
+    "Properties": {
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'LoudTutCombat:PersistentLevel.PlayerStart_3.CollisionCapsule'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.16"
+      },
+      "GoodSprite": null,
+      "BadSprite": null,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'LoudTutCombat:PersistentLevel.PlayerStart_3.CollisionCapsule'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.16"
+      }
+    }
+  },
+  {
+    "Type": "RecastNavMesh",
+    "Name": "RecastNavMesh-Common",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'RecastNavMesh'",
+    "Properties": {
+      "AgentRadius": 35.0,
+      "NavDataConfig": {
+        "Name": "Common",
+        "PreferredNavData": {
+          "AssetPathName": "/Script/NavigationSystem.RecastNavMesh",
+          "SubPathString": ""
+        }
+      },
+      "RuntimeGeneration": "ERuntimeGenerationType::SBZStaticWithRandomRoomsSupport",
+      "SupportedAreas": [
+        {
+          "AreaClassName": "NavArea_Null",
+          "AreaID": 0
+        },
+        {
+          "AreaClassName": "NavArea_LowHeight",
+          "AreaID": 62
+        },
+        {
+          "AreaClassName": "NavArea_Default",
+          "AreaID": 63
+        },
+        {
+          "AreaClassName": "NavArea_Obstacle",
+          "AreaID": 1
+        },
+        {
+          "AreaClassName": "SBZNavArea_AllowedArea",
+          "AreaID": 2
+        },
+        {
+          "AreaClassName": "SBZNavArea_DefaultCarve",
+          "AreaID": 3
+        },
+        {
+          "AreaClassName": "SBZNavArea_NoPatrol",
+          "AreaID": 4
+        },
+        {
+          "AreaClassName": "SBZNavArea_PrivateArea",
+          "AreaID": 5
+        },
+        {
+          "AreaClassName": "SBZNavArea_PublicArea",
+          "AreaID": 6
+        },
+        {
+          "AreaClassName": "SBZNavArea_SecureArea",
+          "AreaID": 7
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityGrapplingHook",
+          "AreaID": 8
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityJumpingDown",
+          "AreaID": 9
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityLadder",
+          "AreaID": 10
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityMantling",
+          "AreaID": 11
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityMisc",
+          "AreaID": 12
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityRappel",
+          "AreaID": 13
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityVaulting",
+          "AreaID": 14
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilitySlideUnder",
+          "AreaID": 15
+        },
+        {
+          "AreaClassName": "SBZNavArea_ExitableNoEnter",
+          "AreaID": 16
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityClimbOnTopHigh",
+          "AreaID": 17
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityClimbOnTopLow",
+          "AreaID": 18
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityClimbOverHigh",
+          "AreaID": 19
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityClimbOverLow",
+          "AreaID": 20
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityJumpingDownHigh",
+          "AreaID": 21
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityJumpingDownLow",
+          "AreaID": 22
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityJumpingStraightBig",
+          "AreaID": 23
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityJumpingStraightSmall",
+          "AreaID": 24
+        },
+        {
+          "AreaClassName": "SBZNavArea_ForbiddenDuringStealth",
+          "AreaID": 25
+        },
+        {
+          "AreaClassName": "SBZNavArea_PedestrianCrossing",
+          "AreaID": 26
+        },
+        {
+          "AreaClassName": "SBZNavArea_AgilityWallRunning",
+          "AreaID": 27
+        },
+        {
+          "AreaClassName": "SBZNavArea_WallRunningDetour",
+          "AreaID": 28
+        },
+        {
+          "AreaClassName": "SBZNavArea_ZipLine",
+          "AreaID": 29
+        },
+        {
+          "AreaClassName": "SBZNavArea_Street",
+          "AreaID": 30
+        },
+        {
+          "AreaClassName": "SBZNavArea_StreetPedestrianCrossing",
+          "AreaID": 31
+        },
+        {
+          "AreaClassName": "SBZNavArea_ZipLinePlatform",
+          "AreaID": 32
+        }
+      ],
+      "bNetLoadOnClient": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'LoudTutCombat:PersistentLevel.RecastNavMesh-Common.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.55"
+      }
+    }
+  },
+  {
+    "Type": "SBZAIVisibilityComponent",
+    "Name": "SBZAIVisibility",
+    "Outer": "AIVisibilityVolume",
+    "Class": "UScriptClass'SBZAIVisibilityComponent'",
+    "Properties": {
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SBZAIVisibilityVolume",
+    "Name": "SBZAIVisibilityVolume_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZAIVisibilityVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'LoudTutCombat:PersistentLevel.SBZAIVisibilityVolume_1.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.40"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'LoudTutCombat:PersistentLevel.SBZAIVisibilityVolume_1.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.14"
+      },
+      "SavedSelections": [
+        {
+          "Type": 1,
+          "Index": 4,
+          "SelectionIndex": 0
+        }
+      ],
+      "bHidden": false,
+      "SpawnCollisionHandlingMethod": "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
+      "RootComponent": {
+        "ObjectName": "BrushComponent'LoudTutCombat:PersistentLevel.SBZAIVisibilityVolume_1.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.14"
+      }
+    }
+  },
+  {
+    "Type": "SBZNavMeshGeneratorVolume",
+    "Name": "SBZNavMeshGeneratorVolume_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZNavMeshGeneratorVolume'",
+    "Properties": {
+      "BrushType": "Brush_Add",
+      "Brush": {
+        "ObjectName": "Model'LoudTutCombat:PersistentLevel.SBZNavMeshGeneratorVolume_5.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.41"
+      },
+      "BrushComponent": {
+        "ObjectName": "BrushComponent'LoudTutCombat:PersistentLevel.SBZNavMeshGeneratorVolume_5.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.15"
+      },
+      "bHidden": false,
+      "RootComponent": {
+        "ObjectName": "BrushComponent'LoudTutCombat:PersistentLevel.SBZNavMeshGeneratorVolume_5.BrushComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.15"
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "MusicEvent": {
+        "ObjectName": "AkAudioEvent'MusicTutorial_Combat'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/Music/Tutorial/MusicTutorial_Combat.1"
+      },
+      "KeyItemDataMap": [
+        {
+          "Key": {
+            "TagName": "Item.Keycard.Green"
+          },
+          "Value": {
+            "ObjectName": "SBZKeyItemData'DA_KeyItem_KeyCard'",
+            "ObjectPath": "PAYDAY3/Content/UI/Assets/KeyItems/DA_KeyItem_KeyCard.0"
+          }
+        }
+      ],
+      "bSkipNegotiation": false,
+      "bSkipFirstResponders": false,
+      "bAICrewStartInCasing": false,
+      "bStartWithAICrew": false,
+      "AssaultManagerSettings": {
+        "ObjectName": "PD3AssaultSettings'DA_AssaultManagerSettings_LoudTutCombat'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/AI/Assault/DA_AssaultManagerSettings_LoudTutCombat.0"
+      },
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "GlobalMaterialParameters": {
+        "WindDirection": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "WindSpeed": 0.01,
+        "EnemyBacklightInfluence": {
+          "R": 0.15,
+          "G": 7.0,
+          "B": 0.0,
+          "A": 0.1,
+          "Hex": "196CFF00"
+        },
+        "EnemyBacklightFade": {
+          "R": 3000.0,
+          "G": 1500.0,
+          "B": 30.0,
+          "A": 20.0,
+          "Hex": "FFFFFFFF"
+        },
+        "EnemyBacklightRangeFuzz": {
+          "R": 0.2,
+          "G": 0.5,
+          "B": 0.1,
+          "A": 0.5,
+          "Hex": "7F7CBC59"
+        }
+      },
+      "SoloPlayerLoadoutOverride": {
+        "ObjectName": "SBZPlayerLoadoutAsset'DA_TutorialLoadout'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Player/DA_TutorialLoadout.0"
+      },
+      "CoverRoomConnection": [
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint10": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint11": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint12": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint13": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint14": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint15": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint16": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint17": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint18": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint19": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint2": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint20": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint21": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint22": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint23": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint24": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint25": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint26": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint3": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint31": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint32": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint33": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint34": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint35": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint36": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint37": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint38": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint39": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint4": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint40": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint41": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint42": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint43": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint44": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint45": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint46": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint5": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint6": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint7": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint8": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint9": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        },
+        {
+          "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints:PersistentLevel.BP_CoverPoint_2": {
+            "AssetPathName": "/Game/Prototype/Maps/Tutorial/Loud/LoudTutCombat/Sublevels/Gameplay_LoudTutCombat/G_LoudTutCombat_Coverpoints.G_LoudTutCombat_Coverpoints",
+            "SubPathString": "PersistentLevel.SBZRoomVolume_TutorialArea"
+          }
+        }
+      ],
+      "bEnableNavigationSystem": false,
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemConfig'LoudTutCombat:PersistentLevel.SBZWorldSettings.NavigationSystemConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.42"
+      },
+      "DynamicIndirectShadowsSelfShadowingIntensity": 0.0,
+      "BookmarkArray": [
+        null,
+        {
+          "ObjectName": "BookMark'LoudTutCombat:PersistentLevel.SBZWorldSettings.BookMark_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.9"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "AIVisibilityVolume",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 896.0,
+        "Y": -128.0,
+        "Z": 0.0
+      },
+      "CreationMethod": "EComponentCreationMethod::Instance"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent0",
+    "Outer": "InstancedFoliageActor_0",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 2560.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "RecastNavMesh-Common",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "TableFoldout_01_A5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'LoudTutCombat:PersistentLevel.TableFoldout_01_A5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.57"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'LoudTutCombat:PersistentLevel.TableFoldout_01_A5.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.57"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "TableFoldout_01_A5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'TableFoldout_01_A'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Furniture/TableFoldout_01/TableFoldout_01_A.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 189.11908
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 189.11908
+        }
+      ],
+      "VisibilityId": 0,
+      "RelativeLocation": {
+        "X": 6197.266,
+        "Y": -583.35516,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -95.00005,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "246B68FC409B1B5E61F54FB163466047"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "LoudTutCombat",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'LoudTutCombat:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.18"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": [
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'LoudTutCombat:LevelStreamingAlwaysLoaded_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.20"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'LoudTutCombat:LevelStreamingAlwaysLoaded_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.24"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'LoudTutCombat:LevelStreamingAlwaysLoaded_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.25"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'LoudTutCombat:LevelStreamingAlwaysLoaded_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.26"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'LoudTutCombat:LevelStreamingAlwaysLoaded_5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.27"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'LoudTutCombat:LevelStreamingAlwaysLoaded_7'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.28"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'LoudTutCombat:LevelStreamingAlwaysLoaded_8'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.29"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'LoudTutCombat:LevelStreamingAlwaysLoaded_9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.30"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'LoudTutCombat:LevelStreamingDynamic_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.31"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'LoudTutCombat:LevelStreamingDynamic_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.32"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'LoudTutCombat:LevelStreamingAlwaysLoaded_11'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.22"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'LoudTutCombat:LevelStreamingAlwaysLoaded_10'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.21"
+      },
+      {
+        "ObjectName": "LevelStreamingDynamic'LoudTutCombat:LevelStreamingDynamic_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.33"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'LoudTutCombat:LevelStreamingAlwaysLoaded_12'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.23"
+      },
+      {
+        "ObjectName": "LevelStreamingAlwaysLoaded'LoudTutCombat:LevelStreamingAlwaysLoaded_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Loud/LoudTutCombat/LoudTutCombat.19"
+      }
+    ]
+  }
+]

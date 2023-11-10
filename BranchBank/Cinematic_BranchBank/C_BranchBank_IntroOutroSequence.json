@@ -1,0 +1,920 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_C_BranchBank_IntroOutroSequence",
+    "Outer": "C_BranchBank_IntroOutroSequence_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSequencePlayer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelSequencePlayer'",
+          "ObjectPath": "/Script/LevelSequence"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMovieSceneSequencePlayerEvent__DelegateSignature'",
+          "ObjectPath": "/Script/MovieScene"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "C_BranchBank_IntroOutroSequence_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnIntroFinished",
+    "Outer": "C_BranchBank_IntroOutroSequence_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "IntroSequenceStarted",
+    "Outer": "C_BranchBank_IntroOutroSequence_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZLevelScriptActor:IntroSequenceStarted'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_BranchBank_IntroOutroSequence_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'C_BranchBank_IntroOutroSequence_C:ExecuteUbergraph_C_BranchBank_IntroOutroSequence'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'C_BranchBank_IntroOutroSequence_C:IntroSequenceStarted'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.3"
+      },
+      {
+        "ObjectName": "Function'C_BranchBank_IntroOutroSequence_C:OnIntroFinished'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.2"
+      },
+      {
+        "ObjectName": "Function'C_BranchBank_IntroOutroSequence_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.1"
+      },
+      {
+        "ObjectName": "Function'C_BranchBank_IntroOutroSequence_C:ExecuteUbergraph_C_BranchBank_IntroOutroSequence'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "C_NoRestForTheWiked_Master_01_ExecuteUbergraph_C_BranchBank_IntroOutroSequence_RefProperty",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelSequenceActor'",
+          "ObjectPath": "/Script/LevelSequence"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_C_BranchBank_IntroOutroSequence": {
+        "ObjectName": "Function'C_BranchBank_IntroOutroSequence_C:ExecuteUbergraph_C_BranchBank_IntroOutroSequence'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.0"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'C_BranchBank_IntroOutroSequence_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.1"
+      },
+      "OnIntroFinished": {
+        "ObjectName": "Function'C_BranchBank_IntroOutroSequence_C:OnIntroFinished'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.2"
+      },
+      "IntroSequenceStarted": {
+        "ObjectName": "Function'C_BranchBank_IntroOutroSequence_C:IntroSequenceStarted'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_BranchBank_IntroOutroSequence_C'Default__C_BranchBank_IntroOutroSequence_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.5"
+    }
+  },
+  {
+    "Type": "C_BranchBank_IntroOutroSequence_C",
+    "Name": "Default__C_BranchBank_IntroOutroSequence_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.C_BranchBank_IntroOutroSequence_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "C_NoRestForTheWiked_Master_01_ExecuteUbergraph_C_BranchBank_IntroOutroSequence_RefProperty": {
+        "ObjectName": "LevelSequenceActor'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWiked_Master_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.25"
+      }
+    }
+  },
+  {
+    "Type": "C_BranchBank_IntroOutroSequence_C",
+    "Name": "C_BranchBank_IntroOutroSequence_C_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.C_BranchBank_IntroOutroSequence_C'",
+    "Template": {
+      "ObjectName": "C_BranchBank_IntroOutroSequence_C'Default__C_BranchBank_IntroOutroSequence_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.5"
+    },
+    "Properties": {
+      "Seed": 23644,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_NoRest_Shot1_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.Camera_NoRest_Shot1_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.10"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.Camera_NoRest_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.47"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.Camera_NoRest_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.47"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_NoRest_Shot2_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.Camera_NoRest_Shot2_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.11"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.Camera_NoRest_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.48"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.Camera_NoRest_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.48"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_NoRest_Shot3_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.Camera_NoRest_Shot3_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.12"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.Camera_NoRest_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.49"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.Camera_NoRest_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.49"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_NoRest_Shot1_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 500.0
+      },
+      "CurrentFocusDistance": 100000.0,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.Camera_NoRest_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.47"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_NoRest_Shot2_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 500.0
+      },
+      "CurrentFocusDistance": 100000.0,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "PostProcessSettings": {
+        "VignetteIntensity": 1.0
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.Camera_NoRest_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.48"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_NoRest_Shot3_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 500.0
+      },
+      "FocusSettings": {
+        "ManualFocusDistance": 2486.0388
+      },
+      "CurrentFocalLength": 47.589314,
+      "CurrentAperture": 22.01821,
+      "CurrentFocusDistance": 2486.0388,
+      "FieldOfView": 67.835335,
+      "AspectRatio": 2.3703704,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.Camera_NoRest_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.49"
+      }
+    }
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_NoRestForTheWicked_Shot1_01_5",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_NoRestForTheWicked_Shot2_01_7",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_NoRestForTheWicked_Shot2_02_3",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_NoRestForTheWicked_Shot2_03_3",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_NoRestForTheWicked_Shot3_01_8",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_NoRestForTheWiked_Master_01",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "C_BranchBank_IntroOutroSequence",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'C_BranchBank_IntroOutroSequence:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.32"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "C_BranchBank_IntroOutroSequence_C'C_BranchBank_IntroOutroSequence:PersistentLevel.C_BranchBank_IntroOutroSequence_C_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.6"
+      },
+      "LevelBuildDataId": "4CFB96C5-48E12DF5-5010B6BE-603023DB",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'C_BranchBank_IntroOutroSequence_BuiltData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'C_BranchBank_IntroOutroSequence:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.40"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'C_BranchBank_IntroOutroSequence:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.40"
+      },
+      null,
+      {
+        "ObjectName": "CineCameraActor'C_BranchBank_IntroOutroSequence:PersistentLevel.Camera_NoRest_Shot1_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.7"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_BranchBank_IntroOutroSequence:PersistentLevel.Camera_NoRest_Shot2_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.8"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_BranchBank_IntroOutroSequence:PersistentLevel.Camera_NoRest_Shot3_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.9"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWiked_Master_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.25"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot1_01_5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.20"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot2_01_7'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.21"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot2_02_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.22"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot3_01_8'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.24"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot2_03_3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.23"
+      },
+      {
+        "ObjectName": "C_BranchBank_IntroOutroSequence_C'C_BranchBank_IntroOutroSequence:PersistentLevel.C_BranchBank_IntroOutroSequence_C_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.6"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'C_BranchBank_IntroOutroSequence:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.32"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "C_BranchBank_IntroOutroSequence_C'C_BranchBank_IntroOutroSequence:PersistentLevel.C_BranchBank_IntroOutroSequence_C_2'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.6"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_NoRestForTheWicked_Shot1_01_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot1_01.C_NoRestForTheWicked_Shot1_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot1_01_5.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.26"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot1_01_5.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.33"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot1_01_5.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.13"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot1_01_5.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.41"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_NoRestForTheWicked_Shot2_01_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_01.C_NoRestForTheWicked_Shot2_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot2_01_7.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.27"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot2_01_7.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.34"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot2_01_7.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.14"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot2_01_7.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.42"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_NoRestForTheWicked_Shot2_02_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_02.C_NoRestForTheWicked_Shot2_02",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot2_02_3.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.28"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot2_02_3.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.35"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot2_02_3.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.15"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot2_02_3.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.43"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_NoRestForTheWicked_Shot2_03_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot2_03.C_NoRestForTheWicked_Shot2_03",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot2_03_3.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.29"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot2_03_3.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.36"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot2_03_3.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.16"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot2_03_3.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.44"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_NoRestForTheWicked_Shot3_01_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Shot3_01.C_NoRestForTheWicked_Shot3_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot3_01_8.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.30"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot3_01_8.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.37"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot3_01_8.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.17"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWicked_Shot3_01_8.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.45"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_NoRestForTheWiked_Master_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_NoRestForTheWicked_Master_01.C_NoRestForTheWicked_Master_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWiked_Master_01.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.31"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWiked_Master_01.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.38"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWiked_Master_01.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.18"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_BranchBank_IntroOutroSequence:PersistentLevel.C_NoRestForTheWiked_Master_01.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.46"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_NoRestForTheWicked_Shot1_01_5",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_NoRestForTheWicked_Shot2_01_7",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_NoRestForTheWicked_Shot2_02_3",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_NoRestForTheWicked_Shot2_03_3",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_NoRestForTheWicked_Shot3_01_8",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_NoRestForTheWiked_Master_01",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "3254D3FF-40C92B61-8DE384A3-4FD92BA7",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_NoRestForTheWicked_Shot1_01_5",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_NoRestForTheWicked_Shot2_01_7",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_NoRestForTheWicked_Shot2_02_3",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_NoRestForTheWicked_Shot2_03_3",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_NoRestForTheWicked_Shot3_01_8",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_NoRestForTheWiked_Master_01",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "GlobalMaterialParameters": {
+        "WindDirection": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "WindSpeed": 0.01,
+        "EnemyBacklightInfluence": {
+          "R": 0.05,
+          "G": 5.0,
+          "B": 0.2,
+          "A": 0.5,
+          "Hex": "7F3FFF7C"
+        },
+        "EnemyBacklightFade": {
+          "R": 3000.0,
+          "G": 1500.0,
+          "B": 40.0,
+          "A": 30.0,
+          "Hex": "FFFFFFFF"
+        },
+        "EnemyBacklightRangeFuzz": {
+          "R": 0.2,
+          "G": 0.5,
+          "B": 0.1,
+          "A": 0.5,
+          "Hex": "7F7CBC59"
+        }
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'C_BranchBank_IntroOutroSequence:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.39"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_NoRestForTheWicked_Shot1_01_5",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_NoRestForTheWicked_Shot2_01_7",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_NoRestForTheWicked_Shot2_02_3",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_NoRestForTheWicked_Shot2_03_3",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_NoRestForTheWicked_Shot3_01_8",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_NoRestForTheWiked_Master_01",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_NoRest_Shot1_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "ComponentVelocity": {
+        "X": -212651.7,
+        "Y": -136550.25,
+        "Z": -40695.363
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_NoRest_Shot2_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "ComponentVelocity": {
+        "X": 198318.03,
+        "Y": -66424.29,
+        "Z": -17099.824
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_NoRest_Shot3_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 500.44965,
+        "Y": -261.22333,
+        "Z": 323.47583
+      },
+      "RelativeRotation": {
+        "Pitch": -4.7765694,
+        "Yaw": -34.658833,
+        "Roll": 0.0
+      },
+      "ComponentVelocity": {
+        "X": 1006.36755,
+        "Y": 4633.4614,
+        "Z": -436.2121
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "C_BranchBank_IntroOutroSequence",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'C_BranchBank_IntroOutroSequence:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/Cinematic_BranchBank/C_BranchBank_IntroOutroSequence.19"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

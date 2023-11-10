@@ -1,0 +1,990 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_MovingForklift",
+    "Outer": "BP_MovingForklift_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Vehicle",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZWheeledVehicle'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Spline",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'SBZSpline'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 56,
+          "Struct": {
+            "ObjectName": "ScriptStruct'AkExternalSourceInfo'",
+            "ObjectPath": "/Script/AkAudio"
+          }
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "Temp_delegate_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "ConstParm",
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_struct_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable_1",
+          "Flags": "RF_Public",
+          "ElementSize": 56,
+          "Struct": {
+            "ObjectName": "ScriptStruct'AkExternalSourceInfo'",
+            "ObjectPath": "/Script/AkAudio"
+          }
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "Temp_delegate_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "ConstParm",
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'SBZWheeledVehicleOnSplineEndReached__DelegateSignature'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactor_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bIsLocallyControlledInteractor_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_GetSplineFollowingComponent_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'SBZVehicleInterface'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSplineFollowingComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZVehicleSplineFollowingComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_PostEvent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSplineFollowingComponent_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZVehicleSplineFollowingComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSplineFollowingComponent_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZVehicleSplineFollowingComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_PostEvent_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "On Spline End Reach",
+    "Outer": "BP_MovingForklift_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Vehicle",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZWheeledVehicle'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Spline",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZSpline'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_MovingForklift_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature",
+    "Outer": "BP_MovingForklift_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_MovingForklift_SBZInteractable_K2Node_ComponentBoundEvent_3_SBZOnInteraction__DelegateSignature",
+    "Outer": "BP_MovingForklift_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_MovingForklift_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_MovingForklift_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.8"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_MovingForklift_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.24"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_MovingForklift_C:ExecuteUbergraph_BP_MovingForklift'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZWheeledVehicle'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_MovingForklift_C:BndEvt__BP_MovingForklift_SBZInteractable_K2Node_ComponentBoundEvent_3_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.3"
+      },
+      {
+        "ObjectName": "Function'BP_MovingForklift_C:BndEvt__BP_MovingForklift_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.2"
+      },
+      {
+        "ObjectName": "Function'BP_MovingForklift_C:On Spline End Reach'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.1"
+      },
+      {
+        "ObjectName": "Function'BP_MovingForklift_C:ExecuteUbergraph_BP_MovingForklift'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Collision",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Crate_01_120",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZInteractable",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZOutline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZOutlineComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Speed",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Fork Height",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TrafficSpline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZTrafficSpline'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_MovingForklift": {
+        "ObjectName": "Function'BP_MovingForklift_C:ExecuteUbergraph_BP_MovingForklift'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.0"
+      },
+      "On Spline End Reach": {
+        "ObjectName": "Function'BP_MovingForklift_C:On Spline End Reach'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.1"
+      },
+      "BndEvt__BP_MovingForklift_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature": {
+        "ObjectName": "Function'BP_MovingForklift_C:BndEvt__BP_MovingForklift_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.2"
+      },
+      "BndEvt__BP_MovingForklift_SBZInteractable_K2Node_ComponentBoundEvent_3_SBZOnInteraction__DelegateSignature": {
+        "ObjectName": "Function'BP_MovingForklift_C:BndEvt__BP_MovingForklift_SBZInteractable_K2Node_ComponentBoundEvent_3_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_MovingForklift_C'Default__BP_MovingForklift_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.5"
+    }
+  },
+  {
+    "Type": "BP_MovingForklift_C",
+    "Name": "Default__BP_MovingForklift_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.BP_MovingForklift_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Speed": 4.0,
+      "Fork Height": 120.0,
+      "AudioComponent": {
+        "ObjectName": "SBZWheeledVehicleAudioComponent'Default__BP_MovingForklift_C:Sound System Component'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.14"
+      },
+      "RadioComponent": {
+        "ObjectName": "SBZAmbientSoundRadioComponent'Default__BP_MovingForklift_C:Radio Component'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.9"
+      },
+      "NavModifierComponent": {
+        "ObjectName": "SBZWheeledVehicleNavModifierComponent'Default__BP_MovingForklift_C:SBZWheeledVehicleNavModifierComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.16"
+      },
+      "SplineFollowingComponent": {
+        "ObjectName": "SBZVehicleSplineFollowingComponent'Default__BP_MovingForklift_C:SBZVehicleSplineFollowingComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.13"
+      },
+      "Mesh": {
+        "ObjectName": "SBZWheeledVehicleSkeletalMeshComponent'Default__BP_MovingForklift_C:VehicleMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.17"
+      },
+      "VehicleMovement": {
+        "ObjectName": "SBZWheeledVehicleMovementComponent'Default__BP_MovingForklift_C:MovementComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.15"
+      },
+      "RootComponent": {
+        "ObjectName": "SBZWheeledVehicleSkeletalMeshComponent'Default__BP_MovingForklift_C:VehicleMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.17"
+      }
+    }
+  },
+  {
+    "Type": "AkComponent",
+    "Name": "Siren Audio Component",
+    "Outer": "Default__BP_MovingForklift_C",
+    "Class": "UScriptClass'AkComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SBZWheeledVehicleSkeletalMeshComponent'Default__BP_MovingForklift_C:VehicleMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.17"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Collision_GEN_VARIABLE",
+    "Outer": "BP_MovingForklift_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 150.0,
+        "Y": 80.0,
+        "Z": 110.0
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Interaction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -19.0,
+        "Y": -0.00015258789,
+        "Z": 110.75354
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "BP_MovingForklift_C",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "SBZInteractable",
+          "DelegatePropertyName": "OnAckCompleteInteraction",
+          "FunctionNameToBind": "BndEvt__BP_MovingForklift_SBZInteractable_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "SBZInteractable",
+          "DelegatePropertyName": "OnServerCompleteInteraction",
+          "FunctionNameToBind": "BndEvt__BP_MovingForklift_SBZInteractable_K2Node_ComponentBoundEvent_3_SBZOnInteraction__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SBZAmbientSoundRadioComponent",
+    "Name": "Radio Component",
+    "Outer": "Default__BP_MovingForklift_C",
+    "Class": "UScriptClass'SBZAmbientSoundRadioComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SBZWheeledVehicleSkeletalMeshComponent'Default__BP_MovingForklift_C:VehicleMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.17"
+      }
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractable_GEN_VARIABLE",
+    "Outer": "BP_MovingForklift_C",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "Shapes": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'PrimitiveComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "Collision"
+        }
+      ],
+      "Text": {
+        "TableId": "/Game/Localization/ST_Interaction.ST_Interaction",
+        "Key": "INT_GEN_Move"
+      }
+    }
+  },
+  {
+    "Type": "SBZOutlineComponent",
+    "Name": "SBZOutline_GEN_VARIABLE",
+    "Outer": "BP_MovingForklift_C",
+    "Class": "UScriptClass'SBZOutlineComponent'",
+    "Properties": {
+      "DefaultAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_Interactable_5m'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_Interactable_5m.0"
+      },
+      "MeshSelectors": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "VehicleMesh"
+        }
+      ],
+      "InteractableSelector": {
+        "ComponentName": "SBZInteractable"
+      },
+      "InteractableFocusAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_InteractableInFocus'",
+        "ObjectPath": "PAYDAY3/Content/DataAssets/Outlines/DA_InteractableInFocus.0"
+      }
+    }
+  },
+  {
+    "Type": "SBZVehicleDamageComponent",
+    "Name": "SBZVehicleDamageComponent",
+    "Outer": "Default__BP_MovingForklift_C",
+    "Class": "UScriptClass'SBZVehicleDamageComponent'"
+  },
+  {
+    "Type": "SBZVehicleSplineFollowingComponent",
+    "Name": "SBZVehicleSplineFollowingComponent",
+    "Outer": "Default__BP_MovingForklift_C",
+    "Class": "UScriptClass'SBZVehicleSplineFollowingComponent'"
+  },
+  {
+    "Type": "SBZWheeledVehicleAudioComponent",
+    "Name": "Sound System Component",
+    "Outer": "Default__BP_MovingForklift_C",
+    "Class": "UScriptClass'SBZWheeledVehicleAudioComponent'",
+    "Properties": {
+      "SirenAudioComponent": {
+        "ObjectName": "AkComponent'Default__BP_MovingForklift_C:Siren Audio Component'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.6"
+      },
+      "AttachParent": {
+        "ObjectName": "SBZWheeledVehicleSkeletalMeshComponent'Default__BP_MovingForklift_C:VehicleMesh'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.17"
+      }
+    }
+  },
+  {
+    "Type": "SBZWheeledVehicleMovementComponent",
+    "Name": "MovementComp",
+    "Outer": "Default__BP_MovingForklift_C",
+    "Class": "UScriptClass'SBZWheeledVehicleMovementComponent'",
+    "Properties": {
+      "WheelSetups": [
+        {
+          "WheelClass": {
+            "ObjectName": "BlueprintGeneratedClass'Forklift_01_FrontWheel_C'",
+            "ObjectPath": "PAYDAY3/Content/Vehicle/Service/Forklift/Forklift_01_FrontWheel.0"
+          },
+          "BoneName": "LeftFrontWheel",
+          "AdditionalOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bDisableSteering": true
+        },
+        {
+          "WheelClass": {
+            "ObjectName": "BlueprintGeneratedClass'Forklift_01_FrontWheel_C'",
+            "ObjectPath": "PAYDAY3/Content/Vehicle/Service/Forklift/Forklift_01_FrontWheel.0"
+          },
+          "BoneName": "RightFrontWheel",
+          "AdditionalOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bDisableSteering": true
+        },
+        {
+          "WheelClass": {
+            "ObjectName": "BlueprintGeneratedClass'Forklift_01_BackWheel_C'",
+            "ObjectPath": "PAYDAY3/Content/Vehicle/Service/Forklift/Forklift_01_BackWheel.0"
+          },
+          "BoneName": "LeftBackWheel",
+          "AdditionalOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bDisableSteering": false
+        },
+        {
+          "WheelClass": {
+            "ObjectName": "BlueprintGeneratedClass'Forklift_01_BackWheel_C'",
+            "ObjectPath": "PAYDAY3/Content/Vehicle/Service/Forklift/Forklift_01_BackWheel.0"
+          },
+          "BoneName": "RightBackWheel",
+          "AdditionalOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "bDisableSteering": false
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SBZWheeledVehicleNavModifierComponent",
+    "Name": "SBZWheeledVehicleNavModifierComponent",
+    "Outer": "Default__BP_MovingForklift_C",
+    "Class": "UScriptClass'SBZWheeledVehicleNavModifierComponent'"
+  },
+  {
+    "Type": "SBZWheeledVehicleSkeletalMeshComponent",
+    "Name": "VehicleMesh",
+    "Outer": "Default__BP_MovingForklift_C",
+    "Class": "UScriptClass'SBZWheeledVehicleSkeletalMeshComponent'",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_Car_Base_C'",
+        "ObjectPath": "PAYDAY3/Content/Vehicle/ABP_Car_Base.2"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Veh_Forklift_01'",
+        "ObjectPath": "PAYDAY3/Content/Vehicle/Service/Forklift/SK_Veh_Forklift_01.0"
+      },
+      "bFillCollisionUnderneathForNavmesh": true
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_MovingForklift_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_MovingForklift_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.18"
+      },
+      "VariableGuid": "DE1F526F-42362B0D-783FB3B1-606DAE43",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZOutlineComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZOutlineComponent'BP_MovingForklift_C:SBZOutline_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.11"
+      },
+      "VariableGuid": "0200D785-4415513D-E849158E-859A4D1F",
+      "InternalVariableName": "SBZOutline"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_MovingForklift_C:Collision_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.7"
+      },
+      "ParentComponentOrVariableName": "VehicleMesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6E5E3137-467719E6-3A818EBE-4FC6D242",
+      "InternalVariableName": "Collision"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZInteractableComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZInteractableComponent'BP_MovingForklift_C:SBZInteractable_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.10"
+      },
+      "VariableGuid": "54FAA233-4AE5A9C4-4AC18E95-99A711EB",
+      "InternalVariableName": "SBZInteractable"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_MovingForklift_C:Crate_01_120_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.25"
+      },
+      "AttachToName": "BodyAttachment01",
+      "ParentComponentOrVariableName": "VehicleMesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F2B9B0CA-42BB0FA4-CB21C0AE-5348620E",
+      "InternalVariableName": "Crate_01_120"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_MovingForklift_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MovingForklift_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MovingForklift_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MovingForklift_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MovingForklift_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.21"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MovingForklift_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MovingForklift_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MovingForklift_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MovingForklift_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.21"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_MovingForklift_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_MovingForklift.19"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Crate_01_120_GEN_VARIABLE",
+    "Outer": "BP_MovingForklift_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Crate_01_120'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Construction/Crate_01/Crate_01_120.2"
+      },
+      "BodyInstance": {
+        "MassInKgOverride": 0.001,
+        "bOverrideMass": true
+      },
+      "RelativeLocation": {
+        "X": 12.0,
+        "Y": -2.1457677E-06,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  }
+]

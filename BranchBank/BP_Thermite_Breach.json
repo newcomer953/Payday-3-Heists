@@ -1,0 +1,775 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Thermite_Breach",
+    "Outer": "BP_Thermite_Breach_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnSystemAtLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsVisible_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetComponentRotation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnSystemAtLocation_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "BP_Thermite_Breach_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_ReplicatedBinaryActor_C:ReceiveBeginPlay'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_ReplicatedBinaryActor.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_ReplicatedBinaryActor_C:ReceiveBeginPlay'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_ReplicatedBinaryActor.1"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "BP_Thermite_Breach_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_ReplicatedBinaryActor_C:OnStateChanged'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_ReplicatedBinaryActor.2"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_ReplicatedBinaryActor_C:OnStateChanged'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_ReplicatedBinaryActor.2"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Outer": "BP_Thermite_Breach_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Thermite_Breach_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ReplicatedBinaryActor_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_ReplicatedBinaryActor.3"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Thermite_Breach_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.15"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Thermite_Breach_C:InheritableComponentHandler'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.7"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Thermite_Breach_C:ExecuteUbergraph_BP_Thermite_Breach'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ReplicatedBinaryActor_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_ReplicatedBinaryActor.3"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Thermite_Breach_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.3"
+      },
+      {
+        "ObjectName": "Function'BP_Thermite_Breach_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.2"
+      },
+      {
+        "ObjectName": "Function'BP_Thermite_Breach_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.1"
+      },
+      {
+        "ObjectName": "Function'BP_Thermite_Breach_C:ExecuteUbergraph_BP_Thermite_Breach'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MeshDecal_Thermite_Debris_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PlayerFallDamageBlock",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Thermite_Ceiling_Hole",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DD_Damaged_Concrete_01_F",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Thermite_Ground_Pile",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Emissive Duration",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Thermite_Breach": {
+        "ObjectName": "Function'BP_Thermite_Breach_C:ExecuteUbergraph_BP_Thermite_Breach'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.0"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_Thermite_Breach_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.1"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'BP_Thermite_Breach_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.2"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_Thermite_Breach_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Thermite_Breach_C'Default__BP_Thermite_Breach_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.5"
+    }
+  },
+  {
+    "Type": "BP_Thermite_Breach_C",
+    "Name": "Default__BP_Thermite_Breach_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.BP_Thermite_Breach_C'",
+    "Template": {
+      "ObjectName": "BP_ReplicatedBinaryActor_C'Default__BP_ReplicatedBinaryActor_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_ReplicatedBinaryActor.4"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "Emissive Duration": 2400.0
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PlayerFallDamageBlock_GEN_VARIABLE",
+    "Outer": "BP_Thermite_Breach_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 60.0,
+        "Y": 60.0,
+        "Z": 16.0
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel4",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "SBZ_BlockPlayerOnly",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Overlap"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "SBZSpecialVehicle",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -368.0
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BP_Thermite_Breach_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Thermite_Breach_C:Cylinder_GEN_VARIABLE'",
+            "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.16"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_ReplicatedBinaryActor_C'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_ReplicatedBinaryActor.3"
+            },
+            "SCSVariableName": "Cylinder",
+            "AssociatedGuid": "52FA8BAE-4203E9A3-3F6B94A2-5B8F8E36"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Thermite_Breach_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Thermite_Breach_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.8"
+      },
+      "VariableGuid": "9E2F132B-4C32FE63-B150EABD-54DC1FC5",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Thermite_Breach_C:DD_Damaged_Concrete_01_F_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.17"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_ReplicatedBinaryActor_C",
+      "VariableGuid": "5E9362C2-4772DB66-A0F934B3-7F5D1415",
+      "InternalVariableName": "DD_Damaged_Concrete_01_F"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Thermite_Breach_C:Thermite_Ground_Pile_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.20"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_ReplicatedBinaryActor_C",
+      "VariableGuid": "778FDC6F-4CE64B44-BBB397B5-08E1EADD",
+      "InternalVariableName": "Thermite_Ground_Pile"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Thermite_Breach_C:Thermite_Ceiling_Hole_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.19"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_ReplicatedBinaryActor_C",
+      "VariableGuid": "1FB214F8-43F65E71-81A8B2A4-ADFC817B",
+      "InternalVariableName": "Thermite_Ceiling_Hole"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_Thermite_Breach_C:PlayerFallDamageBlock_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.6"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_ReplicatedBinaryActor_C",
+      "VariableGuid": "CB70C864-4F4DBF7E-5BFDB882-33E78082",
+      "InternalVariableName": "PlayerFallDamageBlock"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Thermite_Breach_C:MeshDecal_Thermite_Debris_01_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.18"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_ReplicatedBinaryActor_C",
+      "VariableGuid": "5C34C391-4A01C9AB-86D71BB9-0D463526",
+      "InternalVariableName": "MeshDecal_Thermite_Debris_01"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Thermite_Breach_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Thermite_Breach_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Thermite_Breach_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Thermite_Breach_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Thermite_Breach_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Thermite_Breach_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.14"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Thermite_Breach_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Thermite_Breach_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Thermite_Breach_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Thermite_Breach_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Thermite_Breach_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.14"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Thermite_Breach_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_Thermite_Breach.9"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Cylinder_GEN_VARIABLE",
+    "Outer": "BP_Thermite_Breach_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_ReplicatedBinaryActor_C:Cylinder_GEN_VARIABLE'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_ReplicatedBinaryActor.9"
+    },
+    "Properties": {
+      "StaticMesh": null,
+      "OverrideMaterials": [],
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "DD_Damaged_Concrete_01_F_GEN_VARIABLE",
+    "Outer": "BP_Thermite_Breach_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Ext_TER_Generic_01_Pile_01_192_192_Pillar_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Architecture/Exterior/Terrain/Generic_01/Pile_01/Ext_TER_Generic_01_Pile_01_192_192_Pillar_01.2"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "CastShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 17.052427,
+        "Y": 14.464262,
+        "Z": -382.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 210.00053,
+        "Roll": 0.0
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "MeshDecal_Thermite_Debris_01_GEN_VARIABLE",
+    "Outer": "BP_Thermite_Breach_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'MeshDecal_Thermite_Debris_01'",
+        "ObjectPath": "PAYDAY3/Content/FX/Lib_Mesh/Debris/MeshDecal_Thermite_Debris_01.2"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -383.5
+      },
+      "bVisible": false
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Thermite_Ceiling_Hole_GEN_VARIABLE",
+    "Outer": "BP_Thermite_Breach_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ThermiteBreach_01_Open'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/ThermiteBreach_01/ThermiteBreach_01_Open.2"
+      },
+      "LightmapType": "ELightmapType::ForceSurface",
+      "CustomPrimitiveData": {
+        "Data": [
+          0.1,
+          2650.0,
+          75.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Thermite_Ground_Pile_GEN_VARIABLE",
+    "Outer": "BP_Thermite_Breach_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ThermiteBreach_01_Debris'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/ThermiteBreach_01/ThermiteBreach_01_Debris.2"
+      },
+      "CastShadow": false,
+      "CustomPrimitiveData": {
+        "Data": [
+          0.1,
+          2500.0,
+          75.0,
+          1.0,
+          1.0
+        ]
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -384.0
+      }
+    }
+  }
+]

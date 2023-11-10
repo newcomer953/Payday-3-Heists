@@ -1,0 +1,283 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "M_NightClub_Architecture_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "M_NightClub_Architecture_C'Default__M_NightClub_Architecture_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Mockup_NightClub/M_NightClub_Architecture.1"
+    }
+  },
+  {
+    "Type": "M_NightClub_Architecture_C",
+    "Name": "Default__M_NightClub_Architecture_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Mockup_NightClub/M_NightClub_Architecture.M_NightClub_Architecture_C'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "M_NightClub_Architecture",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'M_NightClub_Architecture:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Mockup_NightClub/M_NightClub_Architecture.4"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "M_NightClub_Architecture_C'M_NightClub_Architecture:PersistentLevel.M_NightClub_Architecture_C_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Mockup_NightClub/M_NightClub_Architecture.3"
+      },
+      "StreamingTextureGuids": [
+        "E4738699-44BDE509-4484F4AA-89400AD8",
+        "63E16068-4203DF0B-D7B51DA0-9E07AE8F"
+      ],
+      "LevelBuildDataId": "89358BF6-4C0B8B4C-1E3E61A7-E667DC18",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'M_NightClub_Architecture:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Mockup_NightClub/M_NightClub_Architecture.6"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'M_NightClub_Architecture:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Mockup_NightClub/M_NightClub_Architecture.6"
+      },
+      null,
+      null,
+      {
+        "ObjectName": "StaticMeshActor'M_NightClub_Architecture:PersistentLevel.office_desk3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Mockup_NightClub/M_NightClub_Architecture.7"
+      },
+      {
+        "ObjectName": "M_NightClub_Architecture_C'M_NightClub_Architecture:PersistentLevel.M_NightClub_Architecture_C_1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Mockup_NightClub/M_NightClub_Architecture.3"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'M_NightClub_Architecture:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Mockup_NightClub/M_NightClub_Architecture.4"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "M_NightClub_Architecture_C'M_NightClub_Architecture:PersistentLevel.M_NightClub_Architecture_C_1'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Mockup_NightClub/M_NightClub_Architecture.3"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "M_NightClub_Architecture_C",
+    "Name": "M_NightClub_Architecture_C_1",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Mockup_NightClub/M_NightClub_Architecture.M_NightClub_Architecture_C'",
+    "Template": {
+      "ObjectName": "M_NightClub_Architecture_C'Default__M_NightClub_Architecture_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Mockup_NightClub/M_NightClub_Architecture.1"
+    },
+    "Properties": {
+      "Seed": 3353,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "2631A5F8-4560E445-4CA62BA5-CFB93433",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'M_NightClub_Architecture:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Mockup_NightClub/M_NightClub_Architecture.5"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "office_desk3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'M_NightClub_Architecture:PersistentLevel.office_desk3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Mockup_NightClub/M_NightClub_Architecture.8"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'M_NightClub_Architecture:PersistentLevel.office_desk3.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Mockup_NightClub/M_NightClub_Architecture.8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "office_desk3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ManagerDesk_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Furniture/ManagerDesk_01/ManagerDesk_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 248.58551
+        },
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 248.58551
+        }
+      ],
+      "VisibilityId": 50,
+      "RelativeLocation": {
+        "X": 7317.71,
+        "Y": -4504.456,
+        "Z": -607.9879
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00011,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": -1.0,
+        "Z": 1.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "5600A90345FCB55D5430658018B2B4C4"
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "M_NightClub_Architecture",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'M_NightClub_Architecture:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/Sublevels/Mockup_NightClub/M_NightClub_Architecture.2"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

@@ -1,0 +1,1609 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_C_ArtGallery",
+    "Outer": "C_ArtGallery_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMovieSceneSequencePlayerEvent__DelegateSignature'",
+          "ObjectPath": "/Script/MovieScene"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSequencePlayer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelSequencePlayer'",
+          "ObjectPath": "/Script/LevelSequence"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnIntroFinished",
+    "Outer": "C_ArtGallery_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "IntroSequenceStarted",
+    "Outer": "C_ArtGallery_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZLevelScriptActor:IntroSequenceStarted'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "C_ArtGallery_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_ArtGallery_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'C_ArtGallery_C:ExecuteUbergraph_C_ArtGallery'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'C_ArtGallery_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.3"
+      },
+      {
+        "ObjectName": "Function'C_ArtGallery_C:IntroSequenceStarted'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.2"
+      },
+      {
+        "ObjectName": "Function'C_ArtGallery_C:OnIntroFinished'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.1"
+      },
+      {
+        "ObjectName": "Function'C_ArtGallery_C:ExecuteUbergraph_C_ArtGallery'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "C_UnderTheSurphaze_Master_02_2_ExecuteUbergraph_C_ArtGallery_RefProperty",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelSequenceActor'",
+          "ObjectPath": "/Script/LevelSequence"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_C_ArtGallery": {
+        "ObjectName": "Function'C_ArtGallery_C:ExecuteUbergraph_C_ArtGallery'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.0"
+      },
+      "OnIntroFinished": {
+        "ObjectName": "Function'C_ArtGallery_C:OnIntroFinished'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.1"
+      },
+      "IntroSequenceStarted": {
+        "ObjectName": "Function'C_ArtGallery_C:IntroSequenceStarted'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.2"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'C_ArtGallery_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_ArtGallery_C'Default__C_ArtGallery_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.5"
+    }
+  },
+  {
+    "Type": "C_ArtGallery_C",
+    "Name": "Default__C_ArtGallery_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.C_ArtGallery_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "C_UnderTheSurphaze_Master_02_2_ExecuteUbergraph_C_ArtGallery_RefProperty": {
+        "ObjectName": "LevelSequenceActor'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Master_02_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.34"
+      }
+    }
+  },
+  {
+    "Type": "C_ArtGallery_C",
+    "Name": "C_ArtGallery_C_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.C_ArtGallery_C'",
+    "Template": {
+      "ObjectName": "C_ArtGallery_C'Default__C_ArtGallery_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.5"
+    },
+    "Properties": {
+      "Seed": 14794,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CameraRig_Crane",
+    "Name": "CameraRig_Crane_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraRig_Crane'",
+    "Properties": {
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_01.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.77"
+      },
+      "CraneYawControl": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_01.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.76"
+      },
+      "CranePitchControl": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_01.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.75"
+      },
+      "CraneCameraMount": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_01.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.74"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_01.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.77"
+      }
+    }
+  },
+  {
+    "Type": "CameraRig_Crane",
+    "Name": "CameraRig_Crane_02",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraRig_Crane'",
+    "Properties": {
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_02.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.81"
+      },
+      "CraneYawControl": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_02.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.80"
+      },
+      "CranePitchControl": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_02.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.79"
+      },
+      "CraneCameraMount": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_02.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.78"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_02.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.81"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_UnderTheSurphaze_Shot1_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/ArtGallery/ArtGallery/G_ArtGallery/G_ArtGallery_Scripting.G_ArtGallery_Scripting",
+          "SubPathString": "PersistentLevel.BP_int_door_01_SlidingDoor_14"
+        },
+        "RelativeOffset": {
+          "X": 0.0,
+          "Y": 375.08502,
+          "Z": 760.0503
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_ArtGallery:PersistentLevel.Camera_UnderTheSurphaze_Shot1_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.16"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.Camera_UnderTheSurphaze_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.71"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.Camera_UnderTheSurphaze_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.71"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_UnderTheSurphaze_Shot2_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_BDN.E_ArtGallery_BDN",
+          "SubPathString": "PersistentLevel.ArtGallery_Backdrop_01_Bridge_01_Pylon_01_11"
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_ArtGallery:PersistentLevel.Camera_UnderTheSurphaze_Shot2_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.17"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.Camera_UnderTheSurphaze_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.72"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.Camera_UnderTheSurphaze_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.72"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_UnderTheSurphaze_Shot3_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/ArtGallery/ArtGallery/Environment_ArtGallery/E_ArtGallery_Int_F1_Prop.E_ArtGallery_Int_F1_Prop",
+          "SubPathString": "PersistentLevel.CenterPiece_02_3"
+        },
+        "RelativeOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 325.43677
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_ArtGallery:PersistentLevel.Camera_UnderTheSurphaze_Shot3_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.18"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.Camera_UnderTheSurphaze_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.73"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.Camera_UnderTheSurphaze_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.73"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "LS_Cinematic_Camera_01_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "RelativeOffset": {
+          "X": 3582.0461,
+          "Y": 0.0,
+          "Z": 996.823
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_01_4.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.19"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_01_4.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.83"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_01_4.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.83"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "LS_Cinematic_Camera_02_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "RelativeOffset": {
+          "X": 0.0,
+          "Y": 2800.0,
+          "Z": 0.0
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_02_5.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.20"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_02_5.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.84"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_02_5.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.84"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "LS_Cinematic_Camera_03",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "RelativeOffset": {
+          "X": 3582.0461,
+          "Y": 0.0,
+          "Z": 996.823
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_03.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.21"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_03.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.85"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_03.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.85"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "LS_Cinematic_Camera_04",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "RelativeOffset": {
+          "X": 0.0,
+          "Y": 2800.0,
+          "Z": 0.0
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_04.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.22"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_04.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.86"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_04.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.86"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_UnderTheSurphaze_Shot1_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 500.0
+      },
+      "CurrentFocusDistance": 72863.9,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "PostProcessSettings": {
+        "BloomIntensity": 4.876191,
+        "BloomThreshold": -0.914286,
+        "AutoExposureBias": -0.142856,
+        "LensFlareBokehSize": 3.047619
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.Camera_UnderTheSurphaze_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.71"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_UnderTheSurphaze_Shot2_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 500.0
+      },
+      "CurrentFocusDistance": 100000.0,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "PostProcessSettings": {
+        "SceneFringeIntensity": 2.380953,
+        "ChromaticAberrationStartOffset": 0.657143,
+        "BloomIntensity": 0.0,
+        "LensFlareIntensity": 0.0,
+        "LensFlareBokehSize": 10.0
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.Camera_UnderTheSurphaze_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.72"
+      },
+      "RelativeRotation": {
+        "Pitch": -0.3670325,
+        "Yaw": 3.087288E-05,
+        "Roll": 8.71921E-06
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_UnderTheSurphaze_Shot3_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 500.0
+      },
+      "CurrentFocusDistance": 100000.0,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.Camera_UnderTheSurphaze_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.73"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "LS_Cinematic_Camera_01_4",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 36.0,
+        "SensorHeight": 20.25
+      },
+      "LensSettings": {
+        "MinFocalLength": 85.0,
+        "MaxFocalLength": 85.0,
+        "MinFStop": 1.8
+      },
+      "FocusSettings": {
+        "TopPassManualFocusDistance": 0.0
+      },
+      "CurrentFocalLength": 85.0,
+      "CurrentFocusDistance": 8930.835,
+      "FieldOfView": 23.913168,
+      "AspectRatio": 1.7777778,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_01_4.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.83"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "LS_Cinematic_Camera_02_5",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 36.0,
+        "SensorHeight": 20.25
+      },
+      "LensSettings": {
+        "MinFocalLength": 85.0,
+        "MaxFocalLength": 85.0,
+        "MinFStop": 1.8
+      },
+      "CurrentFocalLength": 85.0,
+      "CurrentFocusDistance": 2800.0,
+      "FieldOfView": 23.913168,
+      "AspectRatio": 1.7777778,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_02_5.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.84"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "LS_Cinematic_Camera_03",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 24.0,
+        "SensorHeight": 13.5
+      },
+      "LensSettings": {
+        "MinFocalLength": 12.0,
+        "MaxFocalLength": 12.0,
+        "MinFStop": 2.8
+      },
+      "FocusSettings": {
+        "FocusMethod": "ECameraFocusMethod::Disable",
+        "ManualFocusDistance": 301.13272,
+        "TopPassManualFocusDistance": 0.0
+      },
+      "CurrentFocalLength": 12.0,
+      "CurrentFocusDistance": 301.13272,
+      "AspectRatio": 1.7777778,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_03.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.85"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "LS_Cinematic_Camera_04",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 24.0,
+        "SensorHeight": 13.5
+      },
+      "LensSettings": {
+        "MinFocalLength": 12.0,
+        "MaxFocalLength": 12.0,
+        "MinFStop": 2.8
+      },
+      "FocusSettings": {
+        "FocusMethod": "ECameraFocusMethod::Disable",
+        "ManualFocusDistance": 441.30212
+      },
+      "CurrentFocalLength": 12.0,
+      "CurrentFocusDistance": 441.30212,
+      "AspectRatio": 1.7777778,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_04.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.86"
+      }
+    }
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_UnderTheSurphaze_Master_01_12",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_UnderTheSurphaze_Master_02_2",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_UnderTheSurphaze_Shot1_01_4",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_UnderTheSurphaze_Shot1_02_7",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_UnderTheSurphaze_Shot2_01_6",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_UnderTheSurphaze_Shot2_02_9",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_UnderTheSurphaze_Shot3_01_8",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_UnderTheSurphaze_Shot3_02_11",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "LS_ArtGallery_Intro_01_2",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "C_ArtGallery",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'C_ArtGallery:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.51"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "C_ArtGallery_C'C_ArtGallery:PersistentLevel.C_ArtGallery_C_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.6"
+      },
+      "LevelBuildDataId": "187D6131-407BA140-4C7B069A-959B940F",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'C_ArtGallery:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.62"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'C_ArtGallery:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.62"
+      },
+      null,
+      {
+        "ObjectName": "CameraRig_Crane'C_ArtGallery:PersistentLevel.CameraRig_Crane_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.7"
+      },
+      {
+        "ObjectName": "CameraRig_Crane'C_ArtGallery:PersistentLevel.CameraRig_Crane_02'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.8"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_ArtGallery:PersistentLevel.Camera_UnderTheSurphaze_Shot1_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.9"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_ArtGallery:PersistentLevel.Camera_UnderTheSurphaze_Shot2_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.10"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_ArtGallery:PersistentLevel.Camera_UnderTheSurphaze_Shot3_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.11"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_ArtGallery:PersistentLevel.LS_ArtGallery_Intro_01_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.41"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Master_01_12'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.33"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot1_01_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.35"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot2_01_6'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.37"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot3_01_8'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.39"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Master_02_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.34"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot1_02_7'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.36"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot2_02_9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.38"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot3_02_11'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.40"
+      },
+      {
+        "ObjectName": "C_ArtGallery_C'C_ArtGallery:PersistentLevel.C_ArtGallery_C_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.6"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_01_4'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.12"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_02_5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.13"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_03'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.14"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_ArtGallery:PersistentLevel.LS_Cinematic_Camera_04'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.15"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'C_ArtGallery:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.51"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "C_ArtGallery_C'C_ArtGallery:PersistentLevel.C_ArtGallery_C_2'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.6"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_UnderTheSurphaze_Master_01_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_UnderTheSurphaze_Master_01.C_UnderTheSurphaze_Master_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Master_01_12.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.42"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Master_01_12.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.52"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Master_01_12.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.23"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Master_01_12.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.63"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_UnderTheSurphaze_Master_02_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_UnderTheSurphaze_Master_02.C_UnderTheSurphaze_Master_02",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Master_02_2.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.43"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Master_02_2.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.53"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Master_02_2.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.24"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Master_02_2.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.64"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_UnderTheSurphaze_Shot1_01_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_UnderTheSurphaze_Shot1_01.C_UnderTheSurphaze_Shot1_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot1_01_4.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.44"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot1_01_4.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.54"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot1_01_4.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.25"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot1_01_4.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.65"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_UnderTheSurphaze_Shot1_02_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_UnderTheSurphaze_Shot1_02.C_UnderTheSurphaze_Shot1_02",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot1_02_7.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.45"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot1_02_7.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.55"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot1_02_7.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.26"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot1_02_7.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.66"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_UnderTheSurphaze_Shot2_01_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_UnderTheSurphaze_Shot2_01.C_UnderTheSurphaze_Shot2_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot2_01_6.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.46"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot2_01_6.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.56"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot2_01_6.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.27"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot2_01_6.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.67"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_UnderTheSurphaze_Shot2_02_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_UnderTheSurphaze_Shot2_02.C_UnderTheSurphaze_Shot2_02",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot2_02_9.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.47"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot2_02_9.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.57"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot2_02_9.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.28"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot2_02_9.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.68"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_UnderTheSurphaze_Shot3_01_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_UnderTheSurphaze_Shot2_01.C_UnderTheSurphaze_Shot2_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot3_01_8.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.48"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot3_01_8.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.58"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot3_01_8.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.29"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot3_01_8.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.69"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_UnderTheSurphaze_Shot3_02_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_UnderTheSurphaze_Shot3_02.C_UnderTheSurphaze_Shot3_02",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot3_02_11.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.49"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot3_02_11.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.59"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot3_02_11.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.30"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.C_UnderTheSurphaze_Shot3_02_11.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.70"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "LS_ArtGallery_Intro_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/LS_ArtGallery_Intro_01.LS_ArtGallery_Intro_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_ArtGallery:PersistentLevel.LS_ArtGallery_Intro_01_2.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.50"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_ArtGallery:PersistentLevel.LS_ArtGallery_Intro_01_2.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.60"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_ArtGallery:PersistentLevel.LS_ArtGallery_Intro_01_2.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.31"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.LS_ArtGallery_Intro_01_2.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.82"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_UnderTheSurphaze_Master_01_12",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_UnderTheSurphaze_Master_02_2",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_UnderTheSurphaze_Shot1_01_4",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_UnderTheSurphaze_Shot1_02_7",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_UnderTheSurphaze_Shot2_01_6",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_UnderTheSurphaze_Shot2_02_9",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_UnderTheSurphaze_Shot3_01_8",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_UnderTheSurphaze_Shot3_02_11",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "LS_ArtGallery_Intro_01_2",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "F56F7215-48E7588D-8B7E3E96-872450D5",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_UnderTheSurphaze_Master_01_12",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_UnderTheSurphaze_Master_02_2",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_UnderTheSurphaze_Shot1_01_4",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_UnderTheSurphaze_Shot1_02_7",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_UnderTheSurphaze_Shot2_01_6",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_UnderTheSurphaze_Shot2_02_9",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_UnderTheSurphaze_Shot3_01_8",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_UnderTheSurphaze_Shot3_02_11",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "LS_ArtGallery_Intro_01_2",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "GlobalMaterialParameters": {
+        "WindDirection": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "WindSpeed": 0.01,
+        "EnemyBacklightInfluence": {
+          "R": 0.05,
+          "G": 5.0,
+          "B": 0.2,
+          "A": 0.5,
+          "Hex": "7F3FFF7C"
+        },
+        "EnemyBacklightFade": {
+          "R": 3000.0,
+          "G": 1500.0,
+          "B": 40.0,
+          "A": 30.0,
+          "Hex": "FFFFFFFF"
+        },
+        "EnemyBacklightRangeFuzz": {
+          "R": 0.2,
+          "G": 0.5,
+          "B": 0.1,
+          "A": 0.5,
+          "Hex": "7F7CBC59"
+        }
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'C_ArtGallery:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.61"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_UnderTheSurphaze_Master_01_12",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_UnderTheSurphaze_Master_02_2",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_UnderTheSurphaze_Shot1_01_4",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_UnderTheSurphaze_Shot1_02_7",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_UnderTheSurphaze_Shot2_01_6",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_UnderTheSurphaze_Shot2_02_9",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_UnderTheSurphaze_Shot3_01_8",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_UnderTheSurphaze_Shot3_02_11",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_UnderTheSurphaze_Shot1_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeRotation": {
+        "Pitch": 63.733646,
+        "Yaw": 90.0,
+        "Roll": 3.8584762E-06
+      },
+      "ComponentVelocity": {
+        "X": -149154.34,
+        "Y": 68031.72,
+        "Z": -24495.332
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_UnderTheSurphaze_Shot2_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeRotation": {
+        "Pitch": 17.821533,
+        "Yaw": -65.20834,
+        "Roll": 8.968075E-07
+      },
+      "ComponentVelocity": {
+        "X": -194302.19,
+        "Y": -223831.98,
+        "Z": -5866.4165
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_UnderTheSurphaze_Shot3_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "ComponentVelocity": {
+        "X": -58802.45,
+        "Y": -82465.33,
+        "Z": -5647.6343
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneCameraMount",
+    "Outer": "CameraRig_Crane_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_01.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.75"
+      },
+      "RelativeLocation": {
+        "X": 500.0,
+        "Y": 0.0015563965,
+        "Z": -14.994247
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CranePitchControl",
+    "Outer": "CameraRig_Crane_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_01.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.76"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneYawControl",
+    "Outer": "CameraRig_Crane_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_01.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.77"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent",
+    "Outer": "CameraRig_Crane_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "ComponentVelocity": {
+        "X": -172065.52,
+        "Y": 109216.23,
+        "Z": -54928.445
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneCameraMount",
+    "Outer": "CameraRig_Crane_02",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_02.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.79"
+      },
+      "RelativeLocation": {
+        "X": 500.0,
+        "Y": 0.11414337,
+        "Z": -14.9157715
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CranePitchControl",
+    "Outer": "CameraRig_Crane_02",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_02.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.80"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneYawControl",
+    "Outer": "CameraRig_Crane_02",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_02.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.81"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent",
+    "Outer": "CameraRig_Crane_02",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "ComponentVelocity": {
+        "X": 69045.74,
+        "Y": -217675.83,
+        "Z": -49891.254
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "LS_ArtGallery_Intro_01_2",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "LS_Cinematic_Camera_01_4",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_01.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.74"
+      },
+      "RelativeRotation": {
+        "Pitch": 16.992205,
+        "Yaw": -2.8933686E-05,
+        "Roll": -4.256949E-13
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "LS_Cinematic_Camera_02_5",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_02.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.78"
+      },
+      "RelativeRotation": {
+        "Pitch": -1.1095232,
+        "Yaw": 100.12511,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "LS_Cinematic_Camera_03",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_01.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.74"
+      },
+      "RelativeRotation": {
+        "Pitch": 16.992205,
+        "Yaw": -2.8933686E-05,
+        "Roll": -4.256949E-13
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "LS_Cinematic_Camera_04",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArtGallery:PersistentLevel.CameraRig_Crane_02.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.78"
+      },
+      "RelativeRotation": {
+        "Pitch": -1.1095232,
+        "Yaw": 100.12511,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "C_ArtGallery",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'C_ArtGallery:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/ArtGallery/Cinematic_ArtGallery/C_ArtGallery.32"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

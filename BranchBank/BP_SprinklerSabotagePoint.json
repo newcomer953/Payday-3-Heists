@@ -1,0 +1,404 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_SprinklerSabotagePoint_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseSabotagePoint_C'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/Props/BP_BaseSabotagePoint.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_SprinklerSabotagePoint_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.16"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_SprinklerSabotagePoint_C:InheritableComponentHandler'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseSabotagePoint_C'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/Props/BP_BaseSabotagePoint.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Lever",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_SprinklerSabotagePoint_C'Default__BP_SprinklerSabotagePoint_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.1"
+    }
+  },
+  {
+    "Type": "BP_SprinklerSabotagePoint_C",
+    "Name": "Default__BP_SprinklerSabotagePoint_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.BP_SprinklerSabotagePoint_C'",
+    "Template": {
+      "ObjectName": "BP_BaseSabotagePoint_C'Default__BP_BaseSabotagePoint_C'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/Props/BP_BaseSabotagePoint.1"
+    },
+    "Properties": {
+      "InteractableComponent": {
+        "ObjectName": "SBZInteractableComponent'Default__BP_SprinklerSabotagePoint_C:SBZInteractableComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.6"
+      },
+      "OutlineComponent": {
+        "ObjectName": "SBZOutlineComponent'Default__BP_SprinklerSabotagePoint_C:SBZOutlineComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.10"
+      },
+      "AttractorComponent": {
+        "ObjectName": "SBZAIAttractorComponent'Default__BP_SprinklerSabotagePoint_C:SBZAIAttractorComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.5"
+      },
+      "LifeActionComponent": {
+        "ObjectName": "SBZLifeActionComponent'Default__BP_SprinklerSabotagePoint_C:SBZLifeActionComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.7"
+      },
+      "LifeActionInstance": {
+        "ObjectName": "SBZLifeActionInstance'Default__BP_SprinklerSabotagePoint_C:SBZLifeActionInstance'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.8"
+      },
+      "LifeActionSlot": {
+        "ObjectName": "SBZLifeActionSlot'Default__BP_SprinklerSabotagePoint_C:SBZLifeActionSlot'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.9"
+      },
+      "bIsInteractable": false,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_SprinklerSabotagePoint_C:RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.12"
+      }
+    }
+  },
+  {
+    "Type": "BP_Order_LA_Sabotage_C",
+    "Name": "BP_Order_LA_Sabotage_C_0",
+    "Outer": "SBZAIAction_Order_2",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Gameplay/AI/Utility/Orders/BP_Order_LA_Sabotage.BP_Order_LA_Sabotage_C'",
+    "Template": {
+      "ObjectName": "BP_Order_LA_Sabotage_C'Default__BP_BaseSabotagePoint_C:SBZAIAttractorComponent.SBZAIAction_Order_2.BP_Order_LA_Sabotage_C_0'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/Props/BP_BaseSabotagePoint.2"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BP_SprinklerSabotagePoint_C",
+    "Class": "UScriptClass'InheritableComponentHandler'"
+  },
+  {
+    "Type": "SBZAIAction_Order",
+    "Name": "SBZAIAction_Order_2",
+    "Outer": "SBZAIAttractorComponent",
+    "Class": "UScriptClass'SBZAIAction_Order'",
+    "Template": {
+      "ObjectName": "SBZAIAction_Order'Default__BP_BaseSabotagePoint_C:SBZAIAttractorComponent.SBZAIAction_Order_2'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/Props/BP_BaseSabotagePoint.3"
+    },
+    "Properties": {
+      "ActionOrder": {
+        "ObjectName": "BP_Order_LA_Sabotage_C'Default__BP_SprinklerSabotagePoint_C:SBZAIAttractorComponent.SBZAIAction_Order_2.BP_Order_LA_Sabotage_C_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.2"
+      }
+    }
+  },
+  {
+    "Type": "SBZAIAttractorComponent",
+    "Name": "SBZAIAttractorComponent",
+    "Outer": "Default__BP_SprinklerSabotagePoint_C",
+    "Class": "UScriptClass'SBZAIAttractorComponent'",
+    "Template": {
+      "ObjectName": "SBZAIAttractorComponent'Default__BP_BaseSabotagePoint_C:SBZAIAttractorComponent'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/Props/BP_BaseSabotagePoint.4"
+    },
+    "Properties": {
+      "ActionMetaData": [
+        {
+          "Action": {
+            "ObjectName": "SBZAIAction_Order'Default__BP_SprinklerSabotagePoint_C:SBZAIAttractorComponent.SBZAIAction_Order_2'",
+            "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.4"
+          },
+          "bUseMaxAge": false,
+          "MaxAge": -1.0,
+          "bUseMinAge": false,
+          "MinAge": -1.0,
+          "RequiredTags": [],
+          "ExecutorRequiredTags": []
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractableComponent",
+    "Outer": "Default__BP_SprinklerSabotagePoint_C",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Template": {
+      "ObjectName": "SBZInteractableComponent'Default__BP_BaseSabotagePoint_C:SBZInteractableComponent'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/Props/BP_BaseSabotagePoint.6"
+    },
+    "Properties": {
+      "OnFinish2DAudioEvent": {
+        "ObjectName": "AkAudioEvent'PLR_Interact_FireAlarm_Switch'",
+        "ObjectPath": "PAYDAY3/Content/WwiseAudio/Events/Player/Interactions/Misc/PLR_Interact_FireAlarm_Switch.1"
+      }
+    }
+  },
+  {
+    "Type": "SBZLifeActionComponent",
+    "Name": "SBZLifeActionComponent",
+    "Outer": "Default__BP_SprinklerSabotagePoint_C",
+    "Class": "UScriptClass'SBZLifeActionComponent'",
+    "Template": {
+      "ObjectName": "SBZLifeActionComponent'Default__BP_BaseSabotagePoint_C:SBZLifeActionComponent'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/Props/BP_BaseSabotagePoint.7"
+    }
+  },
+  {
+    "Type": "SBZLifeActionInstance",
+    "Name": "SBZLifeActionInstance",
+    "Outer": "Default__BP_SprinklerSabotagePoint_C",
+    "Class": "UScriptClass'SBZLifeActionInstance'",
+    "Template": {
+      "ObjectName": "SBZLifeActionInstance'Default__BP_BaseSabotagePoint_C:SBZLifeActionInstance'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/Props/BP_BaseSabotagePoint.8"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_SprinklerSabotagePoint_C:RootComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.12"
+      }
+    }
+  },
+  {
+    "Type": "SBZLifeActionSlot",
+    "Name": "SBZLifeActionSlot",
+    "Outer": "Default__BP_SprinklerSabotagePoint_C",
+    "Class": "UScriptClass'SBZLifeActionSlot'",
+    "Template": {
+      "ObjectName": "SBZLifeActionSlot'Default__BP_BaseSabotagePoint_C:SBZLifeActionSlot'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/Props/BP_BaseSabotagePoint.9"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SBZLifeActionInstance'Default__BP_SprinklerSabotagePoint_C:SBZLifeActionInstance'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.8"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 49.0,
+        "Z": -102.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -100.00004,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SBZOutlineComponent",
+    "Name": "SBZOutlineComponent",
+    "Outer": "Default__BP_SprinklerSabotagePoint_C",
+    "Class": "UScriptClass'SBZOutlineComponent'",
+    "Template": {
+      "ObjectName": "SBZOutlineComponent'Default__BP_BaseSabotagePoint_C:SBZOutlineComponent'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/Props/BP_BaseSabotagePoint.10"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_SprinklerSabotagePoint_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Outer": "Default__BP_SprinklerSabotagePoint_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_BaseSabotagePoint_C:RootComponent'",
+      "ObjectPath": "PAYDAY3/Content/Gameplay/Props/BP_BaseSabotagePoint.12"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_SprinklerSabotagePoint_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.11"
+      },
+      "VariableGuid": "0C7A2D98-4C0AF9C4-F988BBA5-62AD4939",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SprinklerSabotagePoint_C:StaticMesh_0_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.18"
+      },
+      "ParentComponentOrVariableName": "SBZLifeActionInstance",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FE263D96-4CB23DE3-77698593-B3C1738F",
+      "InternalVariableName": "StaticMesh_0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SprinklerSabotagePoint_C:Lever_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.17"
+      },
+      "ParentComponentOrVariableName": "SBZLifeActionInstance",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "412FA59B-4B4C3D30-519C8391-E4E39CCD",
+      "InternalVariableName": "Lever"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_SprinklerSabotagePoint_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_SprinklerSabotagePoint_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SprinklerSabotagePoint_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.15"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_SprinklerSabotagePoint_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SprinklerSabotagePoint_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.15"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_SprinklerSabotagePoint_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/BranchBank/BP_SprinklerSabotagePoint.13"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Lever_GEN_VARIABLE",
+    "Outer": "BP_SprinklerSabotagePoint_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FireAlarm_02_Lever'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/FireAlarm_02/FireAlarm_02_Lever.2"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -2.861023E-05,
+        "Z": 0.063257694
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 5.9127808E-05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_0_GEN_VARIABLE",
+    "Outer": "BP_SprinklerSabotagePoint_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FireAlarm_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/FireAlarm_02/FireAlarm_02.2"
+      },
+      "bGenerateOverlapEvents": true,
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Interaction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Throwable",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "SBZProjectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "RoomVolume",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

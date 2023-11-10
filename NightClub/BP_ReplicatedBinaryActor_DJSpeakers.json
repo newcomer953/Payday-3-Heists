@@ -1,0 +1,696 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ReplicatedBinaryActor_DJSpeakers",
+    "Outer": "BP_ReplicatedBinaryActor_DJSpeakers_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 56,
+          "Struct": {
+            "ObjectName": "ScriptStruct'AkExternalSourceInfo'",
+            "ObjectPath": "/Script/AkAudio"
+          }
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "Temp_delegate_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "ConstParm",
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_PostEvent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bNewState",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bDoCosmentics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_ReplicatedBinaryActor_DJSpeakers_InteractableComponent_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature",
+    "Outer": "BP_ReplicatedBinaryActor_DJSpeakers_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BP_OnStateChanged",
+    "Outer": "BP_ReplicatedBinaryActor_DJSpeakers_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZStaticInteractionBinaryState:BP_OnStateChanged'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bNewState",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDoCosmentics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ReplicatedBinaryActor_DJSpeakers_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_ReplicatedBinaryActor_DJSpeakers_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.6"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ReplicatedBinaryActor_DJSpeakers_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.15"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_DJSpeakers_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_DJSpeakers'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZStaticInteractionBinaryState'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_DJSpeakers_C:BP_OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.2"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_DJSpeakers_C:BndEvt__BP_ReplicatedBinaryActor_DJSpeakers_InteractableComponent_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.1"
+      },
+      {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_DJSpeakers_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_DJSpeakers'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZOutline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZOutlineComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OutlineMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Collision",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_ReplicatedBinaryActor_DJSpeakers": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_DJSpeakers_C:ExecuteUbergraph_BP_ReplicatedBinaryActor_DJSpeakers'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.0"
+      },
+      "BndEvt__BP_ReplicatedBinaryActor_DJSpeakers_InteractableComponent_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_DJSpeakers_C:BndEvt__BP_ReplicatedBinaryActor_DJSpeakers_InteractableComponent_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.1"
+      },
+      "BP_OnStateChanged": {
+        "ObjectName": "Function'BP_ReplicatedBinaryActor_DJSpeakers_C:BP_OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.2"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ReplicatedBinaryActor_DJSpeakers_C'Default__BP_ReplicatedBinaryActor_DJSpeakers_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.4"
+    }
+  },
+  {
+    "Type": "BP_ReplicatedBinaryActor_DJSpeakers_C",
+    "Name": "Default__BP_ReplicatedBinaryActor_DJSpeakers_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.BP_ReplicatedBinaryActor_DJSpeakers_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "InteractableComponent": {
+        "ObjectName": "SBZInteractableComponent'Default__BP_ReplicatedBinaryActor_DJSpeakers_C:SBZInteractableComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.7"
+      },
+      "bState": true
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Collision_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_DJSpeakers_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Properties": {
+      "BoxExtent": {
+        "X": 10.0,
+        "Y": 2.0,
+        "Z": 30.0
+      },
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "Interactive",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Interaction",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Throwable",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "Item",
+              "Response": "ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 3.0517578E-05,
+        "Y": -0.44324493,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "BP_ReplicatedBinaryActor_DJSpeakers_C",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "InteractableComponent",
+          "DelegatePropertyName": "OnAckCompleteInteraction",
+          "FunctionNameToBind": "BndEvt__BP_ReplicatedBinaryActor_DJSpeakers_InteractableComponent_K2Node_ComponentBoundEvent_0_SBZOnInteraction__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractableComponent",
+    "Outer": "Default__BP_ReplicatedBinaryActor_DJSpeakers_C",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "bIsAllowedInCasing": true,
+      "Shapes": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'PrimitiveComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "Collision"
+        }
+      ],
+      "Text": {
+        "TableId": "/Game/Localization/ST_Interaction.ST_Interaction",
+        "Key": "INT_GEN_Activate"
+      }
+    }
+  },
+  {
+    "Type": "SBZOutlineComponent",
+    "Name": "SBZOutline_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_DJSpeakers_C",
+    "Class": "UScriptClass'SBZOutlineComponent'",
+    "Properties": {
+      "DefaultAsset": {
+        "ObjectName": "SBZOutlineAsset'DA_DefaultOutlineMark'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Player/DA_DefaultOutlineMark.0"
+      },
+      "MeshSelectors": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'MeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "OutlineMesh"
+        }
+      ],
+      "InteractableSelector": {
+        "ComponentName": "SBZInteractableComponent"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_DJSpeakers_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ReplicatedBinaryActor_DJSpeakers_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.9"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_DJSpeakers_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_DJSpeakers_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.12"
+        }
+      ],
+      "VariableGuid": "FD85DE12-4504BBF8-A1AA98BA-70A64278",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ReplicatedBinaryActor_DJSpeakers_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.17"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_DJSpeakers_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.13"
+        }
+      ],
+      "VariableGuid": "6EB5856F-4D0DFF5B-7AA1A29A-6B740750",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_ReplicatedBinaryActor_DJSpeakers_C:Collision_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.5"
+      },
+      "VariableGuid": "31307BAC-400B3E81-1F52CF8E-7499CA91",
+      "InternalVariableName": "Collision"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ReplicatedBinaryActor_DJSpeakers_C:OutlineMesh_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.16"
+      },
+      "VariableGuid": "A523E2E7-4E3D69B0-DE31E2A7-E9F0ABEC",
+      "InternalVariableName": "OutlineMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZOutlineComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZOutlineComponent'BP_ReplicatedBinaryActor_DJSpeakers_C:SBZOutline_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.8"
+      },
+      "VariableGuid": "02CD06F8-48498141-432CE495-DCF23E4F",
+      "InternalVariableName": "SBZOutline"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_ReplicatedBinaryActor_DJSpeakers_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_DJSpeakers_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_DJSpeakers_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.14"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_DJSpeakers_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_DJSpeakers_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_DJSpeakers_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_DJSpeakers_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_DJSpeakers_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.14"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ReplicatedBinaryActor_DJSpeakers_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/NightClub/BP_ReplicatedBinaryActor_DJSpeakers.10"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "OutlineMesh_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_DJSpeakers_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'NightclubSpeaker_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/NightClub/Prop/NightclubSpeaker_01/NightclubSpeaker_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'MM_OutlineParts'",
+          "ObjectPath": "PAYDAY3/Content/MasterMaterial/Interactable/MM_OutlineParts.0"
+        },
+        {
+          "ObjectName": "Material'MM_OutlineParts'",
+          "ObjectPath": "PAYDAY3/Content/MasterMaterial/Interactable/MM_OutlineParts.0"
+        }
+      ],
+      "CanCharacterStepUpOn": "ECB_No",
+      "CustomPrimitiveData": {
+        "Data": [
+          0.0,
+          0.0,
+          12.0,
+          0.0,
+          0.0,
+          0.2,
+          1.0,
+          0.0,
+          8.0,
+          8.0
+        ]
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIThrowable",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.05,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Outer": "BP_ReplicatedBinaryActor_DJSpeakers_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'NightclubSpeaker_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/NightClub/Prop/NightclubSpeaker_01/NightclubSpeaker_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_NightclubSpeaker_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/NightClub/Prop/NightclubSpeaker_01/Component/MI_NightclubSpeaker_01.0"
+        }
+      ],
+      "CustomPrimitiveData": {
+        "Data": [
+          0.0,
+          0.0,
+          12.0,
+          0.0,
+          0.0,
+          0.2,
+          1.0,
+          0.0,
+          8.0,
+          8.0
+        ]
+      }
+    }
+  }
+]

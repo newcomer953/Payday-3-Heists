@@ -1,0 +1,389 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "E_CargoDock_Int_Floor",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'E_CargoDock_Int_Floor:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Floor.1"
+      },
+      "StreamingTextureGuids": [
+        "8E8E95F5-46CB54C2-F890DDA2-77D45D9D",
+        "17CDEE6C-4249C3A6-A75C86BF-9A7562DC",
+        "6EBA2256-4ABDD030-CCE597A3-4A528E89",
+        "101C0DF4-4026169C-9142CD80-941DA8F9",
+        "62D3EA59-46F83A99-760C6081-CCFB9C62",
+        "2F470A82-49304E19-D0FC6A94-729AE520",
+        "4F965E43-4C5FE3FE-EDF5EA9E-B87715C1",
+        "64FE7ADE-46AAB06C-8A88B68F-647153C3",
+        "17B990E3-45E1EDFC-BFB40C86-0B2929FB",
+        "7715450C-4B243D79-950CE59E-B9B6F7EC",
+        "CC905AB1-4788722F-CA85A89F-33DFD6C6",
+        "8A415AB0-47A2FD04-731CCCBD-90E38C54",
+        "CEB265E7-4143C703-EF222AA2-DFA50C1A",
+        "714EB271-432ED046-A0C5B88D-5C9E0C8D",
+        "7C6A8830-409D802E-13F5E7BB-FA1CFEBE",
+        "8804C5AE-4DBD61F3-AD2283BC-0E991BB2"
+      ],
+      "LevelBuildDataId": "468B81FE-47BB5B0B-6084CCAD-AB388B88",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'E_CargoDock_Int_Floor:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Floor.3"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'E_CargoDock_Int_Floor:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Floor.3"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'E_CargoDock_Int_Floor:PersistentLevel.CD_Interior_Warehouse_Floor_01_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Floor.4"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_CargoDock_Int_Floor:PersistentLevel.CD_Interior_Warehouse_SecurityRoom_Floor_01_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Floor.5"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'E_CargoDock_Int_Floor:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Floor.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "186BAF2D-48360C57-FDEB6292-07E51645",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'E_CargoDock_Int_Floor:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Floor.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "CD_Interior_Warehouse_Floor_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_CargoDock_Int_Floor:PersistentLevel.CD_Interior_Warehouse_Floor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Floor.6"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_CargoDock_Int_Floor:PersistentLevel.CD_Interior_Warehouse_Floor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Floor.6"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "CD_Interior_Warehouse_SecurityRoom_Floor_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_CargoDock_Int_Floor:PersistentLevel.CD_Interior_Warehouse_SecurityRoom_Floor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Floor.7"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_CargoDock_Int_Floor:PersistentLevel.CD_Interior_Warehouse_SecurityRoom_Floor_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Floor.7"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "CD_Interior_Warehouse_Floor_01_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'CD_Interior_Warehouse_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/CargoDock/Architecture/Interior/Warehouse/CD_Interior_Warehouse_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294902784,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1034.7828
+        },
+        {
+          "PackedRelativeBox": 274464786,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 98.84533
+        },
+        {
+          "PackedRelativeBox": 4294902784,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 258.6957
+        },
+        {
+          "PackedRelativeBox": 4294902784,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 258.6957
+        },
+        {
+          "PackedRelativeBox": 4294903808,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 259.3477
+        },
+        {
+          "PackedRelativeBox": 4250720274,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 671.09143
+        },
+        {
+          "PackedRelativeBox": 4250720274,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 671.09143
+        },
+        {
+          "PackedRelativeBox": 4246472722,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 519.22876
+        },
+        {
+          "PackedRelativeBox": 4246472722,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 579.8301
+        },
+        {
+          "PackedRelativeBox": 4246472722,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 579.8301
+        },
+        {
+          "PackedRelativeBox": 4246472722,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 259.61438
+        },
+        {
+          "PackedRelativeBox": 4246472722,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 579.8301
+        },
+        {
+          "PackedRelativeBox": 274464786,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 98.84533
+        },
+        {
+          "PackedRelativeBox": 4294903808,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 259.3477
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_Concrete_Bare_05_Tint_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Concrete/Concrete_Bare_05/MI_TIL_Concrete_Bare_05_Tint_01.0"
+        },
+        null,
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TRA_Grunge_01_Dark'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Level/JewelryStore/Architecture/Exterior/Street/Component/MI_TRA_Grunge_01_Dark.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_Concrete_Bare_05_Tint_01'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Concrete/Concrete_Bare_05/MI_TIL_Concrete_Bare_05_Tint_01.0"
+        }
+      ],
+      "VisibilityId": 1473,
+      "RelativeLocation": {
+        "X": 5416.0,
+        "Y": 2224.0,
+        "Z": 128.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00009,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "AA8FF8FE495C0464DAD22EBD7F9B4DD0",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 2023
+        }
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "CD_Interior_Warehouse_SecurityRoom_Floor_01_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'CD_Interior_Warehouse_SecurityRoom_Floor_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/CargoDock/Architecture/Interior/Warehouse/CD_Interior_Warehouse_SecurityRoom_Floor_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 14,
+          "TexelFactor": 256.07312
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 256.07312
+        },
+        {
+          "PackedRelativeBox": 67043328,
+          "TextureLevelIndex": 15,
+          "TexelFactor": 1024.2925
+        }
+      ],
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TIL_ConcreteTileFloor_01_Dirty'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Concrete/ConcreteTileFloor_01/MI_TIL_ConcreteTileFloor_01_Dirty.0"
+        }
+      ],
+      "VisibilityId": 1474,
+      "RelativeLocation": {
+        "X": 7632.0,
+        "Y": 2624.0,
+        "Z": 128.0001
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -269.99994,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "588C7E864C90E8EBD252BBAAA1C829F4",
+        "OverrideVertexColors": {
+          "Stride": 4,
+          "NumVertices": 25
+        }
+      }
+    ]
+  },
+  {
+    "Type": "World",
+    "Name": "E_CargoDock_Int_Floor",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'E_CargoDock_Int_Floor:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Sublevels/Environment_CargoDock/E_CargoDock_Int_Floor.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

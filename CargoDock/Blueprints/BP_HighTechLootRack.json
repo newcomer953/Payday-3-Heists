@@ -1,0 +1,808 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_HighTechLootRack",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 56,
+          "Struct": {
+            "ObjectName": "ScriptStruct'AkExternalSourceInfo'",
+            "ObjectPath": "/Script/AkAudio"
+          }
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "Temp_delegate_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "PropertyFlags": "ConstParm",
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnAkPostEventCallback__DelegateSignature'",
+          "ObjectPath": "/Script/AkAudio"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_PostEvent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetRelativeLocation_SweepHitResult",
+        "Flags": "RF_Public",
+        "ElementSize": 144,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_InteractableComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "ConstParm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bInNewState",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_LiquidNitrogen_SBZInteractable_K2Node_ComponentBoundEvent_5_SBZOnInteraction__DelegateSignature",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Interactor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractorComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsLocallyControlledInteractor",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_LiquidNitrogen_SBZInteractable_K2Node_ComponentBoundEvent_4_SBZOnInteractableStateChangedDelegate__DelegateSignature",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InteractableComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZBaseInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bInNewState",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZReplicatedBinaryStateActor:OnStateChanged'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Moving__UpdateFunc",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Moving__FinishedFunc",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetInteractionEnabled",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "State",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "DegradableLootInside",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "State",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_HighTechLootRack_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.11"
+        }
+      ],
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate'BP_HighTechLootRack_C:Moving_Template'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.22"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_HighTechLootRack_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.19"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_HighTechLootRack_C:ExecuteUbergraph_BP_HighTechLootRack'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZReplicatedBinaryStateActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_HighTechLootRack_C:DegradableLootInside'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.8"
+      },
+      {
+        "ObjectName": "Function'BP_HighTechLootRack_C:SetInteractionEnabled'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.7"
+      },
+      {
+        "ObjectName": "Function'BP_HighTechLootRack_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.6"
+      },
+      {
+        "ObjectName": "Function'BP_HighTechLootRack_C:Moving__FinishedFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.5"
+      },
+      {
+        "ObjectName": "Function'BP_HighTechLootRack_C:Moving__UpdateFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.4"
+      },
+      {
+        "ObjectName": "Function'BP_HighTechLootRack_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.3"
+      },
+      {
+        "ObjectName": "Function'BP_HighTechLootRack_C:BndEvt__BP_LiquidNitrogen_SBZInteractable_K2Node_ComponentBoundEvent_4_SBZOnInteractableStateChangedDelegate__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.2"
+      },
+      {
+        "ObjectName": "Function'BP_HighTechLootRack_C:BndEvt__BP_LiquidNitrogen_SBZInteractable_K2Node_ComponentBoundEvent_5_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.1"
+      },
+      {
+        "ObjectName": "Function'BP_HighTechLootRack_C:ExecuteUbergraph_BP_HighTechLootRack'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SBZInteractable",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SBZInteractableComponent'",
+          "ObjectPath": "/Script/Starbreeze"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HighTechLoot_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Rack",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Moving_Moving_80E2CFF5491F7B6719F9AEA7167964CE",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Moving__Direction_80E2CFF5491F7B6719F9AEA7167964CE",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Moving",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_HighTechLootRack": {
+        "ObjectName": "Function'BP_HighTechLootRack_C:ExecuteUbergraph_BP_HighTechLootRack'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.0"
+      },
+      "BndEvt__BP_LiquidNitrogen_SBZInteractable_K2Node_ComponentBoundEvent_5_SBZOnInteraction__DelegateSignature": {
+        "ObjectName": "Function'BP_HighTechLootRack_C:BndEvt__BP_LiquidNitrogen_SBZInteractable_K2Node_ComponentBoundEvent_5_SBZOnInteraction__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.1"
+      },
+      "BndEvt__BP_LiquidNitrogen_SBZInteractable_K2Node_ComponentBoundEvent_4_SBZOnInteractableStateChangedDelegate__DelegateSignature": {
+        "ObjectName": "Function'BP_HighTechLootRack_C:BndEvt__BP_LiquidNitrogen_SBZInteractable_K2Node_ComponentBoundEvent_4_SBZOnInteractableStateChangedDelegate__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.2"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'BP_HighTechLootRack_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.3"
+      },
+      "Moving__UpdateFunc": {
+        "ObjectName": "Function'BP_HighTechLootRack_C:Moving__UpdateFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.4"
+      },
+      "Moving__FinishedFunc": {
+        "ObjectName": "Function'BP_HighTechLootRack_C:Moving__FinishedFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.5"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_HighTechLootRack_C:UserConstructionScript'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.6"
+      },
+      "SetInteractionEnabled": {
+        "ObjectName": "Function'BP_HighTechLootRack_C:SetInteractionEnabled'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.7"
+      },
+      "DegradableLootInside": {
+        "ObjectName": "Function'BP_HighTechLootRack_C:DegradableLootInside'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.8"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_HighTechLootRack_C'Default__BP_HighTechLootRack_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.10"
+    }
+  },
+  {
+    "Type": "BP_HighTechLootRack_C",
+    "Name": "Default__BP_HighTechLootRack_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.BP_HighTechLootRack_C'",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "SBZInteractable",
+          "DelegatePropertyName": "OnAckCompleteInteraction",
+          "FunctionNameToBind": "BndEvt__BP_LiquidNitrogen_SBZInteractable_K2Node_ComponentBoundEvent_5_SBZOnInteraction__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "SBZInteractable",
+          "DelegatePropertyName": "OnInteractionEnabledStateChange",
+          "FunctionNameToBind": "BndEvt__BP_LiquidNitrogen_SBZInteractable_K2Node_ComponentBoundEvent_4_SBZOnInteractableStateChangedDelegate__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'CurveFloat'",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.0,
+            "Value": -23.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "SBZInteractableComponent",
+    "Name": "SBZInteractable_GEN_VARIABLE",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'SBZInteractableComponent'",
+    "Properties": {
+      "bInteractionEnabled": false,
+      "Shapes": [
+        {
+          "ComponentType": {
+            "ObjectName": "Class'PrimitiveComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentName": "HighTechLoot_01"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_HighTechLootRack_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.14"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_HighTechLootRack_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.16"
+        }
+      ],
+      "VariableGuid": "DAB0E2D2-4EAE880E-06C433AE-D3F5916B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_HighTechLootRack_C:Rack_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.21"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_HighTechLootRack_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.17"
+        }
+      ],
+      "VariableGuid": "3B3C71F8-4A1E7C78-759233BA-DA1D80CC",
+      "InternalVariableName": "Rack"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_HighTechLootRack_C:HighTechLoot_01_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.20"
+      },
+      "AttachToName": "02_HighTechLoot_01_open",
+      "VariableGuid": "1E4F5788-431B40A4-DDCC2FB7-A6A8D2E7",
+      "InternalVariableName": "HighTechLoot_01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SBZInteractableComponent'",
+        "ObjectPath": "/Script/Starbreeze"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SBZInteractableComponent'BP_HighTechLootRack_C:SBZInteractable_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.13"
+      },
+      "VariableGuid": "1D3C6186-4C4D9002-BE8F4EBD-1C16A792",
+      "InternalVariableName": "SBZInteractable"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_HighTechLootRack_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HighTechLootRack_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.18"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_HighTechLootRack_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HighTechLootRack_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HighTechLootRack_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HighTechLootRack_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.18"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_HighTechLootRack_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.15"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "HighTechLoot_01_GEN_VARIABLE",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'HighTechLoot_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/HighTechLoot_01/HighTechLoot_01.2"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Rack_GEN_VARIABLE",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'HighTechLoot_01_Rack'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Interactable/HighTechLoot_01/HighTechLoot_01_Rack.2"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Moving_Template",
+    "Outer": "BP_HighTechLootRack_C",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Properties": {
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_HighTechLootRack_C:CurveFloat_0'",
+            "ObjectPath": "PAYDAY3/Content/Prototype/Maps/CargoDock/Blueprints/BP_HighTechLootRack.12"
+          },
+          "PropertyName": "Moving_Moving_80E2CFF5491F7B6719F9AEA7167964CE",
+          "TrackName": "Moving",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "80E2CFF5-491F7B67-19F9AEA7-167964CE",
+      "VariableName": "Moving",
+      "DirectionPropertyName": "Moving__Direction_80E2CFF5491F7B6719F9AEA7167964CE",
+      "UpdateFunctionName": "Moving__UpdateFunc",
+      "FinishedFunctionName": "Moving__FinishedFunc"
+    }
+  }
+]

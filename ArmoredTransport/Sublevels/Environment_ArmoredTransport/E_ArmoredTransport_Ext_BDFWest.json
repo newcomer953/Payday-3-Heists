@@ -1,0 +1,1077 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "E_ArmoredTransport_Ext_BDFWest_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "E_ArmoredTransport_Ext_BDFWest_C'Default__E_ArmoredTransport_Ext_BDFWest_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.1"
+    }
+  },
+  {
+    "Type": "E_ArmoredTransport_Ext_BDFWest_C",
+    "Name": "Default__E_ArmoredTransport_Ext_BDFWest_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.E_ArmoredTransport_Ext_BDFWest_C'"
+  },
+  {
+    "Type": "E_ArmoredTransport_Ext_BDFWest_C",
+    "Name": "E_ArmoredTransport_Ext_BDFWest_C_0",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.E_ArmoredTransport_Ext_BDFWest_C'",
+    "Template": {
+      "ObjectName": "E_ArmoredTransport_Ext_BDFWest_C'Default__E_ArmoredTransport_Ext_BDFWest_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.1"
+    },
+    "Properties": {
+      "Seed": 22426,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "E_ArmoredTransport_Ext_BDFWest",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.4"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "E_ArmoredTransport_Ext_BDFWest_C'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.E_ArmoredTransport_Ext_BDFWest_C_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.2"
+      },
+      "StreamingTextureGuids": [
+        "7C40EF82-4EB8E919-0885CFBA-6021FC32",
+        "17B990E3-45E1EDFC-BFB40C86-0B2929FB",
+        "CC905AB1-4788722F-CA85A89F-33DFD6C6",
+        "F859145F-4529CED9-FB650B8A-75D46816",
+        "F25EDF78-457F8EB7-551306A8-3DC1C750",
+        "1D7221F8-44CA3FDB-31890993-31CF1716",
+        "1BA996A3-4D8BAAFB-B9B6B6A3-391BA015",
+        "524148AE-4E6EDAE7-5BF461B7-F89D96DA",
+        "64FE7ADE-46AAB06C-8A88B68F-647153C3",
+        "F22897B6-4BCDBB2E-92B15086-7B689F3B",
+        "78EA03B9-4CB55701-DD4CB1A7-CAF40A2B",
+        "43620BA3-4D61CA59-910580AE-9BDB9A17",
+        "6AE58899-460BEEF3-E8F448B1-12EB67FC",
+        "04A5F5C6-40FD1153-ECB1C1A6-F758123D",
+        "FC294C3A-4D69FD4C-C9F30588-01940368",
+        "31D41FF6-4D53DB37-5C42A685-552FE9ED",
+        "E6FF6666-42EFF8F2-1706649C-A245216F",
+        "74369DD3-48DE4E87-8511F098-B2F5A8BC",
+        "F6B5ACE0-4620D221-02209092-2A5FA8F5",
+        "889135F1-464E9A9B-D01B0287-F41E318A",
+        "59983694-40090C09-8762419D-5CCFD975",
+        "43DD0722-4E09A85A-8953EE90-0927808C",
+        "6533D9B7-40466A53-D7C4D1A9-20247EE0",
+        "5D5A511E-445B29CE-A77CA9B5-BCFAAEF2",
+        "F6BA3AC8-4BD5DEC5-953F7DA2-11CD0DE4",
+        "183CC1C6-44DF5485-0CBDFFB3-092AA3B4",
+        "1FF06D1B-4E545093-EA6EF187-11BD307A",
+        "C4372544-4A2505F6-1E3A7BAB-E2B09888",
+        "7D164A06-4BEDB144-53FCC983-7B178BD9",
+        "D3604F69-46E49AE7-FA51278E-BA1D9EB4",
+        "4A9E2F9C-4D2263FD-0D90CF92-A17BF939",
+        "E838B590-4379C5C0-F826ED9A-EE3D6002",
+        "3446171C-4CB6BB6B-8A36FF9D-869C0E91",
+        "677DE022-4D2A5E85-8EA76DAD-B8D4BAA1",
+        "9F78CE44-4CE73049-EDBBDAB4-38A0326E",
+        "A4A7A800-4E7EEA9D-5503D7A3-E6CB509C",
+        "927B28BA-49F9B620-1F56909C-5CD22EF1",
+        "64DD1117-4D835054-B0F0FDA6-09536774",
+        "3B45D6FC-41275FA3-59F52B9F-623B1777",
+        "C70F2AE1-4A41C65E-B0D75F93-329805B9",
+        "7B932ED1-4C53B25C-0A0DF681-E3946907",
+        "AC2F8A18-43707015-C56AC3B4-0F238D4E",
+        "BCDECB1E-432235A8-E34194BB-3A32F369",
+        "30C42DF6-4D9155B0-35E9DCAE-B0EE431B",
+        "BC9878C8-46452416-04860DAD-F6F03E6F",
+        "CA96EE71-4F32AFFD-287DD1B6-0CCF7081",
+        "4EB511B6-47A3D382-54C53695-E793454E",
+        "4C3EEECA-4E040865-36AF6E95-58FA872E",
+        "1898B16E-409154CE-57ED5F97-BD4BB2A1",
+        "E210DE14-4D5CBDBE-1E4454B2-D1074A31",
+        "3E7FBB79-48B912BD-EA3EEAB4-B598A8B4",
+        "E1C8FB82-4891E664-E2D4B58C-9545AD4F",
+        "50DF4177-46CE4B2B-FE6FBB86-B98E7781",
+        "8E6CA0FB-4241613D-684352B7-92F9F83C",
+        "FAD16F02-4E965D34-C7B359BD-27C7C85A",
+        "67DDEBE2-43D5BE42-41B28EAE-50D8E7F3",
+        "96D704E0-48AB02D0-389C9F8B-D676374D",
+        "CB84646C-4A9D92B4-E34454A7-3EA03273",
+        "3978FD52-443BD6E0-1386BC8F-10EC54EB",
+        "1EB80C7F-4F81357B-CC553EB2-3942928E",
+        "13F60AE0-46B9B3AC-F332A1A5-7797E391",
+        "A12ECE6C-4D71ECD7-AAC6BAB4-83A99370",
+        "B58168EC-4B1F5CFA-BC9489A9-771CD7B7",
+        "90A4CF3F-42E2DCCC-5CC6969B-258FEB55",
+        "6FE78C0F-4ECA1C4E-05FB3F87-24BBFAF7",
+        "E7C01F85-42265A19-88B525B2-4D2DAFA8",
+        "2BE3FC97-469A2A83-56F8DEB6-AC71A326",
+        "9F54E3D1-420B4BF0-EF3C2FA9-EB2D0557",
+        "0C0919EF-448A08F6-391CC8BE-06DF3558",
+        "245063A7-4704BD54-BE3B61B5-AEE98AAE",
+        "F4BDC06E-403CF7F3-AF2A6AB9-CBFE330B",
+        "005AEAA9-4DA75413-DE5346AB-97C1735D",
+        "24B2DA41-400FFAE6-1B6B2D99-18387EA5",
+        "DE54C467-43F79D53-4FFD59AB-42E65BCA",
+        "17033BD2-40B4EFF3-DD3A62A1-AD6AC44E",
+        "6A5BA2D2-4005D30A-3BC6108D-EF9F1D5A",
+        "8D1F6EFA-42B6E4AC-E3C2C7A8-3DBDFA0B",
+        "F9E73751-4CBB20AD-6B1401AC-9B102C5A",
+        "2941E794-4FDDA61D-DDEC159E-3C72E0CA",
+        "1771B818-401841D0-62E9BD8F-584D4455",
+        "4A879E1B-431083B4-50C4BCA0-83D82DCF",
+        "520D8D50-42597688-1060C995-6B4A7A76",
+        "DD9BA881-47D038E4-A12A83A6-6FE6ADEA",
+        "9F453B5D-48F432FC-A78FF4BD-8866309B",
+        "BC178D16-4105222B-028FBFA9-9A73B5DB",
+        "DD41D109-498D7765-11478184-81232428",
+        "FBEBC85C-4A97947E-C1F28FA5-82432152",
+        "B0079C4B-4CB63272-FB14A199-276AA9CC",
+        "B2E850AC-4146C6DB-D26EF495-E3FC1822",
+        "F013386F-4B59E508-9F389499-96DB1687",
+        "2A2BBE9C-4C85E4FF-B20D669C-8EBAB400",
+        "7BC92476-4D45BDE1-4FB20990-29A3397F",
+        "9A558B4B-4ADA567A-142A81AB-6F2302F9",
+        "DAC4705A-4DBD4691-64973B9D-CB407C28",
+        "CB29BE2B-45BFBF94-E277448B-5C16A0C9",
+        "D0BC5974-415F92E4-2DC0408E-8B230AFC",
+        "4E083EE2-4DDB6871-2C6F7C9A-CC9F9536"
+      ],
+      "LevelBuildDataId": "B6B0F68A-4B189985-CD9C54A1-3EDB3D81",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'E_ArmoredTransport_Ext_BDFWest_BuiltData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.6"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.6"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.BDFWest_Ground_01_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.10"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.BDF_Skyline_108'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.7"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.BDF_Skyline_109'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.8"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.BDF_Skyline_110'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.BDFWest_merged_01_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.11"
+      },
+      null,
+      {
+        "ObjectName": "E_ArmoredTransport_Ext_BDFWest_C'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.E_ArmoredTransport_Ext_BDFWest_C_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.2"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.4"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "E_ArmoredTransport_Ext_BDFWest_C'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.E_ArmoredTransport_Ext_BDFWest_C_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.2"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "AA8DAB76-4AF3BC86-D57E4B81-BD75B0CF",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.5"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BDF_Skyline_108",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.BDF_Skyline_108.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.12"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.BDF_Skyline_108.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.12"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BDF_Skyline_109",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.BDF_Skyline_109.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.13"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.BDF_Skyline_109.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.13"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BDF_Skyline_110",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.BDF_Skyline_110.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.14"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.BDF_Skyline_110.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.14"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BDFWest_Ground_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.BDFWest_Ground_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.15"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.BDFWest_Ground_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.15"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "BDFWest_merged_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.BDFWest_merged_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.16"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'E_ArmoredTransport_Ext_BDFWest:PersistentLevel.BDFWest_merged_01_2.StaticMeshComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.16"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BDF_Skyline_108",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BDF_Skyline_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/BackdropFar/Skyline/BDF_Skyline_02.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 25,
+          "TexelFactor": 2564.0571
+        }
+      ],
+      "VisibilityId": 1615,
+      "RelativeLocation": {
+        "X": -10655.982,
+        "Y": 58559.0,
+        "Z": -5622.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 184.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.625,
+        "Z": 0.625
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "FD7B1E5241E53839593040833425267A"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BDF_Skyline_109",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BDF_Skyline_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/BackdropFar/Skyline/BDF_Skyline_02.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 25,
+          "TexelFactor": 2564.0571
+        }
+      ],
+      "VisibilityId": 1616,
+      "RelativeLocation": {
+        "X": -12631.982,
+        "Y": 59143.0,
+        "Z": -5622.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 200.00003,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.8125,
+        "Y": 0.6875,
+        "Z": 0.6875
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "E662775F491AD3FC768E958DEC713CEC"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BDF_Skyline_110",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BDF_Skyline_02'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/BackdropFar/Skyline/BDF_Skyline_02.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4294901760,
+          "TextureLevelIndex": 25,
+          "TexelFactor": 2564.0571
+        }
+      ],
+      "VisibilityId": 1617,
+      "RelativeLocation": {
+        "X": -14847.982,
+        "Y": 59143.0,
+        "Z": -5622.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 200.00003,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5625,
+        "Y": 0.4375,
+        "Z": 0.4375
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "FA2E56CE4D70DCBDBB62D993580F3FD9"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BDFWest_Ground_01_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BDFWest_Ground_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArmoredTransport/Backdrop/BDFWest/BDFWest_Ground_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 4273799490,
+          "TextureLevelIndex": 0,
+          "TexelFactor": 1014.2068
+        },
+        {
+          "PackedRelativeBox": 2710594927,
+          "TextureLevelIndex": 1,
+          "TexelFactor": 260.2402
+        },
+        {
+          "PackedRelativeBox": 2710594927,
+          "TextureLevelIndex": 2,
+          "TexelFactor": 260.2402
+        },
+        {
+          "PackedRelativeBox": 3048433003,
+          "TextureLevelIndex": 3,
+          "TexelFactor": 11553.87
+        },
+        {
+          "PackedRelativeBox": 3048433003,
+          "TextureLevelIndex": 4,
+          "TexelFactor": 11553.87
+        },
+        {
+          "PackedRelativeBox": 2307991919,
+          "TextureLevelIndex": 5,
+          "TexelFactor": 255.91861
+        },
+        {
+          "PackedRelativeBox": 2307991919,
+          "TextureLevelIndex": 6,
+          "TexelFactor": 1023.67444
+        },
+        {
+          "PackedRelativeBox": 2307991919,
+          "TextureLevelIndex": 7,
+          "TexelFactor": 255.91861
+        },
+        {
+          "PackedRelativeBox": 3583026543,
+          "TextureLevelIndex": 8,
+          "TexelFactor": 1384.2117
+        },
+        {
+          "PackedRelativeBox": 3583026543,
+          "TextureLevelIndex": 9,
+          "TexelFactor": 1384.2117
+        },
+        {
+          "PackedRelativeBox": 3583026543,
+          "TextureLevelIndex": 10,
+          "TexelFactor": 346.05292
+        },
+        {
+          "PackedRelativeBox": 2911922542,
+          "TextureLevelIndex": 11,
+          "TexelFactor": 1028.7903
+        },
+        {
+          "PackedRelativeBox": 2911922542,
+          "TextureLevelIndex": 12,
+          "TexelFactor": 1028.7903
+        },
+        {
+          "PackedRelativeBox": 2911922542,
+          "TextureLevelIndex": 13,
+          "TexelFactor": 1028.7903
+        },
+        {
+          "PackedRelativeBox": 1905355119,
+          "TextureLevelIndex": 14,
+          "TexelFactor": 1495.4095
+        },
+        {
+          "PackedRelativeBox": 1905355119,
+          "TextureLevelIndex": 15,
+          "TexelFactor": 1495.4095
+        },
+        {
+          "PackedRelativeBox": 1905273199,
+          "TextureLevelIndex": 16,
+          "TexelFactor": 12318.171
+        },
+        {
+          "PackedRelativeBox": 1905273199,
+          "TextureLevelIndex": 17,
+          "TexelFactor": 12318.171
+        },
+        {
+          "PackedRelativeBox": 1905273199,
+          "TextureLevelIndex": 18,
+          "TexelFactor": 12318.171
+        },
+        {
+          "PackedRelativeBox": 1975331138,
+          "TextureLevelIndex": 19,
+          "TexelFactor": 316.59622
+        },
+        {
+          "PackedRelativeBox": 1975331138,
+          "TextureLevelIndex": 20,
+          "TexelFactor": 316.59622
+        },
+        {
+          "PackedRelativeBox": 4273799490,
+          "TextureLevelIndex": 21,
+          "TexelFactor": 4056.8271
+        },
+        {
+          "PackedRelativeBox": 4273799490,
+          "TextureLevelIndex": 22,
+          "TexelFactor": 1014.2068
+        },
+        {
+          "PackedRelativeBox": 4273799490,
+          "TextureLevelIndex": 23,
+          "TexelFactor": 1014.2068
+        },
+        {
+          "PackedRelativeBox": 4273799490,
+          "TextureLevelIndex": 24,
+          "TexelFactor": 253.5517
+        }
+      ],
+      "OverrideMaterials": [
+        null,
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BLD_Gravel_06'",
+          "ObjectPath": "PAYDAY3/Content/Environment/_Common/Material/Tileable/Gravel/Gravel_06/MI_BLD_Gravel_06.0"
+        },
+        null
+      ],
+      "VisibilityId": 1614,
+      "RelativeLocation": {
+        "X": 22623.012,
+        "Y": 26908.0,
+        "Z": -7626.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -30.00007,
+        "Roll": 0.0
+      }
+    },
+    "LODData": [
+      {
+        "MapBuildDataId": "7907B3AA45563CBE7B87D8B6B02A97BC"
+      }
+    ]
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "BDFWest_merged_01_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BDFWest_merged_01'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Level/ArmoredTransport/Backdrop/BDFWest/Merged/BDFWest_merged_01.2"
+      },
+      "StreamingTextureData": [
+        {
+          "PackedRelativeBox": 3128295554,
+          "TextureLevelIndex": 26,
+          "TexelFactor": 79907.8
+        },
+        {
+          "PackedRelativeBox": 621615275,
+          "TextureLevelIndex": 27,
+          "TexelFactor": 2178.973
+        },
+        {
+          "PackedRelativeBox": 3128295554,
+          "TextureLevelIndex": 28,
+          "TexelFactor": 79907.8
+        },
+        {
+          "PackedRelativeBox": 892212459,
+          "TextureLevelIndex": 29,
+          "TexelFactor": 12341.537
+        },
+        {
+          "PackedRelativeBox": 1093671150,
+          "TextureLevelIndex": 30,
+          "TexelFactor": 11065.254
+        },
+        {
+          "PackedRelativeBox": 3128295554,
+          "TextureLevelIndex": 31,
+          "TexelFactor": 79907.8
+        },
+        {
+          "PackedRelativeBox": 1162745101,
+          "TextureLevelIndex": 32,
+          "TexelFactor": 24041.541
+        },
+        {
+          "PackedRelativeBox": 1093672175,
+          "TextureLevelIndex": 33,
+          "TexelFactor": 13922.602
+        },
+        {
+          "PackedRelativeBox": 1773076781,
+          "TextureLevelIndex": 34,
+          "TexelFactor": 38380.742
+        },
+        {
+          "PackedRelativeBox": 2639207726,
+          "TextureLevelIndex": 35,
+          "TexelFactor": 79907.8
+        },
+        {
+          "PackedRelativeBox": 2639207726,
+          "TextureLevelIndex": 36,
+          "TexelFactor": 79907.8
+        },
+        {
+          "PackedRelativeBox": 1773076781,
+          "TextureLevelIndex": 37,
+          "TexelFactor": 38380.742
+        },
+        {
+          "PackedRelativeBox": 1160714478,
+          "TextureLevelIndex": 38,
+          "TexelFactor": 19168.908
+        },
+        {
+          "PackedRelativeBox": 3266581673,
+          "TextureLevelIndex": 39,
+          "TexelFactor": 67430.805
+        },
+        {
+          "PackedRelativeBox": 554571947,
+          "TextureLevelIndex": 40,
+          "TexelFactor": 165.23347
+        },
+        {
+          "PackedRelativeBox": 554571947,
+          "TextureLevelIndex": 41,
+          "TexelFactor": 1276.87
+        },
+        {
+          "PackedRelativeBox": 554571947,
+          "TextureLevelIndex": 42,
+          "TexelFactor": 1276.87
+        },
+        {
+          "PackedRelativeBox": 554571947,
+          "TextureLevelIndex": 43,
+          "TexelFactor": 675.5365
+        },
+        {
+          "PackedRelativeBox": 554571947,
+          "TextureLevelIndex": 44,
+          "TexelFactor": 675.5365
+        },
+        {
+          "PackedRelativeBox": 688919723,
+          "TextureLevelIndex": 45,
+          "TexelFactor": 2150.8877
+        },
+        {
+          "PackedRelativeBox": 688919723,
+          "TextureLevelIndex": 46,
+          "TexelFactor": 2150.8877
+        },
+        {
+          "PackedRelativeBox": 686692525,
+          "TextureLevelIndex": 47,
+          "TexelFactor": 1502.7395
+        },
+        {
+          "PackedRelativeBox": 686692525,
+          "TextureLevelIndex": 48,
+          "TexelFactor": 1502.7395
+        },
+        {
+          "PackedRelativeBox": 2392394756,
+          "TextureLevelIndex": 49,
+          "TexelFactor": 139363.73
+        },
+        {
+          "PackedRelativeBox": 4294903808,
+          "TextureLevelIndex": 25,
+          "TexelFactor": 89907.98
+        },
+        {
+          "PackedRelativeBox": 1093604519,
+          "TextureLevelIndex": 50,
+          "TexelFactor": 50778.875
+        },
+        {
+          "PackedRelativeBox": 1093604519,
+          "TextureLevelIndex": 51,
+          "TexelFactor": 50778.875
+        },
+        {
+          "PackedRelativeBox": 1093604519,
+          "TextureLevelIndex": 52,
+          "TexelFactor": 50778.875
+        },
+        {
+          "PackedRelativeBox": 1093672175,
+          "TextureLevelIndex": 53,
+          "TexelFactor": 13922.602
+        },
+        {
+          "PackedRelativeBox": 1093604519,
+          "TextureLevelIndex": 54,
+          "TexelFactor": 50778.875
+        },
+        {
+          "PackedRelativeBox": 1099895972,
+          "TextureLevelIndex": 55,
+          "TexelFactor": 13431.14
+        },
+        {
+          "PackedRelativeBox": 1099895972,
+          "TextureLevelIndex": 56,
+          "TexelFactor": 13431.14
+        },
+        {
+          "PackedRelativeBox": 1099895972,
+          "TextureLevelIndex": 57,
+          "TexelFactor": 13431.14
+        },
+        {
+          "PackedRelativeBox": 1160714478,
+          "TextureLevelIndex": 58,
+          "TexelFactor": 19168.908
+        },
+        {
+          "PackedRelativeBox": 1099895972,
+          "TextureLevelIndex": 59,
+          "TexelFactor": 13431.14
+        },
+        {
+          "PackedRelativeBox": 2723481769,
+          "TextureLevelIndex": 60,
+          "TexelFactor": 14237.55
+        },
+        {
+          "PackedRelativeBox": 2723481769,
+          "TextureLevelIndex": 61,
+          "TexelFactor": 14237.55
+        },
+        {
+          "PackedRelativeBox": 3266581673,
+          "TextureLevelIndex": 62,
+          "TexelFactor": 67430.805
+        },
+        {
+          "PackedRelativeBox": 2723481769,
+          "TextureLevelIndex": 63,
+          "TexelFactor": 14237.55
+        },
+        {
+          "PackedRelativeBox": 2857702563,
+          "TextureLevelIndex": 64,
+          "TexelFactor": 11771.137
+        },
+        {
+          "PackedRelativeBox": 2857702563,
+          "TextureLevelIndex": 65,
+          "TexelFactor": 11771.137
+        },
+        {
+          "PackedRelativeBox": 2857702563,
+          "TextureLevelIndex": 66,
+          "TexelFactor": 11771.137
+        },
+        {
+          "PackedRelativeBox": 2723481769,
+          "TextureLevelIndex": 67,
+          "TexelFactor": 14237.55
+        },
+        {
+          "PackedRelativeBox": 2857702563,
+          "TextureLevelIndex": 68,
+          "TexelFactor": 11771.137
+        },
+        {
+          "PackedRelativeBox": 2454787234,
+          "TextureLevelIndex": 69,
+          "TexelFactor": 11997.496
+        },
+        {
+          "PackedRelativeBox": 2454787234,
+          "TextureLevelIndex": 70,
+          "TexelFactor": 11997.496
+        },
+        {
+          "PackedRelativeBox": 2454787234,
+          "TextureLevelIndex": 71,
+          "TexelFactor": 11997.496
+        },
+        {
+          "PackedRelativeBox": 1359813867,
+          "TextureLevelIndex": 72,
+          "TexelFactor": 9227.384
+        },
+        {
+          "PackedRelativeBox": 2454787234,
+          "TextureLevelIndex": 73,
+          "TexelFactor": 11997.496
+        },
+        {
+          "PackedRelativeBox": 1106318468,
+          "TextureLevelIndex": 74,
+          "TexelFactor": 20315.4
+        },
+        {
+          "PackedRelativeBox": 1106318468,
+          "TextureLevelIndex": 75,
+          "TexelFactor": 20315.4
+        },
+        {
+          "PackedRelativeBox": 1106318468,
+          "TextureLevelIndex": 76,
+          "TexelFactor": 20315.4
+        },
+        {
+          "PackedRelativeBox": 1359813867,
+          "TextureLevelIndex": 77,
+          "TexelFactor": 9227.384
+        },
+        {
+          "PackedRelativeBox": 1106318468,
+          "TextureLevelIndex": 78,
+          "TexelFactor": 20315.4
+        },
+        {
+          "PackedRelativeBox": 2255885474,
+          "TextureLevelIndex": 79,
+          "TexelFactor": 12297.343
+        },
+        {
+          "PackedRelativeBox": 2255885474,
+          "TextureLevelIndex": 80,
+          "TexelFactor": 12297.343
+        },
+        {
+          "PackedRelativeBox": 2255885474,
+          "TextureLevelIndex": 81,
+          "TexelFactor": 12297.343
+        },
+        {
+          "PackedRelativeBox": 1162745101,
+          "TextureLevelIndex": 82,
+          "TexelFactor": 24041.541
+        },
+        {
+          "PackedRelativeBox": 2255885474,
+          "TextureLevelIndex": 83,
+          "TexelFactor": 12297.343
+        },
+        {
+          "PackedRelativeBox": 2119112903,
+          "TextureLevelIndex": 84,
+          "TexelFactor": 26321.957
+        },
+        {
+          "PackedRelativeBox": 2119112903,
+          "TextureLevelIndex": 85,
+          "TexelFactor": 26321.957
+        },
+        {
+          "PackedRelativeBox": 2119112903,
+          "TextureLevelIndex": 86,
+          "TexelFactor": 26321.957
+        },
+        {
+          "PackedRelativeBox": 1158486251,
+          "TextureLevelIndex": 87,
+          "TexelFactor": 45643.098
+        },
+        {
+          "PackedRelativeBox": 2119112903,
+          "TextureLevelIndex": 88,
+          "TexelFactor": 26321.957
+        },
+        {
+          "PackedRelativeBox": 1299322020,
+          "TextureLevelIndex": 89,
+          "TexelFactor": 21842.95
+        },
+        {
+          "PackedRelativeBox": 1299322020,
+          "TextureLevelIndex": 90,
+          "TexelFactor": 21842.95
+        },
+        {
+          "PackedRelativeBox": 1299322020,
+          "TextureLevelIndex": 91,
+          "TexelFactor": 21842.95
+        },
+        {
+          "PackedRelativeBox": 1158486251,
+          "TextureLevelIndex": 92,
+          "TexelFactor": 45643.098
+        },
+        {
+          "PackedRelativeBox": 1299322020,
+          "TextureLevelIndex": 93,
+          "TexelFactor": 21842.95
+        },
+        {
+          "PackedRelativeBox": 892212459,
+          "TextureLevelIndex": 94,
+          "TexelFactor": 12341.537
+        },
+        {
+          "PackedRelativeBox": 3128300674,
+          "TextureLevelIndex": 95,
+          "TexelFactor": 2765.6177
+        },
+        {
+          "PackedRelativeBox": 1093671150,
+          "TextureLevelIndex": 96,
+          "TexelFactor": 11065.254
+        }
+      ],
+      "LightmapType": "ELightmapType::ForceVolumetric",
+      "bUseAsOccluder": false
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "E_ArmoredTransport_Ext_BDFWest",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'E_ArmoredTransport_Ext_BDFWest:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_BDFWest.3"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

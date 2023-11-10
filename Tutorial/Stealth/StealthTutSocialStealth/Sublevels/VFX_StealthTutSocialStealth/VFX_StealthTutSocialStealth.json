@@ -1,0 +1,1626 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "VFX_StealthTutSocialStealth",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'VFX_StealthTutSocialStealth:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.1"
+      },
+      "LevelBuildDataId": "8BA9F19C-4311EF95-7838C3B9-4B4B869E",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'VFX_StealthTutSocialStealth:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.13"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'VFX_StealthTutSocialStealth:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.13"
+      },
+      null,
+      {
+        "ObjectName": "NiagaraActor'VFX_StealthTutSocialStealth:PersistentLevel.FX_Dustmotes_28'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.5"
+      },
+      {
+        "ObjectName": "NiagaraActor'VFX_StealthTutSocialStealth:PersistentLevel.FX_Dustmotes2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.3"
+      },
+      {
+        "ObjectName": "NiagaraActor'VFX_StealthTutSocialStealth:PersistentLevel.FX_Dustmotes3'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.4"
+      },
+      {
+        "ObjectName": "NiagaraActor'VFX_StealthTutSocialStealth:PersistentLevel.FX_LocalFog_48'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.6"
+      },
+      {
+        "ObjectName": "NiagaraActor'VFX_StealthTutSocialStealth:PersistentLevel.FX_VolumeFog_54'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.7"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'VFX_StealthTutSocialStealth:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "F9E99823-4228BE53-E04C3DB8-51D43EA0",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "FX_Dustmotes2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'VFX_StealthTutSocialStealth:PersistentLevel.FX_Dustmotes2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.8"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'VFX_StealthTutSocialStealth:PersistentLevel.FX_Dustmotes2.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.8"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "FX_Dustmotes3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'VFX_StealthTutSocialStealth:PersistentLevel.FX_Dustmotes3.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.9"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'VFX_StealthTutSocialStealth:PersistentLevel.FX_Dustmotes3.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.9"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "FX_Dustmotes_28",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'VFX_StealthTutSocialStealth:PersistentLevel.FX_Dustmotes_28.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.10"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'VFX_StealthTutSocialStealth:PersistentLevel.FX_Dustmotes_28.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.10"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "FX_LocalFog_48",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'VFX_StealthTutSocialStealth:PersistentLevel.FX_LocalFog_48.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.11"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'VFX_StealthTutSocialStealth:PersistentLevel.FX_LocalFog_48.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.11"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraActor",
+    "Name": "FX_VolumeFog_54",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'NiagaraActor'",
+    "Properties": {
+      "NiagaraComponent": {
+        "ObjectName": "NiagaraComponent'VFX_StealthTutSocialStealth:PersistentLevel.FX_VolumeFog_54.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.12"
+      },
+      "RootComponent": {
+        "ObjectName": "NiagaraComponent'VFX_StealthTutSocialStealth:PersistentLevel.FX_VolumeFog_54.NiagaraComponent0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.12"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "FX_Dustmotes2",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_Dustmotes'",
+        "ObjectPath": "PAYDAY3/Content/FX/Enviroment/FX_Dustmotes.57"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "BoundingBox",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.BoundingBox",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Emissive",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Emissive",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "PScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.PScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SpeedLimit",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SpeedLimit",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.BoundingBox",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 12,
+            "Name": "User.Emissive",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.PScale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.Spawnrate",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 24,
+            "Name": "User.SpeedLimit",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          250,
+          68,
+          0,
+          0,
+          250,
+          68,
+          0,
+          0,
+          122,
+          68,
+          205,
+          204,
+          204,
+          61,
+          0,
+          0,
+          64,
+          64,
+          0,
+          128,
+          59,
+          69,
+          0,
+          0,
+          160,
+          65
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_StealthTutSocialStealth:PersistentLevel.FX_Dustmotes_28'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.5"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          },
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_StealthTutSocialStealth:PersistentLevel.FX_Dustmotes2'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.3"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": 4775.259,
+        "Y": -191.35652,
+        "Z": 0.793839
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "FX_Dustmotes3",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_Dustmotes'",
+        "ObjectPath": "PAYDAY3/Content/FX/Enviroment/FX_Dustmotes.57"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "BoundingBox",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.BoundingBox",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Emissive",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Emissive",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "PScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.PScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SpeedLimit",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SpeedLimit",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.BoundingBox",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 12,
+            "Name": "User.Emissive",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.PScale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.Spawnrate",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 24,
+            "Name": "User.SpeedLimit",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          250,
+          68,
+          0,
+          0,
+          250,
+          68,
+          0,
+          0,
+          122,
+          68,
+          205,
+          204,
+          204,
+          61,
+          0,
+          0,
+          64,
+          64,
+          0,
+          128,
+          59,
+          69,
+          0,
+          0,
+          160,
+          65
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_StealthTutSocialStealth:PersistentLevel.FX_Dustmotes_28'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.5"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          },
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_StealthTutSocialStealth:PersistentLevel.FX_Dustmotes2'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.3"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          },
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_StealthTutSocialStealth:PersistentLevel.FX_Dustmotes3'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.4"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": 6483.787,
+        "Y": -191.35652,
+        "Z": 0.793839
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "FX_Dustmotes_28",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_Dustmotes'",
+        "ObjectPath": "PAYDAY3/Content/FX/Enviroment/FX_Dustmotes.57"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "BoundingBox",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.BoundingBox",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Emissive",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Emissive",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "PScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.PScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SpeedLimit",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SpeedLimit",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.BoundingBox",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 12,
+            "Name": "User.Emissive",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 16,
+            "Name": "User.PScale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.Spawnrate",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 24,
+            "Name": "User.SpeedLimit",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          0,
+          250,
+          68,
+          0,
+          0,
+          250,
+          68,
+          0,
+          0,
+          122,
+          68,
+          205,
+          204,
+          204,
+          61,
+          0,
+          0,
+          64,
+          64,
+          0,
+          128,
+          59,
+          69,
+          0,
+          0,
+          160,
+          65
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_StealthTutSocialStealth:PersistentLevel.FX_Dustmotes_28'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.5"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": 2728.542,
+        "Y": -56.633987,
+        "Z": 0.7938385
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "FX_LocalFog_48",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_LocalFog'",
+        "ObjectPath": "PAYDAY3/Content/FX/Enviroment/FX_LocalFog.9"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "ParticleAmount",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.ParticleAmount",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraInt32'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "ParticleColor",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.ParticleColor",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SizeMult",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SizeMult",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "SpawnRadius",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.SpawnRadius",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.ParticleAmount",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraInt32'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 4,
+            "Name": "User.ParticleColor",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 20,
+            "Name": "User.SizeMult",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 24,
+            "Name": "User.SpawnRadius",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          128,
+          63,
+          170,
+          13,
+          126,
+          63,
+          102,
+          102,
+          102,
+          63,
+          195,
+          245,
+          168,
+          62,
+          0,
+          0,
+          0,
+          63,
+          0,
+          160,
+          12,
+          70,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_StealthTutSocialStealth:PersistentLevel.FX_LocalFog_48'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.6"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": 3743.027,
+        "Y": 22.59523,
+        "Z": 838.4348
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComponent0",
+    "Outer": "FX_VolumeFog_54",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'FX_VolumeFog'",
+        "ObjectPath": "PAYDAY3/Content/FX/Enviroment/FX_VolumeFog.7"
+      },
+      "OverrideParameters": {
+        "UserParameterRedirects": [
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "BoundingBox",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.BoundingBox",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Color",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Color",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Emissive",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Emissive",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Noise_Bias",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Noise_Bias",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Noise_Intensity",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Noise_Intensity",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Noise_Scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Noise_Scale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Noise_Speed",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Noise_Speed",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "PScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.PScale",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          },
+          {
+            "Key": {
+              "VarData": "",
+              "Name": "Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            },
+            "Value": {
+              "VarData": "",
+              "Name": "User.Spawnrate",
+              "TypeDef": {
+                "ClassStructOrEnum": {
+                  "ObjectName": "ScriptStruct'NiagaraFloat'",
+                  "ObjectPath": "/Script/Niagara"
+                },
+                "UnderlyingType": 2
+              }
+            }
+          }
+        ],
+        "SortedParameterOffsets": [
+          {
+            "Offset": 0,
+            "Name": "User.BoundingBox",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 12,
+            "Name": "User.Color",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 28,
+            "Name": "User.Emissive",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 44,
+            "Name": "User.Noise_Bias",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 48,
+            "Name": "User.Noise_Intensity",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 52,
+            "Name": "User.Noise_Scale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 56,
+            "Name": "User.Noise_Speed",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 60,
+            "Name": "User.PScale",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          },
+          {
+            "Offset": 64,
+            "Name": "User.Spawnrate",
+            "TypeDef": {
+              "ClassStructOrEnum": {
+                "ObjectName": "ScriptStruct'NiagaraFloat'",
+                "ObjectPath": "/Script/Niagara"
+              },
+              "UnderlyingType": 2
+            }
+          }
+        ],
+        "ParameterData": [
+          0,
+          160,
+          12,
+          70,
+          0,
+          64,
+          28,
+          69,
+          0,
+          0,
+          32,
+          65,
+          0,
+          0,
+          128,
+          63,
+          226,
+          147,
+          126,
+          63,
+          102,
+          102,
+          102,
+          63,
+          10,
+          215,
+          163,
+          60,
+          0,
+          0,
+          0,
+          63,
+          0,
+          0,
+          0,
+          63,
+          0,
+          0,
+          0,
+          63,
+          23,
+          183,
+          209,
+          56,
+          205,
+          204,
+          76,
+          62,
+          0,
+          0,
+          128,
+          63,
+          0,
+          0,
+          0,
+          64,
+          0,
+          0,
+          0,
+          63,
+          0,
+          0,
+          97,
+          68,
+          0,
+          0,
+          250,
+          67
+        ]
+      },
+      "OnSystemFinished": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "NiagaraActor'VFX_StealthTutSocialStealth:PersistentLevel.FX_VolumeFog_54'",
+              "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.7"
+            },
+            "FunctionName": "OnNiagaraSystemFinished"
+          }
+        ]
+      },
+      "RelativeLocation": {
+        "X": 2579.9893,
+        "Y": -32.80625,
+        "Z": 11.655544
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'VFX_StealthTutSocialStealth:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "VFX_StealthTutSocialStealth",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'VFX_StealthTutSocialStealth:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/Tutorial/Stealth/StealthTutSocialStealth/Sublevels/VFX_StealthTutSocialStealth/VFX_StealthTutSocialStealth.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]

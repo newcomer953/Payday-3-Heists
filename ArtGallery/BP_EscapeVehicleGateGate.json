@@ -1,0 +1,668 @@
+[
+  {
+    "Type": "Function",
+    "Name": "HatchOpened__DelegateSignature",
+    "Outer": "BP_EscapeVehicleGateGate_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_EscapeVehicleGateGate",
+    "Outer": "BP_EscapeVehicleGateGate_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotator_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotator_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_K2_SetActorRotation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_K2_SetActorRotation_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_K2_SetActorRotation_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_K2_SetActorRotation_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStateChanged",
+    "Outer": "BP_EscapeVehicleGateGate_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZReplicatedBinaryStateActor:OnStateChanged'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bStateToChangeTo",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bDoCosmetics",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_1__UpdateFunc",
+    "Outer": "BP_EscapeVehicleGateGate_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_1__FinishedFunc",
+    "Outer": "BP_EscapeVehicleGateGate_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__UpdateFunc",
+    "Outer": "BP_EscapeVehicleGateGate_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__FinishedFunc",
+    "Outer": "BP_EscapeVehicleGateGate_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_EscapeVehicleGateGate_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate'BP_EscapeVehicleGateGate_C:Timeline_0_Template'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.16"
+        },
+        {
+          "ObjectName": "TimelineTemplate'BP_EscapeVehicleGateGate_C:Timeline_1_Template'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.17"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_EscapeVehicleGateGate_C:SimpleConstructionScript_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.14"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_EscapeVehicleGateGate_C:ExecuteUbergraph_BP_EscapeVehicleGateGate'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZReplicatedBinaryStateActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_EscapeVehicleGateGate_C:Timeline_0__FinishedFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.6"
+      },
+      {
+        "ObjectName": "Function'BP_EscapeVehicleGateGate_C:Timeline_0__UpdateFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.5"
+      },
+      {
+        "ObjectName": "Function'BP_EscapeVehicleGateGate_C:Timeline_1__FinishedFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.4"
+      },
+      {
+        "ObjectName": "Function'BP_EscapeVehicleGateGate_C:Timeline_1__UpdateFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.3"
+      },
+      {
+        "ObjectName": "Function'BP_EscapeVehicleGateGate_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.2"
+      },
+      {
+        "ObjectName": "Function'BP_EscapeVehicleGateGate_C:ExecuteUbergraph_BP_EscapeVehicleGateGate'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.1"
+      },
+      {
+        "ObjectName": "Function'BP_EscapeVehicleGateGate_C:HatchOpened__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Cube",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_1_NewTrack_0_7927395F42E92710917265BA27BA8EA1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_1__Direction_7927395F42E92710917265BA27BA8EA1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_0_NewTrack_0_935497784118E26475A269972CD7A732",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_0__Direction_935497784118E26475A269972CD7A732",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "HatchOpened",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_EscapeVehicleGateGate_C:HatchOpened__DelegateSignature'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.0"
+        }
+      }
+    ],
+    "FuncMap": {
+      "HatchOpened__DelegateSignature": {
+        "ObjectName": "Function'BP_EscapeVehicleGateGate_C:HatchOpened__DelegateSignature'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.0"
+      },
+      "ExecuteUbergraph_BP_EscapeVehicleGateGate": {
+        "ObjectName": "Function'BP_EscapeVehicleGateGate_C:ExecuteUbergraph_BP_EscapeVehicleGateGate'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.1"
+      },
+      "OnStateChanged": {
+        "ObjectName": "Function'BP_EscapeVehicleGateGate_C:OnStateChanged'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.2"
+      },
+      "Timeline_1__UpdateFunc": {
+        "ObjectName": "Function'BP_EscapeVehicleGateGate_C:Timeline_1__UpdateFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.3"
+      },
+      "Timeline_1__FinishedFunc": {
+        "ObjectName": "Function'BP_EscapeVehicleGateGate_C:Timeline_1__FinishedFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.4"
+      },
+      "Timeline_0__UpdateFunc": {
+        "ObjectName": "Function'BP_EscapeVehicleGateGate_C:Timeline_0__UpdateFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.5"
+      },
+      "Timeline_0__FinishedFunc": {
+        "ObjectName": "Function'BP_EscapeVehicleGateGate_C:Timeline_0__FinishedFunc'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.6"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_EscapeVehicleGateGate_C'Default__BP_EscapeVehicleGateGate_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.8"
+    }
+  },
+  {
+    "Type": "BP_EscapeVehicleGateGate_C",
+    "Name": "Default__BP_EscapeVehicleGateGate_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.BP_EscapeVehicleGateGate_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bState": true
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0",
+    "Outer": "BP_EscapeVehicleGateGate_C",
+    "Class": "UScriptClass'CurveFloat'",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0279855,
+            "Value": -68.86249,
+            "ArriveTangent": -90.5,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -90.5,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.0,
+            "Value": -181.0,
+            "ArriveTangent": 2.5093362,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 2.5093362,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.0,
+            "Value": -171.72705,
+            "ArriveTangent": 0.036200836,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.036200836,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 6.0,
+            "Value": -179.0,
+            "ArriveTangent": -3.6364746,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -3.6364746,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0_1",
+    "Outer": "BP_EscapeVehicleGateGate_C",
+    "Class": "UScriptClass'CurveFloat'",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0279855,
+            "Value": -68.86249,
+            "ArriveTangent": -90.5,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -90.5,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.0,
+            "Value": -181.0,
+            "ArriveTangent": 2.5093362,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 2.5093362,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.0,
+            "Value": -171.72705,
+            "ArriveTangent": 0.036200836,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.036200836,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 6.0,
+            "Value": -179.0,
+            "ArriveTangent": -3.6364746,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -3.6364746,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_EscapeVehicleGateGate_C",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_EscapeVehicleGateGate_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.11"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_EscapeVehicleGateGate_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.13"
+        }
+      ],
+      "VariableGuid": "FD85DE12-4504BBF8-A1AA98BA-70A64278",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_EscapeVehicleGateGate_C:Cube_GEN_VARIABLE'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.15"
+      },
+      "VariableGuid": "02D962A8-455B37CD-6F58CFAA-FAD6471F",
+      "InternalVariableName": "Cube"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_EscapeVehicleGateGate_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_EscapeVehicleGateGate_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.12"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_EscapeVehicleGateGate_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_EscapeVehicleGateGate_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.13"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_EscapeVehicleGateGate_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.12"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Cube_GEN_VARIABLE",
+    "Outer": "BP_EscapeVehicleGateGate_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FenceMetal_01_128_Door'",
+        "ObjectPath": "PAYDAY3/Content/Environment/_Common/Prop/Construction/FenceMetal_01/FenceMetal_01_128_Door.2"
+      },
+      "OverrideMaterials": [
+        null
+      ]
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_0_Template",
+    "Outer": "BP_EscapeVehicleGateGate_C",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Properties": {
+      "TimelineLength": 6.0,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_EscapeVehicleGateGate_C:CurveFloat_0'",
+            "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.9"
+          },
+          "PropertyName": "Timeline_0_NewTrack_0_935497784118E26475A269972CD7A732",
+          "TrackName": "NewTrack_0",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "93549778-4118E264-75A26997-2CD7A732",
+      "VariableName": "Timeline_0",
+      "DirectionPropertyName": "Timeline_0__Direction_935497784118E26475A269972CD7A732",
+      "UpdateFunctionName": "Timeline_0__UpdateFunc",
+      "FinishedFunctionName": "Timeline_0__FinishedFunc"
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_1_Template",
+    "Outer": "BP_EscapeVehicleGateGate_C",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Properties": {
+      "TimelineLength": 6.0,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_EscapeVehicleGateGate_C:CurveFloat_0_1'",
+            "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArtGallery/BP_EscapeVehicleGateGate.10"
+          },
+          "PropertyName": "Timeline_1_NewTrack_0_7927395F42E92710917265BA27BA8EA1",
+          "TrackName": "NewTrack_0",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "7927395F-42E92710-917265BA-27BA8EA1",
+      "VariableName": "Timeline_1",
+      "DirectionPropertyName": "Timeline_1__Direction_7927395F42E92710917265BA27BA8EA1",
+      "UpdateFunctionName": "Timeline_1__UpdateFunc",
+      "FinishedFunctionName": "Timeline_1__FinishedFunc"
+    }
+  }
+]

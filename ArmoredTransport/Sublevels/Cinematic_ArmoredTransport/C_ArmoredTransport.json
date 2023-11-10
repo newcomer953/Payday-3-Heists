@@ -1,0 +1,1252 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_C_ArmoredTransport",
+    "Outer": "C_ArmoredTransport_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'OnMovieSceneSequencePlayerEvent__DelegateSignature'",
+          "ObjectPath": "/Script/MovieScene"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetSequencePlayer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelSequencePlayer'",
+          "ObjectPath": "/Script/LevelSequence"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "C_ArmoredTransport_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnIntroFinished",
+    "Outer": "C_ArmoredTransport_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "IntroSequenceStarted",
+    "Outer": "C_ArmoredTransport_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'SBZLevelScriptActor:IntroSequenceStarted'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "C_ArmoredTransport_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'C_ArmoredTransport_C:ExecuteUbergraph_C_ArmoredTransport'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SBZLevelScriptActor'",
+      "ObjectPath": "/Script/Starbreeze"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'C_ArmoredTransport_C:IntroSequenceStarted'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.3"
+      },
+      {
+        "ObjectName": "Function'C_ArmoredTransport_C:OnIntroFinished'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.2"
+      },
+      {
+        "ObjectName": "Function'C_ArmoredTransport_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.1"
+      },
+      {
+        "ObjectName": "Function'C_ArmoredTransport_C:ExecuteUbergraph_C_ArmoredTransport'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "C_RoadRage_Master_01_ExecuteUbergraph_C_ArmoredTransport_RefProperty",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LevelSequenceActor'",
+          "ObjectPath": "/Script/LevelSequence"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_C_ArmoredTransport": {
+        "ObjectName": "Function'C_ArmoredTransport_C:ExecuteUbergraph_C_ArmoredTransport'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.0"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'C_ArmoredTransport_C:ReceiveBeginPlay'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.1"
+      },
+      "OnIntroFinished": {
+        "ObjectName": "Function'C_ArmoredTransport_C:OnIntroFinished'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.2"
+      },
+      "IntroSequenceStarted": {
+        "ObjectName": "Function'C_ArmoredTransport_C:IntroSequenceStarted'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "C_ArmoredTransport_C'Default__C_ArmoredTransport_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.5"
+    }
+  },
+  {
+    "Type": "C_ArmoredTransport_C",
+    "Name": "Default__C_ArmoredTransport_C",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.C_ArmoredTransport_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "C_RoadRage_Master_01_ExecuteUbergraph_C_ArmoredTransport_RefProperty": {
+        "ObjectName": "LevelSequenceActor'C_ArmoredTransport:PersistentLevel.C_RoadRage_Master_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.26"
+      }
+    }
+  },
+  {
+    "Type": "C_ArmoredTransport_C",
+    "Name": "C_ArmoredTransport_C_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.C_ArmoredTransport_C'",
+    "Template": {
+      "ObjectName": "C_ArmoredTransport_C'Default__C_ArmoredTransport_C'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.5"
+    },
+    "Properties": {
+      "Seed": 15551,
+      "OnEndPlay": {
+        "InvocationList": [
+          {
+            "Object": null,
+            "FunctionName": "OnActorEndPlay"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CameraRig_Crane",
+    "Name": "CameraRig_CraneShot2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraRig_Crane'",
+    "Properties": {
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_CraneShot2.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.54"
+      },
+      "CraneYawControl": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_CraneShot2.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.53"
+      },
+      "CranePitchControl": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_CraneShot2.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.52"
+      },
+      "CraneCameraMount": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_CraneShot2.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.51"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_CraneShot2.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.54"
+      }
+    }
+  },
+  {
+    "Type": "CameraRig_Crane",
+    "Name": "CameraRig_Shot1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CameraRig_Crane'",
+    "Properties": {
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_Shot1.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.58"
+      },
+      "CraneYawControl": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_Shot1.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.57"
+      },
+      "CranePitchControl": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_Shot1.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.56"
+      },
+      "CraneCameraMount": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_Shot1.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.55"
+      },
+      "bHidden": true,
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_Shot1.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.58"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_RoadRage_Shot1_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_VehiclePark_Prop.E_ArmoredTransport_Ext_VehiclePark_Prop",
+          "SubPathString": "PersistentLevel.BP_StaticVehicle_MediumTruck2_2"
+        },
+        "RelativeOffset": {
+          "X": 0.0,
+          "Y": 4230.5156,
+          "Z": 407.86496
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_ArmoredTransport:PersistentLevel.Camera_RoadRage_Shot1_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.14"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.Camera_RoadRage_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.48"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.Camera_RoadRage_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.48"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_RoadRage_Shot2_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/ArmoredTransport/Sublevels/Gameplay_ArmoredTransport/G_ArmoredTransport_DevHelpers.G_ArmoredTransport_DevHelpers",
+          "SubPathString": "PersistentLevel.BP_SwatVan_Preview5"
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_ArmoredTransport:PersistentLevel.Camera_RoadRage_Shot2_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.15"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.Camera_RoadRage_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.49"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.Camera_RoadRage_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.49"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "Camera_RoadRage_Shot3_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "bEnableLookAtTracking": true,
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/ArmoredTransport/Sublevels/Environment_ArmoredTransport/E_ArmoredTransport_Ext_VehiclePark_Prop.E_ArmoredTransport_Ext_VehiclePark_Prop",
+          "SubPathString": "PersistentLevel.HSMI_BeamStack_01_Metal_120_A_152"
+        },
+        "RelativeOffset": {
+          "X": -119.11574,
+          "Y": 0.0,
+          "Z": 223.80215
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_ArmoredTransport:PersistentLevel.Camera_RoadRage_Shot3_01.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.16"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.Camera_RoadRage_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.50"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.Camera_RoadRage_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.50"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "CineCameraShot1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "LookatTrackingSettings": {
+        "ActorToTrack": {
+          "AssetPathName": "/Game/Prototype/Maps/ArmoredTransport/Sublevels/Lighting_ArmoredTransport/L_ArmoredTransport.L_ArmoredTransport",
+          "SubPathString": "PersistentLevel.CurvePlane2x19"
+        }
+      },
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_ArmoredTransport:PersistentLevel.CineCameraShot1.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.17"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CineCameraShot1.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.59"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CineCameraShot1.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.59"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraActor",
+    "Name": "CineCameraShot2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'CineCameraActor'",
+    "Properties": {
+      "CameraComponent": {
+        "ObjectName": "CineCameraComponent'C_ArmoredTransport:PersistentLevel.CineCameraShot2.CameraComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.18"
+      },
+      "SceneComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CineCameraShot2.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.60"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CineCameraShot2.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.60"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_RoadRage_Shot1_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2,
+        "MaxFStop": 500.0
+      },
+      "CurrentFocusDistance": 249.14052,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.Camera_RoadRage_Shot1_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.48"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_RoadRage_Shot2_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2
+      },
+      "CurrentFocalLength": 113.11297,
+      "CurrentFocusDistance": 100000.0,
+      "FieldOfView": 31.592733,
+      "AspectRatio": 2.3703704,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.Camera_RoadRage_Shot2_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.49"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "Camera_RoadRage_Shot3_01",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "Filmback": {
+        "SensorWidth": 64.0,
+        "SensorHeight": 27.0,
+        "SensorAspectRatio": 2.3703704
+      },
+      "LensSettings": {
+        "MinFStop": 0.2
+      },
+      "CurrentFocusDistance": 4578.799,
+      "FieldOfView": 84.87245,
+      "AspectRatio": 2.3703704,
+      "PostProcessSettings": {
+        "bOverride_BloomMethod": true,
+        "bOverride_BloomIntensity": true,
+        "bOverride_VignetteIntensity": true,
+        "BloomIntensity": 7.92381,
+        "VignetteIntensity": 0.780952
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.Camera_RoadRage_Shot3_01.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.50"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "CineCameraShot1",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "FocusSettings": {
+        "TrackingFocusSettings": {
+          "ActorToTrack": {
+            "AssetPathName": "/Game/Prototype/Maps/ArmoredTransport/Sublevels/Lighting_ArmoredTransport/L_ArmoredTransport.L_ArmoredTransport",
+            "SubPathString": "PersistentLevel.CurvePlane2x19"
+          }
+        },
+        "FocusOffset": -0.416641
+      },
+      "CurrentFocusDistance": 11162.757,
+      "FieldOfView": 37.497356,
+      "AspectRatio": 1.7777778,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CineCameraShot1.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.59"
+      }
+    }
+  },
+  {
+    "Type": "CineCameraComponent",
+    "Name": "CameraComponent",
+    "Outer": "CineCameraShot2",
+    "Class": "UScriptClass'CineCameraComponent'",
+    "Properties": {
+      "LensSettings": {
+        "MaxFStop": 1000.0
+      },
+      "CurrentFocusDistance": 100000.0,
+      "FieldOfView": 37.497356,
+      "AspectRatio": 1.7777778,
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CineCameraShot2.SceneComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.60"
+      }
+    }
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "C_RoadRage_Master_01",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "IntroSequence_2",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "RoadRage_Shot1_01_5",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "RoadRage_Shot1_02_7",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "RoadRage_Shot2_01_9",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "DefaultLevelSequenceInstanceData",
+    "Name": "InstanceData",
+    "Outer": "RoadRage_Shot3_01_11",
+    "Class": "UScriptClass'DefaultLevelSequenceInstanceData'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "C_ArmoredTransport",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'C_ArmoredTransport:PersistentLevel.Model_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.38"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "C_ArmoredTransport_C'C_ArmoredTransport:PersistentLevel.C_ArmoredTransport_C_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.6"
+      },
+      "LevelBuildDataId": "4A0CE483-4B791A87-C17A08B7-3B0F94D0",
+      "WorldSettings": {
+        "ObjectName": "SBZWorldSettings'C_ArmoredTransport:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.46"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "SBZWorldSettings'C_ArmoredTransport:PersistentLevel.SBZWorldSettings'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.46"
+      },
+      null,
+      {
+        "ObjectName": "CameraRig_Crane'C_ArmoredTransport:PersistentLevel.CameraRig_Shot1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.8"
+      },
+      {
+        "ObjectName": "CameraRig_Crane'C_ArmoredTransport:PersistentLevel.CameraRig_CraneShot2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.7"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_ArmoredTransport:PersistentLevel.Camera_RoadRage_Shot1_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.9"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_ArmoredTransport:PersistentLevel.Camera_RoadRage_Shot2_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.10"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_ArmoredTransport:PersistentLevel.Camera_RoadRage_Shot3_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.11"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_ArmoredTransport:PersistentLevel.IntroSequence_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.27"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_ArmoredTransport:PersistentLevel.C_RoadRage_Master_01'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.26"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_ArmoredTransport:PersistentLevel.RoadRage_Shot1_01_5'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.28"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_ArmoredTransport:PersistentLevel.RoadRage_Shot1_02_7'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.29"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_ArmoredTransport:PersistentLevel.RoadRage_Shot2_01_9'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.30"
+      },
+      {
+        "ObjectName": "LevelSequenceActor'C_ArmoredTransport:PersistentLevel.RoadRage_Shot3_01_11'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.31"
+      },
+      {
+        "ObjectName": "C_ArmoredTransport_C'C_ArmoredTransport:PersistentLevel.C_ArmoredTransport_C_2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.6"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_ArmoredTransport:PersistentLevel.CineCameraShot1'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.12"
+      },
+      {
+        "ObjectName": "CineCameraActor'C_ArmoredTransport:PersistentLevel.CineCameraShot2'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.13"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Maps/MainMenu",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'C_ArmoredTransport:PersistentLevel.Model_0'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.38"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "C_ArmoredTransport_C'C_ArmoredTransport:PersistentLevel.C_ArmoredTransport_C_2'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.6"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "C_RoadRage_Master_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_RoadRage_Master_01.C_RoadRage_Master_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_ArmoredTransport:PersistentLevel.C_RoadRage_Master_01.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.32"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_ArmoredTransport:PersistentLevel.C_RoadRage_Master_01.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.39"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_ArmoredTransport:PersistentLevel.C_RoadRage_Master_01.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.19"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.C_RoadRage_Master_01.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.47"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "IntroSequence_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/IntroSequence.IntroSequence",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_ArmoredTransport:PersistentLevel.IntroSequence_2.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.33"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_ArmoredTransport:PersistentLevel.IntroSequence_2.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.40"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_ArmoredTransport:PersistentLevel.IntroSequence_2.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.20"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.IntroSequence_2.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.61"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "RoadRage_Shot1_01_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_01.RoadRage_Shot1_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_ArmoredTransport:PersistentLevel.RoadRage_Shot1_01_5.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.34"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_ArmoredTransport:PersistentLevel.RoadRage_Shot1_01_5.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.41"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_ArmoredTransport:PersistentLevel.RoadRage_Shot1_01_5.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.21"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.RoadRage_Shot1_01_5.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.62"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "RoadRage_Shot1_02_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot1_02.RoadRage_Shot1_02",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_ArmoredTransport:PersistentLevel.RoadRage_Shot1_02_7.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.35"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_ArmoredTransport:PersistentLevel.RoadRage_Shot1_02_7.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.42"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_ArmoredTransport:PersistentLevel.RoadRage_Shot1_02_7.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.22"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.RoadRage_Shot1_02_7.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.63"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "RoadRage_Shot2_01_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot2_01.RoadRage_Shot2_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_ArmoredTransport:PersistentLevel.RoadRage_Shot2_01_9.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.36"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_ArmoredTransport:PersistentLevel.RoadRage_Shot2_01_9.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.43"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_ArmoredTransport:PersistentLevel.RoadRage_Shot2_01_9.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.23"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.RoadRage_Shot2_01_9.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.64"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceActor",
+    "Name": "RoadRage_Shot3_01_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'LevelSequenceActor'",
+    "Properties": {
+      "LevelSequence": {
+        "AssetPathName": "/Game/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/RoadRage_Shot3_01.RoadRage_Shot3_01",
+        "SubPathString": ""
+      },
+      "BurnInOptions": {
+        "ObjectName": "LevelSequenceBurnInOptions'C_ArmoredTransport:PersistentLevel.RoadRage_Shot3_01_11.BurnInOptions'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.37"
+      },
+      "BindingOverrides": {
+        "ObjectName": "MovieSceneBindingOverrides'C_ArmoredTransport:PersistentLevel.RoadRage_Shot3_01_11.BindingOverrides'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.44"
+      },
+      "DefaultInstanceData": {
+        "ObjectName": "DefaultLevelSequenceInstanceData'C_ArmoredTransport:PersistentLevel.RoadRage_Shot3_01_11.InstanceData'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.24"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.RoadRage_Shot3_01_11.SceneComp'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.65"
+      }
+    }
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "C_RoadRage_Master_01",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "IntroSequence_2",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "RoadRage_Shot1_01_5",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "RoadRage_Shot1_02_7",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "RoadRage_Shot2_01_9",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "LevelSequenceBurnInOptions",
+    "Name": "BurnInOptions",
+    "Outer": "RoadRage_Shot3_01_11",
+    "Class": "UScriptClass'LevelSequenceBurnInOptions'"
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "F2FB33A2-4DA0FF7D-CAA24AB5-CF5A8A6D",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "C_RoadRage_Master_01",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "IntroSequence_2",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "RoadRage_Shot1_01_5",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "RoadRage_Shot1_02_7",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "RoadRage_Shot2_01_9",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "MovieSceneBindingOverrides",
+    "Name": "BindingOverrides",
+    "Outer": "RoadRage_Shot3_01_11",
+    "Class": "UScriptClass'MovieSceneBindingOverrides'"
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "SBZWorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bCreateOnClient": true,
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SBZWorldSettings",
+    "Name": "SBZWorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'SBZWorldSettings'",
+    "Properties": {
+      "LifeActionSettings": {
+        "ObjectName": "SBZLifeActionSettings'DA_LA_GenericLevel_LoadingSettings'",
+        "ObjectPath": "PAYDAY3/Content/Gameplay/Data/LifeActionSystem/LoadingSettings/DA_LA_GenericLevel_LoadingSettings.0"
+      },
+      "GlobalMaterialParameters": {
+        "WindDirection": {
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "WindSpeed": 0.01,
+        "EnemyBacklightInfluence": {
+          "R": 0.05,
+          "G": 5.0,
+          "B": 0.2,
+          "A": 0.5,
+          "Hex": "7F3FFF7C"
+        },
+        "EnemyBacklightFade": {
+          "R": 3000.0,
+          "G": 1500.0,
+          "B": 40.0,
+          "A": 30.0,
+          "Hex": "FFFFFFFF"
+        },
+        "EnemyBacklightRangeFuzz": {
+          "R": 0.2,
+          "G": 0.5,
+          "B": 0.1,
+          "A": 0.5,
+          "Hex": "7F7CBC59"
+        }
+      },
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'C_ArmoredTransport:PersistentLevel.SBZWorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.45"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "C_RoadRage_Master_01",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_RoadRage_Shot1_01",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_RoadRage_Shot2_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -515.17944,
+        "Y": 2856.8699,
+        "Z": 520.3791
+      },
+      "RelativeRotation": {
+        "Pitch": -1.9902447,
+        "Yaw": -90.737854,
+        "Roll": 7.740643E-08
+      },
+      "ComponentVelocity": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -261.63126
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "Camera_RoadRage_Shot3_01",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeRotation": {
+        "Pitch": 61.976444,
+        "Yaw": -179.99998,
+        "Roll": 0.0
+      },
+      "ComponentVelocity": {
+        "X": 80211.27,
+        "Y": -525911.6,
+        "Z": -21833.967
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneCameraMount",
+    "Outer": "CameraRig_CraneShot2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_CraneShot2.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.52"
+      },
+      "RelativeLocation": {
+        "X": 500.00003,
+        "Y": 0.004486084,
+        "Z": -15.009155
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CranePitchControl",
+    "Outer": "CameraRig_CraneShot2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_CraneShot2.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.53"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneYawControl",
+    "Outer": "CameraRig_CraneShot2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_CraneShot2.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.54"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent",
+    "Outer": "CameraRig_CraneShot2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -304.0233,
+        "Y": -2958.2537,
+        "Z": 16.000122
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.000114,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneCameraMount",
+    "Outer": "CameraRig_Shot1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_Shot1.CranePitchControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.56"
+      },
+      "RelativeLocation": {
+        "X": 500.0,
+        "Y": -0.09677124,
+        "Z": -15.031425
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CranePitchControl",
+    "Outer": "CameraRig_Shot1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_Shot1.CraneYawControl'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.57"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CraneYawControl",
+    "Outer": "CameraRig_Shot1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_Shot1.TransformComponent'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.58"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent",
+    "Outer": "CameraRig_Shot1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 2795.9148,
+        "Y": 19859.2,
+        "Z": -49.422577
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.00043,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "CineCameraShot1",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_Shot1.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.55"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent",
+    "Outer": "CineCameraShot2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'C_ArmoredTransport:PersistentLevel.CameraRig_CraneShot2.CraneCameraMount'",
+        "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.51"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "IntroSequence_2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 751.84534,
+        "Y": -143.90642,
+        "Z": -61.99624
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "RoadRage_Shot1_01_5",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "RoadRage_Shot1_02_7",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "RoadRage_Shot2_01_9",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComp",
+    "Outer": "RoadRage_Shot3_01_11",
+    "Class": "UScriptClass'SceneComponent'"
+  },
+  {
+    "Type": "World",
+    "Name": "C_ArmoredTransport",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'C_ArmoredTransport:PersistentLevel'",
+      "ObjectPath": "PAYDAY3/Content/Prototype/Maps/ArmoredTransport/Sublevels/Cinematic_ArmoredTransport/C_ArmoredTransport.25"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  }
+]
